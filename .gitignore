@@ -20,6 +20,7 @@ server/llama-server.pid
 *.webp
 *.pdf
 !docs/**/*.png
+!demo_image/**
 
 # OCR-derived caches that embed extracted document text (large, regenerable)
 evaluation/spatial_field_extraction/results/*/raw/
