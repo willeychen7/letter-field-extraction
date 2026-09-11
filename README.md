@@ -22,6 +22,22 @@
 
 OCR 引擎是可替换的前端，不是这个项目的重点——`structure.py`/`field_semantics.py` 等规则代码只认一个简单的 `{text, bbox}` 契约，任何能产出这个格式的 OCR 都能换上去、用同一份 ground truth 跑分对比（参考 [`evaluation/spatial_field_extraction/RESULTS_paddleocr_vs_hunyuan_frontend.md`](evaluation/spatial_field_extraction/RESULTS_paddleocr_vs_hunyuan_frontend.md) 这个例子）。
 
+## 测试信件覆盖了什么
+
+50 张真实美国信件（不是合成/模板数据），横跨 Phase 4 那 7 个分类：
+
+| 类型 | 张数 | 举例 |
+|---|---:|---|
+| 医疗 HEALTHCARE | 11 | 医院账单、Medicare 通知、诊所发票 |
+| 保险 INSURANCE | 9 | 车险/房屋险账单、保险卡 |
+| 水电/公共事业 UTILITIES_SERVICES | 8 | 电费、水费、燃气账单 |
+| 银行/金融 BANKING_FINANCE | 8 | 信用卡账单、银行对账单 |
+| 政府 GOVERNMENT | 7 | IRS 通知、DMV registration/违章通知 |
+| 房屋/物业 HOUSING_PROPERTY | 5 | HOA 缴费单 |
+| 其他 OTHER | 2 | 不属于以上几类的杂项 |
+
+信件格式也不统一——有干净的打印体账单，也有表格密集的对账单、卡片式的保险卡、`.webp`/`.pdf` 混着的文件格式，这批数据就是全部结果（84.1% 等等）的来源，不是挑过的。
+
 ## 核心结论
 
 | | 整体准确率（49 张真实美国信件）| 幻觉率 |
