@@ -1,0 +1,12 @@
+# server/api.py (the /v1/ocr, /v1/analyze, /v1/understand-letter API)
+fastapi
+uvicorn[standard]
+httpx
+python-multipart
+
+# PDF support for /v1/analyze (rasterises page 1 before OCR)
+pypdfium2
+pillow
+
+# evaluation/spatial_field_extraction/*.py (Phase 3-8 pipeline + benchmark
+# scripts) use only the Python standard library -- no extra deps.

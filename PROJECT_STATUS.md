@@ -234,3 +234,12 @@ experiments/                           GPU feasibility baseline (run00, read-onl
 docs/                                  OCR contract, GPU feasibility write-up
 models/                                HunyuanOCR GGUF weights (not tracked in git — see .gitignore)
 ```
+
+`evaluation/` also has several other subdirectories (`document_understanding_benchmark/`,
+`document_understanding_v2_explicit_questions/`, `free_form_understanding/`,
+`full_text_dump_eval/`, `information_extraction_eval/`, `pii_bbox_eval/`,
+`qwen3vl_ab_test/`, `single_field_test/`, `spotting_eval/`) — these predate
+`spatial_field_extraction/` and this document; they're earlier/alternate
+approaches (including the Qwen3-VL comparison from before the project
+settled on HunyuanOCR + rules). Not catalogued here yet — ask before
+relying on any conclusion in them without re-checking it.

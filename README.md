@@ -41,6 +41,7 @@ Full write-ups: `RESULTS_native_vs_pipeline.md`, `RESULTS_native_split_question.
 ## Run it
 
 ```bash
+pip install -r requirements.txt
 LLAMA_SERVER_URL=http://127.0.0.1:8090/v1 \
   python3 -m uvicorn server.api:app --host 127.0.0.1 --port 8091
 ```
