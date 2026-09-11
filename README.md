@@ -18,6 +18,8 @@
   → V0 测试用 UI（webapp/）
 ```
 
+> Phase 号跳着写（3 → 4 → 7 → 8）是因为**这就是现在实际在跑的那几个阶段**：Phase 1 是更早的基线、已被 Phase 3 取代；Phase 5 的内容后来并进了 Phase 7；Phase 6 从没独立存在过，编号一开始就是空的；Phase 9/10 是端到端评测和一次修复，不是流水线里单独的一步。完整的编号历史和每个 phase 的结论，看 [`PROJECT_STATUS.md`](PROJECT_STATUS.md) 里的 phase 状态表。
+
 OCR 引擎是可替换的前端，不是这个项目的重点——`structure.py`/`field_semantics.py` 等规则代码只认一个简单的 `{text, bbox}` 契约，任何能产出这个格式的 OCR 都能换上去、用同一份 ground truth 跑分对比（参考 [`evaluation/spatial_field_extraction/RESULTS_paddleocr_vs_hunyuan_frontend.md`](evaluation/spatial_field_extraction/RESULTS_paddleocr_vs_hunyuan_frontend.md) 这个例子）。
 
 ## 核心结论
