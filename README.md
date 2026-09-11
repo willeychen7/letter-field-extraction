@@ -59,13 +59,85 @@ OCR 引擎是可替换的前端，不是这个项目的重点——`structure.py
 
 ## 怎么跑起来
 
+这个仓库本身只是规则代码 + API + UI，不含模型权重、也不含 OCR 引擎本身
+（见 `.gitignore`）。要跑起来需要另外装两样东西：**llama.cpp**（跑模型的
+推理引擎）和 **HunyuanOCR 的权重文件**（两个 `.gguf`）。下面是从零开始的
+步骤。
+
+### 1. 克隆这个仓库
+
+```bash
+git clone https://github.com/willeychen7/letter-field-extraction.git
+cd letter-field-extraction
+```
+
+### 2. 装 llama.cpp（跑模型用的引擎，不是这个仓库的一部分）
+
+需要一个支持 `hunyuan_vl` 架构（视觉模型）的**较新版本**，太旧的版本认不出
+这个模型。
+
+```bash
+git clone https://github.com/ggml-org/llama.cpp
+cd llama.cpp
+cmake -B build
+cmake --build build --target llama-server -j
+```
+
+编译完成后，`llama-server` 这个可执行文件在 `build/bin/llama-server`。
+
+### 3. 下载 HunyuanOCR 权重（两个文件，一共约 2GB）
+
+去 Hugging Face 下 `mradermacher/HunyuanOCR-GGUF`（或官方
+`tencent/HunyuanOCR`），要**两个文件**：
+
+- `HunyuanOCR-Q8_0.gguf` —— 主模型
+- `mmproj-HunyuanOCR-Q8_0.gguf` —— 视觉编码器，负责"看懂"图片，缺这个模型
+  就只能处理纯文字、不能读图
+
+存到本地任意目录，比如 `models/`（这个目录已经在 `.gitignore` 里，不会被
+误传进 git）。
+
+### 4. 启动 llama-server（跑在 `:8090`）
+
+```bash
+./llama.cpp/build/bin/llama-server \
+  -m models/HunyuanOCR-Q8_0.gguf \
+  --mmproj models/mmproj-HunyuanOCR-Q8_0.gguf \
+  --ctx-size 8192 --parallel 1 \
+  --host 127.0.0.1 --port 8090
+```
+
+有 NVIDIA GPU 的话可以加 `-ngl 99` 把模型全部丢到显卡上跑，会快很多（见
+[`docs/PHASE9B_GPU_FEASIBILITY.md`](docs/PHASE9B_GPU_FEASIBILITY.md)）—
+但目前 GPU 上跑出来的输出格式还没验证过能不能被这条流水线用，纯 CPU 是目
+前唯一确认可用的跑法，见 `PROJECT_STATUS.md` 里的已知瓶颈。`--ctx-size` 要
+和 `--parallel` 搭配着看：llama-server 实际会把 `--ctx-size` 除以
+`--parallel` 分给每个并发槽位，槽位太小会在处理大图时报"exceeds context
+size"，所以本地单人测试用 `--parallel 1` 最简单。
+
+### 5. 装这个仓库的 Python 依赖，启动 API
+
 ```bash
 pip install -r requirements.txt
 LLAMA_SERVER_URL=http://127.0.0.1:8090/v1 \
   python3 -m uvicorn server.api:app --host 127.0.0.1 --port 8091
 ```
 
-打开 `http://localhost:8091/ui/` 是测试用的 UI，或者直接 `POST` 图片/PDF 到 `http://localhost:8091/v1/analyze`。需要本机已经有一个 llama-server 加载了 HunyuanOCR 的 GGUF 权重、跑在 `:8090`（权重文件没放进这个仓库，见 `.gitignore`——去 Hugging Face 下：`tencent/HunyuanOCR` / `mradermacher/HunyuanOCR-GGUF`）。
+### 6. 打开测试 UI，或者直接调 API
+
+打开浏览器访问 `http://localhost:8091/ui/`，拍照/上传一张信件照片就能看到
+结果；或者跳过 UI，直接 `POST` 图片/PDF 到
+`http://localhost:8091/v1/analyze`，拿到结构化 JSON。
+
+### 或者：用 Docker
+
+仓库根目录的 [`Dockerfile`](Dockerfile) 只打包这个仓库自己（API + Phase
+3-8 规则 + UI），**不包含 llama-server**——第 2-4 步的 llama-server 仍然
+需要单独装好、单独跑着（容器或宿主机上都行）。装好之后用
+[`docker-run.sh`](docker-run.sh) 一键构建并启动这个仓库的镜像，把它接到
+已经在跑的 llama-server 上（脚本里有把两个容器连到同一个 Docker 网络的
+逻辑）；如果 llama-server 跑在宿主机而不是容器里，把 `LLAMA_SERVER_URL`
+改成 `http://host.docker.internal:8090/v1` 即可。
 
 ## 目录结构
 
