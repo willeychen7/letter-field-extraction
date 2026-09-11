@@ -1,44 +1,36 @@
 # letter-field-extraction
 
-Can a small (1B), locally-run vision-OCR model plus deterministic spatial
-rules read a real US letter well enough to extract structured fields —
-without a second LLM, without regex-based semantic extraction, and
-without semantic similarity?
+一个小型（1B）、本地跑的视觉 OCR 模型，配合确定性的空间位置规则，能不能把一封真实的美国信件读到可以抽取出结构化字段——**不用第二个 LLM、不用 regex 做语义抽取、不用语义相似度**？
 
-**Full current status, all results, and the pending/known-issue list:
-[`PROJECT_STATUS.md`](PROJECT_STATUS.md).** This file is just the front door.
+**完整的当前状态、所有测试结果、待处理事项清单在 [`PROJECT_STATUS.md`](PROJECT_STATUS.md)。** 这份 README 只是入口。
 
 ## Pipeline
 
 ```
-letter photo / PDF
-  → HunyuanOCR-1B (GGUF, llama.cpp)   -- text + bbox, "spotting" prompt
-  → Phase 3  Position / Structure     -- sender / recipient via layout geometry
-  → Phase 4  Domain classification    -- 7-class taxonomy
-  → Phase 7  Field Semantics          -- domain-aware value resolution
-  → Phase 8  Contact / Phone          -- which number, for what purpose
-  → /v1/analyze (fixed JSON schema)
-  → deterministic Chinese explanation (frontend template, no LLM)
-  → V0 tester UI (webapp/)
+信件照片 / PDF
+  → HunyuanOCR-1B（GGUF，llama.cpp）    -- 文字 + 坐标，"spotting" prompt
+  → Phase 3  位置 / 版面结构             -- 靠版面几何判断寄件人 / 收件人
+  → Phase 4  信件类型分类                -- 7 类固定分类
+  → Phase 7  字段语义解析                -- 按信件类型判断字段含义
+  → Phase 8  联系方式 / 电话             -- 挑哪个号码、对应什么用途
+  → /v1/analyze（固定 JSON 输出）
+  → 确定性中文解释（前端模板拼出来的，不调模型）
+  → V0 测试用 UI（webapp/）
 ```
 
-The OCR engine is a pluggable front-end, not the point of the project —
-`structure.py`/`field_semantics.py`/etc. only consume a plain
-`{text, bbox}` contract, so any OCR source that produces that can be
-swapped in and benchmarked against the same ground truth (see
-`RESULTS_paddleocr_vs_hunyuan_frontend.md` for an example).
+OCR 引擎是可替换的前端，不是这个项目的重点——`structure.py`/`field_semantics.py` 等规则代码只认一个简单的 `{text, bbox}` 契约，任何能产出这个格式的 OCR 都能换上去、用同一份 ground truth 跑分对比（参考 [`evaluation/spatial_field_extraction/RESULTS_paddleocr_vs_hunyuan_frontend.md`](evaluation/spatial_field_extraction/RESULTS_paddleocr_vs_hunyuan_frontend.md) 这个例子）。
 
-## Headline result
+## 核心结论
 
-| | Overall accuracy (49 real US letters) | Hallucination rate |
+| | 整体准确率（49 张真实美国信件）| 幻觉率 |
 |---|---:|---:|
-| **This pipeline** (OCR + rules) | **84.1%** | **0.5%** |
-| Hunyuan answering fields directly, one prompt | 41.0% | 31.5% |
-| Hunyuan answering fields directly, one field per call | 44.5% | 25.0% |
+| **本方案**（OCR + 规则）| **84.1%** | **0.5%** |
+| 让 Hunyuan 直接回答字段，一次问全部 | 41.0% | 31.5% |
+| 让 Hunyuan 直接回答字段，拆开一个个问 | 44.5% | 25.0% |
 
-Full write-ups: `RESULTS_native_vs_pipeline.md`, `RESULTS_native_split_question.md`.
+完整报告：[`evaluation/spatial_field_extraction/RESULTS_native_vs_pipeline.md`](evaluation/spatial_field_extraction/RESULTS_native_vs_pipeline.md)、[`RESULTS_native_split_question.md`](evaluation/spatial_field_extraction/RESULTS_native_split_question.md)。
 
-## Run it
+## 怎么跑起来
 
 ```bash
 pip install -r requirements.txt
@@ -46,21 +38,16 @@ LLAMA_SERVER_URL=http://127.0.0.1:8090/v1 \
   python3 -m uvicorn server.api:app --host 127.0.0.1 --port 8091
 ```
 
-Open `http://localhost:8091/ui/` for the tester UI, or `POST` an image/PDF
-to `http://localhost:8091/v1/analyze` directly. Requires a llama-server
-already running the HunyuanOCR GGUF weights on `:8090` (not included in
-this repo — see `.gitignore` — get them from Hugging Face:
-`tencent/HunyuanOCR` / `mradermacher/HunyuanOCR-GGUF`).
+打开 `http://localhost:8091/ui/` 是测试用的 UI，或者直接 `POST` 图片/PDF 到 `http://localhost:8091/v1/analyze`。需要本机已经有一个 llama-server 加载了 HunyuanOCR 的 GGUF 权重、跑在 `:8090`（权重文件没放进这个仓库，见 `.gitignore`——去 Hugging Face 下：`tencent/HunyuanOCR` / `mradermacher/HunyuanOCR-GGUF`）。
 
-## Layout
+## 目录结构
 
 ```
-server/api.py                          FastAPI: /v1/ocr, /v1/analyze, /v1/understand-letter (legacy, not used)
-webapp/index.html                      V0 tester UI (static, no build)
-evaluation/spatial_field_extraction/   Phase 3-8 pipeline + frozen_phase3/ snapshot + benchmark/comparison scripts
-experiments/                           GPU feasibility baseline + run01 diagnostics
-docs/                                  OCR contract, GPU feasibility write-up
+server/api.py                          FastAPI：/v1/ocr、/v1/analyze、/v1/understand-letter（历史遗留，没在用）
+webapp/index.html                      V0 测试 UI（纯静态，不用构建）
+evaluation/spatial_field_extraction/   Phase 3-8 规则 + frozen_phase3/ 冻结快照 + 各种对比测试脚本
+experiments/                           GPU 可行性基线 + run01 排查记录
+docs/                                  OCR 接口约定、GPU 可行性报告
 ```
 
-See `PROJECT_STATUS.md` for the full phase history, every benchmark
-result, and the current pending/blocker list.
+完整的 phase 历史、每一次 benchmark 的结果、当前待处理/卡住的问题，看 `PROJECT_STATUS.md`。
