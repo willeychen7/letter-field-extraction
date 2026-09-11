@@ -1,0 +1,198 @@
+[
+  {
+    "image": "SCE_Bill_Letter.png",
+    "gt_key": "SCE_Bill_Letter",
+    "field": "sender",
+    "expected": "SCE",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "gt_key": "SCE_Bill_Letter",
+    "field": "amount_due",
+    "expected": 99.36,
+    "found_in_spotted_text": true
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "gt_key": "SCE_Bill_Letter",
+    "field": "category",
+    "expected": "electric",
+    "found_in_spotted_text": true
+  },
+  {
+    "image": "SCE_Letter.png",
+    "gt_key": "SCE_Letter",
+    "field": "sender",
+    "expected": "SCE",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "SCE_Letter.png",
+    "gt_key": "SCE_Letter",
+    "field": "category",
+    "expected": "NOT_A_BILL",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "gt_key": "SCE_Sample_Bill",
+    "field": "sender",
+    "expected": "SCE",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "gt_key": "SCE_Sample_Bill",
+    "field": "due_date",
+    "expected": "2020-05-11",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "gt_key": "SCE_Sample_Bill",
+    "field": "category",
+    "expected": "electric",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "SoCalGas.png",
+    "gt_key": "SoCalGas",
+    "field": "sender",
+    "expected": "SoCalGas",
+    "found_in_spotted_text": true
+  },
+  {
+    "image": "SoCalGas.png",
+    "gt_key": "SoCalGas",
+    "field": "due_date",
+    "expected": "2016-01-08",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "SoCalGas.png",
+    "gt_key": "SoCalGas",
+    "field": "category",
+    "expected": "gas",
+    "found_in_spotted_text": true
+  },
+  {
+    "image": "DMV_Registration.png",
+    "gt_key": "DMV_Registration",
+    "field": "sender",
+    "expected": "DMV",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "DMV_Registration.png",
+    "gt_key": "DMV_Registration",
+    "field": "due_date",
+    "expected": "2010-10-16",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "DMV_Registration.png",
+    "gt_key": "DMV_Registration",
+    "field": "category",
+    "expected": "dmv",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "gt_key": "Hospital_Bill",
+    "field": "sender",
+    "expected": "Allina Health",
+    "found_in_spotted_text": true
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "gt_key": "Hospital_Bill",
+    "field": "due_date",
+    "expected": "2013-04-18",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "gt_key": "Hospital_Bill",
+    "field": "category",
+    "expected": "medical_provider",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "gt_key": "Medical_Invoice",
+    "field": "due_date",
+    "expected": "2024-09-05",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "gt_key": "hoag-invoice-mychart",
+    "field": "sender",
+    "expected": "Hoag",
+    "found_in_spotted_text": true
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "gt_key": "hoag-invoice-mychart",
+    "field": "amount_due",
+    "expected": 333.33,
+    "found_in_spotted_text": true
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "gt_key": "hoag-invoice-mychart",
+    "field": "category",
+    "expected": "medical_provider",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "gt_key": "IRS_CP504_Notice",
+    "field": "sender",
+    "expected": "IRS",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "gt_key": "IRS_CP504_Notice",
+    "field": "category",
+    "expected": "tax",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "IRS_cp503.png",
+    "gt_key": "IRS_cp503",
+    "field": "sender",
+    "expected": "IRS",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "IRS_cp503.png",
+    "gt_key": "IRS_cp503",
+    "field": "due_date",
+    "expected": "2018-01-29",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "IRS_cp503.png",
+    "gt_key": "IRS_cp503",
+    "field": "category",
+    "expected": "tax",
+    "found_in_spotted_text": false
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "gt_key": "Medicare_Notice_PartA",
+    "field": "sender",
+    "expected": "Medicare",
+    "found_in_spotted_text": true
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "gt_key": "Medicare_Notice_PartA",
+    "field": "category",
+    "expected": "medicare",
+    "found_in_spotted_text": false
+  }
+]

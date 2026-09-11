@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Policygenius\nPolicy Number 12345-67-89\n# Auto Insurance Declaration Page\n**$798**48\nPolicy Premium and Fees\nFARMERS INSURANCE\n## Policy Information\nPolicy Number 12345-67-89\nEffective 01/01/2019 12:01 AM\nExpiration 06/01/2019 12:01 AM\nNamed Insured(s) Jack Smith\nJane Smith\nAddress 1234 Main St\nCity Brooklyn, NY 11211\nUnderwritten by Farmers Insurance\n6301 Owensmouth Ave.\nWoodland Hills, CA 91367\n## Premium/Fees\nPolicy Premium $797.60\nFees $0.88\nPolicy Premium + Fees $798.48\nTHIS IS NOT A BILL.\nYour bill with the amount due will be mailed separately.\n## Household Drivers\nAll persons who drive or will occasionally be driving any of the cars on the policy should be listed below. If anyone is missing or needs to be added, such as a newly licensed driver, you should contact your agent or the company to add that person before they begin to drive any of the cars covered on the policy.\n| Name | Driver Status |\n| :-- | :-- |\n| Jack Smith | Covered |\n| Jack Smith Jr. | Covered |\n## Vehicle Information\n| Veh. # | Year/Make/Model/VIN | Coverage | Deductible | Limit |\n| :-- | :-- | :-- | :-- | :-- |\n| 1 | 2019 Porsche Macan 4D 4WD WP1AA1234567890 | Comprehensive | $500 | ACV |\n|  |  | Collision | $1,000 | ACV |\n|  |  | Additional Equipment |  | $1,000 |\n## Coverage Information\n| Coverage | Limits | Vehicle 1 |\n| :-- | :-- | :-- |\n| Bodily Injury | $250K each person/$500K each incident | $301.50 |\n| Property Damage | $100K each incident | Included |\n| Permissive User Limit of Liability | Full | $17.00 |\n| Medical Coverage | $5,000 each person | $66.50 |\n| Uninsured Motorist Bodily Injury | $250K each person/$500K each incident | $44.50 |"
+      }
+    }
+  ],
+  "created": 1788636818,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 498,
+    "prompt_tokens": 2428,
+    "total_tokens": 2926,
+    "prompt_tokens_details": {
+      "cached_tokens": 2423
+    }
+  },
+  "id": "chatcmpl-9IHLed1djp4mGOXe7gQxQ9B4pu0WyipD",
+  "timings": {
+    "cache_n": 2423,
+    "prompt_n": 5,
+    "prompt_ms": 24.737,
+    "prompt_per_token_ms": 4.9474,
+    "prompt_per_second": 202.12636940615272,
+    "predicted_n": 498,
+    "predicted_ms": 5264.017,
+    "predicted_per_token_ms": 10.591583501006037,
+    "predicted_per_second": 94.41458870668541
+  }
+}

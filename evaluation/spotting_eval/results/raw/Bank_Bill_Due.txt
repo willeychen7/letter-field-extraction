@@ -1,0 +1,6 @@
+```json
+{
+    "box": ["Name: Susan Doe", "Address: 1234 Main Street, Anytown, USA", "Account Number: 12345-67-8907", "For Lost or Stolen Card, Call:", "1-800-XXX-XXXX"],
+    "text": "Sample credit card statement"
+}
+```

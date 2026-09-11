@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"box\": [\"Colorado - Proof of Auto Insurance Card\", \"Allstate Fire and Casualty Insurance Company\", \"George and Christine E Murphy 2837 Stonington Court Highlands Ranch CO 80126-8015\", \"POLICY NUMBER 976 910 934 EFFECTIVE DATE 01/01/15 EXPIRATION DATE 07/01/15\", \"YEAR / MAKE / MODEL 2001 Ford Truck F150 VEHICLE ID NUMBER 1FTZX17211NA68201\", \"Colorado - Proof of Auto Insurance Card\", \"Allstate Fire and Casualty Insurance Company\", \"George and Christine E Murphy 2837 Stonington Court Highlands Ranch CO 80126-8015\", \"POLICY NUMBER 976 910 934 EFFECTIVE DATE 01/01/15 EXPIRATION DATE 07/01/15\"],\n    \"text\": \"Thank you for choosing Allstate Proof of Insurance Card For your convenience, two insurance cards have been included for each vehicle of these cards be kept in each vehicle. Please place them in your vehicles by You're in good hands. Allstate. You're in good hands. Allstate Fire and Casualty Ins. George and Christine E Mu. 2837 Stonington Court Highlands Ranch CO 80126-8015 POLICY NUMBER 976 910 934 EFFECTIVE DATE 01/01/15 EXPIRATION DATE 07/01/15 YEAR / MAKE / MODEL 2001 Ford Truck F150 VEHICLE ID NUMBER 1FTZX17211NA68201 Colorado - Proof of Auto Insurance Card Allstate Fire and Casualty Insurance Company George and Christine E Murphy 2837 Stonington Court Highlands Ranch CO 80126-8015 POLICY NUMBER 976 910 934 EFFECTIVE DATE 01/01/15 EXPIRATION DATE 07/01/15\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788568445,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 411,
+    "prompt_tokens": 504,
+    "total_tokens": 915,
+    "prompt_tokens_details": {
+      "cached_tokens": 413
+    }
+  },
+  "id": "chatcmpl-lpsjUr3w5UQ4c7pdlif4nWh3Cdtui1bQ",
+  "timings": {
+    "cache_n": 413,
+    "prompt_n": 91,
+    "prompt_ms": 38.365,
+    "prompt_per_token_ms": 0.4215934065934066,
+    "prompt_per_second": 2371.9536035448973,
+    "predicted_n": 411,
+    "predicted_ms": 3949.016,
+    "predicted_per_token_ms": 9.631746341463415,
+    "predicted_per_second": 103.82333219212077
+  }
+}

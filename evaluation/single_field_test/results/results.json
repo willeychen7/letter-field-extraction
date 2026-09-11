@@ -1,0 +1,62 @@
+{
+  "SCE_Bill_Letter.png": {
+    "sender": "BAKER, NATE",
+    "recipient": "Group N001",
+    "total_amount": "null",
+    "payment_status": "null",
+    "due_date": "null",
+    "action_required": "false",
+    "action": "go paperless at www.sce.com/ebilling. It's fast, easy and secure.",
+    "risk": "null"
+  },
+  "Hospital_Bill.png": {
+    "sender": "JANE DOE",
+    "recipient": "JANE DOE",
+    "total_amount": "$419.07",
+    "payment_status": "not_applicable",
+    "due_date": "null",
+    "action_required": "false",
+    "action": "Please make checks payable and remit to:",
+    "risk": "null"
+  },
+  "Medical_Invoice.png": {
+    "sender": "Bill To Aaron Brown",
+    "recipient": "Bill To\n\nAaron Brown",
+    "total_amount": "根据文件，收件人需要支付的金额（Total Amount Due / Balance Due / Amount You Owe）是 $14,595.00。",
+    "payment_status": "null",
+    "due_date": "这份文件明确要求付款或采取行动的截止日期是05 Sep 2024。",
+    "action_required": "false",
+    "action": "Bill To",
+    "risk": "null"
+  },
+  "BOA_Bill_Example.png": {
+    "sender": "Bank of America",
+    "recipient": "Bank of America",
+    "total_amount": "null",
+    "payment_status": "null",
+    "due_date": "null",
+    "action_required": "false",
+    "action": "根据文件中的“Late Payment Warning”部分，收件人需要采取以下行动：\n\n1.  **支付逾期费用**：如果收件人未按时支付，将支付高达 $38.00 的滞纳金。\n2.  **增加信用额度**：您的信用额度（APR）可能会因罚款增加而提高，最高可达 29.99%。\n\n因此，收件人需要采取两项行动：要么支付滞纳金，要么增加信用额度。",
+    "risk": "null"
+  },
+  "Medicare_Notice_PartA.png": {
+    "sender": "JENNIFER WASHINGTON",
+    "recipient": "JENNIFER WASHINGTON",
+    "total_amount": "$2,062.50",
+    "payment_status": "unpaid",
+    "due_date": "null",
+    "action_required": "false",
+    "action": "This document requires the recipient to pay the deductible for most health services before Medicare begins to pay.",
+    "risk": "low"
+  },
+  "IRS_cp503.png": {
+    "sender": "Department of the Treasury, Internal Revenue Service",
+    "recipient": "JAMES & KAREN Q. HINDS",
+    "total_amount": "9,533.53",
+    "payment_status": "unpaid",
+    "due_date": "null",
+    "action_required": "false",
+    "action": "收件人需要立即与IRS代表就未支付金额达成一致，以避免额外利息和适用的罚款费用。",
+    "risk": "high"
+  }
+}

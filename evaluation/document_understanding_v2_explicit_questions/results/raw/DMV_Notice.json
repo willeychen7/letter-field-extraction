@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"document_type\": \"OFFICIAL NOTICE\",\n  \"sender\": \"STATE OF NORTH CAROLINA DEPARTMENT OF TRANSPORTATION\",\n  \"recipient\": \"CUSTOMER NO.\",\n  \"amount\": \"83.50\",\n  \"due_date\": \"09/10/2025\",\n  \"payment_status\": \"null\",\n  \"action_required\": true,\n  \"action\": \"PAYMENT OF THE REQUIRED RESTORATION FEE\",\n  \"risk\": \"high\"\n}"
+      }
+    }
+  ],
+  "created": 1788641424,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 2078,
+    "total_tokens": 2194,
+    "prompt_tokens_details": {
+      "cached_tokens": 1715
+    }
+  },
+  "id": "chatcmpl-eRiZvpDgCgnbYzztubpk4sTgzWUywW9b",
+  "timings": {
+    "cache_n": 1715,
+    "prompt_n": 363,
+    "prompt_ms": 170.633,
+    "prompt_per_token_ms": 0.4700633608815427,
+    "prompt_per_second": 2127.372782521552,
+    "predicted_n": 116,
+    "predicted_ms": 1141.667,
+    "predicted_per_token_ms": 9.927539130434782,
+    "predicted_per_second": 100.7298975971102
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"recipient_name\": \"JOHN B DOE\",\n  \"address\": \"24915 APPLE CT\",\n  \"account_number\": \"011 022 1000 2\",\n  \"policy_member_claim_number\": \"None\",\n  \"phone\": \"1-800-427-2200\",\n  \"email\": \"None\",\n  \"ssn\": \"None\",\n  \"medicare_medical_id\": \"None\",\n  \"other_identifier\": \"None\"\n}"
+      }
+    }
+  ],
+  "created": 1788569568,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 2365,
+    "total_tokens": 2473,
+    "prompt_tokens_details": {
+      "cached_tokens": 1845
+    }
+  },
+  "id": "chatcmpl-5GsheHK8ST1oo4f5WSI0iQb6YdWkalP1",
+  "timings": {
+    "cache_n": 1845,
+    "prompt_n": 520,
+    "prompt_ms": 249.368,
+    "prompt_per_token_ms": 0.47955384615384616,
+    "prompt_per_second": 2085.2715665201627,
+    "predicted_n": 108,
+    "predicted_ms": 1075.959,
+    "predicted_per_token_ms": 10.055691588785047,
+    "predicted_per_second": 99.44616848783271
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Attachment A\n VEHICLE REGISTRATION RENEWAL NOTICE\n VIN MAKE YR BODY TYPE LICENSE PLATE AMOUNT DUE DUE DATE\n LORERLESSL1202 CHEV 1978 SD 3SMG081 $95 10/16/2010\n To renew, just provide:\n Renewal Fees\n Return by MAIL only\n FEES\n REGISTRATION FEE $56\n LICENSE FEE (May be an income tax deduction) $29\n SPECIAL PLATE FEE $0\n COUNTY/DISTRICT FEES $0\n OWNER RESPONSIBILITY FEE $0\n TOTAL DUE ON OR BEFORE 10/16/2010 $95\n WARNING\n To declare a new operating weight, your signature, date, and weight code are required on the GVW/CGW Change Request shown below. If no change necessary, do not complete. See insert for additional information.\n CARB Non-Compliant Vehicle:\n Contact CARB at 1(866) 634-3735 or visit arb.ca.gov/trunkstop.com for more information.\n PLANNED NONOPERATION\n If you plan not to operate (PNO) this vehicle, please check the box and return the bottom part with your PNO payment.\n LATE PAYMENT\n POSTMARKED RENEWAL PNO\n After 10/16/10 through $118 $31\n After through $131 $39\n After through 07/13/11 $172 $65\n AFTER 07/13/2011 $172 NO PNO\n DETACH AND RETURN\n Planned Nonoperation Change of Address (see back)\n 040101 03282216000801 0009500 28902101020100\n 00050002000 0000007700 16036998 50\n K111110A B070910F01 00001 P100C1\n Change my GVW/CGW Operating Weight as shown below. This change is effective on the Due Date shown on this form.\n Unladen W/C GVW 10,000 LB GVW Code CGW Code\n And Under (R).\n I certify under penalty of perjury under the laws of the State of California, that the information I provided is true and correct.\n Signature: Date:\n LICENSE NUMBER MAKE 3SMG081 CHEV\n VIN\n LORERLESSL1202\n DMV USE DUE DATE AMOUNT DUE\n 10/16/2010 $95\n STUBO\n MAKE PAYMENT TO:\n GONZELES C\n 3615 S HOPE ST\n LOS ANGELES CA 90007-4370\n DMV RENEWAL\n P.O. BOX 942897\n SACRAMENTO CA 94297-0898\n 04010103282216000801000950028902101020100005000200000000077001603699850"
+      }
+    }
+  ],
+  "created": 1788636848,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 637,
+    "prompt_tokens": 1396,
+    "total_tokens": 2033,
+    "prompt_tokens_details": {
+      "cached_tokens": 1391
+    }
+  },
+  "id": "chatcmpl-OQdrIPR4GiWPWNCMZCu94YRs6JkydSHO",
+  "timings": {
+    "cache_n": 1391,
+    "prompt_n": 5,
+    "prompt_ms": 26.639,
+    "prompt_per_token_ms": 5.3278,
+    "prompt_per_second": 187.694733285784,
+    "predicted_n": 637,
+    "predicted_ms": 6062.755,
+    "predicted_per_token_ms": 9.532633647798741,
+    "predicted_per_second": 104.90280408824042
+  }
+}

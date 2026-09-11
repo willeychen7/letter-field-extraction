@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"recipient_name\": \"Clean Power Alliance\",\n  \"address\": \"8012345678 1234 FIRST AVE SIMI VALLEY, CA\",\n  \"account_number\": \"8012345678\",\n  \"policy_member_claim_number\": \"None\",\n  \"phone\": \"None\",\n  \"email\": \"None\",\n  \"ssn\": \"8012345678\",\n  \"medicare_medical_id\": \"None\",\n  \"other_identifier\": \"None\"\n}"
+      }
+    }
+  ],
+  "created": 1788569564,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 1773,
+    "total_tokens": 1884,
+    "prompt_tokens_details": {
+      "cached_tokens": 1253
+    }
+  },
+  "id": "chatcmpl-tcZP1MB2uU9chQABy0LGPQ3coGwCpxIo",
+  "timings": {
+    "cache_n": 1253,
+    "prompt_n": 520,
+    "prompt_ms": 441.307,
+    "prompt_per_token_ms": 0.8486673076923077,
+    "prompt_per_second": 1178.3180416354146,
+    "predicted_n": 111,
+    "predicted_ms": 1024.357,
+    "predicted_per_token_ms": 9.312336363636364,
+    "predicted_per_second": 107.38443726161876
+  }
+}

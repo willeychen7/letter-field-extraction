@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Proof of Insurance Card",
+    "sender": "Allstate Fire and Casualty Insurance Company",
+    "recipient": "George and Christine E Murphy",
+    "amount": "2837 Stonington Court",
+    "due_date": "None",
+    "payment_status": "paid",
+    "action_required": "true",
+    "action": "Allstate Fire and Casualty Insurance Company",
+    "risk": "None"
+}
+```

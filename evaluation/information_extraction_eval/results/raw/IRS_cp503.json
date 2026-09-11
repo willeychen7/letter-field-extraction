@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Billing Summary\",\n    \"sender\": \"JAMES & KAREN Q. HINDS\",\n    \"recipient_name\": \"JAMES & KAREN Q. HINDS\",\n    \"address\": \"22 BOULDER STREET HANSON, CT 00000-7253\",\n    \"account_number\": \"CP503\",\n    \"amount\": \"$9,533.53\",\n    \"due_date\": \"January 29, 2018\",\n    \"action_required\": \"Pay the amount due of $9,533.53 by January 29, 2018, to avoid additional interest and applicable penalty charges.\",\n    \"important_identifier\": \"NNN-NN-NNNN\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569134,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 1801,
+    "total_tokens": 1965,
+    "prompt_tokens_details": {
+      "cached_tokens": 1753
+    }
+  },
+  "id": "chatcmpl-09SMEqjpAOICCKzK6UwPJXiD0TqehAzM",
+  "timings": {
+    "cache_n": 1753,
+    "prompt_n": 48,
+    "prompt_ms": 31.43,
+    "prompt_per_token_ms": 0.6547916666666667,
+    "prompt_per_second": 1527.2033089405027,
+    "predicted_n": 164,
+    "predicted_ms": 1557.131,
+    "predicted_per_token_ms": 9.552950920245399,
+    "predicted_per_second": 104.6796961848425
+  }
+}

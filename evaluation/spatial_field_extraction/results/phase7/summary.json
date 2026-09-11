@@ -1,0 +1,431 @@
+{
+  "faithful": true,
+  "diffs": [],
+  "baseline": {
+    "overall": 0.7833,
+    "per_field": {
+      "sender": 0.8,
+      "recipient": 0.74,
+      "total_amount": 0.78,
+      "payment_status": 0.68,
+      "due_date": 0.82,
+      "action": 0.88
+    },
+    "kinds": {
+      "correct": 141,
+      "both_null": 94,
+      "null_miss": 22,
+      "wrong": 28,
+      "null_hallucination": 15
+    }
+  },
+  "phase7": {
+    "overall": 0.83,
+    "per_field": {
+      "sender": 0.8,
+      "recipient": 0.74,
+      "total_amount": 0.9,
+      "payment_status": 0.84,
+      "due_date": 0.82,
+      "action": 0.88
+    },
+    "kinds": {
+      "correct": 151,
+      "both_null": 98,
+      "null_miss": 21,
+      "wrong": 21,
+      "null_hallucination": 9
+    }
+  },
+  "split": {
+    "dev": [
+      0.8917,
+      0.9
+    ],
+    "holdout": [
+      0.7111,
+      0.7833
+    ]
+  },
+  "error_buckets": {
+    "upstream: domain low-confidence -> layer deferred": 5,
+    "upstream: Phase-3 candidate wrong, layer had nothing better": 3,
+    "upstream: Phase-4 domain wrong": 4,
+    "semantic-layer gap (missing rule) or GT-debatable": 7
+  },
+  "error_detail": [
+    [
+      "upstream: domain low-confidence -> layer deferred",
+      "SCE_Letter",
+      "payment_status",
+      null,
+      "not_applicable",
+      "OTHER",
+      0.0
+    ],
+    [
+      "upstream: Phase-3 candidate wrong, layer had nothing better",
+      "SoCalGas",
+      "payment_status",
+      "paid",
+      "unpaid",
+      "UTILITIES_SERVICES",
+      5.0
+    ],
+    [
+      "upstream: Phase-4 domain wrong",
+      "Water_Bill2",
+      "payment_status",
+      null,
+      "not_applicable",
+      "OTHER",
+      0.7
+    ],
+    [
+      "semantic-layer gap (missing rule) or GT-debatable",
+      "AAA_insurance_Bill",
+      "action",
+      null,
+      "pay",
+      "INSURANCE",
+      3.0
+    ],
+    [
+      "semantic-layer gap (missing rule) or GT-debatable",
+      "Auto_Insurance_Bill1",
+      "action",
+      "pay",
+      null,
+      "INSURANCE",
+      5.65
+    ],
+    [
+      "upstream: Phase-3 candidate wrong, layer had nothing better",
+      "Great_American_Insurance_Invoice",
+      "action",
+      "contact",
+      "pay",
+      "INSURANCE",
+      4.65
+    ],
+    [
+      "upstream: domain low-confidence -> layer deferred",
+      "DMV_Notice",
+      "total_amount",
+      null,
+      "83.50",
+      "GOVERNMENT",
+      1.0
+    ],
+    [
+      "upstream: domain low-confidence -> layer deferred",
+      "DMV_Notice",
+      "payment_status",
+      null,
+      "unpaid",
+      "GOVERNMENT",
+      1.0
+    ],
+    [
+      "upstream: domain low-confidence -> layer deferred",
+      "DMV_Notice",
+      "action",
+      null,
+      "pay",
+      "GOVERNMENT",
+      1.0
+    ],
+    [
+      "semantic-layer gap (missing rule) or GT-debatable",
+      "water_bill",
+      "total_amount",
+      null,
+      "71.20",
+      "UTILITIES_SERVICES",
+      4.3
+    ],
+    [
+      "upstream: Phase-3 candidate wrong, layer had nothing better",
+      "water_bill",
+      "payment_status",
+      "not_applicable",
+      "paid",
+      "UTILITIES_SERVICES",
+      4.3
+    ],
+    [
+      "upstream: domain low-confidence -> layer deferred",
+      "UCLA_Health_Bill",
+      "total_amount",
+      "13857.00",
+      "472.00",
+      "HEALTHCARE",
+      1.0
+    ],
+    [
+      "upstream: Phase-4 domain wrong",
+      "statefarm_bill",
+      "action",
+      "renew",
+      null,
+      "INSURANCE",
+      5.3
+    ],
+    [
+      "semantic-layer gap (missing rule) or GT-debatable",
+      "DMV_registration_late_fee",
+      "payment_status",
+      null,
+      "unpaid",
+      "GOVERNMENT",
+      2.65
+    ],
+    [
+      "semantic-layer gap (missing rule) or GT-debatable",
+      "Medicare_Notice_of_Denial",
+      "action",
+      "call",
+      null,
+      "HEALTHCARE",
+      3.3
+    ],
+    [
+      "upstream: Phase-4 domain wrong",
+      "Medixare_Premium_Bill",
+      "payment_status",
+      "paid",
+      "unpaid",
+      "HEALTHCARE",
+      2.3
+    ],
+    [
+      "semantic-layer gap (missing rule) or GT-debatable",
+      "HOA2",
+      "total_amount",
+      null,
+      "1250.00",
+      "HOUSING_PROPERTY",
+      3.0
+    ],
+    [
+      "semantic-layer gap (missing rule) or GT-debatable",
+      "HOA2",
+      "payment_status",
+      null,
+      "unpaid",
+      "HOUSING_PROPERTY",
+      3.0
+    ],
+    [
+      "upstream: Phase-4 domain wrong",
+      "aws_invoice",
+      "total_amount",
+      "136.38",
+      "135.38",
+      "UTILITIES_SERVICES",
+      2.65
+    ]
+  ],
+  "domains": {
+    "SCE_Bill_Letter": [
+      "UTILITIES_SERVICES",
+      4.3
+    ],
+    "SCE_Letter": [
+      "OTHER",
+      0.0
+    ],
+    "SCE_Sample_Bill": [
+      "UTILITIES_SERVICES",
+      3.65
+    ],
+    "SoCalGas": [
+      "UTILITIES_SERVICES",
+      5.0
+    ],
+    "Water_Bill2": [
+      "OTHER",
+      0.7
+    ],
+    "BOA_Bill_Example": [
+      "BANKING_FINANCE",
+      2.0
+    ],
+    "Bank_Bill_Due": [
+      "BANKING_FINANCE",
+      2.0
+    ],
+    "AAA_insurance_Bill": [
+      "INSURANCE",
+      3.0
+    ],
+    "All_State_Insurance_Card": [
+      "INSURANCE",
+      4.0
+    ],
+    "Auto_Insurance_Bill1": [
+      "INSURANCE",
+      5.65
+    ],
+    "Great_American_Insurance_Invoice": [
+      "INSURANCE",
+      4.65
+    ],
+    "DMV_Registration": [
+      "GOVERNMENT",
+      2.65
+    ],
+    "DMV_Notice": [
+      "GOVERNMENT",
+      1.0
+    ],
+    "Hospital_Bill": [
+      "HEALTHCARE",
+      2.3
+    ],
+    "Medical_Invoice": [
+      "OTHER",
+      0.0
+    ],
+    "CMS_EOB": [
+      "HEALTHCARE",
+      5.0
+    ],
+    "hoag-invoice-mychart": [
+      "HEALTHCARE",
+      2.3
+    ],
+    "IRS_CP504_Notice": [
+      "GOVERNMENT",
+      4.65
+    ],
+    "IRS_cp503": [
+      "GOVERNMENT",
+      4.65
+    ],
+    "Medicare_Notice_PartA": [
+      "HEALTHCARE",
+      5.65
+    ],
+    "Water_Bill3": [
+      "UTILITIES_SERVICES",
+      4.0
+    ],
+    "water_bill": [
+      "UTILITIES_SERVICES",
+      4.3
+    ],
+    "waste_managment": [
+      "UTILITIES_SERVICES",
+      4.0
+    ],
+    "att_bill": [
+      "UTILITIES_SERVICES",
+      4.0
+    ],
+    "UCLA_Health_Bill": [
+      "HEALTHCARE",
+      1.0
+    ],
+    "UCLA_Health_Bill2": [
+      "HEALTHCARE",
+      1.0
+    ],
+    "Eye_care-invoice": [
+      "INSURANCE",
+      1.0
+    ],
+    "Progressive_Insurance_Bill": [
+      "INSURANCE",
+      1.0
+    ],
+    "Penny_Insurance_Bill": [
+      "INSURANCE",
+      6.0
+    ],
+    "State_Farm_Insurance_Card": [
+      "INSURANCE",
+      6.0
+    ],
+    "Coverage_Care_Insurance_Card": [
+      "OTHER",
+      0.35
+    ],
+    "State_Farm_Insurance": [
+      "INSURANCE",
+      5.0
+    ],
+    "statefarm_bill": [
+      "INSURANCE",
+      5.3
+    ],
+    "aaa-policy_renew": [
+      "BANKING_FINANCE",
+      2.3
+    ],
+    "DMV_registration_late_fee": [
+      "GOVERNMENT",
+      2.65
+    ],
+    "ca-dmv-registration-fee": [
+      "GOVERNMENT",
+      3.0
+    ],
+    "Medicare_Notice_PartB": [
+      "HEALTHCARE",
+      5.65
+    ],
+    "Medicare_Notice_of_Denial": [
+      "HEALTHCARE",
+      3.3
+    ],
+    "Medixare_Premium_Bill": [
+      "HEALTHCARE",
+      2.3
+    ],
+    "Bank_Bill_Example": [
+      "BANKING_FINANCE",
+      3.65
+    ],
+    "EastWest_Bank_Form": [
+      "BANKING_FINANCE",
+      5.3
+    ],
+    "EastWest_Bank_Bill": [
+      "BANKING_FINANCE",
+      3.65
+    ],
+    "Chase_Bank_Bill_Example": [
+      "BANKING_FINANCE",
+      5.0
+    ],
+    "Chase_Bank_Bill_Example2": [
+      "BANKING_FINANCE",
+      4.65
+    ],
+    "First_Bank_Bill": [
+      "BANKING_FINANCE",
+      1.0
+    ],
+    "HOA1": [
+      "HOUSING_PROPERTY",
+      2.0
+    ],
+    "HOA2": [
+      "HOUSING_PROPERTY",
+      3.0
+    ],
+    "HOA3": [
+      "HOUSING_PROPERTY",
+      5.0
+    ],
+    "HOA4": [
+      "HOUSING_PROPERTY",
+      3.3
+    ],
+    "aws_invoice": [
+      "UTILITIES_SERVICES",
+      2.65
+    ]
+  }
+}

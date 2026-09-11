@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"document_type\": \"INVOICE\",\n  \"sender\": \"Zylker Heathcare\",\n  \"recipient\": \"Aaron Brown\",\n  \"amount\": \"900.00\",\n  \"due_date\": \"05 Sep 2024\",\n  \"payment_status\": \"null\",\n  \"action_required\": null,\n  \"action\": \"null\",\n  \"risk\": \"high\"\n}"
+      }
+    }
+  ],
+  "created": 1788641426,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 2318,
+    "total_tokens": 2408,
+    "prompt_tokens_details": {
+      "cached_tokens": 1955
+    }
+  },
+  "id": "chatcmpl-Up5HVgewV21On6Z2ukocbPGlbmicJfE9",
+  "timings": {
+    "cache_n": 1955,
+    "prompt_n": 363,
+    "prompt_ms": 175.973,
+    "prompt_per_token_ms": 0.48477410468319565,
+    "prompt_per_second": 2062.8164547970428,
+    "predicted_n": 90,
+    "predicted_ms": 938.643,
+    "predicted_per_token_ms": 10.546550561797753,
+    "predicted_per_second": 94.81773155502145
+  }
+}

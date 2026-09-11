@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"box\": [\"OFFICIAL NOTICE\"],\n    \"text\": \"OFFICIAL NOTICE\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788568566,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 30,
+    "prompt_tokens": 1806,
+    "total_tokens": 1836,
+    "prompt_tokens_details": {
+      "cached_tokens": 1715
+    }
+  },
+  "id": "chatcmpl-LCTReV153eh8wyNS465sp9r1hyrneg4F",
+  "timings": {
+    "cache_n": 1715,
+    "prompt_n": 91,
+    "prompt_ms": 62.28,
+    "prompt_per_token_ms": 0.6843956043956044,
+    "prompt_per_second": 1461.1432241490045,
+    "predicted_n": 30,
+    "predicted_ms": 267.06,
+    "predicted_per_token_ms": 9.20896551724138,
+    "predicted_per_second": 108.58983000074889
+  }
+}

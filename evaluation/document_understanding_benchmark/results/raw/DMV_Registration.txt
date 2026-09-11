@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Attachment A",
+    "sender": "GONZELES C",
+    "recipient": "DMV RENEWAL",
+    "amount": "$95",
+    "due_date": "10/16/2010",
+    "payment_status": "paid",
+    "action_required": true,
+    "action": "MAKE PAYMENT TO:",
+    "risk": null
+}
+```

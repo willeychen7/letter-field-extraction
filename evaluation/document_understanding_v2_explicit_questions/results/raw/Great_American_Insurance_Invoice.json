@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"document_type\": \"INVOICE\",\n  \"sender\": \"GREAT AMERICAN INSURANCE GROUP\",\n  \"recipient\": \"PARKER 2ND LANE NEWCITY AL 10001\",\n  \"amount\": \"0.00\",\n  \"due_date\": \"01/10/2009\",\n  \"payment_status\": \"null\",\n  \"action_required\": true,\n  \"action\": \"Pay in full\",\n  \"risk\": \"None\"\n}"
+      }
+    }
+  ],
+  "created": 1788641421,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 1168,
+    "total_tokens": 1279,
+    "prompt_tokens_details": {
+      "cached_tokens": 805
+    }
+  },
+  "id": "chatcmpl-UVOwTfec7jmVSpNSElyOMqx4OtzSSH2x",
+  "timings": {
+    "cache_n": 805,
+    "prompt_n": 363,
+    "prompt_ms": 151.788,
+    "prompt_per_token_ms": 0.4181487603305785,
+    "prompt_per_second": 2391.493398687643,
+    "predicted_n": 111,
+    "predicted_ms": 990.545,
+    "predicted_per_token_ms": 9.004954545454545,
+    "predicted_per_second": 111.04997753761819
+  }
+}

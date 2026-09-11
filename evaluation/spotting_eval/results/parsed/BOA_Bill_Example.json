@@ -1,0 +1,1367 @@
+[
+  {
+    "text": "Customer Service Information:",
+    "bbox_norm": [
+      738,
+      59,
+      926,
+      70
+    ],
+    "bbox_pixel": [
+      800.0,
+      83.0,
+      1003.8,
+      98.4
+    ]
+  },
+  {
+    "text": "BankAmericard",
+    "bbox_norm": [
+      58,
+      70,
+      171,
+      84
+    ],
+    "bbox_pixel": [
+      62.9,
+      98.4,
+      185.4,
+      118.1
+    ]
+  },
+  {
+    "text": "Cash Rewards",
+    "bbox_norm": [
+      184,
+      73,
+      265,
+      83
+    ],
+    "bbox_pixel": [
+      199.5,
+      102.6,
+      287.3,
+      116.7
+    ]
+  },
+  {
+    "text": "www.bankofamerica.com",
+    "bbox_norm": [
+      738,
+      71,
+      874,
+      81
+    ],
+    "bbox_pixel": [
+      800.0,
+      99.8,
+      947.4,
+      113.9
+    ]
+  },
+  {
+    "text": "Bank of America",
+    "bbox_norm": [
+      413,
+      75,
+      588,
+      94
+    ],
+    "bbox_pixel": [
+      447.7,
+      105.5,
+      637.4,
+      132.2
+    ]
+  },
+  {
+    "text": "1.800.637.7455",
+    "bbox_norm": [
+      738,
+      84,
+      823,
+      94
+    ],
+    "bbox_pixel": [
+      800.0,
+      118.1,
+      892.1,
+      132.2
+    ]
+  },
+  {
+    "text": "Visa Signature",
+    "bbox_norm": [
+      58,
+      111,
+      168,
+      124
+    ],
+    "bbox_pixel": [
+      62.9,
+      156.1,
+      182.1,
+      174.3
+    ]
+  },
+  {
+    "text": "TTY: 1.877.275.6371",
+    "bbox_norm": [
+      738,
+      96,
+      849,
+      106
+    ],
+    "bbox_pixel": [
+      800.0,
+      135.0,
+      920.3,
+      149.0
+    ]
+  },
+  {
+    "text": "Mail billing inquiries to:",
+    "bbox_norm": [
+      738,
+      108,
+      884,
+      120
+    ],
+    "bbox_pixel": [
+      800.0,
+      151.8,
+      958.3,
+      168.7
+    ]
+  },
+  {
+    "text": "Bank of America",
+    "bbox_norm": [
+      738,
+      121,
+      826,
+      131
+    ],
+    "bbox_pixel": [
+      800.0,
+      170.1,
+      895.4,
+      184.2
+    ]
+  },
+  {
+    "text": "P.O. Box 982234",
+    "bbox_norm": [
+      738,
+      133,
+      826,
+      144
+    ],
+    "bbox_pixel": [
+      800.0,
+      187.0,
+      895.4,
+      202.5
+    ]
+  },
+  {
+    "text": "El Paso TX 79998-2234",
+    "bbox_norm": [
+      738,
+      145,
+      870,
+      155
+    ],
+    "bbox_pixel": [
+      800.0,
+      203.9,
+      943.1,
+      217.9
+    ]
+  },
+  {
+    "text": "Mail payment to:",
+    "bbox_norm": [
+      738,
+      157,
+      840,
+      169
+    ],
+    "bbox_pixel": [
+      800.0,
+      220.7,
+      910.6,
+      237.6
+    ]
+  },
+  {
+    "text": "Bank of America",
+    "bbox_norm": [
+      738,
+      170,
+      826,
+      180
+    ],
+    "bbox_pixel": [
+      800.0,
+      239.0,
+      895.4,
+      253.1
+    ]
+  },
+  {
+    "text": "P.O. Box 851001",
+    "bbox_norm": [
+      738,
+      182,
+      825,
+      193
+    ],
+    "bbox_pixel": [
+      800.0,
+      255.9,
+      894.3,
+      271.4
+    ]
+  },
+  {
+    "text": "Dallas TX 75285-1001",
+    "bbox_norm": [
+      738,
+      195,
+      858,
+      205
+    ],
+    "bbox_pixel": [
+      800.0,
+      274.2,
+      930.1,
+      288.2
+    ]
+  },
+  {
+    "text": "December 9 - January 8, 2018",
+    "bbox_norm": [
+      780,
+      260,
+      942,
+      271
+    ],
+    "bbox_pixel": [
+      845.5,
+      365.6,
+      1021.1,
+      381.0
+    ]
+  },
+  {
+    "text": "Account Summary",
+    "bbox_norm": [
+      58,
+      299,
+      234,
+      317
+    ],
+    "bbox_pixel": [
+      62.9,
+      420.4,
+      253.7,
+      445.7
+    ]
+  },
+  {
+    "text": "Payment Information",
+    "bbox_norm": [
+      477,
+      299,
+      680,
+      317
+    ],
+    "bbox_pixel": [
+      517.1,
+      420.4,
+      737.1,
+      445.7
+    ]
+  },
+  {
+    "text": "Previous Balance",
+    "bbox_norm": [
+      58,
+      328,
+      164,
+      339
+    ],
+    "bbox_pixel": [
+      62.9,
+      461.2,
+      177.8,
+      476.6
+    ]
+  },
+  {
+    "text": "$3,956.38",
+    "bbox_norm": [
+      374,
+      328,
+      429,
+      340
+    ],
+    "bbox_pixel": [
+      405.4,
+      461.2,
+      465.0,
+      478.0
+    ]
+  },
+  {
+    "text": "New Balance Total",
+    "bbox_norm": [
+      477,
+      326,
+      592,
+      337
+    ],
+    "bbox_pixel": [
+      517.1,
+      458.4,
+      641.7,
+      473.8
+    ]
+  },
+  {
+    "text": "$4,543.36",
+    "bbox_norm": [
+      882,
+      326,
+      938,
+      338
+    ],
+    "bbox_pixel": [
+      956.1,
+      458.4,
+      1016.8,
+      475.2
+    ]
+  },
+  {
+    "text": "Payments and Other Credits",
+    "bbox_norm": [
+      58,
+      342,
+      235,
+      354
+    ],
+    "bbox_pixel": [
+      62.9,
+      480.9,
+      254.7,
+      497.7
+    ]
+  },
+  {
+    "text": "- $109.00",
+    "bbox_norm": [
+      374,
+      342,
+      429,
+      353
+    ],
+    "bbox_pixel": [
+      405.4,
+      480.9,
+      465.0,
+      496.3
+    ]
+  },
+  {
+    "text": "Current Payment Due",
+    "bbox_norm": [
+      477,
+      340,
+      610,
+      352
+    ],
+    "bbox_pixel": [
+      517.1,
+      478.0,
+      661.2,
+      494.9
+    ]
+  },
+  {
+    "text": "$112.00",
+    "bbox_norm": [
+      892,
+      340,
+      938,
+      352
+    ],
+    "bbox_pixel": [
+      966.9,
+      478.0,
+      1016.8,
+      494.9
+    ]
+  },
+  {
+    "text": "Purchases and Adjustments",
+    "bbox_norm": [
+      58,
+      355,
+      231,
+      367
+    ],
+    "bbox_pixel": [
+      62.9,
+      499.1,
+      250.4,
+      516.0
+    ]
+  },
+  {
+    "text": "$628.58",
+    "bbox_norm": [
+      383,
+      355,
+      429,
+      366
+    ],
+    "bbox_pixel": [
+      415.2,
+      499.1,
+      465.0,
+      514.6
+    ]
+  },
+  {
+    "text": "Fees Charged",
+    "bbox_norm": [
+      58,
+      369,
+      148,
+      382
+    ],
+    "bbox_pixel": [
+      62.9,
+      518.8,
+      160.4,
+      537.1
+    ]
+  },
+  {
+    "text": "$0.00",
+    "bbox_norm": [
+      393,
+      369,
+      429,
+      381
+    ],
+    "bbox_pixel": [
+      426.0,
+      518.8,
+      465.0,
+      535.7
+    ]
+  },
+  {
+    "text": "Total Minimum Payment Due",
+    "bbox_norm": [
+      477,
+      369,
+      657,
+      381
+    ],
+    "bbox_pixel": [
+      517.1,
+      518.8,
+      712.2,
+      535.7
+    ]
+  },
+  {
+    "text": "$112.00",
+    "bbox_norm": [
+      892,
+      369,
+      938,
+      381
+    ],
+    "bbox_pixel": [
+      966.9,
+      518.8,
+      1016.8,
+      535.7
+    ]
+  },
+  {
+    "text": "Interest Charged",
+    "bbox_norm": [
+      58,
+      384,
+      172,
+      396
+    ],
+    "bbox_pixel": [
+      62.9,
+      539.9,
+      186.4,
+      556.8
+    ]
+  },
+  {
+    "text": "$67.40",
+    "bbox_norm": [
+      386,
+      384,
+      429,
+      395
+    ],
+    "bbox_pixel": [
+      418.4,
+      539.9,
+      465.0,
+      555.4
+    ]
+  },
+  {
+    "text": "Payment Due Date",
+    "bbox_norm": [
+      477,
+      383,
+      592,
+      395
+    ],
+    "bbox_pixel": [
+      517.1,
+      538.5,
+      641.7,
+      555.4
+    ]
+  },
+  {
+    "text": "02/05/2018",
+    "bbox_norm": [
+      875,
+      383,
+      938,
+      394
+    ],
+    "bbox_pixel": [
+      948.5,
+      538.5,
+      1016.8,
+      554.0
+    ]
+  },
+  {
+    "text": "New Balance Total",
+    "bbox_norm": [
+      58,
+      413,
+      176,
+      424
+    ],
+    "bbox_pixel": [
+      62.9,
+      580.7,
+      190.8,
+      596.1
+    ]
+  },
+  {
+    "text": "$4,543.36",
+    "bbox_norm": [
+      374,
+      413,
+      429,
+      425
+    ],
+    "bbox_pixel": [
+      405.4,
+      580.7,
+      465.0,
+      597.5
+    ]
+  },
+  {
+    "text": "Late Payment Warning: If we do not receive your Total Minimum",
+    "bbox_norm": [
+      477,
+      412,
+      895,
+      424
+    ],
+    "bbox_pixel": [
+      517.1,
+      579.3,
+      970.2,
+      596.1
+    ]
+  },
+  {
+    "text": "Payment by the date listed above, you may have to pay a late fee of up to",
+    "bbox_norm": [
+      477,
+      426,
+      938,
+      439
+    ],
+    "bbox_pixel": [
+      517.1,
+      599.0,
+      1016.8,
+      617.2
+    ]
+  },
+  {
+    "text": "Total Credit Line",
+    "bbox_norm": [
+      58,
+      437,
+      164,
+      448
+    ],
+    "bbox_pixel": [
+      62.9,
+      614.4,
+      177.8,
+      629.9
+    ]
+  },
+  {
+    "text": "$10,000.00",
+    "bbox_norm": [
+      367,
+      437,
+      429,
+      448
+    ],
+    "bbox_pixel": [
+      397.8,
+      614.4,
+      465.0,
+      629.9
+    ]
+  },
+  {
+    "text": "$38.00 and your APRs may be increased up to the Penalty APR of 29.99%.",
+    "bbox_norm": [
+      477,
+      440,
+      946,
+      453
+    ],
+    "bbox_pixel": [
+      517.1,
+      618.6,
+      1025.5,
+      636.9
+    ]
+  },
+  {
+    "text": "Total Credit Available",
+    "bbox_norm": [
+      58,
+      451,
+      194,
+      461
+    ],
+    "bbox_pixel": [
+      62.9,
+      634.1,
+      210.3,
+      648.2
+    ]
+  },
+  {
+    "text": "$5,456.64",
+    "bbox_norm": [
+      374,
+      451,
+      429,
+      462
+    ],
+    "bbox_pixel": [
+      405.4,
+      634.1,
+      465.0,
+      649.6
+    ]
+  },
+  {
+    "text": "Total Minimum Payment Warning: If you make only the Total Minimum",
+    "bbox_norm": [
+      477,
+      454,
+      940,
+      467
+    ],
+    "bbox_pixel": [
+      517.1,
+      638.3,
+      1019.0,
+      656.6
+    ]
+  },
+  {
+    "text": "Cash Credit Line",
+    "bbox_norm": [
+      58,
+      464,
+      162,
+      475
+    ],
+    "bbox_pixel": [
+      62.9,
+      652.4,
+      175.6,
+      667.9
+    ]
+  },
+  {
+    "text": "$7,000.00",
+    "bbox_norm": [
+      374,
+      464,
+      429,
+      475
+    ],
+    "bbox_pixel": [
+      405.4,
+      652.4,
+      465.0,
+      667.9
+    ]
+  },
+  {
+    "text": "Payment each period, you will pay more in interest and it will take you",
+    "bbox_norm": [
+      477,
+      468,
+      915,
+      480
+    ],
+    "bbox_pixel": [
+      517.1,
+      658.0,
+      991.9,
+      674.9
+    ]
+  },
+  {
+    "text": "Portion of Credit Available",
+    "bbox_norm": [
+      58,
+      477,
+      224,
+      489
+    ],
+    "bbox_pixel": [
+      62.9,
+      670.7,
+      242.8,
+      687.5
+    ]
+  },
+  {
+    "text": "longer to pay off your balance. For example:",
+    "bbox_norm": [
+      477,
+      481,
+      754,
+      493
+    ],
+    "bbox_pixel": [
+      517.1,
+      676.3,
+      817.3,
+      693.2
+    ]
+  },
+  {
+    "text": "for Cash",
+    "bbox_norm": [
+      58,
+      491,
+      112,
+      502
+    ],
+    "bbox_pixel": [
+      62.9,
+      690.3,
+      121.4,
+      705.8
+    ]
+  },
+  {
+    "text": "$5,456.64",
+    "bbox_norm": [
+      374,
+      491,
+      429,
+      503
+    ],
+    "bbox_pixel": [
+      405.4,
+      690.3,
+      465.0,
+      707.2
+    ]
+  },
+  {
+    "text": "If you make no additional",
+    "bbox_norm": [
+      481,
+      499,
+      638,
+      511
+    ],
+    "bbox_pixel": [
+      521.4,
+      701.6,
+      691.6,
+      718.5
+    ]
+  },
+  {
+    "text": "You will payoff the",
+    "bbox_norm": [
+      657,
+      499,
+      776,
+      511
+    ],
+    "bbox_pixel": [
+      712.2,
+      701.6,
+      841.2,
+      718.5
+    ]
+  },
+  {
+    "text": "And you will end up",
+    "bbox_norm": [
+      809,
+      499,
+      930,
+      512
+    ],
+    "bbox_pixel": [
+      877.0,
+      701.6,
+      1008.1,
+      719.9
+    ]
+  },
+  {
+    "text": "Statement Closing Date",
+    "bbox_norm": [
+      58,
+      505,
+      209,
+      517
+    ],
+    "bbox_pixel": [
+      62.9,
+      710.0,
+      226.6,
+      726.9
+    ]
+  },
+  {
+    "text": "01/08/2018",
+    "bbox_norm": [
+      366,
+      505,
+      429,
+      515
+    ],
+    "bbox_pixel": [
+      396.7,
+      710.0,
+      465.0,
+      724.1
+    ]
+  },
+  {
+    "text": "charges using this card",
+    "bbox_norm": [
+      495,
+      512,
+      638,
+      524
+    ],
+    "bbox_pixel": [
+      536.6,
+      719.9,
+      691.6,
+      736.7
+    ]
+  },
+  {
+    "text": "balance shown on this",
+    "bbox_norm": [
+      653,
+      512,
+      783,
+      523
+    ],
+    "bbox_pixel": [
+      707.9,
+      719.9,
+      848.8,
+      735.3
+    ]
+  },
+  {
+    "text": "paying an estimated",
+    "bbox_norm": [
+      806,
+      512,
+      931,
+      525
+    ],
+    "bbox_pixel": [
+      873.7,
+      719.9,
+      1009.2,
+      738.1
+    ]
+  },
+  {
+    "text": "Days in Billing Cycle",
+    "bbox_norm": [
+      58,
+      519,
+      183,
+      532
+    ],
+    "bbox_pixel": [
+      62.9,
+      729.7,
+      198.4,
+      748.0
+    ]
+  },
+  {
+    "text": "31",
+    "bbox_norm": [
+      414,
+      519,
+      429,
+      529
+    ],
+    "bbox_pixel": [
+      448.8,
+      729.7,
+      465.0,
+      743.8
+    ]
+  },
+  {
+    "text": "and each month you pay",
+    "bbox_norm": [
+      495,
+      526,
+      638,
+      538
+    ],
+    "bbox_pixel": [
+      536.6,
+      739.6,
+      691.6,
+      756.4
+    ]
+  },
+  {
+    "text": "statement in about",
+    "bbox_norm": [
+      653,
+      526,
+      780,
+      536
+    ],
+    "bbox_pixel": [
+      707.9,
+      739.6,
+      845.5,
+      753.6
+    ]
+  },
+  {
+    "text": "total of",
+    "bbox_norm": [
+      850,
+      526,
+      895,
+      537
+    ],
+    "bbox_pixel": [
+      921.4,
+      739.6,
+      970.2,
+      755.0
+    ]
+  },
+  {
+    "text": "Only the Total",
+    "bbox_norm": [
+      509,
+      552,
+      599,
+      563
+    ],
+    "bbox_pixel": [
+      551.8,
+      776.1,
+      649.3,
+      791.6
+    ]
+  },
+  {
+    "text": "18 years",
+    "bbox_norm": [
+      691,
+      552,
+      747,
+      563
+    ],
+    "bbox_pixel": [
+      749.0,
+      776.1,
+      809.7,
+      791.6
+    ]
+  },
+  {
+    "text": "$10,476.00",
+    "bbox_norm": [
+      834,
+      552,
+      909,
+      563
+    ],
+    "bbox_pixel": [
+      904.1,
+      776.1,
+      985.4,
+      791.6
+    ]
+  },
+  {
+    "text": "Minimum Payment",
+    "bbox_norm": [
+      495,
+      566,
+      614,
+      578
+    ],
+    "bbox_pixel": [
+      536.6,
+      795.8,
+      665.6,
+      812.7
+    ]
+  },
+  {
+    "text": "$165.00",
+    "bbox_norm": [
+      534,
+      584,
+      589,
+      596
+    ],
+    "bbox_pixel": [
+      578.9,
+      821.1,
+      638.5,
+      838.0
+    ]
+  },
+  {
+    "text": "36 months",
+    "bbox_norm": [
+      686,
+      584,
+      753,
+      595
+    ],
+    "bbox_pixel": [
+      743.6,
+      821.1,
+      816.3,
+      836.6
+    ]
+  },
+  {
+    "text": "$5,940.00",
+    "bbox_norm": [
+      838,
+      584,
+      904,
+      596
+    ],
+    "bbox_pixel": [
+      908.4,
+      821.1,
+      979.9,
+      838.0
+    ]
+  },
+  {
+    "text": "(Savings = $4,536.00)",
+    "bbox_norm": [
+      800,
+      597,
+      946,
+      610
+    ],
+    "bbox_pixel": [
+      867.2,
+      839.4,
+      1025.5,
+      857.7
+    ]
+  },
+  {
+    "text": "If you would like information about credit counseling services, call",
+    "bbox_norm": [
+      476,
+      617,
+      931,
+      630
+    ],
+    "bbox_pixel": [
+      516.0,
+      867.5,
+      1009.2,
+      885.8
+    ]
+  },
+  {
+    "text": "866.300.5238.",
+    "bbox_norm": [
+      476,
+      631,
+      575,
+      642
+    ],
+    "bbox_pixel": [
+      516.0,
+      887.2,
+      623.3,
+      902.7
+    ]
+  },
+  {
+    "text": "BANK OF AMERICA",
+    "bbox_norm": [
+      124,
+      780,
+      244,
+      789
+    ],
+    "bbox_pixel": [
+      134.4,
+      1096.7,
+      264.5,
+      1109.3
+    ]
+  },
+  {
+    "text": "P.O. BOX 851001",
+    "bbox_norm": [
+      124,
+      791,
+      224,
+      801
+    ],
+    "bbox_pixel": [
+      134.4,
+      1112.1,
+      242.8,
+      1126.2
+    ]
+  },
+  {
+    "text": "DALLAS TX 75285-1001",
+    "bbox_norm": [
+      124,
+      803,
+      264,
+      812
+    ],
+    "bbox_pixel": [
+      134.4,
+      1129.0,
+      286.2,
+      1141.7
+    ]
+  },
+  {
+    "text": "New Balance Total",
+    "bbox_norm": [
+      497,
+      807,
+      604,
+      817
+    ],
+    "bbox_pixel": [
+      538.7,
+      1134.6,
+      654.7,
+      1148.7
+    ]
+  },
+  {
+    "text": "$4,543.36",
+    "bbox_norm": [
+      842,
+      807,
+      899,
+      818
+    ],
+    "bbox_pixel": [
+      912.7,
+      1134.6,
+      974.5,
+      1150.1
+    ]
+  },
+  {
+    "text": "Total Minimum Payment Due",
+    "bbox_norm": [
+      497,
+      823,
+      661,
+      834
+    ],
+    "bbox_pixel": [
+      538.7,
+      1157.1,
+      716.5,
+      1172.6
+    ]
+  },
+  {
+    "text": "$112.00",
+    "bbox_norm": [
+      851,
+      823,
+      899,
+      834
+    ],
+    "bbox_pixel": [
+      922.5,
+      1157.1,
+      974.5,
+      1172.6
+    ]
+  },
+  {
+    "text": "Payment Due Date",
+    "bbox_norm": [
+      515,
+      840,
+      618,
+      850
+    ],
+    "bbox_pixel": [
+      558.3,
+      1181.0,
+      669.9,
+      1195.1
+    ]
+  },
+  {
+    "text": "02/05/2018",
+    "bbox_norm": [
+      820,
+      840,
+      898,
+      850
+    ],
+    "bbox_pixel": [
+      888.9,
+      1181.0,
+      973.4,
+      1195.1
+    ]
+  },
+  {
+    "text": "Enter payment amount",
+    "bbox_norm": [
+      498,
+      876,
+      629,
+      887
+    ],
+    "bbox_pixel": [
+      539.8,
+      1231.7,
+      681.8,
+      1247.1
+    ]
+  },
+  {
+    "text": "$",
+    "bbox_norm": [
+      649,
+      876,
+      657,
+      887
+    ],
+    "bbox_pixel": [
+      703.5,
+      1231.7,
+      712.2,
+      1247.1
+    ]
+  },
+  {
+    "text": "Check here for a change of mailing address or phone numbers.",
+    "bbox_norm": [
+      522,
+      911,
+      841,
+      921
+    ],
+    "bbox_pixel": [
+      565.8,
+      1280.9,
+      911.6,
+      1294.9
+    ]
+  },
+  {
+    "text": "Please provide all corrections on the reverse side.",
+    "bbox_norm": [
+      522,
+      921,
+      773,
+      931
+    ],
+    "bbox_pixel": [
+      565.8,
+      1294.9,
+      837.9,
+      1309.0
+    ]
+  },
+  {
+    "text": "Mail this coupon along with your check payable to: Bank of America",
+    "bbox_norm": [
+      521,
+      936,
+      855,
+      946
+    ],
+    "bbox_pixel": [
+      564.8,
+      1316.0,
+      926.8,
+      1330.1
+    ]
+  }
+]

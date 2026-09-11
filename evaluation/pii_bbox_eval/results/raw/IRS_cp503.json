@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"recipient_name\": \"JAMES & KAREN Q. HINDS\",\n  \"address\": \"22 BOULDER STREET HANSON, CT 00000-7253\",\n  \"account_number\": \"None\",\n  \"policy_member_claim_number\": \"None\",\n  \"phone\": \"None\",\n  \"email\": \"None\",\n  \"ssn\": \"None\",\n  \"medicare_medical_id\": \"None\",\n  \"other_identifier\": \"None\"\n}"
+      }
+    }
+  ],
+  "created": 1788569587,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 2273,
+    "total_tokens": 2386,
+    "prompt_tokens_details": {
+      "cached_tokens": 1753
+    }
+  },
+  "id": "chatcmpl-My7SZa92Bq4z849tRM8jPtADZKhBQu9P",
+  "timings": {
+    "cache_n": 1753,
+    "prompt_n": 520,
+    "prompt_ms": 253.946,
+    "prompt_per_token_ms": 0.4883576923076923,
+    "prompt_per_second": 2047.6794279098706,
+    "predicted_n": 113,
+    "predicted_ms": 1172.857,
+    "predicted_per_token_ms": 10.4719375,
+    "predicted_per_second": 95.49331248396011
+  }
+}

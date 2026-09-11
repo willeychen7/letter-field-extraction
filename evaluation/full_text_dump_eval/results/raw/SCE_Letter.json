@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "SOUTHERN CALIFORNIA EDISON$ ^{®} $An EDISON INTERNATIONAL$ ^{®} $ Company\nMichael Backstrom\nVice President, Regulatory Affairs\nApril 24, 2024\nShannon O’Rourke\nDeputy Director\nOffice of Energy Infrastructure Safety\nCalifornia Natural Resources Agency\n715 P Street 20th Floor\nSacramento, CA 95814\nE-filed with Docket #2023-SCAs\nSUBJECT: Southern California Edison Company’s (SCE) Agreement to Implement the Findings (Including Recommendations) of the 2023 Safety Culture Assessment Report\nDeputy Director O’Rourke:\nPursuant to Public Utilities Code Section 8389(e)(2), SCE can satisfy the “good standing” requirement for safety certification by agreeing “to implement the findings of its most recent safety culture assessment” (SCA). Energy Safety’s letter of March 22, 2024, enclosing SCE’s 2023 Safety Culture Assessment Report (SCA Report), states that SCE may do so “by submitting a letter to this effect [to] the 2023 Safety Culture Assessments docket.”\nNational Safety Council (NSC), a consultant retained by the Office of Energy Infrastructure Safety (Energy Safety), conducted the 2023 SCA for SCE between June and July, 2023. On February 23, 2024, Energy Safety released the draft 2023 SCA Report to SCE for comment. Pursuant to the guidance from Energy Safety, SCE submitted comments on March 8, 2024. On March 22, 2024, Energy Safety issued the SCA Report attaching SCE’s comments to the draft report.¹ The recommendations by Energy Safety on SCE’s 2023 SCA and SCE’s response to these recommendations are described below.\nThe report states that SCE “has exhibited continued growth in safety culture maturity since 2021,”² that “focus group participants described SCE as an organization with\n$ ^{1} $ 2023 Safety Culture Assessment Report for SCE, available at: $ ^{2} $ 2023 SCA for SCE\n$ ^{2} $ SCA Report, p. 3."
+      }
+    }
+  ],
+  "created": 1788636981,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 476,
+    "prompt_tokens": 1720,
+    "total_tokens": 2196,
+    "prompt_tokens_details": {
+      "cached_tokens": 1715
+    }
+  },
+  "id": "chatcmpl-03favXMCh0Gm9Zy3tzrPjZVVTH3d553M",
+  "timings": {
+    "cache_n": 1715,
+    "prompt_n": 5,
+    "prompt_ms": 28.895,
+    "prompt_per_token_ms": 5.779,
+    "prompt_per_second": 173.04031839418585,
+    "predicted_n": 476,
+    "predicted_ms": 4642.514,
+    "predicted_per_token_ms": 9.773713684210527,
+    "predicted_per_second": 102.31525419201752
+  }
+}

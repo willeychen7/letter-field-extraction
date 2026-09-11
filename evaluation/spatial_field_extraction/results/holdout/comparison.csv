@@ -1,0 +1,8 @@
+field,holdout_acc,dev_acc,delta
+sender,0.700,0.950,-0.250
+recipient,0.700,1.000,-0.300
+total_amount,0.667,0.950,-0.283
+payment_status,0.633,0.750,-0.117
+due_date,0.767,0.900,-0.133
+action,0.933,0.800,+0.133
+OVERALL,0.733,0.892,-0.159

@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Billing Summary",
+    "sender": "JAMES & KAREN Q. HINDS",
+    "recipient_name": "JAMES & KAREN Q. HINDS",
+    "address": "22 BOULDER STREET HANSON, CT 00000-7253",
+    "account_number": "CP503",
+    "amount": "$9,533.53",
+    "due_date": "January 29, 2018",
+    "action_required": "Pay the amount due of $9,533.53 by January 29, 2018, to avoid additional interest and applicable penalty charges.",
+    "important_identifier": "NNN-NN-NNNN"
+}
+```

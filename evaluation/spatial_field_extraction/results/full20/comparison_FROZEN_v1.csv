@@ -1,0 +1,9 @@
+field,accuracy_all20,correct,total
+sender,0.750,15,20
+recipient,0.550,11,20
+total_amount,0.950,19,20
+payment_status,0.750,15,20
+due_date,0.900,18,20
+action,0.800,16,20
+OVERALL_all20,0.783,94,120
+OVERALL_authoritative_subset (11 imgs x 4 fields),0.909,40,44

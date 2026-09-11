@@ -1,0 +1,22 @@
+The Efficient Customer
+| Dates of Service | Meter Reading | Units Used |
+|---|---|---|
+| 9/10/15 10/09/15 | 1548 | 1559 | 11 CCF |
+| USAGE - LOW VOLUME | 5 | $1.11 | $5.55 |
+| USAGE - BASE RATE | 6 | $1.62 | $9.72 |
+| WATER SERVICE CHARGE |  |  | $10.30 |
+| YOUR ALLOCATION FOR THIS BILL BILL CALCULATION BASED ON TO AVOID LATE CHARGE PAY BEFORE | 11 CCF |  |  |
+|  | .03 ACRES |  |  |
+|  | 11/07/15 |  | $25.57 |
+The Wasteful Customer
+| Dates of Service | Meter Reading | Units Used |
+|---|---|---|
+| 9/10/15 10/09/15 | 1548 | 1568 | 20 CCF |
+| USAGE - LOW VOLUME | 5 | $1.11 | $5.55 |
+| USAGE - BASE RATE | 6 | $1.62 | $9.72 |
+| USAGE - INEFFICIENT | 4 | $3.92 | $15.68 |
+| USAGE - WASTEFUL | 5 | $14.53 | $72.65 |
+| WATER SERVICE CHARGE |  |  | $10.30 |
+| YOUR ALLOCATION FOR THIS BILL BILL CALCULATION BASED ON TO AVOID LATE CHARGE PAY BEFORE | 10 CCF |  |  |
+|  | .03 ACRES |  |  |
+|  | 11/07/15 |  | $113.90 |

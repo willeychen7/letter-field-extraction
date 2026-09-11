@@ -1,0 +1,69 @@
+{
+  "per_field": {
+    "sender": {
+      "correct": 5,
+      "total": 6
+    },
+    "total_amount": {
+      "correct": 6,
+      "total": 6
+    },
+    "due_date": {
+      "correct": 5,
+      "total": 6
+    },
+    "payment_status": {
+      "correct": 4,
+      "total": 6
+    }
+  },
+  "overall": {
+    "correct": 20,
+    "total": 24,
+    "accuracy": 0.8333
+  },
+  "rows": [
+    {
+      "image": "SCE_Sample_Bill.png",
+      "sender": "OK 'EDISON' / gold 'SCE'",
+      "total_amount": "OK '2149.55' / gold '2149.55'",
+      "due_date": "X  None / gold '2020-05-11'",
+      "payment_status": "OK 'unpaid' / gold 'unpaid'"
+    },
+    {
+      "image": "SoCalGas.png",
+      "sender": "OK 'SoCalGas' / gold 'SoCalGas'",
+      "total_amount": "OK '40.56' / gold '40.56'",
+      "due_date": "OK '2016-01-08' / gold '2016-01-08'",
+      "payment_status": "X  'paid' / gold 'unpaid'"
+    },
+    {
+      "image": "hoag-invoice-mychart.png",
+      "sender": "OK 'Hoag' / gold 'Hoag'",
+      "total_amount": "OK '333.33' / gold '333.33'",
+      "due_date": "OK None / gold None",
+      "payment_status": "OK 'unpaid' / gold 'unpaid'"
+    },
+    {
+      "image": "IRS_CP504_Notice.png",
+      "sender": "OK 'IRS' / gold 'IRS'",
+      "total_amount": "OK '9533.53' / gold '9533.53'",
+      "due_date": "OK None / gold None",
+      "payment_status": "OK 'unpaid' / gold 'unpaid'"
+    },
+    {
+      "image": "DMV_Registration.png",
+      "sender": "X  'COUNTY/DISTRICT FEES' / gold 'DMV'",
+      "total_amount": "OK '95.00' / gold '95.00'",
+      "due_date": "OK '2010-10-16' / gold '2010-10-16'",
+      "payment_status": "OK 'unpaid' / gold 'unpaid'"
+    },
+    {
+      "image": "SCE_Letter.png",
+      "sender": "OK 'EDISON' / gold 'SCE'",
+      "total_amount": "OK None / gold None",
+      "due_date": "OK None / gold None",
+      "payment_status": "X  None / gold 'not_applicable'"
+    }
+  ]
+}

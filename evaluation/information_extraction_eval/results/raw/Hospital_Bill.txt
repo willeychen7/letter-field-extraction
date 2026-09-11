@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "HOSPITAL STATEMENT",
+    "sender": "JANE DOE",
+    "recipient_name": "ALLINA HEALTH",
+    "address": "123 ANY STREET ANYWHERE, USA 55555 T",
+    "account_number": "0000000",
+    "amount": "$654.80",
+    "due_date": "04/18/2013",
+    "action_required": "None",
+    "important_identifier": "0000000"
+}
+```

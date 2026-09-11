@@ -1,0 +1,11 @@
+{
+  "document_type": "The Efficient Customer",
+  "sender": "The Efficient Customer",
+  "recipient": "The Efficient Customer",
+  "amount": "$10.30",
+  "due_date": "None",
+  "payment_status": "Your Allocation for this Bill Bill Calculation Based on to Avoid Late Charge Pay Before",
+  "action_required": true,
+  "action": "Your Allocation for this Bill Bill Calculation Based on to Avoid Late Charge Pay Before",
+  "risk": "high"
+}

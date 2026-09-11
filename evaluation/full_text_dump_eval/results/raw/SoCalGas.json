@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "SoCalGas\nA Sempra Energy utility\nSERVICE FOR\nJOHN B DOE\n24915 APPLE CT\nMONTEREY PARK CA 91754-2217\n24 Hour Service\n1-800-427-2200 English\n1-800-342-4545 Español\n1-800-252-0259 TTY\nwww.socalgas.com\nH\nAccount Summary\nDATE DUE Jan 8, 2016\nAmount of Last Bill\n$25.18\nPayment Received\nTHANK YOU\n-25.18\nCurrent Charges\n+40.56\nTotal Amount Due\n$40.56\nCurrent Charges\nRate: GR-Residential\nClimate Zone: 1\nBaseline Allowance: 54 Therms\nMeter Number: 92879508 (Next scheduled read date Jan 15 2016)\nCycle: 10\nBilling Period\nDays\nCurrent Reading\nPrevious Reading\nDifference\nBilling Factor\nTotal Therms\n11/12/15-12/14/15\n32\n2485\n2448\n37\n1.005\n37\nGAS CHARGES\nAmount($)\nCustomer Charge\n32 Days x $.16438\n5.26\nGas Service (Details below)\n37 Therms\nTherms used\n37\nRate/Therm\n$.79865\nCharge\n$29.55\n=29.55\nTotal Gas Charges $34.81\nTAXES & FEES ON GAS CHARGES\nAmount($)\nState Regulatory Fee\n37 Therms x $.00068\n.03\nPublic Purpose Surcharge\n37 Therms x $.10738\n3.97\nLos Angeles County Users Tax\n$38.81 x 4.50%\n1.75\nTotal Taxes and Fees on Gas Charges $5.75\nTotal Current Charges $40.56\nThe Gas Company's gas commodity cost per therm for your billing period:\nDec. $32322\nNov. $27684\nPLEASE KEEP THIS PORTION FOR YOUR RECORDS. (FAVOR DE GUARDAR ESTA PARTE PARA SUS REGISTROS.)"
+      }
+    }
+  ],
+  "created": 1788636994,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 458,
+    "prompt_tokens": 1850,
+    "total_tokens": 2308,
+    "prompt_tokens_details": {
+      "cached_tokens": 1845
+    }
+  },
+  "id": "chatcmpl-lc9QBK7JFhCPnyBkv3yPuCwkVVf0Q58E",
+  "timings": {
+    "cache_n": 1845,
+    "prompt_n": 5,
+    "prompt_ms": 20.476,
+    "prompt_per_token_ms": 4.0952,
+    "prompt_per_second": 244.1883180308654,
+    "predicted_n": 458,
+    "predicted_ms": 4551.698,
+    "predicted_per_token_ms": 9.959951859956236,
+    "predicted_per_second": 100.40209170292053
+  }
+}

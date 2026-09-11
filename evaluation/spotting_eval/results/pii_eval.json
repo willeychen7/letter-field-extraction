@@ -1,0 +1,1123 @@
+[
+  {
+    "image": "SCE_Bill_Letter.png",
+    "text": "BAKER, NATE / Page 5 of 5",
+    "kind": "name",
+    "bbox_norm": [
+      756,
+      98,
+      943,
+      110
+    ],
+    "bbox_pixel": [
+      759.0,
+      122.7,
+      946.8,
+      137.7
+    ],
+    "merged_with_label_or_trailer": true,
+    "auto_bucket": "D_merged_with_nonPII"
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "text": "8012345678",
+    "kind": "id_number",
+    "bbox_norm": [
+      215,
+      156,
+      295,
+      166
+    ],
+    "bbox_pixel": [
+      215.9,
+      195.3,
+      296.2,
+      207.8
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "text": "1234 FIRST AVE",
+    "kind": "address",
+    "bbox_norm": [
+      215,
+      171,
+      326,
+      181
+    ],
+    "bbox_pixel": [
+      215.9,
+      214.1,
+      327.3,
+      226.6
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "text": "123456789012345678",
+    "kind": "id_number",
+    "bbox_norm": [
+      407,
+      171,
+      552,
+      180
+    ],
+    "bbox_pixel": [
+      408.6,
+      214.1,
+      554.2,
+      225.4
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "text": "Service Account: 8012345678",
+    "kind": "id_number",
+    "bbox_norm": [
+      65,
+      332,
+      260,
+      343
+    ],
+    "bbox_pixel": [
+      65.3,
+      415.7,
+      261.0,
+      429.4
+    ],
+    "merged_with_label_or_trailer": true,
+    "auto_bucket": "D_merged_with_nonPII"
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "text": "262.98 kWh @ 0.13589",
+    "kind": "id_number",
+    "bbox_norm": [
+      283,
+      394,
+      436,
+      405
+    ],
+    "bbox_pixel": [
+      284.1,
+      493.3,
+      437.7,
+      507.1
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "text": "214.99 kWh @ 0.11733",
+    "kind": "id_number",
+    "bbox_norm": [
+      283,
+      408,
+      437,
+      419
+    ],
+    "bbox_pixel": [
+      284.1,
+      510.8,
+      438.7,
+      524.6
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "1-800-427-2200 English",
+    "kind": "phone",
+    "bbox_norm": [
+      669,
+      40,
+      830,
+      57
+    ],
+    "bbox_pixel": [
+      968.7,
+      51.4,
+      1201.8,
+      73.3
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "24915 APPLE CT",
+    "kind": "address",
+    "bbox_norm": [
+      302,
+      57,
+      422,
+      72
+    ],
+    "bbox_pixel": [
+      437.3,
+      73.3,
+      611.1,
+      92.6
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "1-800-342-4545 Español",
+    "kind": "phone",
+    "bbox_norm": [
+      669,
+      61,
+      836,
+      80
+    ],
+    "bbox_pixel": [
+      968.7,
+      78.4,
+      1210.5,
+      102.9
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "MONTEREY PARK CA 91754-2217",
+    "kind": "id_number",
+    "bbox_norm": [
+      302,
+      80,
+      541,
+      96
+    ],
+    "bbox_pixel": [
+      437.3,
+      102.9,
+      783.4,
+      123.5
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "1-800-252-0259 TTY",
+    "kind": "phone",
+    "bbox_norm": [
+      669,
+      84,
+      811,
+      99
+    ],
+    "bbox_pixel": [
+      968.7,
+      108.0,
+      1174.3,
+      127.3
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "Meter Number: 92879508 (Next scheduled read date Jan 15 2016)",
+    "kind": "id_number",
+    "bbox_norm": [
+      38,
+      403,
+      422,
+      420
+    ],
+    "bbox_pixel": [
+      55.0,
+      518.3,
+      611.1,
+      540.1
+    ],
+    "merged_with_label_or_trailer": true,
+    "auto_bucket": "D_merged_with_nonPII"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "32 Days x $.16438",
+    "kind": "id_number",
+    "bbox_norm": [
+      357,
+      531,
+      487,
+      549
+    ],
+    "bbox_pixel": [
+      516.9,
+      682.9,
+      705.2,
+      706.0
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "$.79865",
+    "kind": "id_number",
+    "bbox_norm": [
+      114,
+      640,
+      166,
+      656
+    ],
+    "bbox_pixel": [
+      165.1,
+      823.0,
+      240.4,
+      843.6
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "37 Therms x $.00068",
+    "kind": "id_number",
+    "bbox_norm": [
+      342,
+      739,
+      486,
+      755
+    ],
+    "bbox_pixel": [
+      495.2,
+      950.4,
+      703.7,
+      970.9
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "37 Therms x $.10738",
+    "kind": "id_number",
+    "bbox_norm": [
+      342,
+      760,
+      486,
+      776
+    ],
+    "bbox_pixel": [
+      495.2,
+      977.4,
+      703.7,
+      997.9
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "$.32322",
+    "kind": "id_number",
+    "bbox_norm": [
+      760,
+      960,
+      807,
+      973
+    ],
+    "bbox_pixel": [
+      1100.5,
+      1234.6,
+      1168.5,
+      1251.3
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "SoCalGas.png",
+    "text": "$.27684",
+    "kind": "id_number",
+    "bbox_norm": [
+      914,
+      960,
+      960,
+      973
+    ],
+    "bbox_pixel": [
+      1323.5,
+      1234.6,
+      1390.1,
+      1251.3
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "text": "1.800.637.7455",
+    "kind": "phone",
+    "bbox_norm": [
+      738,
+      84,
+      823,
+      94
+    ],
+    "bbox_pixel": [
+      800.0,
+      118.1,
+      892.1,
+      132.2
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "text": "TTY: 1.877.275.6371",
+    "kind": "phone",
+    "bbox_norm": [
+      738,
+      96,
+      849,
+      106
+    ],
+    "bbox_pixel": [
+      800.0,
+      135.0,
+      920.3,
+      149.0
+    ],
+    "merged_with_label_or_trailer": true,
+    "auto_bucket": "D_merged_with_nonPII"
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "text": "P.O. Box 982234",
+    "kind": "id_number",
+    "bbox_norm": [
+      738,
+      133,
+      826,
+      144
+    ],
+    "bbox_pixel": [
+      800.0,
+      187.0,
+      895.4,
+      202.5
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "text": "El Paso TX 79998-2234",
+    "kind": "id_number",
+    "bbox_norm": [
+      738,
+      145,
+      870,
+      155
+    ],
+    "bbox_pixel": [
+      800.0,
+      203.9,
+      943.1,
+      217.9
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "text": "P.O. Box 851001",
+    "kind": "id_number",
+    "bbox_norm": [
+      738,
+      182,
+      825,
+      193
+    ],
+    "bbox_pixel": [
+      800.0,
+      255.9,
+      894.3,
+      271.4
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "text": "Dallas TX 75285-1001",
+    "kind": "id_number",
+    "bbox_norm": [
+      738,
+      195,
+      858,
+      205
+    ],
+    "bbox_pixel": [
+      800.0,
+      274.2,
+      930.1,
+      288.2
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "text": "866.300.5238.",
+    "kind": "phone",
+    "bbox_norm": [
+      476,
+      631,
+      575,
+      642
+    ],
+    "bbox_pixel": [
+      516.0,
+      887.2,
+      623.3,
+      902.7
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "text": "P.O. BOX 851001",
+    "kind": "id_number",
+    "bbox_norm": [
+      124,
+      791,
+      224,
+      801
+    ],
+    "bbox_pixel": [
+      134.4,
+      1112.1,
+      242.8,
+      1126.2
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "text": "DALLAS TX 75285-1001",
+    "kind": "id_number",
+    "bbox_norm": [
+      124,
+      803,
+      264,
+      812
+    ],
+    "bbox_pixel": [
+      134.4,
+      1129.0,
+      286.2,
+      1141.7
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "text": "P01001",
+    "kind": "id_number",
+    "bbox_norm": [
+      681,
+      118,
+      726,
+      128
+    ],
+    "bbox_pixel": [
+      524.4,
+      120.8,
+      559.0,
+      131.1
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "text": "NEWCTCY CA 10001",
+    "kind": "id_number",
+    "bbox_norm": [
+      585,
+      157,
+      721,
+      167
+    ],
+    "bbox_pixel": [
+      450.4,
+      160.8,
+      555.2,
+      171.0
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "text": "NEWCTCY AL 10001",
+    "kind": "id_number",
+    "bbox_norm": [
+      104,
+      202,
+      244,
+      212
+    ],
+    "bbox_pixel": [
+      80.1,
+      206.8,
+      187.9,
+      217.1
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "text": "For billing inquiries, please contact Direct Bill Customer Service at 1-800-847-4357, option 2, between 8:00 a.m. and 5:00 p.m.",
+    "kind": "phone",
+    "bbox_norm": [
+      25,
+      272,
+      860,
+      284
+    ],
+    "bbox_pixel": [
+      19.2,
+      278.5,
+      662.2,
+      290.8
+    ],
+    "merged_with_label_or_trailer": true,
+    "auto_bucket": "D_merged_with_nonPII"
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "text": "P01001",
+    "kind": "id_number",
+    "bbox_norm": [
+      891,
+      732,
+      936,
+      742
+    ],
+    "bbox_pixel": [
+      686.1,
+      749.6,
+      720.7,
+      759.8
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "text": "To pay by ACH or credit card, call 1-800-847-4357, option 2.",
+    "kind": "phone",
+    "bbox_norm": [
+      529,
+      849,
+      934,
+      862
+    ],
+    "bbox_pixel": [
+      407.3,
+      869.4,
+      719.2,
+      882.7
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "text": "NEWCTCY AL 10001",
+    "kind": "id_number",
+    "bbox_norm": [
+      78,
+      923,
+      230,
+      934
+    ],
+    "bbox_pixel": [
+      60.1,
+      945.2,
+      177.1,
+      956.4
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "text": "549500000000000000000000000000P010010001000000000003630",
+    "kind": "id_number",
+    "bbox_norm": [
+      85,
+      946,
+      694,
+      957
+    ],
+    "bbox_pixel": [
+      65.5,
+      968.7,
+      534.4,
+      980.0
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "text": "2925 Chicago Avenue",
+    "kind": "address",
+    "bbox_norm": [
+      314,
+      60,
+      459,
+      72
+    ],
+    "bbox_pixel": [
+      345.4,
+      80.9,
+      504.9,
+      97.1
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "text": "Minneapolis, MN 55407-1321",
+    "kind": "id_number",
+    "bbox_norm": [
+      314,
+      75,
+      507,
+      86
+    ],
+    "bbox_pixel": [
+      345.4,
+      101.1,
+      557.7,
+      115.9
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "text": "Please call us at 612-262-9000 or 1-800-859-5077,",
+    "kind": "phone",
+    "bbox_norm": [
+      82,
+      119,
+      387,
+      130
+    ],
+    "bbox_pixel": [
+      90.2,
+      160.4,
+      425.7,
+      175.2
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "text": "0000000",
+    "kind": "id_number",
+    "bbox_norm": [
+      728,
+      134,
+      786,
+      144
+    ],
+    "bbox_pixel": [
+      800.8,
+      180.6,
+      864.6,
+      194.1
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "text": "123 ANY STREET",
+    "kind": "address",
+    "bbox_norm": [
+      118,
+      236,
+      242,
+      247
+    ],
+    "bbox_pixel": [
+      129.8,
+      318.1,
+      266.2,
+      333.0
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "text": "ANYWHERE, USA 55555 T",
+    "kind": "name",
+    "bbox_norm": [
+      118,
+      249,
+      311,
+      261
+    ],
+    "bbox_pixel": [
+      129.8,
+      335.7,
+      342.1,
+      351.8
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "text": "MINNEAPOLIS MN 55480-9125",
+    "kind": "id_number",
+    "bbox_norm": [
+      576,
+      246,
+      786,
+      256
+    ],
+    "bbox_pixel": [
+      633.6,
+      331.6,
+      864.6,
+      345.1
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "text": "0000000",
+    "kind": "id_number",
+    "bbox_norm": [
+      103,
+      420,
+      166,
+      431
+    ],
+    "bbox_pixel": [
+      113.3,
+      566.2,
+      182.6,
+      581.0
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "text": "If you require an itemization of charges, please call (612) 262-9000 or (800) 859-5077.",
+    "kind": "phone",
+    "bbox_norm": [
+      210,
+      509,
+      797,
+      522
+    ],
+    "bbox_pixel": [
+      231.0,
+      686.1,
+      876.7,
+      703.7
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "text": "FOR BILLING INQUIRIES: 612-262-9000 or 1-800-859-5077 (if you",
+    "kind": "phone",
+    "bbox_norm": [
+      523,
+      983,
+      965,
+      995
+    ],
+    "bbox_pixel": [
+      575.3,
+      1325.1,
+      1061.5,
+      1341.3
+    ],
+    "merged_with_label_or_trailer": true,
+    "auto_bucket": "D_merged_with_nonPII"
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "text": "Newport Beach, CA 92663-3662",
+    "kind": "id_number",
+    "bbox_norm": [
+      181,
+      274,
+      425,
+      318
+    ],
+    "bbox_pixel": [
+      131.6,
+      80.6,
+      309.0,
+      93.5
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "text": "949-764-8404",
+    "kind": "phone",
+    "bbox_norm": [
+      181,
+      368,
+      281,
+      404
+    ],
+    "bbox_pixel": [
+      131.6,
+      108.2,
+      204.3,
+      118.8
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "text": "12345-1ABC",
+    "kind": "id_number",
+    "bbox_norm": [
+      438,
+      356,
+      514,
+      382
+    ],
+    "bbox_pixel": [
+      318.4,
+      104.7,
+      373.7,
+      112.3
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "text": "2222222",
+    "kind": "id_number",
+    "bbox_norm": [
+      312,
+      526,
+      434,
+      556
+    ],
+    "bbox_pixel": [
+      226.8,
+      154.6,
+      315.5,
+      163.5
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "text": "12345-1ABC",
+    "kind": "id_number",
+    "bbox_norm": [
+      63,
+      704,
+      145,
+      726
+    ],
+    "bbox_pixel": [
+      45.8,
+      207.0,
+      105.4,
+      213.4
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "text": "TEMIX1D18000001",
+    "kind": "id_number",
+    "bbox_norm": [
+      145,
+      704,
+      231,
+      726
+    ],
+    "bbox_pixel": [
+      105.4,
+      207.0,
+      167.9,
+      213.4
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "text": "1234 MOCKINGBIRD LANE",
+    "kind": "address",
+    "bbox_norm": [
+      73,
+      882,
+      255,
+      915
+    ],
+    "bbox_pixel": [
+      53.1,
+      259.3,
+      185.4,
+      269.0
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "text": "MAILSTOP: 14294131",
+    "kind": "id_number",
+    "bbox_norm": [
+      580,
+      882,
+      711,
+      915
+    ],
+    "bbox_pixel": [
+      421.7,
+      259.3,
+      516.9,
+      269.0
+    ],
+    "merged_with_label_or_trailer": true,
+    "auto_bucket": "D_merged_with_nonPII"
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "text": "NEWPORT BEACH, CA 92663",
+    "kind": "id_number",
+    "bbox_norm": [
+      73,
+      925,
+      272,
+      963
+    ],
+    "bbox_pixel": [
+      53.1,
+      271.9,
+      197.7,
+      283.1
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "text": "PO BOX 660064",
+    "kind": "id_number",
+    "bbox_norm": [
+      580,
+      920,
+      690,
+      952
+    ],
+    "bbox_pixel": [
+      421.7,
+      270.5,
+      501.6,
+      279.9
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "text": "DALLAS, TX 75266-0064",
+    "kind": "name",
+    "bbox_norm": [
+      580,
+      959,
+      737,
+      992
+    ],
+    "bbox_pixel": [
+      421.7,
+      281.9,
+      535.8,
+      291.6
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "text": "CITY, ST 12345-6789",
+    "kind": "name",
+    "bbox_norm": [
+      116,
+      232,
+      288,
+      246
+    ],
+    "bbox_pixel": [
+      99.8,
+      257.1,
+      247.7,
+      272.6
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "text": "1-800-MEDICARE (1-800-633-4227)",
+    "kind": "phone",
+    "bbox_norm": [
+      683,
+      950,
+      936,
+      963
+    ],
+    "bbox_pixel": [
+      587.4,
+      1052.6,
+      805.0,
+      1067.0
+    ],
+    "merged_with_label_or_trailer": false,
+    "auto_bucket": "C_standalone_bbox"
+  }
+]

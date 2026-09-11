@@ -1,0 +1,11 @@
+{
+  "document_type": "Billing Summary",
+  "sender": "Department of the Treasury Internal Revenue Service",
+  "recipient_name": "CITY, STATE ZIP",
+  "address": "Holtsville, NY 11742-0480",
+  "account_number": "800-829-1040",
+  "amount": "$9,533.53",
+  "due_date": "January 30, 2019",
+  "action_required": "Pay immediately",
+  "important_identifier": "NNN-NN-NNNN"
+}

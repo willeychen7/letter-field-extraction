@@ -1,0 +1,11 @@
+{
+  "document_type": "Letter",
+  "sender": "Bank of America",
+  "recipient": "Customer Service Information",
+  "amount": "$4,543.36",
+  "due_date": "02/05/2018",
+  "payment_status": "Paid",
+  "action_required": true,
+  "action": "End up paying an estimated total of $10,476.00",
+  "risk": "Low"
+}

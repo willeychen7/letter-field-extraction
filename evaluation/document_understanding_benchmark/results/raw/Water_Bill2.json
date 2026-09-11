@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": [\"The Efficient Customer\", \"The Wasteful Customer\"],\n    \"sender\": [\"Meter Reading\", \"Meter Reading\"],\n    \"recipient\": [\"Units Used\", \"Units Used\"],\n    \"amount\": [\"$10.30\", \"$25.57\"],\n    \"due_date\": [\"11 CCF\", \"11/07/15\"],\n    \"payment_status\": [\"$5.55\", \"$9.72\", \"$5.55\", \"$9.72\", \"$5.55\", \"$9.72\", \"$5.55\", \"$9.72\", \"$10.30\"],\n    \"action_required\": [\"\", \"\", \"Your Allocation for This Bill\", \"Bill Calculation Based on\", \"To Avoid Late Charge Pay Before\", \"\", \"\", \"\", \"\", \"\"],\n    \"action\": [\"\", \"\", \"Your Allocation for This Bill\", \"Bill Calculation Based on\", \"To Avoid Late Charge Pay Before\"],\n    \"risk\": [\"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"]\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639744,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 209,
+    "prompt_tokens": 656,
+    "total_tokens": 865,
+    "prompt_tokens_details": {
+      "cached_tokens": 402
+    }
+  },
+  "id": "chatcmpl-V1frOFIRaTZBfSiCXEOAAKV2WyQQsN9S",
+  "timings": {
+    "cache_n": 402,
+    "prompt_n": 254,
+    "prompt_ms": 102.094,
+    "prompt_per_token_ms": 0.40194488188976374,
+    "prompt_per_second": 2487.9033047975395,
+    "predicted_n": 209,
+    "predicted_ms": 1738.427,
+    "predicted_per_token_ms": 8.357822115384614,
+    "predicted_per_second": 119.64839478448044
+  }
+}

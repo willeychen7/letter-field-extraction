@@ -1,0 +1,11 @@
+{
+  "recipient_name": "Aaron Brown",
+  "address": "Greater South Avenue 10001 New York U.S.A",
+  "account_number": "None",
+  "policy_member_claim_number": "None",
+  "phone": "None",
+  "email": "None",
+  "ssn": "None",
+  "medicare_medical_id": "None",
+  "other_identifier": "None"
+}

@@ -1,0 +1,75 @@
+SoCalGas
+A Sempra Energy utility
+SERVICE FOR
+JOHN B DOE
+24915 APPLE CT
+MONTEREY PARK CA 91754-2217
+24 Hour Service
+1-800-427-2200 English
+1-800-342-4545 Español
+1-800-252-0259 TTY
+www.socalgas.com
+H
+Account Summary
+DATE DUE Jan 8, 2016
+Amount of Last Bill
+$25.18
+Payment Received
+THANK YOU
+-25.18
+Current Charges
++40.56
+Total Amount Due
+$40.56
+Current Charges
+Rate: GR-Residential
+Climate Zone: 1
+Baseline Allowance: 54 Therms
+Meter Number: 92879508 (Next scheduled read date Jan 15 2016)
+Cycle: 10
+Billing Period
+Days
+Current Reading
+Previous Reading
+Difference
+Billing Factor
+Total Therms
+11/12/15-12/14/15
+32
+2485
+2448
+37
+1.005
+37
+GAS CHARGES
+Amount($)
+Customer Charge
+32 Days x $.16438
+5.26
+Gas Service (Details below)
+37 Therms
+Therms used
+37
+Rate/Therm
+$.79865
+Charge
+$29.55
+=29.55
+Total Gas Charges $34.81
+TAXES & FEES ON GAS CHARGES
+Amount($)
+State Regulatory Fee
+37 Therms x $.00068
+.03
+Public Purpose Surcharge
+37 Therms x $.10738
+3.97
+Los Angeles County Users Tax
+$38.81 x 4.50%
+1.75
+Total Taxes and Fees on Gas Charges $5.75
+Total Current Charges $40.56
+The Gas Company's gas commodity cost per therm for your billing period:
+Dec. $32322
+Nov. $27684
+PLEASE KEEP THIS PORTION FOR YOUR RECORDS. (FAVOR DE GUARDAR ESTA PARTE PARA SUS REGISTROS.)

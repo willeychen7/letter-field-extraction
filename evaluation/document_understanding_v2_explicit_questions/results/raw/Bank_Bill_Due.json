@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"document_type\": \"sample credit card statement\",\n  \"sender\": \"Susan Doe\",\n  \"recipient\": \"None\",\n  \"amount\": \"None\",\n  \"due_date\": \"1/23/XX\",\n  \"payment_status\": \"null\",\n  \"action_required\": null,\n  \"action\": \"None\",\n  \"risk\": \"high\"\n}"
+      }
+    }
+  ],
+  "created": 1788641416,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 1546,
+    "total_tokens": 1623,
+    "prompt_tokens_details": {
+      "cached_tokens": 1183
+    }
+  },
+  "id": "chatcmpl-jmNrrVJCUH6sclVsbPnCYV0uvOdV1PdM",
+  "timings": {
+    "cache_n": 1183,
+    "prompt_n": 363,
+    "prompt_ms": 156.406,
+    "prompt_per_token_ms": 0.430870523415978,
+    "prompt_per_second": 2320.882830581947,
+    "predicted_n": 77,
+    "predicted_ms": 738.711,
+    "predicted_per_token_ms": 9.71988157894737,
+    "predicted_per_second": 102.88191187081281
+  }
+}

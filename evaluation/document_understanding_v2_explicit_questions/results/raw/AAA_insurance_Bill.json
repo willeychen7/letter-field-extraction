@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"document_type\": \"Payment coupon\",\n  \"sender\": \"AAA Insurance MemberSelect Insurance Company\",\n  \"recipient\": \"1 Auto Club Drive Dearborn, MI 48126\",\n  \"amount\": \"12.20\",\n  \"due_date\": \"Apr 8, 2020\",\n  \"payment_status\": \"null\",\n  \"action_required\": true,\n  \"action\": \"Installment\",\n  \"risk\": \"high\"\n}"
+      }
+    }
+  ],
+  "created": 1788641417,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 698,
+    "total_tokens": 799,
+    "prompt_tokens_details": {
+      "cached_tokens": 335
+    }
+  },
+  "id": "chatcmpl-NwgErT0bNPTsWKFicSRnGhLb2tuYGLf5",
+  "timings": {
+    "cache_n": 335,
+    "prompt_n": 363,
+    "prompt_ms": 131.208,
+    "prompt_per_token_ms": 0.3614545454545455,
+    "prompt_per_second": 2766.599597585513,
+    "predicted_n": 101,
+    "predicted_ms": 836.853,
+    "predicted_per_token_ms": 8.36853,
+    "predicted_per_second": 119.49529965238818
+  }
+}

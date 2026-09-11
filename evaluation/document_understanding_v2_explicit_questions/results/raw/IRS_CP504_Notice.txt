@@ -1,0 +1,11 @@
+{
+  "document_type": "Billing Summary",
+  "sender": "Department of the Treasury Internal Revenue Service",
+  "recipient": "CITY, STATE ZIP",
+  "amount": "$9,533.53",
+  "due_date": "January 30, 2019",
+  "payment_status": "null",
+  "action_required": true,
+  "action": "Pay immediately",
+  "risk": "high"
+}

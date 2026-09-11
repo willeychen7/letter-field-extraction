@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Proof of Insurance Card\",\n    \"sender\": \"Colorado - Proof of Auto Insurance Card\",\n    \"recipient_name\": \"Allstate Fire and Casualty Insurance Company\",\n    \"address\": \"2837 Stonington Court Highlands Ranch CO 80126-8015\",\n    \"account_number\": \"976 910 934\",\n    \"amount\": \"2001 Ford Truck F150 VEHICLE ID NUMBER 1FTZX17211NA68201\",\n    \"due_date\": \"07/01/15\",\n    \"action_required\": \"None\",\n    \"important_identifier\": \"Allstate Fire and Casualty Insurance Company\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569116,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 461,
+    "total_tokens": 613,
+    "prompt_tokens_details": {
+      "cached_tokens": 413
+    }
+  },
+  "id": "chatcmpl-0GHGFzSuBd6amCl247vJgk66yfQhoy51",
+  "timings": {
+    "cache_n": 413,
+    "prompt_n": 48,
+    "prompt_ms": 26.226,
+    "prompt_per_token_ms": 0.5463749999999999,
+    "prompt_per_second": 1830.2447952413636,
+    "predicted_n": 152,
+    "predicted_ms": 1423.113,
+    "predicted_per_token_ms": 9.42458940397351,
+    "predicted_per_second": 106.10541819237122
+  }
+}

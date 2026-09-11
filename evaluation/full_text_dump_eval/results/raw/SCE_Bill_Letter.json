@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "SOUTHERN CALIFORNIA EDISON$ ^{®} $An EDISON INTERNATIONAL$ ^{®} $ Company\nGo paperless at www.sce.com/ebilling. It's fast, easy and secure.\nBAKER, NATE / Page 5 of 5\nService account 8012345678 POD-ID 123456789012345678\nService address 1234 FIRST AVE SIMI VALLEY, CA\nRotating outage Group N001\nSUPPLY/GENERATION CLEAN POWER ALLIANCE supplies your electricity\n# Details of your new charges\nCLEAN POWER ALLIANCE\nYour rate: TOU-D-4\nService Account: 8012345678\nBilling period: 01/06/24 to 02/05/24 (31 days)\nGeneration Charges\nLean Power - Mid-Peak - Winter 161.14 kWh @ 0.2106 $33.94\nLean Power - Off-Peak - Winter 262.98 kWh @ 0.13589 $35.74\nLean Power - Super OfPk - 214.99 kWh @ 0.11733 $25.22\nWinter\nUser Utility Tax $4.27\nEnergy Surcharge $0.19\nSub-Total of CPA Generation Charges $99.36\nYour New Charges $99.36\n# Things you should know\nClean Power Alliance service expands to 35 cities\nCPA welcomes our new customers in Hermosa Beach, Monrovia, and Santa Paula who start service in March 2024. Choosing CPA energy options makes communities cleaner and more sustainable. See your community's environmental benefits at CleanPowerAlliance.org/communities.\nWinter energy savings tip\nWhen you leave the house or before you go to sleep, turn the thermostat down a few degrees to save on heating bills. A programmable thermostat makes it easy to control the temperature. Learn more at CleanPowerAlliance.org/powerresponse.\nDid you know?\nClean Power Alliance is ranked the #1 Green Power Provider in the country by the U.S. Department of Energy's National Renewable Energy Laboratory. Learn more about this exciting designation at CleanPowerAlliance.org/news.\nCPA's Privacy Policy\nClean Power Alliance's privacy policy is available at CleanPowerAlliance.org/privacy-policy.\nVisual St"
+      }
+    }
+  ],
+  "created": 1788636976,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 486,
+    "prompt_tokens": 1258,
+    "total_tokens": 1744,
+    "prompt_tokens_details": {
+      "cached_tokens": 1253
+    }
+  },
+  "id": "chatcmpl-vwgTnBH0pNyEEjVsrHxDgG7QvCRmuNCm",
+  "timings": {
+    "cache_n": 1253,
+    "prompt_n": 5,
+    "prompt_ms": 26.033,
+    "prompt_per_token_ms": 5.2066,
+    "prompt_per_second": 192.06391887220065,
+    "predicted_n": 486,
+    "predicted_ms": 4503.418,
+    "predicted_per_token_ms": 9.28539793814433,
+    "predicted_per_second": 107.69597670036404
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "recipient_name": "JANE DOE",
+  "address": "123 ANY STREET ANYWHERE, USA 55555 T",
+  "account_number": "0000000",
+  "policy_member_claim_number": "None",
+  "phone": "None",
+  "email": "None",
+  "ssn": "None",
+  "medicare_medical_id": "None",
+  "other_identifier": "None"
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# BUILDING BLOCKS STUDENT HANDOUT\n\n# Sample credit card statement\n\nName: Susan Doe\n\nAddress: 1234 Main Street, Anytown, USA\n\nAccount Number: 12345-67-8907\n\nFor Lost or Stolen Card, Call:\n\n1-800-XXX-XXXX\n\n<table><caption>Payment Information</caption><tr><td>Date: 12/30/XX</td></tr><tr><td>Payment Due Date: 1/23/XX</td></tr><tr><td>New Balance: $1392.71</td></tr><tr><td>Minimum Payment: $25</td></tr></table>\n\n<table><caption>Account Summary</caption><tr><td>Previous Balance</td><td>\\$482.42</td><td>New Balance</td><td>\\$1,392.71</td></tr><tr><td>Payment, Credits</td><td>\\$350.42</td><td>Payment Due Date</td><td>1/23/XX</td></tr><tr><td>Purchases</td><td>\\$1,258.56</td><td>Minimum Payment Due</td><td>\\$25</td></tr><tr><td>Cash Advances</td><td>\\$0</td><td></td><td></td></tr><tr><td>Balance Transfers</td><td>\\$0</td><td></td><td></td></tr><tr><td>Fees Charged</td><td>\\$0</td><td></td><td></td></tr><tr><td>Interest Charged</td><td>\\$2.15</td><td></td><td></td></tr><tr><td>New Balance</td><td>\\$1,392.71</td><td></td><td></td></tr></table>\n\n<table><caption>Opening/Closing Date</caption><tr><td></td><td>11/27/XX - 12/26/XX</td></tr><tr><td>Credit Access Line</td><td>\\$12,000</td></tr><tr><td>Available Credit</td><td>\\$10,607.29</td></tr><tr><td>Cash Access Line</td><td>\\$2,000</td></tr><tr><td>Available for Cash</td><td>\\$2,000</td></tr></table>\n\n<table><caption>Finance Charge Summary</caption><tr><td></td><td>Purchases</td><td>Advances</td></tr><tr><td>Periodic Rate</td><td>\\$1.65%</td><td>\\$0.54%</td></tr><tr><td>Annual Percentage Rate (APR)</td><td>\\$19.80%</td><td>\\$6.48%</td></tr></table>"
+      }
+    }
+  ],
+  "created": 1788566451,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 630,
+    "prompt_tokens": 1226,
+    "total_tokens": 1856,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-gUaewDb0SWjIFl9JiRdSf4xnZrJaD1wU",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1226,
+    "prompt_ms": 3315.42,
+    "prompt_per_token_ms": 2.704257748776509,
+    "prompt_per_second": 369.78723660953966,
+    "predicted_n": 630,
+    "predicted_ms": 6375.983,
+    "predicted_per_token_ms": 10.136697933227346,
+    "predicted_per_second": 98.65145499917423
+  }
+}

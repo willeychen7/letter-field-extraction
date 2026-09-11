@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"document_type\": \"Insurance Card\",\n  \"sender\": \"Allstate Fire and Casualty Insurance Company\",\n  \"recipient\": \"Allstate Fire and Casualty Insurance Company\",\n  \"amount\": \"None\",\n  \"due_date\": \"None\",\n  \"payment_status\": \"None\",\n  \"action_required\": false,\n  \"action\": \"None\",\n  \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788641418,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 776,
+    "total_tokens": 867,
+    "prompt_tokens_details": {
+      "cached_tokens": 413
+    }
+  },
+  "id": "chatcmpl-NPTn6f1rq0CG0Y8RoKjABCFB9JnK5WkY",
+  "timings": {
+    "cache_n": 413,
+    "prompt_n": 363,
+    "prompt_ms": 131.655,
+    "prompt_per_token_ms": 0.36268595041322316,
+    "prompt_per_second": 2757.206334738521,
+    "predicted_n": 91,
+    "predicted_ms": 850.147,
+    "predicted_per_token_ms": 9.446077777777779,
+    "predicted_per_second": 105.86404468874206
+  }
+}

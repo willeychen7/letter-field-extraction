@@ -1,0 +1,4 @@
+Zylker Heathcare 14B,Northern Street,Greater South Avenue,New York 10001 U.S.A
+INVOICE
+Bill To Aaron Brown Greater South Avenue 10001 New York U.S.A
+Invoice# INV-000006 Invoice Date 05 Aug 2024 Terms Due on Receipt Due Date 05 Sep 2024 # Item & Description Amount 1 Ambulance service 900.00 2 Emergency ward charges 10,000.00 3 Behavioural therapy 3000.00 Sub Total 13,900.00 Tax Rate (5%) 695 Total $14,595.00

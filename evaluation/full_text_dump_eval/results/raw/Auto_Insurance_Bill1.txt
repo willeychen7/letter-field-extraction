@@ -1,0 +1,43 @@
+Policygenius
+Policy Number 12345-67-89
+# Auto Insurance Declaration Page
+**$798**48
+Policy Premium and Fees
+FARMERS INSURANCE
+## Policy Information
+Policy Number 12345-67-89
+Effective 01/01/2019 12:01 AM
+Expiration 06/01/2019 12:01 AM
+Named Insured(s) Jack Smith
+Jane Smith
+Address 1234 Main St
+City Brooklyn, NY 11211
+Underwritten by Farmers Insurance
+6301 Owensmouth Ave.
+Woodland Hills, CA 91367
+## Premium/Fees
+Policy Premium $797.60
+Fees $0.88
+Policy Premium + Fees $798.48
+THIS IS NOT A BILL.
+Your bill with the amount due will be mailed separately.
+## Household Drivers
+All persons who drive or will occasionally be driving any of the cars on the policy should be listed below. If anyone is missing or needs to be added, such as a newly licensed driver, you should contact your agent or the company to add that person before they begin to drive any of the cars covered on the policy.
+| Name | Driver Status |
+| :-- | :-- |
+| Jack Smith | Covered |
+| Jack Smith Jr. | Covered |
+## Vehicle Information
+| Veh. # | Year/Make/Model/VIN | Coverage | Deductible | Limit |
+| :-- | :-- | :-- | :-- | :-- |
+| 1 | 2019 Porsche Macan 4D 4WD WP1AA1234567890 | Comprehensive | $500 | ACV |
+|  |  | Collision | $1,000 | ACV |
+|  |  | Additional Equipment |  | $1,000 |
+## Coverage Information
+| Coverage | Limits | Vehicle 1 |
+| :-- | :-- | :-- |
+| Bodily Injury | $250K each person/$500K each incident | $301.50 |
+| Property Damage | $100K each incident | Included |
+| Permissive User Limit of Liability | Full | $17.00 |
+| Medical Coverage | $5,000 each person | $66.50 |
+| Uninsured Motorist Bodily Injury | $250K each person/$500K each incident | $44.50 |

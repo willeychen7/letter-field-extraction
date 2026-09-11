@@ -1,0 +1,1624 @@
+{
+  "rows": [
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "sender",
+      "pred": null,
+      "gold": "DMV",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "recipient",
+      "pred": null,
+      "gold": "GONZELES C",
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "total_amount",
+      "pred": null,
+      "gold": "95.00",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "unpaid",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2010-10-16",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "action",
+      "pred": null,
+      "gold": "pay",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "sender",
+      "pred": "Allina Health",
+      "gold": "Allina Health",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "recipient",
+      "pred": null,
+      "gold": "JANE DOE",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "total_amount",
+      "pred": "419.07",
+      "gold": "419.07",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2013-04-18",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "action",
+      "pred": "call",
+      "gold": "pay",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "sender",
+      "pred": "IRS",
+      "gold": "IRS",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "total_amount",
+      "pred": "9444.07",
+      "gold": "9533.53",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "sender",
+      "pred": "IRS",
+      "gold": "IRS",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "recipient",
+      "pred": null,
+      "gold": "JAMES & KAREN Q. HINDS",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "total_amount",
+      "pred": "9444.07",
+      "gold": "9533.53",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "due_date",
+      "pred": "2018-01-29",
+      "gold": "2018-01-29",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "sender",
+      "pred": "ZylkerHeathcare 14B,Northern Street,Greater South Avenue,NewYork10001U.S.A",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "recipient",
+      "pred": null,
+      "gold": "Aaron Brown",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "total_amount",
+      "pred": "14595.00",
+      "gold": "14595.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "due_date",
+      "pred": "2024-09-05",
+      "gold": "2024-09-05",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "sender",
+      "pred": "Medicare Summary Notice for Part A (Hospital Insurance)",
+      "gold": "Medicare",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "recipient",
+      "pred": null,
+      "gold": "JENNIFER WASHINGTON",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "not_applicable",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "action",
+      "pred": "review",
+      "gold": "review",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "sender",
+      "pred": "EDISON' An EDISON INTERNATIONAL Company",
+      "gold": "SCE",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "recipient",
+      "pred": null,
+      "gold": "BAKER, NATE",
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "total_amount",
+      "pred": null,
+      "gold": "99.36",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "unpaid",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "action",
+      "pred": null,
+      "gold": "pay",
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "sender",
+      "pred": "EDISON",
+      "gold": "SCE",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "recipient",
+      "pred": "Deputy Director",
+      "gold": "Shannon O'Rourke",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "not_applicable",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "sender",
+      "pred": "EDISON An EDISON INTERNATIONALCompay",
+      "gold": "SCE",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "recipient",
+      "pred": null,
+      "gold": "VALUED CUSTOMER",
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "total_amount",
+      "pred": "2149.55",
+      "gold": "2149.55",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2020-05-11",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "sender",
+      "pred": "Membership Renewal Notice",
+      "gold": "AAA",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "total_amount",
+      "pred": "88.00",
+      "gold": "88.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "action",
+      "pred": "pay",
+      "gold": "renew",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "sender",
+      "pred": "AT&T",
+      "gold": "AT&T",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "not_applicable",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "sender",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "payment_status",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "sender",
+      "pred": "Hoag",
+      "gold": "Hoag",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "recipient",
+      "pred": null,
+      "gold": "JANE DOE",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "total_amount",
+      "pred": null,
+      "gold": "333.33",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "unpaid",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "action",
+      "pred": null,
+      "gold": "pay",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "sender",
+      "pred": "State Farm Lloyds",
+      "gold": "State Farm",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "recipient",
+      "pred": null,
+      "gold": "SMITH, BRENDA",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "total_amount",
+      "pred": "16500.00",
+      "gold": null,
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "paid",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "action",
+      "pred": "pay",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "sender",
+      "pred": null,
+      "gold": "Ventura River Water District",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "total_amount",
+      "pred": "71.20",
+      "gold": "71.20",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "paid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2024-04-30",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "PaddleOCR  -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "sender",
+      "pred": "VEHICLE REGISTRATION RENEWAL NOTICE MAKE CHEV",
+      "gold": "DMV",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "recipient",
+      "pred": "GONZELES C",
+      "gold": "GONZELES C",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "total_amount",
+      "pred": "95.00",
+      "gold": "95.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "due_date",
+      "pred": "2010-10-16",
+      "gold": "2010-10-16",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "DMV_Registration",
+      "field": "action",
+      "pred": "renew",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "sender",
+      "pred": "Allina Health",
+      "gold": "Allina Health",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "recipient",
+      "pred": "JANE DOE",
+      "gold": "JANE DOE",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "total_amount",
+      "pred": "419.07",
+      "gold": "419.07",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "due_date",
+      "pred": "2013-04-18",
+      "gold": "2013-04-18",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Hospital_Bill",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "sender",
+      "pred": "IRS",
+      "gold": "IRS",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "total_amount",
+      "pred": "9533.53",
+      "gold": "9533.53",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_CP504_Notice",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "sender",
+      "pred": "IRS",
+      "gold": "IRS",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "recipient",
+      "pred": "JAMES & KAREN Q. HINDS",
+      "gold": "JAMES & KAREN Q. HINDS",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "total_amount",
+      "pred": "9533.53",
+      "gold": "9533.53",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "due_date",
+      "pred": "2018-01-29",
+      "gold": "2018-01-29",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "IRS_cp503",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "sender",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "recipient",
+      "pred": "Aaron Brown",
+      "gold": "Aaron Brown",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "total_amount",
+      "pred": "14595.00",
+      "gold": "14595.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "due_date",
+      "pred": "2024-09-05",
+      "gold": "2024-09-05",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medical_Invoice",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "sender",
+      "pred": "Medicare Summary Notice",
+      "gold": "Medicare",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "recipient",
+      "pred": "JENNIFER WASHINGTON",
+      "gold": "JENNIFER WASHINGTON",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "not_applicable",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "Medicare_Notice_PartA",
+      "field": "action",
+      "pred": "review",
+      "gold": "review",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "sender",
+      "pred": "SOUTHERN CALIFORNIA EDISON® An EDISON INTERNATIONAL® Company",
+      "gold": "SCE",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "recipient",
+      "pred": null,
+      "gold": "BAKER, NATE",
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "total_amount",
+      "pred": "99.36",
+      "gold": "99.36",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Bill_Letter",
+      "field": "action",
+      "pred": null,
+      "gold": "pay",
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "sender",
+      "pred": "SOUTHERN CALIFORNIA EDISON",
+      "gold": "SCE",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "recipient",
+      "pred": "Shannon O’Rourke",
+      "gold": "Shannon O'Rourke",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "not_applicable",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Letter",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "sender",
+      "pred": "SOUTHERN CALIFORNIA EDISON An EDISON INTERNATIONAL Company",
+      "gold": "SCE",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "recipient",
+      "pred": null,
+      "gold": "VALUED CUSTOMER",
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "total_amount",
+      "pred": "2149.55",
+      "gold": "2149.55",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2020-05-11",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "SCE_Sample_Bill",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "sender",
+      "pred": "Membership Renewal Notice",
+      "gold": "AAA",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "total_amount",
+      "pred": "88.00",
+      "gold": "88.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "aaa-policy_renew",
+      "field": "action",
+      "pred": "pay",
+      "gold": "renew",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "sender",
+      "pred": "TECH GROUP & ASSOCIATES, INC",
+      "gold": "AT&T",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "not_applicable",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "att_bill",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "sender",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "payment_status",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "ca-dmv-registration-fee",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "sender",
+      "pred": "Hoag ORTHOPEDIC",
+      "gold": "Hoag",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "recipient",
+      "pred": "JANE DOE",
+      "gold": "JANE DOE",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "total_amount",
+      "pred": "333.33",
+      "gold": "333.33",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "hoag-invoice-mychart",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "sender",
+      "pred": "State Farm Lloyds A Lloyds Company in Richardson, Texas",
+      "gold": "State Farm",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "recipient",
+      "pred": null,
+      "gold": "SMITH, BRENDA",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "paid",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "statefarm_bill",
+      "field": "action",
+      "pred": "renew",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "sender",
+      "pred": "WATER DISTRICT",
+      "gold": "Ventura River Water District",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "total_amount",
+      "pred": null,
+      "gold": "71.20",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "paid",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2024-04-30",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "source": "HunyuanOCR -> Phase 3-8 (unmodified)",
+      "key": "water_bill",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "ok": true,
+      "kind": "correct"
+    }
+  ]
+}

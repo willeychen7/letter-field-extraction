@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "RETURN SERVICE REQUESTED",
+    "sender": "Hoag Orthopedic Institute",
+    "recipient_name": "500 Superior Ave. Suite 250 Newport Beach, CA 92663-3662 PFS@hoag.org",
+    "address": "500 Superior Ave. Suite 250 Newport Beach, CA 92663-3662",
+    "account_number": "00112233",
+    "amount": "333.33",
+    "due_date": "10/19/18",
+    "action_required": "None",
+    "important_identifier": "12345-1ABC"
+}
+```

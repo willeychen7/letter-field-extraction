@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Bill\",\n    \"sender\": \"James & Karen Q. Hinds\",\n    \"recipient\": \"JAMES & KAREN Q. HINDS\",\n    \"amount\": \"$9,533.53\",\n    \"due_date\": \"January 29, 2018\",\n    \"payment_status\": \"unpaid\",\n    \"action_required\": true,\n    \"action\": \"Pay the amount due of $9,533.53 by January 29, 2018, to avoid additional interest and applicable penalty charges.\",\n    \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639768,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 2008,
+    "total_tokens": 2141,
+    "prompt_tokens_details": {
+      "cached_tokens": 1753
+    }
+  },
+  "id": "chatcmpl-hEdVyb9I3qipoZDZONZA7pSaRsc1qcMb",
+  "timings": {
+    "cache_n": 1753,
+    "prompt_n": 255,
+    "prompt_ms": 116.902,
+    "prompt_per_token_ms": 0.4584392156862745,
+    "prompt_per_second": 2181.3142632290296,
+    "predicted_n": 133,
+    "predicted_ms": 1346.826,
+    "predicted_per_token_ms": 10.203227272727274,
+    "predicted_per_second": 98.0082059597899
+  }
+}

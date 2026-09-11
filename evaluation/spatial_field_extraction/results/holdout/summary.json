@@ -1,0 +1,2327 @@
+{
+  "n_images": 30,
+  "overall_accuracy": 0.7333,
+  "correct": 132,
+  "total": 180,
+  "dev_benchmark_reference": {
+    "overall": 0.892,
+    "note": "frozen Phase 3 on the 20-image dev set"
+  },
+  "per_field": {
+    "sender": {
+      "accuracy": 0.7,
+      "correct": 21,
+      "total": 30
+    },
+    "recipient": {
+      "accuracy": 0.7,
+      "correct": 21,
+      "total": 30
+    },
+    "total_amount": {
+      "accuracy": 0.6667,
+      "correct": 20,
+      "total": 30
+    },
+    "payment_status": {
+      "accuracy": 0.6333,
+      "correct": 19,
+      "total": 30
+    },
+    "due_date": {
+      "accuracy": 0.7667,
+      "correct": 23,
+      "total": 30
+    },
+    "action": {
+      "accuracy": 0.9333,
+      "correct": 28,
+      "total": 30
+    }
+  },
+  "per_category": {
+    "utility": {
+      "accuracy": 0.6667,
+      "correct": 16,
+      "total": 24
+    },
+    "medical": {
+      "accuracy": 0.6667,
+      "correct": 12,
+      "total": 18
+    },
+    "insurance": {
+      "accuracy": 0.7619,
+      "correct": 32,
+      "total": 42
+    },
+    "dmv": {
+      "accuracy": 0.8333,
+      "correct": 10,
+      "total": 12
+    },
+    "medicare": {
+      "accuracy": 0.7778,
+      "correct": 14,
+      "total": 18
+    },
+    "bank": {
+      "accuracy": 0.7222,
+      "correct": 26,
+      "total": 36
+    },
+    "hoa": {
+      "accuracy": 0.75,
+      "correct": 18,
+      "total": 24
+    },
+    "general": {
+      "accuracy": 0.6667,
+      "correct": 4,
+      "total": 6
+    }
+  },
+  "answer_taxonomy": {
+    "correct": 66,
+    "both_null": 66,
+    "null_hallucination": 10,
+    "null_miss": 17,
+    "wrong": 21
+  },
+  "null_hallucination": {
+    "count": 1,
+    "null_slots": 13,
+    "rate": 0.0769
+  },
+  "truncated_images": [],
+  "gt_confidence_counts": {
+    "authoritative": 3,
+    "derived": 27
+  },
+  "ocr": {
+    "Water_Bill3": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 32.629,
+      "element_count": 129
+    },
+    "water_bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 20.476,
+      "element_count": 114
+    },
+    "waste_managment": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 12.393,
+      "element_count": 54
+    },
+    "att_bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 19.494,
+      "element_count": 94
+    },
+    "UCLA_Health_Bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 43.923,
+      "element_count": 195
+    },
+    "UCLA_Health_Bill2": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 48.108,
+      "element_count": 205
+    },
+    "Eye_care-invoice": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 10.173,
+      "element_count": 55
+    },
+    "Progressive_Insurance_Bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 53.132,
+      "element_count": 112
+    },
+    "Penny_Insurance_Bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 14.45,
+      "element_count": 67
+    },
+    "State_Farm_Insurance_Card": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 5.004,
+      "element_count": 26
+    },
+    "Coverage_Care_Insurance_Card": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 4.872,
+      "element_count": 22
+    },
+    "State_Farm_Insurance": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 17.159,
+      "element_count": 76
+    },
+    "statefarm_bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 11.931,
+      "element_count": 47
+    },
+    "aaa-policy_renew": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 30.905,
+      "element_count": 51
+    },
+    "DMV_registration_late_fee": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 16.189,
+      "element_count": 90
+    },
+    "ca-dmv-registration-fee": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 88.098,
+      "element_count": 84
+    },
+    "Medicare_Notice_PartB": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 22.12,
+      "element_count": 52
+    },
+    "Medicare_Notice_of_Denial": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 25.094,
+      "element_count": 29
+    },
+    "Medixare_Premium_Bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 40.842,
+      "element_count": 114
+    },
+    "Bank_Bill_Example": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 30.549,
+      "element_count": 89
+    },
+    "EastWest_Bank_Form": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 42.697,
+      "element_count": 134
+    },
+    "EastWest_Bank_Bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 26.476,
+      "element_count": 115
+    },
+    "Chase_Bank_Bill_Example": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 14.714,
+      "element_count": 68
+    },
+    "Chase_Bank_Bill_Example2": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 16.604,
+      "element_count": 80
+    },
+    "First_Bank_Bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 17.189,
+      "element_count": 80
+    },
+    "HOA1": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 14.623,
+      "element_count": 64
+    },
+    "HOA2": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 13.983,
+      "element_count": 18
+    },
+    "HOA3": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 14.001,
+      "element_count": 40
+    },
+    "HOA4": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 22.51,
+      "element_count": 97
+    },
+    "aws_invoice": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 10.302,
+      "element_count": 54
+    }
+  },
+  "rows": [
+    {
+      "key": "Water_Bill3",
+      "category": "utility",
+      "field": "sender",
+      "pred": "TRABUCO CANYON WATER DISTRICT",
+      "gold": "Trabuco Canyon Water District",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Water_Bill3",
+      "category": "utility",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Water_Bill3",
+      "category": "utility",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Water_Bill3",
+      "category": "utility",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "not_applicable",
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Water_Bill3",
+      "category": "utility",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Water_Bill3",
+      "category": "utility",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "water_bill",
+      "category": "utility",
+      "field": "sender",
+      "pred": "Water District",
+      "gold": "Ventura River Water District",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "water_bill",
+      "category": "utility",
+      "field": "recipient",
+      "pred": "VENTURA RIVER",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "water_bill",
+      "category": "utility",
+      "field": "total_amount",
+      "pred": null,
+      "gold": "71.20",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "water_bill",
+      "category": "utility",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "paid",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "water_bill",
+      "category": "utility",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2024-04-30",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "water_bill",
+      "category": "utility",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "waste_managment",
+      "category": "utility",
+      "field": "sender",
+      "pred": null,
+      "gold": "WM",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "waste_managment",
+      "category": "utility",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "waste_managment",
+      "category": "utility",
+      "field": "total_amount",
+      "pred": "87.05",
+      "gold": "87.05",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "waste_managment",
+      "category": "utility",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "waste_managment",
+      "category": "utility",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2025-07-02",
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "waste_managment",
+      "category": "utility",
+      "field": "action",
+      "pred": null,
+      "gold": "pay",
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "att_bill",
+      "category": "utility",
+      "field": "sender",
+      "pred": "TECH GROUP & ASSOCIATES, INC",
+      "gold": "AT&T",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "att_bill",
+      "category": "utility",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "att_bill",
+      "category": "utility",
+      "field": "total_amount",
+      "pred": "3.46",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "att_bill",
+      "category": "utility",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "not_applicable",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "att_bill",
+      "category": "utility",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "att_bill",
+      "category": "utility",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "UCLA_Health_Bill",
+      "category": "medical",
+      "field": "sender",
+      "pred": "Health Resnick Neuropsychiatric Hospital at UCLA",
+      "gold": "UCLA Health",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "UCLA_Health_Bill",
+      "category": "medical",
+      "field": "recipient",
+      "pred": null,
+      "gold": "John Q. Patient",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "UCLA_Health_Bill",
+      "category": "medical",
+      "field": "total_amount",
+      "pred": "13857.00",
+      "gold": "472.00",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "UCLA_Health_Bill",
+      "category": "medical",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "UCLA_Health_Bill",
+      "category": "medical",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2012-11-01",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "UCLA_Health_Bill",
+      "category": "medical",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "UCLA_Health_Bill2",
+      "category": "medical",
+      "field": "sender",
+      "pred": "QUESTIONS? Please contact us at (310) 825-8021 for the following services: To speak to a Customer Service Representative:",
+      "gold": "UCLA Health",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "UCLA_Health_Bill2",
+      "category": "medical",
+      "field": "recipient",
+      "pred": null,
+      "gold": "John Q. Patient",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "UCLA_Health_Bill2",
+      "category": "medical",
+      "field": "total_amount",
+      "pred": "236.00",
+      "gold": "236.00",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "UCLA_Health_Bill2",
+      "category": "medical",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "UCLA_Health_Bill2",
+      "category": "medical",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2012-11-01",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "UCLA_Health_Bill2",
+      "category": "medical",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Eye_care-invoice",
+      "category": "medical",
+      "field": "sender",
+      "pred": "Vision Plus Of Ballard",
+      "gold": "Vision Plus Of Ballard",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Eye_care-invoice",
+      "category": "medical",
+      "field": "recipient",
+      "pred": "John Smith",
+      "gold": "John Smith",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Eye_care-invoice",
+      "category": "medical",
+      "field": "total_amount",
+      "pred": "109.00",
+      "gold": "109.00",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Eye_care-invoice",
+      "category": "medical",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Eye_care-invoice",
+      "category": "medical",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Eye_care-invoice",
+      "category": "medical",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Progressive_Insurance_Bill",
+      "category": "insurance",
+      "field": "sender",
+      "pred": "QAU 2612 (999) 999-9999 (Work) pd_suite_test_email@progressive.co",
+      "gold": "Progressive",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Progressive_Insurance_Bill",
+      "category": "insurance",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Progressive_Insurance_Bill",
+      "category": "insurance",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Progressive_Insurance_Bill",
+      "category": "insurance",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "not_applicable",
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Progressive_Insurance_Bill",
+      "category": "insurance",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Progressive_Insurance_Bill",
+      "category": "insurance",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Penny_Insurance_Bill",
+      "category": "insurance",
+      "field": "sender",
+      "pred": "Penny Insurance Penny General Insurance Company",
+      "gold": "Penny Insurance",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Penny_Insurance_Bill",
+      "category": "insurance",
+      "field": "recipient",
+      "pred": null,
+      "gold": "Penny the Pig",
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Penny_Insurance_Bill",
+      "category": "insurance",
+      "field": "total_amount",
+      "pred": "700.00",
+      "gold": null,
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Penny_Insurance_Bill",
+      "category": "insurance",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "not_applicable",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Penny_Insurance_Bill",
+      "category": "insurance",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Penny_Insurance_Bill",
+      "category": "insurance",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance_Card",
+      "category": "insurance",
+      "field": "sender",
+      "pred": "GEORGIA INSURANCE POLICY INFORMATION CARD",
+      "gold": "State Farm",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance_Card",
+      "category": "insurance",
+      "field": "recipient",
+      "pred": null,
+      "gold": "JANET SMITH",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance_Card",
+      "category": "insurance",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance_Card",
+      "category": "insurance",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "not_applicable",
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance_Card",
+      "category": "insurance",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance_Card",
+      "category": "insurance",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Coverage_Care_Insurance_Card",
+      "category": "insurance",
+      "field": "sender",
+      "pred": "Insurance Company",
+      "gold": null,
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Coverage_Care_Insurance_Card",
+      "category": "insurance",
+      "field": "recipient",
+      "pred": null,
+      "gold": "Jane Doe",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Coverage_Care_Insurance_Card",
+      "category": "insurance",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Coverage_Care_Insurance_Card",
+      "category": "insurance",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "not_applicable",
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Coverage_Care_Insurance_Card",
+      "category": "insurance",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Coverage_Care_Insurance_Card",
+      "category": "insurance",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance",
+      "category": "insurance",
+      "field": "sender",
+      "pred": "State Farm State Farm Mutual Automobile Insurance Company 7401 Cypress Gardens Boulevard",
+      "gold": "State Farm",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance",
+      "category": "insurance",
+      "field": "recipient",
+      "pred": null,
+      "gold": "SHEMARIA, ALFRED I & DEANNA",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance",
+      "category": "insurance",
+      "field": "total_amount",
+      "pred": "323.91",
+      "gold": "323.91",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance",
+      "category": "insurance",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance",
+      "category": "insurance",
+      "field": "due_date",
+      "pred": "2017-01-30",
+      "gold": "2016-09-28",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "State_Farm_Insurance",
+      "category": "insurance",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "statefarm_bill",
+      "category": "insurance",
+      "field": "sender",
+      "pred": "State Farm Lloyds A Lloyds Company in Richardson, Texas",
+      "gold": "State Farm",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "statefarm_bill",
+      "category": "insurance",
+      "field": "recipient",
+      "pred": null,
+      "gold": "SMITH, BRENDA",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "statefarm_bill",
+      "category": "insurance",
+      "field": "total_amount",
+      "pred": "165.00",
+      "gold": null,
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "statefarm_bill",
+      "category": "insurance",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "paid",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "statefarm_bill",
+      "category": "insurance",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "statefarm_bill",
+      "category": "insurance",
+      "field": "action",
+      "pred": "pay",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_conf": "authoritative"
+    },
+    {
+      "key": "aaa-policy_renew",
+      "category": "insurance",
+      "field": "sender",
+      "pred": "Membership Renewal Notice",
+      "gold": "AAA",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "aaa-policy_renew",
+      "category": "insurance",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "aaa-policy_renew",
+      "category": "insurance",
+      "field": "total_amount",
+      "pred": "88.00",
+      "gold": "88.00",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "aaa-policy_renew",
+      "category": "insurance",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "aaa-policy_renew",
+      "category": "insurance",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "aaa-policy_renew",
+      "category": "insurance",
+      "field": "action",
+      "pred": "pay",
+      "gold": "renew",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "DMV_registration_late_fee",
+      "category": "dmv",
+      "field": "sender",
+      "pred": "State of California Department of Public Service Agency",
+      "gold": "DMV",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "DMV_registration_late_fee",
+      "category": "dmv",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "DMV_registration_late_fee",
+      "category": "dmv",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "DMV_registration_late_fee",
+      "category": "dmv",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "unpaid",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "DMV_registration_late_fee",
+      "category": "dmv",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "DMV_registration_late_fee",
+      "category": "dmv",
+      "field": "action",
+      "pred": "pay",
+      "gold": "renew",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "ca-dmv-registration-fee",
+      "category": "dmv",
+      "field": "sender",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "ca-dmv-registration-fee",
+      "category": "dmv",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "ca-dmv-registration-fee",
+      "category": "dmv",
+      "field": "total_amount",
+      "pred": "699.00",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "ca-dmv-registration-fee",
+      "category": "dmv",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": null,
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "ca-dmv-registration-fee",
+      "category": "dmv",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "ca-dmv-registration-fee",
+      "category": "dmv",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_PartB",
+      "category": "medicare",
+      "field": "sender",
+      "pred": "Medicare Summary Notice",
+      "gold": "Medicare",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_PartB",
+      "category": "medicare",
+      "field": "recipient",
+      "pred": "JENNIFER WASHINGTON",
+      "gold": "JENNIFER WASHINGTON",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_PartB",
+      "category": "medicare",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_PartB",
+      "category": "medicare",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "not_applicable",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_PartB",
+      "category": "medicare",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_PartB",
+      "category": "medicare",
+      "field": "action",
+      "pred": "review",
+      "gold": "review",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_of_Denial",
+      "category": "medicare",
+      "field": "sender",
+      "pred": "DEPARTMENT OF HEALTH AND HUMAN SERVICES CENTERS FOR MEDICARE & MEDICAID SERVICES",
+      "gold": "Medicare",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_of_Denial",
+      "category": "medicare",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_of_Denial",
+      "category": "medicare",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_of_Denial",
+      "category": "medicare",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "not_applicable",
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_of_Denial",
+      "category": "medicare",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medicare_Notice_of_Denial",
+      "category": "medicare",
+      "field": "action",
+      "pred": "call",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medixare_Premium_Bill",
+      "category": "medicare",
+      "field": "sender",
+      "pred": "Medicare Premium Bill",
+      "gold": "Medicare",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medixare_Premium_Bill",
+      "category": "medicare",
+      "field": "recipient",
+      "pred": null,
+      "gold": "CHARLIE MEDICARE",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medixare_Premium_Bill",
+      "category": "medicare",
+      "field": "total_amount",
+      "pred": "2715.60",
+      "gold": "2715.60",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medixare_Premium_Bill",
+      "category": "medicare",
+      "field": "payment_status",
+      "pred": "paid",
+      "gold": "unpaid",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medixare_Premium_Bill",
+      "category": "medicare",
+      "field": "due_date",
+      "pred": "2021-10-31",
+      "gold": "2021-10-25",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Medixare_Premium_Bill",
+      "category": "medicare",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Bank_Bill_Example",
+      "category": "bank",
+      "field": "sender",
+      "pred": "ETC",
+      "gold": "ETC Bank",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Bank_Bill_Example",
+      "category": "bank",
+      "field": "recipient",
+      "pred": "BERGL M. SBUCOL",
+      "gold": "BERGL M. SBUCOL",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Bank_Bill_Example",
+      "category": "bank",
+      "field": "total_amount",
+      "pred": "50000.00",
+      "gold": "50000.00",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Bank_Bill_Example",
+      "category": "bank",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Bank_Bill_Example",
+      "category": "bank",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2018-02-15",
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Bank_Bill_Example",
+      "category": "bank",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Form",
+      "category": "bank",
+      "field": "sender",
+      "pred": "Financial Statement",
+      "gold": "East West Bank",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Form",
+      "category": "bank",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Form",
+      "category": "bank",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Form",
+      "category": "bank",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "not_applicable",
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Form",
+      "category": "bank",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Form",
+      "category": "bank",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Bill",
+      "category": "bank",
+      "field": "sender",
+      "pred": "EASTWESTBANK",
+      "gold": "East West Bank",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Bill",
+      "category": "bank",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Bill",
+      "category": "bank",
+      "field": "total_amount",
+      "pred": "6713.87",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Bill",
+      "category": "bank",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "not_applicable",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Bill",
+      "category": "bank",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "EastWest_Bank_Bill",
+      "category": "bank",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example",
+      "category": "bank",
+      "field": "sender",
+      "pred": "CHASE",
+      "gold": "Chase",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example",
+      "category": "bank",
+      "field": "recipient",
+      "pred": "Debbie Anita Walsh",
+      "gold": "Debbie Anita Walsh",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example",
+      "category": "bank",
+      "field": "total_amount",
+      "pred": "14824.76",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example",
+      "category": "bank",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "not_applicable",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example",
+      "category": "bank",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example",
+      "category": "bank",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example2",
+      "category": "bank",
+      "field": "sender",
+      "pred": "CHASE",
+      "gold": "Chase",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example2",
+      "category": "bank",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example2",
+      "category": "bank",
+      "field": "total_amount",
+      "pred": "125883.63",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example2",
+      "category": "bank",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "not_applicable",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example2",
+      "category": "bank",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example2",
+      "category": "bank",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "First_Bank_Bill",
+      "category": "bank",
+      "field": "sender",
+      "pred": "USA Small Business, LLC",
+      "gold": "First Bank",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "First_Bank_Bill",
+      "category": "bank",
+      "field": "recipient",
+      "pred": "Mr. Jack Smith",
+      "gold": "Jack Smith",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "First_Bank_Bill",
+      "category": "bank",
+      "field": "total_amount",
+      "pred": "27584.38",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "First_Bank_Bill",
+      "category": "bank",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "not_applicable",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "First_Bank_Bill",
+      "category": "bank",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "First_Bank_Bill",
+      "category": "bank",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA1",
+      "category": "hoa",
+      "field": "sender",
+      "pred": "B+H BLUEBONNETHIGHLANDS HOMEOWNERS ASSOCIATION",
+      "gold": "Bluebonnet Highlands Homeowners Association",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA1",
+      "category": "hoa",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA1",
+      "category": "hoa",
+      "field": "total_amount",
+      "pred": "360.00",
+      "gold": "360.00",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA1",
+      "category": "hoa",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA1",
+      "category": "hoa",
+      "field": "due_date",
+      "pred": "2013-01-31",
+      "gold": "2013-01-31",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA1",
+      "category": "hoa",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA2",
+      "category": "hoa",
+      "field": "sender",
+      "pred": "Real Estate HOA Dues Statement",
+      "gold": "KinFinity",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA2",
+      "category": "hoa",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA2",
+      "category": "hoa",
+      "field": "total_amount",
+      "pred": null,
+      "gold": "1250.00",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA2",
+      "category": "hoa",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "unpaid",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA2",
+      "category": "hoa",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA2",
+      "category": "hoa",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA3",
+      "category": "hoa",
+      "field": "sender",
+      "pred": "HOA DUES INVOICE",
+      "gold": "Your Company Inc.",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA3",
+      "category": "hoa",
+      "field": "recipient",
+      "pred": null,
+      "gold": "Customer Name",
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA3",
+      "category": "hoa",
+      "field": "total_amount",
+      "pred": "1200.00",
+      "gold": "1200.00",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA3",
+      "category": "hoa",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA3",
+      "category": "hoa",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2025-10-16",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA3",
+      "category": "hoa",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA4",
+      "category": "hoa",
+      "field": "sender",
+      "pred": "Happy Hills Association c/o Jellybird HOA Management",
+      "gold": "Happy Hills Association",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA4",
+      "category": "hoa",
+      "field": "recipient",
+      "pred": null,
+      "gold": "Jane Smith",
+      "correct": false,
+      "kind": "null_miss",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA4",
+      "category": "hoa",
+      "field": "total_amount",
+      "pred": "100.00",
+      "gold": "100.00",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA4",
+      "category": "hoa",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA4",
+      "category": "hoa",
+      "field": "due_date",
+      "pred": "2024-10-01",
+      "gold": "2024-10-01",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "HOA4",
+      "category": "hoa",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "aws_invoice",
+      "category": "general",
+      "field": "sender",
+      "pred": "amazon web services",
+      "gold": "Amazon Web Services",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "aws_invoice",
+      "category": "general",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "aws_invoice",
+      "category": "general",
+      "field": "total_amount",
+      "pred": "136.38",
+      "gold": "135.38",
+      "correct": false,
+      "kind": "wrong",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "aws_invoice",
+      "category": "general",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "aws_invoice",
+      "category": "general",
+      "field": "due_date",
+      "pred": "2010-09-03",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_conf": "derived"
+    },
+    {
+      "key": "aws_invoice",
+      "category": "general",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct",
+      "gt_conf": "derived"
+    }
+  ],
+  "predictions": {
+    "Water_Bill3": {
+      "sender": "TRABUCO CANYON WATER DISTRICT",
+      "recipient": null,
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": null
+    },
+    "water_bill": {
+      "sender": "Water District",
+      "recipient": "VENTURA RIVER",
+      "total_amount": null,
+      "payment_status": "not_applicable",
+      "due_date": null,
+      "action": "pay"
+    },
+    "waste_managment": {
+      "sender": null,
+      "recipient": null,
+      "total_amount": "87.05",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "att_bill": {
+      "sender": "TECH GROUP & ASSOCIATES, INC",
+      "recipient": null,
+      "total_amount": "3.46",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "UCLA_Health_Bill": {
+      "sender": "Health Resnick Neuropsychiatric Hospital at UCLA",
+      "recipient": null,
+      "total_amount": "13857.00",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "pay"
+    },
+    "UCLA_Health_Bill2": {
+      "sender": "QUESTIONS? Please contact us at (310) 825-8021 for the following services: To speak to a Customer Service Representative:",
+      "recipient": null,
+      "total_amount": "236.00",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "pay"
+    },
+    "Eye_care-invoice": {
+      "sender": "Vision Plus Of Ballard",
+      "recipient": "John Smith",
+      "total_amount": "109.00",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "Progressive_Insurance_Bill": {
+      "sender": "QAU 2612 (999) 999-9999 (Work) pd_suite_test_email@progressive.co",
+      "recipient": null,
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": null
+    },
+    "Penny_Insurance_Bill": {
+      "sender": "Penny Insurance Penny General Insurance Company",
+      "recipient": null,
+      "total_amount": "700.00",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "State_Farm_Insurance_Card": {
+      "sender": "GEORGIA INSURANCE POLICY INFORMATION CARD",
+      "recipient": null,
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": null
+    },
+    "Coverage_Care_Insurance_Card": {
+      "sender": "Insurance Company",
+      "recipient": null,
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": null
+    },
+    "State_Farm_Insurance": {
+      "sender": "State Farm State Farm Mutual Automobile Insurance Company 7401 Cypress Gardens Boulevard",
+      "recipient": null,
+      "total_amount": "323.91",
+      "payment_status": "unpaid",
+      "due_date": "2017-01-30",
+      "action": "pay"
+    },
+    "statefarm_bill": {
+      "sender": "State Farm Lloyds A Lloyds Company in Richardson, Texas",
+      "recipient": null,
+      "total_amount": "165.00",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "pay"
+    },
+    "aaa-policy_renew": {
+      "sender": "Membership Renewal Notice",
+      "recipient": null,
+      "total_amount": "88.00",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "pay"
+    },
+    "DMV_registration_late_fee": {
+      "sender": "State of California Department of Public Service Agency",
+      "recipient": null,
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": "pay"
+    },
+    "ca-dmv-registration-fee": {
+      "sender": null,
+      "recipient": null,
+      "total_amount": "699.00",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "Medicare_Notice_PartB": {
+      "sender": "Medicare Summary Notice",
+      "recipient": "JENNIFER WASHINGTON",
+      "total_amount": null,
+      "payment_status": "not_applicable",
+      "due_date": null,
+      "action": "review"
+    },
+    "Medicare_Notice_of_Denial": {
+      "sender": "DEPARTMENT OF HEALTH AND HUMAN SERVICES CENTERS FOR MEDICARE & MEDICAID SERVICES",
+      "recipient": null,
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": "call"
+    },
+    "Medixare_Premium_Bill": {
+      "sender": "Medicare Premium Bill",
+      "recipient": null,
+      "total_amount": "2715.60",
+      "payment_status": "paid",
+      "due_date": "2021-10-31",
+      "action": "pay"
+    },
+    "Bank_Bill_Example": {
+      "sender": "ETC",
+      "recipient": "BERGL M. SBUCOL",
+      "total_amount": "50000.00",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "pay"
+    },
+    "EastWest_Bank_Form": {
+      "sender": "Financial Statement",
+      "recipient": null,
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": null
+    },
+    "EastWest_Bank_Bill": {
+      "sender": "EASTWESTBANK",
+      "recipient": null,
+      "total_amount": "6713.87",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "Chase_Bank_Bill_Example": {
+      "sender": "CHASE",
+      "recipient": "Debbie Anita Walsh",
+      "total_amount": "14824.76",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "Chase_Bank_Bill_Example2": {
+      "sender": "CHASE",
+      "recipient": null,
+      "total_amount": "125883.63",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "First_Bank_Bill": {
+      "sender": "USA Small Business, LLC",
+      "recipient": "Mr. Jack Smith",
+      "total_amount": "27584.38",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "HOA1": {
+      "sender": "B+H BLUEBONNETHIGHLANDS HOMEOWNERS ASSOCIATION",
+      "recipient": null,
+      "total_amount": "360.00",
+      "payment_status": "unpaid",
+      "due_date": "2013-01-31",
+      "action": "pay"
+    },
+    "HOA2": {
+      "sender": "Real Estate HOA Dues Statement",
+      "recipient": null,
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": "pay"
+    },
+    "HOA3": {
+      "sender": "HOA DUES INVOICE",
+      "recipient": null,
+      "total_amount": "1200.00",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "pay"
+    },
+    "HOA4": {
+      "sender": "Happy Hills Association c/o Jellybird HOA Management",
+      "recipient": null,
+      "total_amount": "100.00",
+      "payment_status": "unpaid",
+      "due_date": "2024-10-01",
+      "action": "pay"
+    },
+    "aws_invoice": {
+      "sender": "amazon web services",
+      "recipient": null,
+      "total_amount": "136.38",
+      "payment_status": "unpaid",
+      "due_date": "2010-09-03",
+      "action": "pay"
+    }
+  }
+}

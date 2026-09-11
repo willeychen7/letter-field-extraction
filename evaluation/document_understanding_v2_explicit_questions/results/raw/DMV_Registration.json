@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"document_type\": \"VEHICLE REGISTRATION RENEWAL NOTICE\",\n  \"sender\": \"GONZELES C\",\n  \"recipient\": \"DMV RENEWAL\",\n  \"amount\": \"$95\",\n  \"due_date\": \"10/16/2010\",\n  \"payment_status\": \"NO PNO\",\n  \"action_required\": false,\n  \"action\": \"MAKE PAYMENT TO:\",\n  \"risk\": \"high\"\n}"
+      }
+    }
+  ],
+  "created": 1788641422,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 1754,
+    "total_tokens": 1863,
+    "prompt_tokens_details": {
+      "cached_tokens": 1391
+    }
+  },
+  "id": "chatcmpl-0VbPwrtTq4AOppKHhrzXvGvYtUE4XQP9",
+  "timings": {
+    "cache_n": 1391,
+    "prompt_n": 363,
+    "prompt_ms": 178.493,
+    "prompt_per_token_ms": 0.49171625344352615,
+    "prompt_per_second": 2033.6931980525849,
+    "predicted_n": 109,
+    "predicted_ms": 1021.663,
+    "predicted_per_token_ms": 9.459842592592592,
+    "predicted_per_second": 105.71000417946034
+  }
+}

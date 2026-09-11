@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Insurance Company Member Name: Jane Doe 1 Member Number: XXX XXX XXX Group Number: XXX XXX XXX 2 3 4 PCP Copay: $15.00 Specialist Copay: $25.00 Emergency Room Copay: $25.00 5 Member Service: 800 XXX XXX 6 Plan Type: 134 Effective Date: 1/1/21 Prescription Group #: 123456789 Prescription Copay: $15.00 Generic $25.00 Name brand 7"
+      }
+    }
+  ],
+  "created": 1788636836,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 568,
+    "total_tokens": 675,
+    "prompt_tokens_details": {
+      "cached_tokens": 564
+    }
+  },
+  "id": "chatcmpl-b7NOQlV7pMmAC2hX8ABehTWxRHQ4RPhe",
+  "timings": {
+    "cache_n": 564,
+    "prompt_n": 4,
+    "prompt_ms": 12.776,
+    "prompt_per_token_ms": 3.194,
+    "prompt_per_second": 313.08703819661866,
+    "predicted_n": 107,
+    "predicted_ms": 866.598,
+    "predicted_per_token_ms": 8.175452830188679,
+    "predicted_per_second": 122.31738360808589
+  }
+}

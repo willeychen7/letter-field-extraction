@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "① Medicare Summary Notice for Part A (Hospital Insurance)\nThe Official Summary of Your Medicare Claims from the Centers for Medicare & Medicaid Services\nJENNIFER WASHINGTON\nTEMPORARY ADDRESS NAME\nSTREET ADDRESS\nCITY, ST 12345-6789\nTHIS IS NOT A BILL\n② Notice for Jennifer Washington\nMedicare Number 1A23BC4DE56\nDate of This Notice September 15, 2020\nClaims Processed June 15 – September 15, 2020\n③ Your Deductible Status\nYour deductible is what you must pay each benefit period for most health services before Medicare begins to pay.\nPart A Deductible: You have now met your $1,184.00 deductible for inpatient hospital services for the benefit period that began May 27, 2020.\n④ Your Claims & Costs This Period\nDid Medicare Approve All Claims? YES\nSee page 2 for how to double-check this notice.\nTotal You May Be Billed $2,062.50\n⑤ Facilities with Claims This Period\nJune 18 – June 21, 2020\nOtero Hospital\n⑥ Be Informed!\nWelcome to your new Medicare Summary Notice! It has clear language, larger print, and a personal summary of your claims and deductibles. This improved notice better explains how to get help with your questions, report fraud, or file an appeal. It also includes important information from Medicare!\n⑦\n¿Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español.如果需要国语帮助，请致电联邦医疗保险，请先说“agent”，然后说“Mandarin”. 1-800-MEDICARE (1-800-633-4227)"
+      }
+    }
+  ],
+  "created": 1788636906,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 384,
+    "prompt_tokens": 990,
+    "total_tokens": 1374,
+    "prompt_tokens_details": {
+      "cached_tokens": 985
+    }
+  },
+  "id": "chatcmpl-QhC0JiPMv6sPHva5XcEhMZdC4UTHDBQB",
+  "timings": {
+    "cache_n": 985,
+    "prompt_n": 5,
+    "prompt_ms": 15.426,
+    "prompt_per_token_ms": 3.0852,
+    "prompt_per_second": 324.1280954233113,
+    "predicted_n": 384,
+    "predicted_ms": 3383.857,
+    "predicted_per_token_ms": 8.835135770234986,
+    "predicted_per_second": 113.18445194344798
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"box\": [\"Customer Account\", \"Date bill prepared\", \"Amount due $2,149.55\", \"Your account summary\", \"Previous Balance\", \"Wire credit adjustment\", \"Your new charges\", \"Total amount you owe\", \"Summary of your billing detail\", \"Service account\", \"Service address\", \"Billing period\", \"Your rate\", \"New charges\", \"STMT 04212020 P1\", \"VALUED CUSTOMER\", \"P.O. BOX 300\", \"ROSEMEAD, CA 91772-0001\"],\n    \"text\": \"SOUTHERN CALIFORNIA\\nEDISON\\nAn EDISON INTERNATIONAL Company\\nFor billing and service inquiries\\n1-800-990-7788\\nwww.sce.com\\nYour electricity bill\\nVALUED CUSTOMER / Page 1 of 7\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788568374,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 188,
+    "prompt_tokens": 1212,
+    "total_tokens": 1400,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-U4C1w29QX75wwaK8UTRDygMduADkVLpQ",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1212,
+    "prompt_ms": 3165.757,
+    "prompt_per_token_ms": 2.612010726072607,
+    "prompt_per_second": 382.8468198917352,
+    "predicted_n": 188,
+    "predicted_ms": 1612.435,
+    "predicted_per_token_ms": 8.62264705882353,
+    "predicted_per_second": 115.97366715557527
+  }
+}

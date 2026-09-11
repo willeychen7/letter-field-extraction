@@ -1,0 +1,796 @@
+{
+  "image": "Medicare_Notice_PartA.png",
+  "ocr": {
+    "finish_reason": "stop",
+    "elapsed_s": 11.181,
+    "usage": {
+      "completion_tokens": 1049,
+      "prompt_tokens": 999,
+      "total_tokens": 2048,
+      "prompt_tokens_details": {
+        "cached_tokens": 985
+      }
+    },
+    "element_count": 52
+  },
+  "elements": [
+    {
+      "text": "4",
+      "bbox": [
+        487,
+        25,
+        508,
+        45
+      ]
+    },
+    {
+      "text": "1",
+      "bbox": [
+        49,
+        42,
+        60,
+        60
+      ]
+    },
+    {
+      "text": "Medicare Summary Notice",
+      "bbox": [
+        195,
+        53,
+        668,
+        87
+      ]
+    },
+    {
+      "text": "Page 1 of 4",
+      "bbox": [
+        847,
+        53,
+        937,
+        69
+      ]
+    },
+    {
+      "text": "for Part A (Hospital Insurance)",
+      "bbox": [
+        195,
+        85,
+        628,
+        116
+      ]
+    },
+    {
+      "text": "The Official Summary of Your Medicare Claims from the Centers for Medicare & Medicaid Services",
+      "bbox": [
+        195,
+        128,
+        917,
+        144
+      ]
+    },
+    {
+      "text": "JENNIFER WASHINGTON",
+      "bbox": [
+        116,
+        175,
+        342,
+        188
+      ]
+    },
+    {
+      "text": "TEMPORARY ADDRESS NAME",
+      "bbox": [
+        116,
+        193,
+        387,
+        207
+      ]
+    },
+    {
+      "text": "THIS IS NOT A BILL",
+      "bbox": [
+        614,
+        192,
+        838,
+        209
+      ]
+    },
+    {
+      "text": "STREET ADDRESS",
+      "bbox": [
+        116,
+        212,
+        277,
+        226
+      ]
+    },
+    {
+      "text": "CITY, ST 12345-6789",
+      "bbox": [
+        116,
+        231,
+        287,
+        246
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        31,
+        310,
+        47,
+        330
+      ]
+    },
+    {
+      "text": "Notice for Jennifer Washington",
+      "bbox": [
+        79,
+        310,
+        395,
+        329
+      ]
+    },
+    {
+      "text": "Your Claims & Costs This Period",
+      "bbox": [
+        519,
+        310,
+        836,
+        327
+      ]
+    },
+    {
+      "text": "5",
+      "bbox": [
+        912,
+        310,
+        927,
+        327
+      ]
+    },
+    {
+      "text": "Medicare Number",
+      "bbox": [
+        79,
+        341,
+        223,
+        354
+      ]
+    },
+    {
+      "text": "1A23BC4DE56",
+      "bbox": [
+        280,
+        341,
+        406,
+        354
+      ]
+    },
+    {
+      "text": "Did Medicare Approve All Claims?",
+      "bbox": [
+        519,
+        341,
+        806,
+        357
+      ]
+    },
+    {
+      "text": "YES",
+      "bbox": [
+        903,
+        341,
+        936,
+        354
+      ]
+    },
+    {
+      "text": "See page 2 for how to double-check this notice.",
+      "bbox": [
+        519,
+        360,
+        883,
+        376
+      ]
+    },
+    {
+      "text": "Date of This Notice",
+      "bbox": [
+        79,
+        370,
+        227,
+        383
+      ]
+    },
+    {
+      "text": "September 15, 2020",
+      "bbox": [
+        280,
+        370,
+        455,
+        385
+      ]
+    },
+    {
+      "text": "Claims Processed",
+      "bbox": [
+        79,
+        397,
+        216,
+        410
+      ]
+    },
+    {
+      "text": "June 15-",
+      "bbox": [
+        280,
+        397,
+        362,
+        410
+      ]
+    },
+    {
+      "text": "Total You May Be Billed",
+      "bbox": [
+        519,
+        390,
+        717,
+        406
+      ]
+    },
+    {
+      "text": "$2,062.50",
+      "bbox": [
+        851,
+        390,
+        937,
+        406
+      ]
+    },
+    {
+      "text": "Between",
+      "bbox": [
+        79,
+        417,
+        150,
+        430
+      ]
+    },
+    {
+      "text": "September 15, 2020",
+      "bbox": [
+        280,
+        417,
+        455,
+        432
+      ]
+    },
+    {
+      "text": "Facilities with Claims This Period",
+      "bbox": [
+        519,
+        442,
+        848,
+        459
+      ]
+    },
+    {
+      "text": "6",
+      "bbox": [
+        912,
+        455,
+        927,
+        473
+      ]
+    },
+    {
+      "text": "3",
+      "bbox": [
+        31,
+        473,
+        47,
+        492
+      ]
+    },
+    {
+      "text": "Your Deductible Status",
+      "bbox": [
+        79,
+        469,
+        301,
+        486
+      ]
+    },
+    {
+      "text": "June 18- June 21, 2020",
+      "bbox": [
+        519,
+        472,
+        709,
+        486
+      ]
+    },
+    {
+      "text": "Your deductible is what you must pay each benefit",
+      "bbox": [
+        64,
+        499,
+        452,
+        514
+      ]
+    },
+    {
+      "text": "Otero Hospital",
+      "bbox": [
+        519,
+        492,
+        645,
+        508
+      ]
+    },
+    {
+      "text": "period for most health services before Medicare",
+      "bbox": [
+        64,
+        518,
+        435,
+        533
+      ]
+    },
+    {
+      "text": "begins to pay.",
+      "bbox": [
+        64,
+        537,
+        174,
+        552
+      ]
+    },
+    {
+      "text": "Part A Deductible: You have now met your",
+      "bbox": [
+        64,
+        564,
+        415,
+        580
+      ]
+    },
+    {
+      "text": "$1,184.00 deductible for inpatient hospital",
+      "bbox": [
+        64,
+        582,
+        421,
+        598
+      ]
+    },
+    {
+      "text": "services for the benefit period that began",
+      "bbox": [
+        64,
+        601,
+        399,
+        617
+      ]
+    },
+    {
+      "text": "May 27, 2020.",
+      "bbox": [
+        64,
+        620,
+        174,
+        635
+      ]
+    },
+    {
+      "text": "Be Informed!",
+      "bbox": [
+        64,
+        665,
+        198,
+        680
+      ]
+    },
+    {
+      "text": "Welcome to your new Medicare Summary Notice!",
+      "bbox": [
+        64,
+        695,
+        454,
+        710
+      ]
+    },
+    {
+      "text": "It has clear language, larger print, and a personal",
+      "bbox": [
+        64,
+        714,
+        444,
+        729
+      ]
+    },
+    {
+      "text": "summary of your claims and deductibles. This",
+      "bbox": [
+        64,
+        732,
+        425,
+        748
+      ]
+    },
+    {
+      "text": "improved notice better explains how to get help with",
+      "bbox": [
+        64,
+        751,
+        472,
+        767
+      ]
+    },
+    {
+      "text": "your questions, report fraud, or file an appeal. It also",
+      "bbox": [
+        64,
+        770,
+        472,
+        786
+      ]
+    },
+    {
+      "text": "includes important information from Medicare!",
+      "bbox": [
+        64,
+        788,
+        438,
+        804
+      ]
+    },
+    {
+      "text": "7",
+      "bbox": [
+        912,
+        896,
+        930,
+        915
+      ]
+    },
+    {
+      "text": "¡Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español.",
+      "bbox": [
+        64,
+        933,
+        851,
+        947
+      ]
+    },
+    {
+      "text": "如果需要国语帮助，请致电联邦医疗保险，请先说“agent”，然后说“Mandarin”.",
+      "bbox": [
+        64,
+        948,
+        600,
+        963
+      ]
+    },
+    {
+      "text": "1-800-MEDICARE (1-800-633-4227)",
+      "bbox": [
+        683,
+        950,
+        936,
+        963
+      ]
+    }
+  ],
+  "candidates": {
+    "total_amount": [
+      {
+        "value": "2062.50",
+        "num": 2062.5,
+        "score": 0.873,
+        "text": "$2,062.50",
+        "bbox": [
+          851,
+          390,
+          937,
+          406
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total you may be billed' (same_row, prox=0.91)",
+            0.503
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      }
+    ],
+    "due_date": [
+      {
+        "value": "2020-09-15",
+        "score": 0.15,
+        "text": "September 15, 2020",
+        "bbox": [
+          280,
+          417,
+          455,
+          432
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ]
+        ]
+      },
+      {
+        "value": "2020-06-21",
+        "score": 0.15,
+        "text": "June 18- June 21, 2020",
+        "bbox": [
+          519,
+          472,
+          709,
+          486
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ]
+        ]
+      },
+      {
+        "value": "2020-05-27",
+        "score": 0.15,
+        "text": "May 27, 2020.",
+        "bbox": [
+          64,
+          620,
+          174,
+          635
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ]
+        ]
+      },
+      {
+        "value": "2020-09-15",
+        "score": -0.35,
+        "text": "September 15, 2020",
+        "bbox": [
+          280,
+          370,
+          455,
+          385
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "non_deadline_anchor 'date of this notice'",
+            -0.5
+          ]
+        ]
+      }
+    ],
+    "sender": [
+      {
+        "value": "Medicare Summary Notice",
+        "score": 0.95,
+        "tier": "S1",
+        "text": "Medicare Summary Notice",
+        "evidence": [
+          [
+            "top_band_text",
+            0.3
+          ],
+          [
+            "large_glyph_height (34 vs mh 16)",
+            0.3
+          ],
+          [
+            "top-left letterhead position (x<300)",
+            0.25
+          ],
+          [
+            "institution_hint_word (existing list)",
+            0.4
+          ]
+        ]
+      }
+    ],
+    "recipient": [
+      {
+        "value": "JENNIFER WASHINGTON",
+        "score": 0.82,
+        "tier": "R2",
+        "text": "JENNIFER WASHINGTON / TEMPORARY ADDRESS NAME / STREET ADDRESS / CITY, ST 12345-6789",
+        "evidence": [
+          [
+            "complete unlabeled block, recipient position",
+            0.82
+          ],
+          [
+            "block: JENNIFER WASHINGTON / TEMPORARY ADDRESS NAME / STREET ADDRESS / CITY, ST 12345-6789",
+            0
+          ]
+        ]
+      }
+    ],
+    "action": [
+      {
+        "value": "review",
+        "score": 0.45,
+        "text": "THIS IS NOT A BILL",
+        "bbox": [
+          614,
+          192,
+          838,
+          209
+        ],
+        "evidence": [
+          [
+            "action_phrase 'this is not a bill' -> review",
+            0.4
+          ],
+          [
+            "upper_half_of_page",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "review",
+        "score": 0.45,
+        "text": "See page 2 for how to double-check this notice.",
+        "bbox": [
+          519,
+          360,
+          883,
+          376
+        ],
+        "evidence": [
+          [
+            "action_phrase 'double-check this notice' -> review",
+            0.4
+          ],
+          [
+            "upper_half_of_page",
+            0.05
+          ]
+        ]
+      }
+    ]
+  },
+  "fields": {
+    "total_amount": {
+      "value": null,
+      "score": 0.873,
+      "evidence": [
+        [
+          "base_money_token",
+          0.25
+        ],
+        [
+          "strong_anchor 'total you may be billed' (same_row, prox=0.91)",
+          0.503
+        ],
+        [
+          "has_dollar_sign",
+          0.12
+        ]
+      ],
+      "runner_up": null
+    },
+    "due_date": {
+      "value": null,
+      "score": 0.15,
+      "evidence": [
+        [
+          "base_date_token",
+          0.15
+        ],
+        [
+          "below_threshold_or_no_candidate",
+          0
+        ]
+      ],
+      "runner_up": [
+        "2020-09-15",
+        0.15
+      ]
+    },
+    "sender": {
+      "value": "Medicare Summary Notice",
+      "score": 0.95,
+      "evidence": [
+        [
+          "top_band_text",
+          0.3
+        ],
+        [
+          "large_glyph_height (34 vs mh 16)",
+          0.3
+        ],
+        [
+          "top-left letterhead position (x<300)",
+          0.25
+        ],
+        [
+          "institution_hint_word (existing list)",
+          0.4
+        ]
+      ],
+      "runner_up": null
+    },
+    "recipient": {
+      "value": "JENNIFER WASHINGTON",
+      "score": 0.82,
+      "evidence": [
+        [
+          "complete unlabeled block, recipient position",
+          0.82
+        ],
+        [
+          "block: JENNIFER WASHINGTON / TEMPORARY ADDRESS NAME / STREET ADDRESS / CITY, ST 12345-6789",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "action": {
+      "value": "review",
+      "score": 0.45,
+      "evidence": [
+        [
+          "action_phrase 'this is not a bill' -> review",
+          0.4
+        ],
+        [
+          "upper_half_of_page",
+          0.05
+        ]
+      ],
+      "runner_up": [
+        "review",
+        0.45
+      ]
+    },
+    "payment_status": {
+      "value": "not_applicable",
+      "score": 1.0,
+      "evidence": [
+        [
+          "explicit 'this is not a bill' marker",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "_cross_validation": [
+      "amount 2062.50 is the largest money token (consistent)",
+      "payment_status=not_applicable -> nulled total_amount (not a bill)"
+    ]
+  },
+  "final": {
+    "sender": "Medicare Summary Notice",
+    "recipient": "JENNIFER WASHINGTON",
+    "total_amount": null,
+    "payment_status": "not_applicable",
+    "due_date": null,
+    "action": "review"
+  }
+}

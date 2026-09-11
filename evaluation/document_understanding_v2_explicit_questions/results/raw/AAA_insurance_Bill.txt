@@ -1,0 +1,11 @@
+{
+  "document_type": "Payment coupon",
+  "sender": "AAA Insurance MemberSelect Insurance Company",
+  "recipient": "1 Auto Club Drive Dearborn, MI 48126",
+  "amount": "12.20",
+  "due_date": "Apr 8, 2020",
+  "payment_status": "null",
+  "action_required": true,
+  "action": "Installment",
+  "risk": "high"
+}

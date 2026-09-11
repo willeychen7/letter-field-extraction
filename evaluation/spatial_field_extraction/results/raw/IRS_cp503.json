@@ -1,0 +1,1219 @@
+{
+  "image": "IRS_cp503.png",
+  "ocr": {
+    "finish_reason": "stop",
+    "elapsed_s": 14.68,
+    "usage": {
+      "completion_tokens": 1352,
+      "prompt_tokens": 1767,
+      "total_tokens": 3119,
+      "prompt_tokens_details": {
+        "cached_tokens": 1766
+      }
+    },
+    "element_count": 69
+  },
+  "elements": [
+    {
+      "text": "Notice",
+      "bbox": [
+        625,
+        39,
+        673,
+        51
+      ]
+    },
+    {
+      "text": "CP503",
+      "bbox": [
+        807,
+        41,
+        857,
+        51
+      ]
+    },
+    {
+      "text": "Department of the Treasury",
+      "bbox": [
+        122,
+        58,
+        330,
+        73
+      ]
+    },
+    {
+      "text": "Tax year",
+      "bbox": [
+        625,
+        56,
+        689,
+        69
+      ]
+    },
+    {
+      "text": "2016",
+      "bbox": [
+        807,
+        57,
+        842,
+        68
+      ]
+    },
+    {
+      "text": "IRS",
+      "bbox": [
+        48,
+        78,
+        108,
+        104
+      ]
+    },
+    {
+      "text": "Internal Revenue Service",
+      "bbox": [
+        122,
+        74,
+        313,
+        88
+      ]
+    },
+    {
+      "text": "Notice date",
+      "bbox": [
+        625,
+        73,
+        709,
+        85
+      ]
+    },
+    {
+      "text": "January 8, 2018",
+      "bbox": [
+        807,
+        74,
+        918,
+        87
+      ]
+    },
+    {
+      "text": "Holtsville, NY 11742-0480",
+      "bbox": [
+        122,
+        90,
+        318,
+        104
+      ]
+    },
+    {
+      "text": "Social security number",
+      "bbox": [
+        625,
+        89,
+        794,
+        102
+      ]
+    },
+    {
+      "text": "NNN-NN-NNNN",
+      "bbox": [
+        807,
+        90,
+        918,
+        101
+      ]
+    },
+    {
+      "text": "To contact us",
+      "bbox": [
+        625,
+        106,
+        725,
+        118
+      ]
+    },
+    {
+      "text": "1-800-xxx-xxxx",
+      "bbox": [
+        807,
+        107,
+        911,
+        118
+      ]
+    },
+    {
+      "text": "Your caller ID",
+      "bbox": [
+        625,
+        123,
+        723,
+        135
+      ]
+    },
+    {
+      "text": "NNNN",
+      "bbox": [
+        807,
+        124,
+        853,
+        135
+      ]
+    },
+    {
+      "text": "Page 1 of 5",
+      "bbox": [
+        625,
+        141,
+        709,
+        155
+      ]
+    },
+    {
+      "text": "JAMES & KAREN Q. HINDS",
+      "bbox": [
+        122,
+        183,
+        337,
+        196
+      ]
+    },
+    {
+      "text": "22 BOULDER STREET",
+      "bbox": [
+        122,
+        201,
+        300,
+        214
+      ]
+    },
+    {
+      "text": "HANSON, CT 00000-7253",
+      "bbox": [
+        122,
+        219,
+        322,
+        233
+      ]
+    },
+    {
+      "text": "Second reminder: You have unpaid taxes for 2016",
+      "bbox": [
+        48,
+        310,
+        501,
+        327
+      ]
+    },
+    {
+      "text": "Amount due: $9,533.53",
+      "bbox": [
+        46,
+        335,
+        364,
+        359
+      ]
+    },
+    {
+      "text": "As we notified you before, our records",
+      "bbox": [
+        48,
+        381,
+        331,
+        395
+      ]
+    },
+    {
+      "text": "Billing Summary",
+      "bbox": [
+        412,
+        379,
+        548,
+        395
+      ]
+    },
+    {
+      "text": "show you have unpaid taxes for the tax",
+      "bbox": [
+        48,
+        397,
+        340,
+        411
+      ]
+    },
+    {
+      "text": "Amount you owed",
+      "bbox": [
+        412,
+        408,
+        548,
+        422
+      ]
+    },
+    {
+      "text": "$9,444.07",
+      "bbox": [
+        885,
+        408,
+        961,
+        422
+      ]
+    },
+    {
+      "text": "year ended December 31, 2016 (Form",
+      "bbox": [
+        48,
+        413,
+        336,
+        427
+      ]
+    },
+    {
+      "text": "1040A). If you don't pay $9,533.53 by",
+      "bbox": [
+        48,
+        429,
+        328,
+        443
+      ]
+    },
+    {
+      "text": "Failure-to-pay penalty",
+      "bbox": [
+        412,
+        430,
+        578,
+        445
+      ]
+    },
+    {
+      "text": "34.98",
+      "bbox": [
+        920,
+        430,
+        961,
+        442
+      ]
+    },
+    {
+      "text": "January 29, 2018, the amount of",
+      "bbox": [
+        48,
+        445,
+        292,
+        459
+      ]
+    },
+    {
+      "text": "Interest charges",
+      "bbox": [
+        412,
+        449,
+        535,
+        463
+      ]
+    },
+    {
+      "text": "54.48",
+      "bbox": [
+        920,
+        449,
+        961,
+        461
+      ]
+    },
+    {
+      "text": "interest will increase and additional",
+      "bbox": [
+        48,
+        461,
+        310,
+        474
+      ]
+    },
+    {
+      "text": "Amount due by January 29, 2018",
+      "bbox": [
+        412,
+        468,
+        675,
+        482
+      ]
+    },
+    {
+      "text": "$9,533.53",
+      "bbox": [
+        885,
+        468,
+        961,
+        482
+      ]
+    },
+    {
+      "text": "penalties may apply.",
+      "bbox": [
+        48,
+        477,
+        201,
+        491
+      ]
+    },
+    {
+      "text": "If you already have an installment or",
+      "bbox": [
+        48,
+        511,
+        318,
+        525
+      ]
+    },
+    {
+      "text": "payment agreement in place for this",
+      "bbox": [
+        48,
+        527,
+        316,
+        541
+      ]
+    },
+    {
+      "text": "tax year, then continue with that",
+      "bbox": [
+        48,
+        543,
+        286,
+        557
+      ]
+    },
+    {
+      "text": "agreement.",
+      "bbox": [
+        48,
+        560,
+        134,
+        573
+      ]
+    },
+    {
+      "text": "What you need to do immediately",
+      "bbox": [
+        48,
+        596,
+        375,
+        614
+      ]
+    },
+    {
+      "text": "If you agree with the amount due and you're not working with an",
+      "bbox": [
+        412,
+        596,
+        929,
+        610
+      ]
+    },
+    {
+      "text": "IRS representative",
+      "bbox": [
+        412,
+        614,
+        562,
+        628
+      ]
+    },
+    {
+      "text": "Pay the amount due of $9,533.53 by January 29, 2018, to avoid",
+      "bbox": [
+        412,
+        633,
+        903,
+        648
+      ]
+    },
+    {
+      "text": "additional interest and applicable penalty charges.",
+      "bbox": [
+        426,
+        649,
+        802,
+        664
+      ]
+    },
+    {
+      "text": "Pay online or mail a check or money order with the attached payment",
+      "bbox": [
+        412,
+        665,
+        946,
+        680
+      ]
+    },
+    {
+      "text": "stub. You can pay online now at www.irs.gov/payments.",
+      "bbox": [
+        428,
+        681,
+        875,
+        696
+      ]
+    },
+    {
+      "text": "Continued on back...",
+      "bbox": [
+        810,
+        701,
+        957,
+        712
+      ]
+    },
+    {
+      "text": "IRS",
+      "bbox": [
+        46,
+        785,
+        106,
+        807
+      ]
+    },
+    {
+      "text": "James Q. Hinds",
+      "bbox": [
+        301,
+        742,
+        412,
+        754
+      ]
+    },
+    {
+      "text": "Notice",
+      "bbox": [
+        611,
+        743,
+        658,
+        754
+      ]
+    },
+    {
+      "text": "CP503",
+      "bbox": [
+        787,
+        743,
+        835,
+        754
+      ]
+    },
+    {
+      "text": "22 Boulder Street",
+      "bbox": [
+        301,
+        758,
+        422,
+        769
+      ]
+    },
+    {
+      "text": "Notice date",
+      "bbox": [
+        611,
+        759,
+        693,
+        770
+      ]
+    },
+    {
+      "text": "January 8, 2018",
+      "bbox": [
+        787,
+        759,
+        899,
+        772
+      ]
+    },
+    {
+      "text": "Hanson, CT 00000-7253",
+      "bbox": [
+        301,
+        773,
+        469,
+        785
+      ]
+    },
+    {
+      "text": "Social security number",
+      "bbox": [
+        611,
+        776,
+        776,
+        788
+      ]
+    },
+    {
+      "text": "NNN-NN-NNNN",
+      "bbox": [
+        787,
+        776,
+        899,
+        787
+      ]
+    },
+    {
+      "text": "Payment",
+      "bbox": [
+        13,
+        826,
+        141,
+        851
+      ]
+    },
+    {
+      "text": "Make your check or money order payable to the United States Treasury.",
+      "bbox": [
+        321,
+        825,
+        807,
+        838
+      ]
+    },
+    {
+      "text": "Write your social security number (NNN-NN-NNNN), the tax year (2016), and form number",
+      "bbox": [
+        321,
+        840,
+        931,
+        853
+      ]
+    },
+    {
+      "text": "(1040A) on your payment.",
+      "bbox": [
+        321,
+        855,
+        497,
+        869
+      ]
+    },
+    {
+      "text": "INTERNAL REVENUE SERVICE",
+      "bbox": [
+        13,
+        909,
+        263,
+        921
+      ]
+    },
+    {
+      "text": "Amount due by",
+      "bbox": [
+        331,
+        910,
+        455,
+        924
+      ]
+    },
+    {
+      "text": "CINCINNATI, OH 4599-0149",
+      "bbox": [
+        13,
+        926,
+        236,
+        939
+      ]
+    },
+    {
+      "text": "January 29, 2018",
+      "bbox": [
+        330,
+        927,
+        465,
+        941
+      ]
+    },
+    {
+      "text": "$9,533.53",
+      "bbox": [
+        836,
+        929,
+        923,
+        944
+      ]
+    }
+  ],
+  "candidates": {
+    "total_amount": [
+      {
+        "value": "9533.53",
+        "num": 9533.53,
+        "score": 0.966,
+        "text": "$9,533.53",
+        "bbox": [
+          885,
+          468,
+          961,
+          482
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'amount due' (same_row, prox=0.86)",
+            0.476
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x2",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "9444.07",
+        "num": 9444.07,
+        "score": 0.801,
+        "text": "$9,444.07",
+        "bbox": [
+          885,
+          408,
+          961,
+          422
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'amount you owe' (same_row, prox=0.78)",
+            0.431
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "9533.53",
+        "num": 9533.53,
+        "score": 0.54,
+        "text": "$9,533.53",
+        "bbox": [
+          836,
+          929,
+          923,
+          944
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x2",
+            0.12
+          ],
+          [
+            "in_payment_coupon_band",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "54.48",
+        "num": 54.48,
+        "score": 0.25,
+        "text": "54.48",
+        "bbox": [
+          920,
+          449,
+          961,
+          461
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ]
+        ]
+      },
+      {
+        "value": "34.98",
+        "num": 34.98,
+        "score": -0.2,
+        "text": "34.98",
+        "bbox": [
+          920,
+          430,
+          961,
+          442
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "negative_anchor 'penalty' same_row",
+            -0.45
+          ]
+        ]
+      }
+    ],
+    "due_date": [
+      {
+        "value": "2018-01-29",
+        "score": 0.95,
+        "text": "Amount due by January 29, 2018",
+        "bbox": [
+          412,
+          468,
+          675,
+          482
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "due_anchor 'due by' (same_row, prox=1.00)",
+            0.6
+          ],
+          [
+            "inline 'pay ... by <date>'",
+            0.2
+          ]
+        ]
+      },
+      {
+        "value": "2018-01-29",
+        "score": 0.618,
+        "text": "January 29, 2018",
+        "bbox": [
+          330,
+          927,
+          465,
+          941
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "due_anchor 'due by' (below, prox=0.78)",
+            0.468
+          ]
+        ]
+      },
+      {
+        "value": "2018-01-29",
+        "score": 0.408,
+        "text": "Pay the amount due of $9,533.53 by January 29, 2018, to avoid",
+        "bbox": [
+          412,
+          633,
+          903,
+          648
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "due_anchor 'due by' (below, prox=0.10)",
+            0.058
+          ],
+          [
+            "inline 'pay ... by <date>'",
+            0.2
+          ]
+        ]
+      },
+      {
+        "value": "2016-12-31",
+        "score": 0.15,
+        "text": "year ended December 31, 2016 (Form",
+        "bbox": [
+          48,
+          413,
+          336,
+          427
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ]
+        ]
+      },
+      {
+        "value": "2018-01-29",
+        "score": 0.15,
+        "text": "January 29, 2018, the amount of",
+        "bbox": [
+          48,
+          445,
+          292,
+          459
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ]
+        ]
+      },
+      {
+        "value": "2018-01-08",
+        "score": -0.35,
+        "text": "January 8, 2018",
+        "bbox": [
+          807,
+          74,
+          918,
+          87
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "non_deadline_anchor 'notice date'",
+            -0.5
+          ]
+        ]
+      },
+      {
+        "value": "2018-01-08",
+        "score": -0.35,
+        "text": "January 8, 2018",
+        "bbox": [
+          787,
+          759,
+          899,
+          772
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "non_deadline_anchor 'notice date'",
+            -0.5
+          ]
+        ]
+      }
+    ],
+    "sender": [
+      {
+        "value": "IRS",
+        "score": 0.95,
+        "tier": "S1",
+        "text": "IRS",
+        "evidence": [
+          [
+            "top_band_text",
+            0.3
+          ],
+          [
+            "large_glyph_height (26 vs mh 14)",
+            0.3
+          ],
+          [
+            "top-left letterhead position (x<300)",
+            0.25
+          ],
+          [
+            "institution_hint_word (existing list)",
+            0.4
+          ]
+        ]
+      }
+    ],
+    "recipient": [
+      {
+        "value": "JAMES & KAREN Q. HINDS",
+        "score": 0.82,
+        "tier": "R2",
+        "text": "JAMES & KAREN Q. HINDS / 22 BOULDER STREET / HANSON, CT 00000-7253",
+        "evidence": [
+          [
+            "complete unlabeled block, recipient position",
+            0.82
+          ],
+          [
+            "block: JAMES & KAREN Q. HINDS / 22 BOULDER STREET / HANSON, CT 00000-7253",
+            0
+          ]
+        ]
+      }
+    ],
+    "action": [
+      {
+        "value": "pay",
+        "score": 0.45,
+        "text": "Amount due: $9,533.53",
+        "bbox": [
+          46,
+          335,
+          364,
+          359
+        ],
+        "evidence": [
+          [
+            "action_phrase 'amount due' -> pay",
+            0.4
+          ],
+          [
+            "upper_half_of_page",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.45,
+        "text": "Amount due by January 29, 2018",
+        "bbox": [
+          412,
+          468,
+          675,
+          482
+        ],
+        "evidence": [
+          [
+            "action_phrase 'amount due' -> pay",
+            0.4
+          ],
+          [
+            "upper_half_of_page",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.4,
+        "text": "If you agree with the amount due and you're not working with an",
+        "bbox": [
+          412,
+          596,
+          929,
+          610
+        ],
+        "evidence": [
+          [
+            "action_phrase 'amount due' -> pay",
+            0.4
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.4,
+        "text": "Pay the amount due of $9,533.53 by January 29, 2018, to avoid",
+        "bbox": [
+          412,
+          633,
+          903,
+          648
+        ],
+        "evidence": [
+          [
+            "action_phrase 'pay the amount' -> pay",
+            0.4
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.4,
+        "text": "Pay online or mail a check or money order with the attached payment",
+        "bbox": [
+          412,
+          665,
+          946,
+          680
+        ],
+        "evidence": [
+          [
+            "action_phrase 'pay online' -> pay",
+            0.4
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.4,
+        "text": "stub. You can pay online now at www.irs.gov/payments.",
+        "bbox": [
+          428,
+          681,
+          875,
+          696
+        ],
+        "evidence": [
+          [
+            "action_phrase 'pay online' -> pay",
+            0.4
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.4,
+        "text": "Amount due by",
+        "bbox": [
+          331,
+          910,
+          455,
+          924
+        ],
+        "evidence": [
+          [
+            "action_phrase 'amount due' -> pay",
+            0.4
+          ]
+        ]
+      }
+    ]
+  },
+  "fields": {
+    "total_amount": {
+      "value": "9533.53",
+      "score": 0.966,
+      "evidence": [
+        [
+          "base_money_token",
+          0.25
+        ],
+        [
+          "strong_anchor 'amount due' (same_row, prox=0.86)",
+          0.476
+        ],
+        [
+          "has_dollar_sign",
+          0.12
+        ],
+        [
+          "value_repeats_x2",
+          0.12
+        ]
+      ],
+      "runner_up": [
+        "9444.07",
+        0.801
+      ]
+    },
+    "due_date": {
+      "value": "2018-01-29",
+      "score": 0.95,
+      "evidence": [
+        [
+          "base_date_token",
+          0.15
+        ],
+        [
+          "due_anchor 'due by' (same_row, prox=1.00)",
+          0.6
+        ],
+        [
+          "inline 'pay ... by <date>'",
+          0.2
+        ]
+      ],
+      "runner_up": [
+        "2018-01-29",
+        0.618
+      ]
+    },
+    "sender": {
+      "value": "IRS",
+      "score": 0.95,
+      "evidence": [
+        [
+          "top_band_text",
+          0.3
+        ],
+        [
+          "large_glyph_height (26 vs mh 14)",
+          0.3
+        ],
+        [
+          "top-left letterhead position (x<300)",
+          0.25
+        ],
+        [
+          "institution_hint_word (existing list)",
+          0.4
+        ]
+      ],
+      "runner_up": null
+    },
+    "recipient": {
+      "value": "JAMES & KAREN Q. HINDS",
+      "score": 0.82,
+      "evidence": [
+        [
+          "complete unlabeled block, recipient position",
+          0.82
+        ],
+        [
+          "block: JAMES & KAREN Q. HINDS / 22 BOULDER STREET / HANSON, CT 00000-7253",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "action": {
+      "value": "pay",
+      "score": 0.45,
+      "evidence": [
+        [
+          "action_phrase 'amount due' -> pay",
+          0.4
+        ],
+        [
+          "upper_half_of_page",
+          0.05
+        ]
+      ],
+      "runner_up": [
+        "pay",
+        0.45
+      ]
+    },
+    "payment_status": {
+      "value": "unpaid",
+      "score": 0.8,
+      "evidence": [
+        [
+          "positive amount (9533.53) + due/balance anchor, no paid marker",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "_cross_validation": [
+      "amount 9533.53 is the largest money token (consistent)"
+    ]
+  },
+  "final": {
+    "sender": "IRS",
+    "recipient": "JAMES & KAREN Q. HINDS",
+    "total_amount": "9533.53",
+    "payment_status": "unpaid",
+    "due_date": "2018-01-29",
+    "action": "pay"
+  }
+}

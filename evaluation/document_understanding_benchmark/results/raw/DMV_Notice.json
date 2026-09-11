@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"OFFICIAL NOTICE\",\n    \"sender\": \"STATE OF NORTH CAROLINA DEPARTMENT OF TRANSPORTATION\",\n    \"recipient\": \"J.R. \\\"JOEY\\\" HOPKINS\",\n    \"amount\": \"$83.50\",\n    \"due_date\": \"09/10/2025\",\n    \"payment_status\": \"paid\",\n    \"action_required\": \"true\",\n    \"action\": \"A RESTORATION FEE OF $83.50 IS NEEDED AND HAS TO BE PAID TO THE DIVISION OF MOTOR VEHICLES BEFORE YOUR NORTH CAROLINA DRIVING PRIVILEGE CAN BE REINSTATED.\",\n    \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639758,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 1970,
+    "total_tokens": 2137,
+    "prompt_tokens_details": {
+      "cached_tokens": 1716
+    }
+  },
+  "id": "chatcmpl-eqI8rhSrCt15OJkHxUcg7iSaFS2EBdL0",
+  "timings": {
+    "cache_n": 1716,
+    "prompt_n": 254,
+    "prompt_ms": 127.554,
+    "prompt_per_token_ms": 0.5021811023622047,
+    "prompt_per_second": 1991.313482917039,
+    "predicted_n": 167,
+    "predicted_ms": 1781.014,
+    "predicted_per_token_ms": 10.729,
+    "predicted_per_second": 93.20533134495294
+  }
+}

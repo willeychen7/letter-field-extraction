@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"E-filed with Docket #2023-SCAs\",\n    \"sender\": \"Shannon O'Rourke\",\n    \"recipient\": \"California Natural Resources Agency\",\n    \"amount\": \"715 P Street 20th Floor\",\n    \"due_date\": \"April 24, 2024\",\n    \"payment_status\": \"unpaid\",\n    \"action_required\": \"true\",\n    \"action\": \"to implement the findings of its most recent safety culture assessment\",\n    \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639739,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 1970,
+    "total_tokens": 2094,
+    "prompt_tokens_details": {
+      "cached_tokens": 1716
+    }
+  },
+  "id": "chatcmpl-50ogRh7u6z3TDlQO2D40TUop0ffelAHV",
+  "timings": {
+    "cache_n": 1716,
+    "prompt_n": 254,
+    "prompt_ms": 113.91,
+    "prompt_per_token_ms": 0.44846456692913383,
+    "prompt_per_second": 2229.8305679922746,
+    "predicted_n": 124,
+    "predicted_ms": 1236.144,
+    "predicted_per_token_ms": 10.049951219512195,
+    "predicted_per_second": 99.50297052770551
+  }
+}

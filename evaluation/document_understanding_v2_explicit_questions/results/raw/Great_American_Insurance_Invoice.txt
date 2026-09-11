@@ -1,0 +1,11 @@
+{
+  "document_type": "INVOICE",
+  "sender": "GREAT AMERICAN INSURANCE GROUP",
+  "recipient": "PARKER 2ND LANE NEWCITY AL 10001",
+  "amount": "0.00",
+  "due_date": "01/10/2009",
+  "payment_status": "null",
+  "action_required": true,
+  "action": "Pay in full",
+  "risk": "None"
+}

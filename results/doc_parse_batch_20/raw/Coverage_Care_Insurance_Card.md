@@ -1,0 +1,3 @@
+# Insurance Company
+
+<table><caption></caption><tr><td>Member Name: Jane Doe<br>Member Number: $ \times \times \times \times \times $<br>Group Number: $ \times \times \times \times \times $</td><td>1<br>2<br>3</td><td>Plan Type: 134<br>Effective Date: 1/1/21</td></tr><tr><td>PCP Copay: $15.00<br>Specialist Copay: $25.00<br>Emergency Room Copay: $25.00</td><td>4</td><td>Prescription Group #: 123456789<br>Prescription Copay: $15.00 Generic<br>$25.00 Name brand</td></tr><tr><td>Member Service: 800 $ \times \times $<br>$ \times \times $</td><td>5</td><td></td></tr></table>

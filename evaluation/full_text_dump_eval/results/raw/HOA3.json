@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Your Company Inc. 1234 Company St, Company Town, ST 12345 Upload Logo\n HOA DUES INVOICE\nBill To Customer Name 1234 Customer St, Customer Town, ST 12345\nInvoice # 0000007\nInvoice date 10-02-2025\nDue date 10-16-2025\nQTY Description 3 Monthly HOA dues 1 Special assessment fee 1 Late payment penalty 1 Clubhouse maintenance fee\nUnit Price 250.00 $750.00 300.00 $300.00 50.00 $50.00 100.00 $100.00\nSubtotal $1200.00\nSales Tax (0%) $.00\nTotal (USD) $1200.00\nTerms and Conditions Payment is due in 14 days Please make checks payable to: Your Company Inc."
+      }
+    }
+  ],
+  "created": 1788636884,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 1630,
+    "total_tokens": 1812,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-RNPrExgH3Pfu2JD3A7e4Krv1KUHzQtGF",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1630,
+    "prompt_ms": 5366.688,
+    "prompt_per_token_ms": 3.292446625766871,
+    "prompt_per_second": 303.72550071850645,
+    "predicted_n": 182,
+    "predicted_ms": 1687.812,
+    "predicted_per_token_ms": 9.324928176795579,
+    "predicted_per_second": 107.23943187985392
+  }
+}

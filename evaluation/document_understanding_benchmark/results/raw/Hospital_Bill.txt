@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "HOSPITAL STATEMENT",
+    "sender": "JANE DOE",
+    "recipient": "ALLINA HEALTH",
+    "amount": "$654.80",
+    "due_date": "04/18/2013",
+    "payment_status": "paid",
+    "action_required": true,
+    "action": "Laboratory General",
+    "risk": "None"
+}
+```

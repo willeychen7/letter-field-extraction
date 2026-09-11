@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "EXPLANATION OF BENEFITS 1 Customer Service Number: 1-800-123-4567 Statement Date: XXXXX Member Name: Document Number: XXXXXXXXX Address: City, State, Zip: 2 THIS IS NOT A BILL Subscriber Number: XXXXXXXXX ID: XXXXXXX Group: ABCDE Group Number: XXXXX Patient Name: XXXXXXX Provider: Claim Number: XXXXXXX Date Received: XXXXXXXXX Payee: 2 Date Paid: XXXXXXXXX\n3. Service Description shows the health services you received, like a medical visit, lab test, or screening. 4. Provider Charges is the amount your provider bills for your visit. 5. Allowed Charges is the amount your provider will be paid; this may not be the same as the Provider Charges.\nClaim Detail 3 What your Provider Can Charge You 4 5 Your Responsibility 6 Total Claim Cost 7 What You Owe 8 Remark Code\nLine No. 3/20/22-3/20/22 4 5 6 7 8\n1 3/20/22-3/20/22 4 5 6 7 8\n2 3/20/22-3/20/22 4 5 6 7 8\nTotal $406.60 $120.27 $35.00 $0.00 $0.00 $85.27 $35.00 PDC\nRemark Code: PDC—Billed amount is higher than the maximum payment insurance allows. The payment is for the allowed amount."
+      }
+    }
+  ],
+  "created": 1788636835,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 334,
+    "prompt_tokens": 962,
+    "total_tokens": 1296,
+    "prompt_tokens_details": {
+      "cached_tokens": 957
+    }
+  },
+  "id": "chatcmpl-rjQtdc1ogLjQXFA9b3i2GUkmsqyzFsl3",
+  "timings": {
+    "cache_n": 957,
+    "prompt_n": 5,
+    "prompt_ms": 15.507,
+    "prompt_per_token_ms": 3.1014,
+    "prompt_per_second": 322.43502934158766,
+    "predicted_n": 334,
+    "predicted_ms": 2952.931,
+    "predicted_per_token_ms": 8.867660660660661,
+    "predicted_per_second": 112.76931293010232
+  }
+}

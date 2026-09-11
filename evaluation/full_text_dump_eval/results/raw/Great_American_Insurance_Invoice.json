@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "GREAT AMERICAN\nINSURANCE GROUP\nPREMIUM INVOICE\nGREAT AMERICAN INSURANCE COMPANY\nPolicy # : ATP072\nStatement Date : 01/08/2009\nDue Date : 01/10/2009\nAgency # P01001\nPETER\n1ST LANE\nNEWCITY CA 10001\nMail To:\nPARKER\n2ND LANE\nNEWCITY AL 10001\nFor billing inquiries, please contact Direct Bill Customer Service at 1-800-847-4357, option 2, between 8:00 a.m. and 5:00 p.m.\n(EST), Monday through Thursday, and 8:00 a.m. and 3:30 p.m. on Fridays. For questions regarding policy or premiums, please contact\nyour agency.\nPrior Balance\nPremium &\nMinimum\nPayment\nIn Full\nIncluding Fees\nFees\nAdjustments\nDue\n$0.00\n$1,003.00\n$0.00\n$336.30\n$1,000.00\nTrans\nPolicy\nDescription\nTransaction\nMinimum\nDate\nNumber\nAmount\nDue\n01/01/09\nATP072\nNEW BUSINESS PREMIUM\n12/10/2008-12/10/2009\n$1,000.00\n$333.30\n01/07/09\nATP072\nSERVICE FEE\n$3.00\n$3.00\nMinimum Amount Due\n$336.30\nDetach Here\nPlease return this portion of the statement with your remittance.\nGREAT AMERICAN\nINSURANCE GROUP\nPolicy # : ATP072\nAgency # : P01001\nStatement Date : 01/08/2009\nDue Date : 01/10/2009\nPayment in Full : $1,000.00\nMinimum Due : $336.30\nAmount Enclosed : $\nTo pay by ACH or credit card, call 1-800-847-4357, option 2.\nMail to address\nPARKER\n2ND LANE\nNEWCITY AL 10001\n549500000000000000000000000000P010010001000000003630"
+      }
+    }
+  ],
+  "created": 1788636861,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 486,
+    "prompt_tokens": 810,
+    "total_tokens": 1296,
+    "prompt_tokens_details": {
+      "cached_tokens": 805
+    }
+  },
+  "id": "chatcmpl-u9M5IfFmXt0G9yMrHjCJeNp9XPkhzwtA",
+  "timings": {
+    "cache_n": 805,
+    "prompt_n": 5,
+    "prompt_ms": 28.228,
+    "prompt_per_token_ms": 5.6456,
+    "prompt_per_second": 177.12909168201782,
+    "predicted_n": 486,
+    "predicted_ms": 4296.89,
+    "predicted_per_token_ms": 8.859567010309279,
+    "predicted_per_second": 112.87233324567303
+  }
+}

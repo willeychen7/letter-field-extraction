@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Membership Renewal Notice\nMEMBERSHIP TYPE MEMBER NAME ANNUAL DUES\nBasic Primary $54.00\nBasic Associate $33.00\nMake a $1 tax-deductible AAA Foundation for Traffic Safety contribution (optional) $1.00\nTOTAL DUE BY $20 $88.00\nDear\nRenew now to enjoy another 12 months of AAA benefits\nSavings - Members save an average of $96 a year\nProtection - 24/7 roadside assistance in any car\nConvenience - On-the-spot battery testing and installation, fuel delivery and vehicle lockout service\nWe're always adding new discounts and services to enhance the value of your membership. Be sure to review all your benefits today, so you don't miss out on any new savings!\nThank you for choosing AAA!\nIt's our mission to keep you and your loved ones safe.\nSign up for Automatic Renewal.\nIt's fast and easy.\n1. Check the box on the form below or go to AAA.com/AutoRenew\n2. Supply credit card information (required)\n3. Never be without roadside coverage again\nEXPIRES: 2020\nMEMBERSHIP NUMBER:\nMEMBERSHIP PLAN: Basic Level, Member Since\nAmount Due: $88.00\nMake your payment\nKeep your coverage going.\nYour new cards will be activated upon payment.\nGo to AAA.com/Renew\nCall 1-800-222-8252\nMail form with payment to: AAA Northeast PO Box 9705 Providence, RI 02940-9705\nVisit your local branch"
+      }
+    }
+  ],
+  "created": 1788637078,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 341,
+    "prompt_tokens": 3018,
+    "total_tokens": 3359,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-v0rUNGi0CsAGpWPa31wVCGjdGjPe92pR",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3018,
+    "prompt_ms": 14445.899,
+    "prompt_per_token_ms": 4.786580185553347,
+    "prompt_per_second": 208.91742355390966,
+    "predicted_n": 341,
+    "predicted_ms": 3633.065,
+    "predicted_per_token_ms": 10.685485294117647,
+    "predicted_per_second": 93.58489319624064
+  }
+}

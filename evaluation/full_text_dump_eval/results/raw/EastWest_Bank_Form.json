@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "EAST WEST BANK\n## Financial Statement\n### Property Address:\n### Do you intend to keep the property?\n### Is the property listed for sale?\n☐ Yes ☐ No\n### Borrower Name:\n### Mailing address:\n### Total number of persons living at this address:\n### Home Phone:\n### Co-Borrower Name:\n### Mailing Address:\n### Total number of persons living at this address:\n### Home Phone:\n### Have you contacted credit counseling services?\n☐ Yes ☐ No\n### Monthly Income (Borrower)\nGross Wages\nUnemployment Income\nChild Support/Alimony\nDisability Income\nRental Income\nOther\nLess: Federal & State Tax, FICA\nLess: Other Deductions (401k, etc.)\n$ \nTotal $ \n### Monthly Income (Co-Borrower)\nGross Wages\nUnemployment Income\nChild Support/Alimony\nDisability Income\nRental Income\nOther\nLess: Federal & State Tax, FICA\nLess: Other Deductions (401k, etc.)\n$ \nTotal $ \n### Monthly Expenses (All Borrowers)\nOther Mortgages, Liens, Rents\nAuto Loan(s)\nAuto Expenses / Insurance\nCredit Cards & Installment\nLoans\nHealth Insurance\nMedical\nChild Care / Child Support / Alimony\nFood / Spending Money\nWater / Sewer / Utilities / Phone\nOther\n$ \nTotal $ \n### Assets and Liabilities (All Borrowers)\nChecking Accounts\nSavings / Money Market\nStocks, Bonds and CD's\nIRA / Keogh Accounts\n401K / ESOP / Accounts\nHome\nOther Real Estate\nCars with No Liens\nOther\nOther\n$ \nTotal $ \n(We) agree that the financial information provided is an accurate statement of my(our) financial status. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. (My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent for any further action on my(our) behalf. (We) understand that if we do not agree to renew my(our) mortgage loan, or pay off my(our) loan in full then, by doing so and without the necessity of any further action on my(our) part, we hereby expressly withdraw this request for a loan workout. In that event, we hereby direct you to take no further action to process the request for a workout.\n### Borrower's Signature:\n### Co-Borrower's Signature:\n### Date:\n### Before mailing, make sure you have signed and dated this form, include copies of your two most recent pay stubs and bank statements of your checking and/or savings account. If you are self-employed, attach a copy of the past six-month's profit and loss statement, along with your most recent Federal Tax returns.\nRev. 2/12/08 9300 Flair Drive, 5th Floor, El Monte, CA 91731, Tel. 877.392.6868 - Nasdaq: EWBS"
+      }
+    }
+  ],
+  "created": 1788636857,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 706,
+    "prompt_tokens": 810,
+    "total_tokens": 1516,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-zhcQFpkitnXI9RCVSbZgaMUoAurIe5CR",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 810,
+    "prompt_ms": 1996.668,
+    "prompt_per_token_ms": 2.4650222222222222,
+    "prompt_per_second": 405.6758559760561,
+    "predicted_n": 706,
+    "predicted_ms": 6155.6,
+    "predicted_per_token_ms": 8.731347517730496,
+    "predicted_per_second": 114.52985899018779
+  }
+}

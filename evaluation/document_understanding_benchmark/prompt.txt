@@ -1,0 +1,11 @@
+提取图片中的: ['document_type', 'sender', 'recipient', 'amount', 'due_date', 'payment_status', 'action_required', 'action', 'risk'] 的字段内容，并按照JSON格式返回。
+
+规则：
+1. 只根据图片中明确出现的内容作答，不要猜测。
+2. 如果某个字段在图片中确实不存在或无法判断，必须使用真正的 JSON null，不能用字符串 "None" 或 "N/A" 代替。
+3. sender 指发件机构/公司；recipient 指收件人姓名。两者不要互相替换。
+4. due_date 专指信中明确写出的付款/行动截止日期，不能用 billing period 的起止日期代替；没有明确截止日期就填 null。
+5. payment_status 只能是以下三种之一，或 null：'unpaid'（还需要付款）、'paid'（已经付过或不涉及付款）、'not_applicable'（这封信不是账单/不涉及付款）。
+6. action_required 是布尔值：true / false / null。
+7. action 是需要采取的具体行动的简短描述；如果不需要任何行动，填 null。
+8. risk 是不采取行动可能的后果，简短描述；如果信中没有说明后果，填 null。

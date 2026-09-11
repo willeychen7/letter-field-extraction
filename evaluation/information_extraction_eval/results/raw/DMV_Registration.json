@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Attachment A\",\n    \"sender\": \"GONZELES C\",\n    \"recipient_name\": \"DMV RENEWAL\",\n    \"address\": \"3615 S HOPE ST LOS ANGELES CA 90007-4370\",\n    \"account_number\": \"3SMG081\",\n    \"amount\": \"$95\",\n    \"due_date\": \"10/16/2010\",\n    \"action_required\": \"RETURN BY MAIL ONLY\",\n    \"important_identifier\": \"04010103282216000801 0009500 28902101020100\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569125,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 1439,
+    "total_tokens": 1580,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-iPnImrYscRNUb2g5EbyZNtoeWU0dNW8F",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1439,
+    "prompt_ms": 4130.828,
+    "prompt_per_token_ms": 2.8706240444753304,
+    "prompt_per_second": 348.35631016348293,
+    "predicted_n": 141,
+    "predicted_ms": 1232.274,
+    "predicted_per_token_ms": 8.801957142857143,
+    "predicted_per_second": 113.61109623346756
+  }
+}

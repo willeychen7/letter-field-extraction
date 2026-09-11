@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Bill",
+    "sender": "Department of the Treasury Internal Revenue Service",
+    "recipient": "IPS",
+    "amount": "$9,533.53",
+    "due_date": "January 30, 2019",
+    "payment_status": "Pay immediately",
+    "action_required": true,
+    "action": "Pay immediately",
+    "risk": "None"
+}
+```

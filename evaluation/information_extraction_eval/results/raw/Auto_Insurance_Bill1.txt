@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Policy Information",
+    "sender": "Farmers Insurance",
+    "recipient_name": "Jane Smith",
+    "address": "1234 Main St",
+    "account_number": "12345-67-89",
+    "amount": "$798.48",
+    "due_date": "01/01/2019 12:01 AM",
+    "action_required": "Mailed separately",
+    "important_identifier": "Underwritten by"
+}
+```

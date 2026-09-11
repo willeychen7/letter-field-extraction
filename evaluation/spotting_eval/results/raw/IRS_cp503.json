@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"box\": [\"Notice\", \"Tax year\", \"Notice date\", \"Social security number\", \"To contact us\", \"Your caller ID\", \"Page 1 of 5\"],\n    \"text\": \"JAMES & KAREN Q. HINDS\\n22 BOULDER STREET\\nHANSON, CT 00000-7253\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788568618,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 1844,
+    "total_tokens": 1926,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-saAEYd5oyqoS1ib6fUJeY4Q79zE2O6PN",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1844,
+    "prompt_ms": 6179.149,
+    "prompt_per_token_ms": 3.3509484815618222,
+    "prompt_per_second": 298.4229705417364,
+    "predicted_n": 82,
+    "predicted_ms": 747.645,
+    "predicted_per_token_ms": 9.230185185185185,
+    "predicted_per_second": 108.34018819091948
+  }
+}

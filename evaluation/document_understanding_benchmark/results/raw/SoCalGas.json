@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Account Summary\",\n    \"sender\": \"JOHN B DOE\",\n    \"recipient\": \"MONTEREY PARK CA 91754-2217\",\n    \"amount\": \"$40.56\",\n    \"due_date\": \"Jan 8, 2016\",\n    \"payment_status\": \"THANK YOU\",\n    \"action_required\": \"true\",\n    \"action\": \"None\",\n    \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639742,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 2100,
+    "total_tokens": 2206,
+    "prompt_tokens_details": {
+      "cached_tokens": 1846
+    }
+  },
+  "id": "chatcmpl-itxiPn2P1Z8BdtU1twsNVQQXAecLricN",
+  "timings": {
+    "cache_n": 1846,
+    "prompt_n": 254,
+    "prompt_ms": 120.798,
+    "prompt_per_token_ms": 0.47558267716535435,
+    "prompt_per_second": 2102.683819268531,
+    "predicted_n": 106,
+    "predicted_ms": 1051.221,
+    "predicted_per_token_ms": 10.011628571428572,
+    "predicted_per_second": 99.88384935232459
+  }
+}

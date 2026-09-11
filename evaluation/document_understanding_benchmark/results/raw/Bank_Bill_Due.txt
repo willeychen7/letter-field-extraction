@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Sample credit card statement",
+    "sender": "Susan Doe",
+    "recipient": "Name: Susan Doe",
+    "amount": "$1392.71",
+    "due_date": "1/23/XX",
+    "payment_status": "paid",
+    "action_required": true,
+    "action": "For Lost or Stolen Card, Call: 1-800-XXX-XXXX",
+    "risk": "None"
+}
+```

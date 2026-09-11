@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "YOUR LOGO\nKinFinity\nGreensboro, NC 27401 | inquire@kinfinity.mail | 222 555 7777\n\n# Real Estate HOA Dues Statement\n\nDate: January 1, 2085\n\nResident Information:\n\nName: [Your Name]  \nProperty Address: 892 Elmwood Drive, Cedar Creek, TX 75123  \nAccount Number: 764892305  \nBilling Period: January 1, 2085 to December 31, 2085\n\n1. Amount Due:\nHOA Dues: $1,200.00 (Annual)  \nDue Date: January 31, 2085  \nLate Fee: $50.00 (if paid after February 15, 2085)  \nTotal Amount Due: $1,250.00\n\n2. Payment Instructions:\nPlease make your payment by the due date to avoid late fees. Payments can be made via:"
+      }
+    }
+  ],
+  "created": 1788636877,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 2077,
+    "total_tokens": 2280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-K33eUwaANWqBF2UDDH7EAgbtccBzdWNQ",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2077,
+    "prompt_ms": 7592.643,
+    "prompt_per_token_ms": 3.6555816080885895,
+    "prompt_per_second": 273.55428142742915,
+    "predicted_n": 203,
+    "predicted_ms": 1982.347,
+    "predicted_per_token_ms": 9.81359900990099,
+    "predicted_per_second": 101.89941518815827
+  }
+}

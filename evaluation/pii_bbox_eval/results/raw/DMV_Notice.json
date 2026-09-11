@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"recipient_name\": \"JOSH STEIN\",\n  \"address\": \"3118 MAIL SERVICE CNTR RALEIGH, N.C. 27699-3118\",\n  \"account_number\": \"None\",\n  \"policy_member_claim_number\": \"None\",\n  \"phone\": \"None\",\n  \"email\": \"None\",\n  \"ssn\": \"None\",\n  \"medicare_medical_id\": \"None\",\n  \"other_identifier\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569579,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 2235,
+    "total_tokens": 2350,
+    "prompt_tokens_details": {
+      "cached_tokens": 1715
+    }
+  },
+  "id": "chatcmpl-mA4gXP8JQtIEBQ74l7DNTtM2KJ8OQUYN",
+  "timings": {
+    "cache_n": 1715,
+    "prompt_n": 520,
+    "prompt_ms": 247.687,
+    "prompt_per_token_ms": 0.47632115384615387,
+    "prompt_per_second": 2099.423869641927,
+    "predicted_n": 115,
+    "predicted_ms": 1148.508,
+    "predicted_per_token_ms": 10.074631578947368,
+    "predicted_per_second": 99.25921282220062
+  }
+}

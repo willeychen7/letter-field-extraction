@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"box\": [\"AAA Payment coupon\", \"Your Policy Number Is PUP 054321234\", \"Your Policy Term is Jan 1 2020 to Jan 1 2021\", \"PAT SMITH\", \"1234 MAIN ST\", \"SPRINGFIELD IL 62704-8725\", \"Minimum Due:\", \"Due Apr 8 2020\", \"Total Amount Owed:\", \"We must RECEIVE your Total Amount Owed no later than Apr 8 2020.\", \"Amount Paid: $\", \"AAA Insurance\", \"PO BOX 740860\", \"CINCINNATI, OH 45274-0860\", \"AAA Insurance MemberSelect Insurance Company\", \"1 Auto Club Drive\", \"Dearborn, MI 48126\", \"INSURANCE BILL\", \"Very Important Personal Umbrella\", \"Excess Liability Insurance Policy\", \"Installment\", \"POLICY NUMBER:\", \"PUP 054321234\"]\n}\n```"
+      }
+    }
+  ],
+  "created": 1788568441,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 211,
+    "prompt_tokens": 426,
+    "total_tokens": 637,
+    "prompt_tokens_details": {
+      "cached_tokens": 335
+    }
+  },
+  "id": "chatcmpl-Jl7hsf9YsInT3YAoJJvFRqF6A0CJz2g5",
+  "timings": {
+    "cache_n": 335,
+    "prompt_n": 91,
+    "prompt_ms": 35.521,
+    "prompt_per_token_ms": 0.39034065934065937,
+    "prompt_per_second": 2561.8648123645166,
+    "predicted_n": 211,
+    "predicted_ms": 1968.829,
+    "predicted_per_token_ms": 9.37537619047619,
+    "predicted_per_second": 106.66238662677155
+  }
+}

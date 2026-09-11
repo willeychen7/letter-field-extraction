@@ -1,0 +1,1356 @@
+{
+  "image": "Hospital_Bill.png",
+  "ocr": {
+    "finish_reason": "stop",
+    "elapsed_s": 17.379,
+    "usage": {
+      "completion_tokens": 1586,
+      "prompt_tokens": 1489,
+      "total_tokens": 3075,
+      "prompt_tokens_details": {
+        "cached_tokens": 1475
+      }
+    },
+    "element_count": 82
+  },
+  "elements": [
+    {
+      "text": "IF PAYING BY CREDIT CARD, FILL OUT BELOW",
+      "bbox": [
+        621,
+        8,
+        895,
+        19
+      ]
+    },
+    {
+      "text": "CHECK CARD USING",
+      "bbox": [
+        526,
+        25,
+        621,
+        34
+      ]
+    },
+    {
+      "text": "MasterCard",
+      "bbox": [
+        648,
+        31,
+        690,
+        39
+      ]
+    },
+    {
+      "text": "DISC OVER",
+      "bbox": [
+        721,
+        29,
+        766,
+        36
+      ]
+    },
+    {
+      "text": "VISA",
+      "bbox": [
+        800,
+        31,
+        838,
+        43
+      ]
+    },
+    {
+      "text": "AMERICAN",
+      "bbox": [
+        871,
+        29,
+        914,
+        36
+      ]
+    },
+    {
+      "text": "FOR PAYMENT",
+      "bbox": [
+        526,
+        37,
+        590,
+        47
+      ]
+    },
+    {
+      "text": "EXPRESS",
+      "bbox": [
+        879,
+        37,
+        916,
+        44
+      ]
+    },
+    {
+      "text": "MedCredit",
+      "bbox": [
+        948,
+        34,
+        986,
+        41
+      ]
+    },
+    {
+      "text": "Allina Health",
+      "bbox": [
+        313,
+        46,
+        397,
+        58
+      ]
+    },
+    {
+      "text": "CARD NUMBER",
+      "bbox": [
+        526,
+        53,
+        590,
+        61
+      ]
+    },
+    {
+      "text": "EXP DATE",
+      "bbox": [
+        886,
+        53,
+        927,
+        61
+      ]
+    },
+    {
+      "text": "Allina Health",
+      "bbox": [
+        84,
+        58,
+        272,
+        82
+      ]
+    },
+    {
+      "text": "2925 Chicago Avenue",
+      "bbox": [
+        313,
+        60,
+        460,
+        73
+      ]
+    },
+    {
+      "text": "VISA",
+      "bbox": [
+        888,
+        60,
+        927,
+        73
+      ]
+    },
+    {
+      "text": "CARD NUMBER",
+      "bbox": [
+        888,
+        60,
+        927,
+        67
+      ]
+    },
+    {
+      "text": "Minneapolis, MN 55407-1321",
+      "bbox": [
+        313,
+        74,
+        507,
+        87
+      ]
+    },
+    {
+      "text": "VISA",
+      "bbox": [
+        888,
+        67,
+        927,
+        81
+      ]
+    },
+    {
+      "text": "CARD NUMBER",
+      "bbox": [
+        888,
+        67,
+        927,
+        75
+      ]
+    },
+    {
+      "text": "SIGNATURE",
+      "bbox": [
+        526,
+        87,
+        575,
+        94
+      ]
+    },
+    {
+      "text": "AMOUNT PAID",
+      "bbox": [
+        908,
+        87,
+        968,
+        95
+      ]
+    },
+    {
+      "text": "ALN414",
+      "bbox": [
+        11,
+        89,
+        20,
+        118
+      ]
+    },
+    {
+      "text": "Billing Questions?",
+      "bbox": [
+        82,
+        105,
+        217,
+        118
+      ]
+    },
+    {
+      "text": "Please call us at 612-262-9000 or 1-800-859-5077,",
+      "bbox": [
+        82,
+        118,
+        387,
+        130
+      ]
+    },
+    {
+      "text": "STATEMENT DATE",
+      "bbox": [
+        559,
+        117,
+        654,
+        125
+      ]
+    },
+    {
+      "text": "ACCOUNT NUMBER",
+      "bbox": [
+        712,
+        117,
+        816,
+        125
+      ]
+    },
+    {
+      "text": "PLEASE PAY THIS AMOUNT",
+      "bbox": [
+        845,
+        117,
+        986,
+        126
+      ]
+    },
+    {
+      "text": "Monday - Thursday 8am - 4:30pm",
+      "bbox": [
+        82,
+        131,
+        291,
+        143
+      ]
+    },
+    {
+      "text": "03/28/2013",
+      "bbox": [
+        567,
+        134,
+        640,
+        144
+      ]
+    },
+    {
+      "text": "0000000",
+      "bbox": [
+        728,
+        134,
+        786,
+        144
+      ]
+    },
+    {
+      "text": "$419.07",
+      "bbox": [
+        886,
+        134,
+        941,
+        145
+      ]
+    },
+    {
+      "text": "Friday 9am - 4:30pm",
+      "bbox": [
+        82,
+        144,
+        209,
+        155
+      ]
+    },
+    {
+      "text": "Pay Online:",
+      "bbox": [
+        570,
+        153,
+        647,
+        165
+      ]
+    },
+    {
+      "text": "DATE DUE",
+      "bbox": [
+        888,
+        153,
+        941,
+        162
+      ]
+    },
+    {
+      "text": "Please check box if address below is incorrect or if your",
+      "bbox": [
+        113,
+        156,
+        438,
+        168
+      ]
+    },
+    {
+      "text": "www.allinahealth.org/payhospitalbill",
+      "bbox": [
+        571,
+        166,
+        787,
+        177
+      ]
+    },
+    {
+      "text": "see reverse side for additional payment options",
+      "bbox": [
+        571,
+        177,
+        834,
+        188
+      ]
+    },
+    {
+      "text": "04/18/2013",
+      "bbox": [
+        876,
+        172,
+        952,
+        183
+      ]
+    },
+    {
+      "text": "Insurance updates and indicate change(s) on the reverse side.",
+      "bbox": [
+        113,
+        169,
+        479,
+        181
+      ]
+    },
+    {
+      "text": "ADDRESSEE",
+      "bbox": [
+        221,
+        198,
+        306,
+        209
+      ]
+    },
+    {
+      "text": "Page 1 of 1",
+      "bbox": [
+        451,
+        201,
+        516,
+        214
+      ]
+    },
+    {
+      "text": "PLEASE MAKE CHECKS PAYABLE AND REMIT TO:",
+      "bbox": [
+        591,
+        198,
+        927,
+        210
+      ]
+    },
+    {
+      "text": "JANE DOE",
+      "bbox": [
+        118,
+        222,
+        194,
+        234
+      ]
+    },
+    {
+      "text": "ALLINA HEALTH",
+      "bbox": [
+        575,
+        218,
+        695,
+        229
+      ]
+    },
+    {
+      "text": "123 ANY STREET",
+      "bbox": [
+        118,
+        236,
+        242,
+        247
+      ]
+    },
+    {
+      "text": "PO BOX 9125",
+      "bbox": [
+        575,
+        232,
+        671,
+        243
+      ]
+    },
+    {
+      "text": "ANYWHERE, USA 55555 T",
+      "bbox": [
+        118,
+        249,
+        311,
+        261
+      ]
+    },
+    {
+      "text": "MINNEAPOLIS MN 55480-9125",
+      "bbox": [
+        575,
+        246,
+        787,
+        257
+      ]
+    },
+    {
+      "text": "HOSPITAL STATEMENT",
+      "bbox": [
+        386,
+        369,
+        622,
+        384
+      ]
+    },
+    {
+      "text": "ACCOUNT NUMBER",
+      "bbox": [
+        61,
+        396,
+        208,
+        408
+      ]
+    },
+    {
+      "text": "PATIENT NAME",
+      "bbox": [
+        375,
+        396,
+        487,
+        408
+      ]
+    },
+    {
+      "text": "HOSPITAL NAME",
+      "bbox": [
+        739,
+        396,
+        864,
+        408
+      ]
+    },
+    {
+      "text": "0000000",
+      "bbox": [
+        103,
+        420,
+        166,
+        432
+      ]
+    },
+    {
+      "text": "JANE DOE",
+      "bbox": [
+        386,
+        420,
+        470,
+        432
+      ]
+    },
+    {
+      "text": "Medical Center",
+      "bbox": [
+        742,
+        420,
+        853,
+        432
+      ]
+    },
+    {
+      "text": "Date",
+      "bbox": [
+        103,
+        454,
+        135,
+        465
+      ]
+    },
+    {
+      "text": "Description",
+      "bbox": [
+        462,
+        454,
+        543,
+        466
+      ]
+    },
+    {
+      "text": "Charges/Payments",
+      "bbox": [
+        821,
+        454,
+        955,
+        466
+      ]
+    },
+    {
+      "text": "SERVICES FROM 07/07/2010 TO 07/07/2010",
+      "bbox": [
+        342,
+        490,
+        672,
+        502
+      ]
+    },
+    {
+      "text": "If you require an itemization of charges, please call (612) 262-9000 or (800) 859-5077.",
+      "bbox": [
+        210,
+        509,
+        797,
+        522
+      ]
+    },
+    {
+      "text": "07/07/10",
+      "bbox": [
+        87,
+        532,
+        152,
+        545
+      ]
+    },
+    {
+      "text": "Laboratory General",
+      "bbox": [
+        217,
+        531,
+        359,
+        545
+      ]
+    },
+    {
+      "text": "$654.80",
+      "bbox": [
+        894,
+        531,
+        956,
+        545
+      ]
+    },
+    {
+      "text": "TOTAL CHARGES",
+      "bbox": [
+        275,
+        562,
+        431,
+        575
+      ]
+    },
+    {
+      "text": "$654.80",
+      "bbox": [
+        625,
+        562,
+        691,
+        575
+      ]
+    },
+    {
+      "text": "03/26/13",
+      "bbox": [
+        87,
+        591,
+        151,
+        604
+      ]
+    },
+    {
+      "text": "Insurance Payment",
+      "bbox": [
+        217,
+        591,
+        359,
+        605
+      ]
+    },
+    {
+      "text": "$0.00",
+      "bbox": [
+        913,
+        591,
+        956,
+        604
+      ]
+    },
+    {
+      "text": "03/27/13",
+      "bbox": [
+        87,
+        612,
+        151,
+        624
+      ]
+    },
+    {
+      "text": "Uninsured Discount",
+      "bbox": [
+        217,
+        612,
+        359,
+        624
+      ]
+    },
+    {
+      "text": "-235.73",
+      "bbox": [
+        898,
+        612,
+        956,
+        624
+      ]
+    },
+    {
+      "text": "BALANCE:",
+      "bbox": [
+        276,
+        644,
+        395,
+        660
+      ]
+    },
+    {
+      "text": "$419.07",
+      "bbox": [
+        607,
+        644,
+        691,
+        660
+      ]
+    },
+    {
+      "text": "PLEASE NOTE: If you have requested this itemized statement, the balance listed as patient responsibility may still be pending with your insurance company.",
+      "bbox": [
+        71,
+        896,
+        930,
+        907
+      ]
+    },
+    {
+      "text": "Thank you for choosing Allina Health",
+      "bbox": [
+        371,
+        908,
+        633,
+        921
+      ]
+    },
+    {
+      "text": "Did you know you can pay this bill online?",
+      "bbox": [
+        65,
+        938,
+        433,
+        956
+      ]
+    },
+    {
+      "text": "PLEASE PAY THIS AMOUNT",
+      "bbox": [
+        526,
+        943,
+        800,
+        957
+      ]
+    },
+    {
+      "text": "$419.07",
+      "bbox": [
+        845,
+        940,
+        930,
+        957
+      ]
+    },
+    {
+      "text": "Go to allinahealth.org/payhospitalbill",
+      "bbox": [
+        30,
+        976,
+        241,
+        986
+      ]
+    },
+    {
+      "text": "You can also pay your bill by mail.",
+      "bbox": [
+        257,
+        976,
+        451,
+        988
+      ]
+    },
+    {
+      "text": "FOR BILLING INQUIRIES: 612-262-9000 or 1-800-859-5077 (if you",
+      "bbox": [
+        523,
+        982,
+        965,
+        994
+      ]
+    },
+    {
+      "text": "for secure payment with your credit card",
+      "bbox": [
+        30,
+        988,
+        245,
+        997
+      ]
+    }
+  ],
+  "candidates": {
+    "total_amount": [
+      {
+        "value": "419.07",
+        "num": 419.07,
+        "score": 1.074,
+        "text": "$419.07",
+        "bbox": [
+          845,
+          940,
+          930,
+          957
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'pay this amount' (same_row, prox=0.97)",
+            0.534
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x3",
+            0.12
+          ],
+          [
+            "in_payment_coupon_band",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "419.07",
+        "num": 419.07,
+        "score": 0.965,
+        "text": "$419.07",
+        "bbox": [
+          607,
+          644,
+          691,
+          660
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'balance' (same_row, prox=0.86)",
+            0.475
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x3",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "419.07",
+        "num": 419.07,
+        "score": 0.901,
+        "text": "$419.07",
+        "bbox": [
+          886,
+          134,
+          941,
+          145
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'pay this amount' (below, prox=0.75)",
+            0.411
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x3",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "654.80",
+        "num": 654.8,
+        "score": 0.521,
+        "text": "$654.80",
+        "bbox": [
+          625,
+          562,
+          691,
+          575
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total' (same_row, prox=0.88)",
+            0.481
+          ],
+          [
+            "negative_anchor 'total charges' same_row",
+            -0.45
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x2",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "654.80",
+        "num": 654.8,
+        "score": 0.49,
+        "text": "$654.80",
+        "bbox": [
+          894,
+          531,
+          956,
+          545
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x2",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "235.73",
+        "num": 235.73,
+        "score": 0.25,
+        "text": "-235.73",
+        "bbox": [
+          898,
+          612,
+          956,
+          624
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ]
+        ]
+      }
+    ],
+    "due_date": [
+      {
+        "value": "2013-04-18",
+        "score": 0.59,
+        "text": "04/18/2013",
+        "bbox": [
+          876,
+          172,
+          952,
+          183
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "due_anchor 'date due' (below, prox=0.73)",
+            0.44
+          ]
+        ]
+      },
+      {
+        "value": "2010-07-07",
+        "score": 0.15,
+        "text": "07/07/10",
+        "bbox": [
+          87,
+          532,
+          152,
+          545
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ]
+        ]
+      },
+      {
+        "value": "2013-03-26",
+        "score": 0.15,
+        "text": "03/26/13",
+        "bbox": [
+          87,
+          591,
+          151,
+          604
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ]
+        ]
+      },
+      {
+        "value": "2013-03-27",
+        "score": 0.15,
+        "text": "03/27/13",
+        "bbox": [
+          87,
+          612,
+          151,
+          624
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ]
+        ]
+      },
+      {
+        "value": "2013-03-28",
+        "score": -0.35,
+        "text": "03/28/2013",
+        "bbox": [
+          567,
+          134,
+          640,
+          144
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "non_deadline_anchor 'statement date'",
+            -0.5
+          ]
+        ]
+      }
+    ],
+    "sender": [
+      {
+        "value": "Allina Health",
+        "score": 0.95,
+        "tier": "S1",
+        "text": "Allina Health",
+        "evidence": [
+          [
+            "top_band_text",
+            0.3
+          ],
+          [
+            "large_glyph_height (24 vs mh 12)",
+            0.3
+          ],
+          [
+            "top-left letterhead position (x<300)",
+            0.25
+          ],
+          [
+            "institution_hint_word (existing list)",
+            0.4
+          ]
+        ]
+      }
+    ],
+    "recipient": [
+      {
+        "value": "JANE DOE",
+        "score": 0.82,
+        "tier": "R2",
+        "text": "Allina Health / Billing Questions? / Please call us at 612-262-9000 or 1-800-859-5077, / Monday - Thursday 8am - 4:30pm / Friday 9am - 4:30pm / Please check box if address below is incorrect or if your / Insurance updates and indicate change(s) on the reverse side. / ADDRESSEE / JANE DOE / 123 ANY STREET / ANYWHERE, USA 55555 T",
+        "evidence": [
+          [
+            "complete unlabeled block, recipient position",
+            0.82
+          ],
+          [
+            "block: Allina Health / Billing Questions? / Please call us at 612-262-9000 or 1-800-859-5077, / Monday - Thursday 8am - 4:30pm",
+            0
+          ]
+        ]
+      }
+    ],
+    "action": [
+      {
+        "value": "pay",
+        "score": 0.65,
+        "text": "PLEASE PAY THIS AMOUNT",
+        "bbox": [
+          845,
+          117,
+          986,
+          126
+        ],
+        "evidence": [
+          [
+            "action_phrase 'please pay' -> pay",
+            0.4
+          ],
+          [
+            "imperative_sentence_start",
+            0.2
+          ],
+          [
+            "upper_half_of_page",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.65,
+        "text": "PLEASE MAKE CHECKS PAYABLE AND REMIT TO:",
+        "bbox": [
+          591,
+          198,
+          927,
+          210
+        ],
+        "evidence": [
+          [
+            "action_phrase 'make checks payable' -> pay",
+            0.4
+          ],
+          [
+            "imperative_sentence_start",
+            0.2
+          ],
+          [
+            "upper_half_of_page",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "call",
+        "score": 0.65,
+        "text": "Please call us at 612-262-9000 or 1-800-859-5077,",
+        "bbox": [
+          82,
+          118,
+          387,
+          130
+        ],
+        "evidence": [
+          [
+            "action_phrase 'please call' -> call",
+            0.4
+          ],
+          [
+            "imperative_sentence_start",
+            0.2
+          ],
+          [
+            "upper_half_of_page",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.6,
+        "text": "PLEASE PAY THIS AMOUNT",
+        "bbox": [
+          526,
+          943,
+          800,
+          957
+        ],
+        "evidence": [
+          [
+            "action_phrase 'please pay' -> pay",
+            0.4
+          ],
+          [
+            "imperative_sentence_start",
+            0.2
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.45,
+        "text": "Pay Online:",
+        "bbox": [
+          570,
+          153,
+          647,
+          165
+        ],
+        "evidence": [
+          [
+            "action_phrase 'pay online' -> pay",
+            0.4
+          ],
+          [
+            "upper_half_of_page",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.4,
+        "text": "You can also pay your bill by mail.",
+        "bbox": [
+          257,
+          976,
+          451,
+          988
+        ],
+        "evidence": [
+          [
+            "action_phrase 'pay your bill' -> pay",
+            0.4
+          ]
+        ]
+      },
+      {
+        "value": "call",
+        "score": 0.4,
+        "text": "If you require an itemization of charges, please call (612) 262-9000 or (800) 859-5077.",
+        "bbox": [
+          210,
+          509,
+          797,
+          522
+        ],
+        "evidence": [
+          [
+            "action_phrase 'please call' -> call",
+            0.4
+          ]
+        ]
+      }
+    ]
+  },
+  "fields": {
+    "total_amount": {
+      "value": "419.07",
+      "score": 1.074,
+      "evidence": [
+        [
+          "base_money_token",
+          0.25
+        ],
+        [
+          "strong_anchor 'pay this amount' (same_row, prox=0.97)",
+          0.534
+        ],
+        [
+          "has_dollar_sign",
+          0.12
+        ],
+        [
+          "value_repeats_x3",
+          0.12
+        ],
+        [
+          "in_payment_coupon_band",
+          0.05
+        ]
+      ],
+      "runner_up": [
+        "419.07",
+        0.965
+      ]
+    },
+    "due_date": {
+      "value": "2013-04-18",
+      "score": 0.59,
+      "evidence": [
+        [
+          "base_date_token",
+          0.15
+        ],
+        [
+          "due_anchor 'date due' (below, prox=0.73)",
+          0.44
+        ]
+      ],
+      "runner_up": [
+        "2010-07-07",
+        0.15
+      ]
+    },
+    "sender": {
+      "value": "Allina Health",
+      "score": 0.95,
+      "evidence": [
+        [
+          "top_band_text",
+          0.3
+        ],
+        [
+          "large_glyph_height (24 vs mh 12)",
+          0.3
+        ],
+        [
+          "top-left letterhead position (x<300)",
+          0.25
+        ],
+        [
+          "institution_hint_word (existing list)",
+          0.4
+        ]
+      ],
+      "runner_up": null
+    },
+    "recipient": {
+      "value": "JANE DOE",
+      "score": 0.82,
+      "evidence": [
+        [
+          "complete unlabeled block, recipient position",
+          0.82
+        ],
+        [
+          "block: Allina Health / Billing Questions? / Please call us at 612-262-9000 or 1-800-859-5077, / Monday - Thursday 8am - 4:30pm",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "action": {
+      "value": "pay",
+      "score": 0.65,
+      "evidence": [
+        [
+          "action_phrase 'please pay' -> pay",
+          0.4
+        ],
+        [
+          "imperative_sentence_start",
+          0.2
+        ],
+        [
+          "upper_half_of_page",
+          0.05
+        ]
+      ],
+      "runner_up": [
+        "pay",
+        0.65
+      ]
+    },
+    "payment_status": {
+      "value": "unpaid",
+      "score": 0.8,
+      "evidence": [
+        [
+          "positive amount (419.07) + due/balance anchor, no paid marker",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "_cross_validation": [
+      "note: 2 money token(s) larger than chosen amount 419.07"
+    ]
+  },
+  "final": {
+    "sender": "Allina Health",
+    "recipient": "JANE DOE",
+    "total_amount": "419.07",
+    "payment_status": "unpaid",
+    "due_date": "2013-04-18",
+    "action": "pay"
+  }
+}

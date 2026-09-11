@@ -1,0 +1,11 @@
+{
+  "document_type": "PREMIUM INVOICE",
+  "sender": "GREAT AMERICAN INSURANCE GROUP",
+  "recipient_name": "PARKER",
+  "address": "2ND LANE, NEWCITY AL 10001",
+  "account_number": "10001",
+  "amount": "$336.30",
+  "due_date": "01/10/2009",
+  "action_required": "None",
+  "important_identifier": "None"
+}

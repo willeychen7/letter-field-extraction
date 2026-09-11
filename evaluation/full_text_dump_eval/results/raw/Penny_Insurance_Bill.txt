@@ -1,0 +1,36 @@
+Penny Insurance
+Penny General Insurance Company
+P.O. Box 123123
+San Diego, CA 12345
+Declarations Page
+This is a description of your coverage.
+Please retain for your records.
+Policy Number: 1234-56-78-90
+Coverage Period:
+11-01-22 through 5-01-23
+Date Issued: November 1, 2022
+Endorsement Effective: 11-01-22
+Penny the Pig
+123 STREET BLVD.
+LOS ANGELES, CA 12345
+Email Address: example@email.com
+**Named Insured**
+Penny the Pig
+**Additional Drivers**
+John Smith
+| Vehicles | VIN | Vehicle Location | Finance Company/Lienholder |
+|---------|-----|------------------|-----------------------------|
+| 2014 Honda Civic | 12312312312312312 | Los Angeles CA 12345 | |
+| 2022 Toyota RAV-4 | 12312312312312312 | Los Angeles CA 12345 | Penny Financing |
+| **Coverages** | **Limits and/or Deductibles** | **Vehicle 1** | **Vehicle 2** |
+| Bodily Injury Liability<br>Each Person/Each<br>Occurrence | $15,000/$30,000 | $80 | $100 |
+| Property Damage<br>Liability | $5,000 | $80 | $90 |
+| Comprehensive | $1,000 Ded | - | $50 |
+| Collision | $500 Ded/Waiver | - | $300 |
+| **Six Month Premium** | | $160 | $540 |
+| **Total Six Month Premium** | | | $700 |
+**Discounts**
+California Good Driver (All Vehicles)
+Multi-Car (All Vehicles)
+Anti-Theft Device (Veh 2)
+New Car (Veh 2)

@@ -1,0 +1,628 @@
+{
+  "image": "Medical_Invoice.png",
+  "ocr": {
+    "finish_reason": "stop",
+    "elapsed_s": 7.008,
+    "usage": {
+      "completion_tokens": 550,
+      "prompt_tokens": 1969,
+      "total_tokens": 2519,
+      "prompt_tokens_details": {
+        "cached_tokens": 1968
+      }
+    },
+    "element_count": 33
+  },
+  "elements": [
+    {
+      "text": "Z",
+      "bbox": [
+        475,
+        71,
+        520,
+        118
+      ]
+    },
+    {
+      "text": "Zylker Heathcare",
+      "bbox": [
+        404,
+        152,
+        621,
+        171
+      ]
+    },
+    {
+      "text": "14B,Northern Street,Greater South Avenue,New York 10001 U.S.A",
+      "bbox": [
+        246,
+        180,
+        752,
+        192
+      ]
+    },
+    {
+      "text": "INVOICE",
+      "bbox": [
+        235,
+        232,
+        768,
+        308
+      ]
+    },
+    {
+      "text": "Bill To",
+      "bbox": [
+        463,
+        371,
+        535,
+        388
+      ]
+    },
+    {
+      "text": "Aaron Brown",
+      "bbox": [
+        436,
+        402,
+        560,
+        414
+      ]
+    },
+    {
+      "text": "Greater South Avenue 10001 New York U.S.A",
+      "bbox": [
+        327,
+        425,
+        666,
+        436
+      ]
+    },
+    {
+      "text": "Invoice#",
+      "bbox": [
+        112,
+        509,
+        177,
+        520
+      ]
+    },
+    {
+      "text": "Invoice Date",
+      "bbox": [
+        332,
+        509,
+        427,
+        520
+      ]
+    },
+    {
+      "text": "Terms",
+      "bbox": [
+        591,
+        509,
+        639,
+        520
+      ]
+    },
+    {
+      "text": "Due Date",
+      "bbox": [
+        816,
+        509,
+        886,
+        520
+      ]
+    },
+    {
+      "text": "INV-000006",
+      "bbox": [
+        85,
+        532,
+        203,
+        545
+      ]
+    },
+    {
+      "text": "05 Aug 2024",
+      "bbox": [
+        318,
+        532,
+        438,
+        548
+      ]
+    },
+    {
+      "text": "Due on Receipt",
+      "bbox": [
+        544,
+        532,
+        684,
+        548
+      ]
+    },
+    {
+      "text": "05 Sep 2024",
+      "bbox": [
+        790,
+        532,
+        907,
+        548
+      ]
+    },
+    {
+      "text": "#",
+      "bbox": [
+        43,
+        585,
+        56,
+        596
+      ]
+    },
+    {
+      "text": "Item & Description",
+      "bbox": [
+        108,
+        585,
+        278,
+        600
+      ]
+    },
+    {
+      "text": "Amount",
+      "bbox": [
+        875,
+        585,
+        951,
+        597
+      ]
+    },
+    {
+      "text": "1",
+      "bbox": [
+        46,
+        645,
+        53,
+        656
+      ]
+    },
+    {
+      "text": "Ambulance service",
+      "bbox": [
+        108,
+        645,
+        283,
+        657
+      ]
+    },
+    {
+      "text": "900.00",
+      "bbox": [
+        878,
+        645,
+        950,
+        657
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        43,
+        717,
+        53,
+        728
+      ]
+    },
+    {
+      "text": "Emergency ward charges",
+      "bbox": [
+        108,
+        716,
+        341,
+        732
+      ]
+    },
+    {
+      "text": "10,000.00",
+      "bbox": [
+        852,
+        716,
+        950,
+        730
+      ]
+    },
+    {
+      "text": "3",
+      "bbox": [
+        43,
+        788,
+        53,
+        798
+      ]
+    },
+    {
+      "text": "Behavioural therapy",
+      "bbox": [
+        108,
+        787,
+        291,
+        802
+      ]
+    },
+    {
+      "text": "3000.00",
+      "bbox": [
+        866,
+        787,
+        950,
+        800
+      ]
+    },
+    {
+      "text": "Sub Total",
+      "bbox": [
+        620,
+        853,
+        705,
+        866
+      ]
+    },
+    {
+      "text": "13,900.00",
+      "bbox": [
+        852,
+        853,
+        950,
+        867
+      ]
+    },
+    {
+      "text": "Tax Rate (5%)",
+      "bbox": [
+        585,
+        898,
+        705,
+        913
+      ]
+    },
+    {
+      "text": "695",
+      "bbox": [
+        913,
+        898,
+        950,
+        911
+      ]
+    },
+    {
+      "text": "Total",
+      "bbox": [
+        657,
+        951,
+        705,
+        964
+      ]
+    },
+    {
+      "text": "$14,595.00",
+      "bbox": [
+        836,
+        951,
+        948,
+        966
+      ]
+    }
+  ],
+  "candidates": {
+    "total_amount": [
+      {
+        "value": "14595.00",
+        "num": 14595.0,
+        "score": 0.924,
+        "text": "$14,595.00",
+        "bbox": [
+          836,
+          951,
+          948,
+          966
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total' (same_row, prox=0.92)",
+            0.504
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "in_payment_coupon_band",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "13900.00",
+        "num": 13900.0,
+        "score": 0.348,
+        "text": "13,900.00",
+        "bbox": [
+          852,
+          853,
+          950,
+          867
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total' (same_row, prox=0.91)",
+            0.498
+          ],
+          [
+            "negative_anchor 'sub total' same_row",
+            -0.45
+          ],
+          [
+            "in_payment_coupon_band",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "3000.00",
+        "num": 3000.0,
+        "score": 0.3,
+        "text": "3000.00",
+        "bbox": [
+          866,
+          787,
+          950,
+          800
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "in_payment_coupon_band",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "900.00",
+        "num": 900.0,
+        "score": 0.25,
+        "text": "900.00",
+        "bbox": [
+          878,
+          645,
+          950,
+          657
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ]
+        ]
+      },
+      {
+        "value": "10000.00",
+        "num": 10000.0,
+        "score": 0.25,
+        "text": "10,000.00",
+        "bbox": [
+          852,
+          716,
+          950,
+          730
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ]
+        ]
+      }
+    ],
+    "due_date": [
+      {
+        "value": "2024-09-05",
+        "score": 0.709,
+        "text": "05 Sep 2024",
+        "bbox": [
+          790,
+          532,
+          907,
+          548
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "due_anchor 'due on' (same_row, prox=0.93)",
+            0.559
+          ]
+        ]
+      },
+      {
+        "value": "2024-08-05",
+        "score": -0.315,
+        "text": "05 Aug 2024",
+        "bbox": [
+          318,
+          532,
+          438,
+          548
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "due_anchor 'due on' (same_row, prox=0.06)",
+            0.035
+          ],
+          [
+            "non_deadline_anchor 'invoice date'",
+            -0.5
+          ]
+        ]
+      }
+    ],
+    "sender": [],
+    "recipient": [
+      {
+        "value": "Aaron Brown",
+        "score": 0.7,
+        "tier": "R4",
+        "text": "Bill To / Aaron Brown / Greater South Avenue 10001 New York U.S.A",
+        "evidence": [
+          [
+            "name above a partial address",
+            0.7
+          ],
+          [
+            "block: Bill To / Aaron Brown / Greater South Avenue 10001 New York U.S.A",
+            0
+          ]
+        ]
+      }
+    ],
+    "action": [
+      {
+        "value": "pay",
+        "score": 0.4,
+        "text": "Due on Receipt",
+        "bbox": [
+          544,
+          532,
+          684,
+          548
+        ],
+        "evidence": [
+          [
+            "action_phrase 'due on receipt' -> pay",
+            0.4
+          ]
+        ]
+      }
+    ]
+  },
+  "fields": {
+    "total_amount": {
+      "value": "14595.00",
+      "score": 0.924,
+      "evidence": [
+        [
+          "base_money_token",
+          0.25
+        ],
+        [
+          "strong_anchor 'total' (same_row, prox=0.92)",
+          0.504
+        ],
+        [
+          "has_dollar_sign",
+          0.12
+        ],
+        [
+          "in_payment_coupon_band",
+          0.05
+        ]
+      ],
+      "runner_up": [
+        "13900.00",
+        0.348
+      ]
+    },
+    "due_date": {
+      "value": "2024-09-05",
+      "score": 0.709,
+      "evidence": [
+        [
+          "base_date_token",
+          0.15
+        ],
+        [
+          "due_anchor 'due on' (same_row, prox=0.93)",
+          0.559
+        ]
+      ],
+      "runner_up": [
+        "2024-08-05",
+        -0.315
+      ]
+    },
+    "sender": {
+      "value": null,
+      "score": 0.0,
+      "evidence": [
+        [
+          "below_threshold_or_no_candidate",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "recipient": {
+      "value": "Aaron Brown",
+      "score": 0.7,
+      "evidence": [
+        [
+          "name above a partial address",
+          0.7
+        ],
+        [
+          "block: Bill To / Aaron Brown / Greater South Avenue 10001 New York U.S.A",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "action": {
+      "value": "pay",
+      "score": 0.4,
+      "evidence": [
+        [
+          "action_phrase 'due on receipt' -> pay",
+          0.4
+        ]
+      ],
+      "runner_up": null
+    },
+    "payment_status": {
+      "value": "unpaid",
+      "score": 0.8,
+      "evidence": [
+        [
+          "positive amount (14595.00) + due/balance anchor, no paid marker",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "_cross_validation": [
+      "amount 14595.00 is the largest money token (consistent)"
+    ]
+  },
+  "final": {
+    "sender": null,
+    "recipient": "Aaron Brown",
+    "total_amount": "14595.00",
+    "payment_status": "unpaid",
+    "due_date": "2024-09-05",
+    "action": "pay"
+  }
+}

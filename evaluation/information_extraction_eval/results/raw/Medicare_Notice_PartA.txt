@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Medicare Summary Notice",
+    "sender": "JENNIFER WASHINGTON",
+    "recipient_name": "TEMPORARY ADDRESS NAME",
+    "address": "STREET ADDRESS CITY, ST 12345-6789",
+    "account_number": "1A23BC4DE56",
+    "amount": "$1,184.00",
+    "due_date": "September 15, 2020",
+    "action_required": "See page 2 for how to double-check this notice.",
+    "important_identifier": "Part A Deductible"
+}
+```

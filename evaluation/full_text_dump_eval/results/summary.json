@@ -1,0 +1,335 @@
+[
+  {
+    "image": "AAA_insurance_Bill.png",
+    "status": "ok",
+    "inference_time_s": 1.949,
+    "prompt_tokens": 340,
+    "completion_tokens": 201,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "All_State_Insurance_Card.jpg",
+    "status": "ok",
+    "inference_time_s": 2.128,
+    "prompt_tokens": 418,
+    "completion_tokens": 224,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Auto_Insurance_Bill1.jpg",
+    "status": "ok",
+    "inference_time_s": 5.774,
+    "prompt_tokens": 2428,
+    "completion_tokens": 498,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "status": "ok",
+    "inference_time_s": 5.051,
+    "prompt_tokens": 1550,
+    "completion_tokens": 453,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Bank_Bill_Due.png",
+    "status": "ok",
+    "inference_time_s": 3.575,
+    "prompt_tokens": 1188,
+    "completion_tokens": 324,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Bank_Bill_Example.jpg",
+    "status": "ok",
+    "inference_time_s": 5.914,
+    "prompt_tokens": 810,
+    "completion_tokens": 619,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "CMS_EOB.png",
+    "status": "ok",
+    "inference_time_s": 3.047,
+    "prompt_tokens": 962,
+    "completion_tokens": 334,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Coverage_Care_Insurance_Card.png",
+    "status": "ok",
+    "inference_time_s": 1.148,
+    "prompt_tokens": 568,
+    "completion_tokens": 107,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "DMV_Notice.jpeg",
+    "status": "ok",
+    "inference_time_s": 5.339,
+    "prompt_tokens": 1720,
+    "completion_tokens": 486,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "DMV_Registration.png",
+    "status": "ok",
+    "inference_time_s": 6.577,
+    "prompt_tokens": 1396,
+    "completion_tokens": 637,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "EastWest_Bank_Form.png",
+    "status": "ok",
+    "inference_time_s": 8.297,
+    "prompt_tokens": 810,
+    "completion_tokens": 706,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "status": "ok",
+    "inference_time_s": 4.77,
+    "prompt_tokens": 810,
+    "completion_tokens": 486,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "HOA1.png",
+    "status": "ok",
+    "inference_time_s": 6.191,
+    "prompt_tokens": 810,
+    "completion_tokens": 477,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "HOA2.png",
+    "status": "ok",
+    "inference_time_s": 9.662,
+    "prompt_tokens": 2077,
+    "completion_tokens": 203,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "HOA3.png",
+    "status": "ok",
+    "inference_time_s": 7.134,
+    "prompt_tokens": 1630,
+    "completion_tokens": 182,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "status": "ok",
+    "inference_time_s": 5.635,
+    "prompt_tokens": 1480,
+    "completion_tokens": 516,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "status": "ok",
+    "inference_time_s": 5.445,
+    "prompt_tokens": 1472,
+    "completion_tokens": 489,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "IRS_cp503.png",
+    "status": "ok",
+    "inference_time_s": 4.866,
+    "prompt_tokens": 1758,
+    "completion_tokens": 488,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "status": "ok",
+    "inference_time_s": 2.379,
+    "prompt_tokens": 1960,
+    "completion_tokens": 134,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "status": "ok",
+    "inference_time_s": 3.483,
+    "prompt_tokens": 990,
+    "completion_tokens": 384,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Medicare_Notice_PartB.png",
+    "status": "ok",
+    "inference_time_s": 6.694,
+    "prompt_tokens": 1120,
+    "completion_tokens": 391,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Medicare_Notice_of_Denial.png",
+    "status": "ok",
+    "inference_time_s": 10.358,
+    "prompt_tokens": 1765,
+    "completion_tokens": 421,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Medixare_Premium_Bill.png",
+    "status": "ok",
+    "inference_time_s": 10.611,
+    "prompt_tokens": 1258,
+    "completion_tokens": 717,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Penny_Insurance_Bill.png",
+    "status": "ok",
+    "inference_time_s": 6.131,
+    "prompt_tokens": 946,
+    "completion_tokens": 392,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Progressive_Insurance_Bill.jpg",
+    "status": "ok",
+    "inference_time_s": 30.634,
+    "prompt_tokens": 4081,
+    "completion_tokens": 471,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "status": "ok",
+    "inference_time_s": 5.225,
+    "prompt_tokens": 1258,
+    "completion_tokens": 486,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "SCE_Letter.png",
+    "status": "ok",
+    "inference_time_s": 5.455,
+    "prompt_tokens": 1720,
+    "completion_tokens": 476,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "status": "ok",
+    "inference_time_s": 7.704,
+    "prompt_tokens": 1126,
+    "completion_tokens": 475,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "SoCalGas.png",
+    "status": "ok",
+    "inference_time_s": 5.418,
+    "prompt_tokens": 1850,
+    "completion_tokens": 458,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "State_Farm_Insurance_Card.jpg",
+    "status": "ok",
+    "inference_time_s": 2.104,
+    "prompt_tokens": 283,
+    "completion_tokens": 180,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "UCLA_Health_Bill.png",
+    "status": "ok",
+    "inference_time_s": 45.579,
+    "prompt_tokens": 1214,
+    "completion_tokens": 4096,
+    "finish_reason": "length",
+    "error": null
+  },
+  {
+    "image": "UCLA_Health_Bill2.png",
+    "status": "ok",
+    "inference_time_s": 14.27,
+    "prompt_tokens": 1171,
+    "completion_tokens": 1153,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Water_Bill2.jpg",
+    "status": "ok",
+    "inference_time_s": 3.601,
+    "prompt_tokens": 406,
+    "completion_tokens": 395,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "aaa-policy_renew.jpg",
+    "status": "ok",
+    "inference_time_s": 18.202,
+    "prompt_tokens": 3018,
+    "completion_tokens": 341,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "aws_invoice.png",
+    "status": "ok",
+    "inference_time_s": 3.784,
+    "prompt_tokens": 350,
+    "completion_tokens": 372,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "food1.jpeg",
+    "status": "ok",
+    "inference_time_s": 2.075,
+    "prompt_tokens": 810,
+    "completion_tokens": 1,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "status": "ok",
+    "inference_time_s": 2.271,
+    "prompt_tokens": 307,
+    "completion_tokens": 257,
+    "finish_reason": "stop",
+    "error": null
+  }
+]

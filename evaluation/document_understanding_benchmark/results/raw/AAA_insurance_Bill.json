@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Personal Umbrella Policy Number Bill Example\",\n    \"sender\": \"AAA Insurance MemberSelect Insurance Company\",\n    \"recipient\": \"CINCINNATI, OH 45274-0860\",\n    \"amount\": \"$12.20\",\n    \"due_date\": \"Apr 8 2020\",\n    \"payment_status\": \"paid\",\n    \"action_required\": \"true\",\n    \"action\": \"Installment\",\n    \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639748,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 590,
+    "total_tokens": 704,
+    "prompt_tokens_details": {
+      "cached_tokens": 336
+    }
+  },
+  "id": "chatcmpl-stRz7q6QydfHzydDxncNoiCLRvILsEoW",
+  "timings": {
+    "cache_n": 336,
+    "prompt_n": 254,
+    "prompt_ms": 89.034,
+    "prompt_per_token_ms": 0.3505275590551181,
+    "prompt_per_second": 2852.842734236359,
+    "predicted_n": 114,
+    "predicted_ms": 954.3,
+    "predicted_per_token_ms": 8.445132743362832,
+    "predicted_per_second": 118.41140102693075
+  }
+}

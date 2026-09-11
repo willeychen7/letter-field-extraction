@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"document_type\": \"The Efficient Customer\",\n  \"sender\": \"The Efficient Customer\",\n  \"recipient\": \"The Efficient Customer\",\n  \"amount\": \"$10.30\",\n  \"due_date\": \"None\",\n  \"payment_status\": \"Your Allocation for this Bill Bill Calculation Based on to Avoid Late Charge Pay Before\",\n  \"action_required\": true,\n  \"action\": \"Your Allocation for this Bill Bill Calculation Based on to Avoid Late Charge Pay Before\",\n  \"risk\": \"high\"\n}"
+      }
+    }
+  ],
+  "created": 1788641414,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 764,
+    "total_tokens": 878,
+    "prompt_tokens_details": {
+      "cached_tokens": 401
+    }
+  },
+  "id": "chatcmpl-4lmptXPgT2fi4EabbpVeKmXm9TOxqyj2",
+  "timings": {
+    "cache_n": 401,
+    "prompt_n": 363,
+    "prompt_ms": 129.346,
+    "prompt_per_token_ms": 0.35632506887052345,
+    "prompt_per_second": 2806.4261747560804,
+    "predicted_n": 114,
+    "predicted_ms": 942.929,
+    "predicted_per_token_ms": 8.34450442477876,
+    "predicted_per_second": 119.8393516372919
+  }
+}

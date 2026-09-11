@@ -1,0 +1,60 @@
+image,text,kind,bbox_norm,bbox_pixel,merged_with_label_or_trailer,auto_bucket
+SCE_Bill_Letter.png,"BAKER, NATE / Page 5 of 5",name,"[756, 98, 943, 110]","[759.0, 122.7, 946.8, 137.7]",True,D_merged_with_nonPII
+SCE_Bill_Letter.png,8012345678,id_number,"[215, 156, 295, 166]","[215.9, 195.3, 296.2, 207.8]",False,C_standalone_bbox
+SCE_Bill_Letter.png,1234 FIRST AVE,address,"[215, 171, 326, 181]","[215.9, 214.1, 327.3, 226.6]",False,C_standalone_bbox
+SCE_Bill_Letter.png,123456789012345678,id_number,"[407, 171, 552, 180]","[408.6, 214.1, 554.2, 225.4]",False,C_standalone_bbox
+SCE_Bill_Letter.png,Service Account: 8012345678,id_number,"[65, 332, 260, 343]","[65.3, 415.7, 261.0, 429.4]",True,D_merged_with_nonPII
+SCE_Bill_Letter.png,262.98 kWh @ 0.13589,id_number,"[283, 394, 436, 405]","[284.1, 493.3, 437.7, 507.1]",False,C_standalone_bbox
+SCE_Bill_Letter.png,214.99 kWh @ 0.11733,id_number,"[283, 408, 437, 419]","[284.1, 510.8, 438.7, 524.6]",False,C_standalone_bbox
+SoCalGas.png,1-800-427-2200 English,phone,"[669, 40, 830, 57]","[968.7, 51.4, 1201.8, 73.3]",False,C_standalone_bbox
+SoCalGas.png,24915 APPLE CT,address,"[302, 57, 422, 72]","[437.3, 73.3, 611.1, 92.6]",False,C_standalone_bbox
+SoCalGas.png,1-800-342-4545 Español,phone,"[669, 61, 836, 80]","[968.7, 78.4, 1210.5, 102.9]",False,C_standalone_bbox
+SoCalGas.png,MONTEREY PARK CA 91754-2217,id_number,"[302, 80, 541, 96]","[437.3, 102.9, 783.4, 123.5]",False,C_standalone_bbox
+SoCalGas.png,1-800-252-0259 TTY,phone,"[669, 84, 811, 99]","[968.7, 108.0, 1174.3, 127.3]",False,C_standalone_bbox
+SoCalGas.png,Meter Number: 92879508 (Next scheduled read date Jan 15 2016),id_number,"[38, 403, 422, 420]","[55.0, 518.3, 611.1, 540.1]",True,D_merged_with_nonPII
+SoCalGas.png,32 Days x $.16438,id_number,"[357, 531, 487, 549]","[516.9, 682.9, 705.2, 706.0]",False,C_standalone_bbox
+SoCalGas.png,$.79865,id_number,"[114, 640, 166, 656]","[165.1, 823.0, 240.4, 843.6]",False,C_standalone_bbox
+SoCalGas.png,37 Therms x $.00068,id_number,"[342, 739, 486, 755]","[495.2, 950.4, 703.7, 970.9]",False,C_standalone_bbox
+SoCalGas.png,37 Therms x $.10738,id_number,"[342, 760, 486, 776]","[495.2, 977.4, 703.7, 997.9]",False,C_standalone_bbox
+SoCalGas.png,$.32322,id_number,"[760, 960, 807, 973]","[1100.5, 1234.6, 1168.5, 1251.3]",False,C_standalone_bbox
+SoCalGas.png,$.27684,id_number,"[914, 960, 960, 973]","[1323.5, 1234.6, 1390.1, 1251.3]",False,C_standalone_bbox
+BOA_Bill_Example.png,1.800.637.7455,phone,"[738, 84, 823, 94]","[800.0, 118.1, 892.1, 132.2]",False,C_standalone_bbox
+BOA_Bill_Example.png,TTY: 1.877.275.6371,phone,"[738, 96, 849, 106]","[800.0, 135.0, 920.3, 149.0]",True,D_merged_with_nonPII
+BOA_Bill_Example.png,P.O. Box 982234,id_number,"[738, 133, 826, 144]","[800.0, 187.0, 895.4, 202.5]",False,C_standalone_bbox
+BOA_Bill_Example.png,El Paso TX 79998-2234,id_number,"[738, 145, 870, 155]","[800.0, 203.9, 943.1, 217.9]",False,C_standalone_bbox
+BOA_Bill_Example.png,P.O. Box 851001,id_number,"[738, 182, 825, 193]","[800.0, 255.9, 894.3, 271.4]",False,C_standalone_bbox
+BOA_Bill_Example.png,Dallas TX 75285-1001,id_number,"[738, 195, 858, 205]","[800.0, 274.2, 930.1, 288.2]",False,C_standalone_bbox
+BOA_Bill_Example.png,866.300.5238.,phone,"[476, 631, 575, 642]","[516.0, 887.2, 623.3, 902.7]",False,C_standalone_bbox
+BOA_Bill_Example.png,P.O. BOX 851001,id_number,"[124, 791, 224, 801]","[134.4, 1112.1, 242.8, 1126.2]",False,C_standalone_bbox
+BOA_Bill_Example.png,DALLAS TX 75285-1001,id_number,"[124, 803, 264, 812]","[134.4, 1129.0, 286.2, 1141.7]",False,C_standalone_bbox
+Great_American_Insurance_Invoice.png,P01001,id_number,"[681, 118, 726, 128]","[524.4, 120.8, 559.0, 131.1]",False,C_standalone_bbox
+Great_American_Insurance_Invoice.png,NEWCTCY CA 10001,id_number,"[585, 157, 721, 167]","[450.4, 160.8, 555.2, 171.0]",False,C_standalone_bbox
+Great_American_Insurance_Invoice.png,NEWCTCY AL 10001,id_number,"[104, 202, 244, 212]","[80.1, 206.8, 187.9, 217.1]",False,C_standalone_bbox
+Great_American_Insurance_Invoice.png,"For billing inquiries, please contact Direct Bill Customer Service at 1-800-847-4357, option 2, between 8:00 a.m. and 5:00 p.m.",phone,"[25, 272, 860, 284]","[19.2, 278.5, 662.2, 290.8]",True,D_merged_with_nonPII
+Great_American_Insurance_Invoice.png,P01001,id_number,"[891, 732, 936, 742]","[686.1, 749.6, 720.7, 759.8]",False,C_standalone_bbox
+Great_American_Insurance_Invoice.png,"To pay by ACH or credit card, call 1-800-847-4357, option 2.",phone,"[529, 849, 934, 862]","[407.3, 869.4, 719.2, 882.7]",False,C_standalone_bbox
+Great_American_Insurance_Invoice.png,NEWCTCY AL 10001,id_number,"[78, 923, 230, 934]","[60.1, 945.2, 177.1, 956.4]",False,C_standalone_bbox
+Great_American_Insurance_Invoice.png,549500000000000000000000000000P010010001000000000003630,id_number,"[85, 946, 694, 957]","[65.5, 968.7, 534.4, 980.0]",False,C_standalone_bbox
+Hospital_Bill.png,2925 Chicago Avenue,address,"[314, 60, 459, 72]","[345.4, 80.9, 504.9, 97.1]",False,C_standalone_bbox
+Hospital_Bill.png,"Minneapolis, MN 55407-1321",id_number,"[314, 75, 507, 86]","[345.4, 101.1, 557.7, 115.9]",False,C_standalone_bbox
+Hospital_Bill.png,"Please call us at 612-262-9000 or 1-800-859-5077,",phone,"[82, 119, 387, 130]","[90.2, 160.4, 425.7, 175.2]",False,C_standalone_bbox
+Hospital_Bill.png,0000000,id_number,"[728, 134, 786, 144]","[800.8, 180.6, 864.6, 194.1]",False,C_standalone_bbox
+Hospital_Bill.png,123 ANY STREET,address,"[118, 236, 242, 247]","[129.8, 318.1, 266.2, 333.0]",False,C_standalone_bbox
+Hospital_Bill.png,"ANYWHERE, USA 55555 T",name,"[118, 249, 311, 261]","[129.8, 335.7, 342.1, 351.8]",False,C_standalone_bbox
+Hospital_Bill.png,MINNEAPOLIS MN 55480-9125,id_number,"[576, 246, 786, 256]","[633.6, 331.6, 864.6, 345.1]",False,C_standalone_bbox
+Hospital_Bill.png,0000000,id_number,"[103, 420, 166, 431]","[113.3, 566.2, 182.6, 581.0]",False,C_standalone_bbox
+Hospital_Bill.png,"If you require an itemization of charges, please call (612) 262-9000 or (800) 859-5077.",phone,"[210, 509, 797, 522]","[231.0, 686.1, 876.7, 703.7]",False,C_standalone_bbox
+Hospital_Bill.png,FOR BILLING INQUIRIES: 612-262-9000 or 1-800-859-5077 (if you,phone,"[523, 983, 965, 995]","[575.3, 1325.1, 1061.5, 1341.3]",True,D_merged_with_nonPII
+hoag-invoice-mychart.png,"Newport Beach, CA 92663-3662",id_number,"[181, 274, 425, 318]","[131.6, 80.6, 309.0, 93.5]",False,C_standalone_bbox
+hoag-invoice-mychart.png,949-764-8404,phone,"[181, 368, 281, 404]","[131.6, 108.2, 204.3, 118.8]",False,C_standalone_bbox
+hoag-invoice-mychart.png,12345-1ABC,id_number,"[438, 356, 514, 382]","[318.4, 104.7, 373.7, 112.3]",False,C_standalone_bbox
+hoag-invoice-mychart.png,2222222,id_number,"[312, 526, 434, 556]","[226.8, 154.6, 315.5, 163.5]",False,C_standalone_bbox
+hoag-invoice-mychart.png,12345-1ABC,id_number,"[63, 704, 145, 726]","[45.8, 207.0, 105.4, 213.4]",False,C_standalone_bbox
+hoag-invoice-mychart.png,TEMIX1D18000001,id_number,"[145, 704, 231, 726]","[105.4, 207.0, 167.9, 213.4]",False,C_standalone_bbox
+hoag-invoice-mychart.png,1234 MOCKINGBIRD LANE,address,"[73, 882, 255, 915]","[53.1, 259.3, 185.4, 269.0]",False,C_standalone_bbox
+hoag-invoice-mychart.png,MAILSTOP: 14294131,id_number,"[580, 882, 711, 915]","[421.7, 259.3, 516.9, 269.0]",True,D_merged_with_nonPII
+hoag-invoice-mychart.png,"NEWPORT BEACH, CA 92663",id_number,"[73, 925, 272, 963]","[53.1, 271.9, 197.7, 283.1]",False,C_standalone_bbox
+hoag-invoice-mychart.png,PO BOX 660064,id_number,"[580, 920, 690, 952]","[421.7, 270.5, 501.6, 279.9]",False,C_standalone_bbox
+hoag-invoice-mychart.png,"DALLAS, TX 75266-0064",name,"[580, 959, 737, 992]","[421.7, 281.9, 535.8, 291.6]",False,C_standalone_bbox
+Medicare_Notice_PartA.png,"CITY, ST 12345-6789",name,"[116, 232, 288, 246]","[99.8, 257.1, 247.7, 272.6]",False,C_standalone_bbox
+Medicare_Notice_PartA.png,1-800-MEDICARE (1-800-633-4227),phone,"[683, 950, 936, 963]","[587.4, 1052.6, 805.0, 1067.0]",False,C_standalone_bbox

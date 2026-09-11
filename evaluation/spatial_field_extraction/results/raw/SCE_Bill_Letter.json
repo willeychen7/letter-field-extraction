@@ -1,0 +1,834 @@
+{
+  "image": "SCE_Bill_Letter.png",
+  "ocr": {
+    "finish_reason": "stop",
+    "elapsed_s": 11.618,
+    "usage": {
+      "completion_tokens": 1164,
+      "prompt_tokens": 1267,
+      "total_tokens": 2431,
+      "prompt_tokens_details": {
+        "cached_tokens": 1253
+      }
+    },
+    "element_count": 55
+  },
+  "elements": [
+    {
+      "text": "Go paperless at www.sce.com/ebilling. It's fast, easy and secure.",
+      "bbox": [
+        377,
+        33,
+        937,
+        48
+      ]
+    },
+    {
+      "text": "SOUTHERN CALIFORNIA",
+      "bbox": [
+        134,
+        50,
+        271,
+        59
+      ]
+    },
+    {
+      "text": "EDISON®",
+      "bbox": [
+        134,
+        61,
+        278,
+        86
+      ]
+    },
+    {
+      "text": "An EDISON INTERNATIONAL® Company",
+      "bbox": [
+        63,
+        95,
+        271,
+        107
+      ]
+    },
+    {
+      "text": "BAKER, NATE / Page 5 of 5",
+      "bbox": [
+        755,
+        98,
+        943,
+        110
+      ]
+    },
+    {
+      "text": "Service account",
+      "bbox": [
+        65,
+        155,
+        178,
+        165
+      ]
+    },
+    {
+      "text": "8012345678",
+      "bbox": [
+        215,
+        156,
+        295,
+        165
+      ]
+    },
+    {
+      "text": "POD-ID",
+      "bbox": [
+        406,
+        155,
+        457,
+        165
+      ]
+    },
+    {
+      "text": "SUPPLY/GENERATION",
+      "bbox": [
+        668,
+        152,
+        950,
+        170
+      ]
+    },
+    {
+      "text": "Service address",
+      "bbox": [
+        65,
+        169,
+        178,
+        180
+      ]
+    },
+    {
+      "text": "1234 FIRST AVE",
+      "bbox": [
+        215,
+        170,
+        326,
+        180
+      ]
+    },
+    {
+      "text": "123456789012345678",
+      "bbox": [
+        406,
+        170,
+        552,
+        180
+      ]
+    },
+    {
+      "text": "CLEAN POWER ALLIANCE",
+      "bbox": [
+        692,
+        176,
+        951,
+        192
+      ]
+    },
+    {
+      "text": "SIMI VALLEY, CA",
+      "bbox": [
+        215,
+        184,
+        332,
+        196
+      ]
+    },
+    {
+      "text": "Rotating outage",
+      "bbox": [
+        65,
+        210,
+        176,
+        222
+      ]
+    },
+    {
+      "text": "Group N001",
+      "bbox": [
+        215,
+        210,
+        292,
+        222
+      ]
+    },
+    {
+      "text": "supplies your electricity",
+      "bbox": [
+        747,
+        197,
+        949,
+        214
+      ]
+    },
+    {
+      "text": "Details of your new charges",
+      "bbox": [
+        65,
+        259,
+        385,
+        281
+      ]
+    },
+    {
+      "text": "CLEAN POWER ALLIANCE",
+      "bbox": [
+        65,
+        297,
+        253,
+        308
+      ]
+    },
+    {
+      "text": "Your rate: TOU-D-4",
+      "bbox": [
+        65,
+        318,
+        193,
+        328
+      ]
+    },
+    {
+      "text": "Service Account: 8012345678",
+      "bbox": [
+        65,
+        332,
+        260,
+        343
+      ]
+    },
+    {
+      "text": "Billing period: 01/06/24 to 02/05/24 (31 days)",
+      "bbox": [
+        65,
+        346,
+        355,
+        358
+      ]
+    },
+    {
+      "text": "Generation Charges",
+      "bbox": [
+        65,
+        365,
+        205,
+        377
+      ]
+    },
+    {
+      "text": "Lean Power - Mid-Peak - Winter",
+      "bbox": [
+        65,
+        380,
+        274,
+        391
+      ]
+    },
+    {
+      "text": "161.14 kWh @ 0.2106",
+      "bbox": [
+        283,
+        380,
+        427,
+        391
+      ]
+    },
+    {
+      "text": "$33.94",
+      "bbox": [
+        624,
+        380,
+        669,
+        391
+      ]
+    },
+    {
+      "text": "Lean Power - Off-Peak - Winter",
+      "bbox": [
+        65,
+        394,
+        269,
+        405
+      ]
+    },
+    {
+      "text": "262.98 kWh @ 0.13589",
+      "bbox": [
+        283,
+        394,
+        436,
+        405
+      ]
+    },
+    {
+      "text": "$35.74",
+      "bbox": [
+        624,
+        394,
+        669,
+        405
+      ]
+    },
+    {
+      "text": "Lean Power - Super OfPk -",
+      "bbox": [
+        65,
+        408,
+        241,
+        419
+      ]
+    },
+    {
+      "text": "214.99 kWh @ 0.11733",
+      "bbox": [
+        283,
+        408,
+        437,
+        419
+      ]
+    },
+    {
+      "text": "$25.22",
+      "bbox": [
+        624,
+        408,
+        669,
+        419
+      ]
+    },
+    {
+      "text": "Winter",
+      "bbox": [
+        65,
+        422,
+        109,
+        431
+      ]
+    },
+    {
+      "text": "User Utility Tax",
+      "bbox": [
+        65,
+        435,
+        165,
+        446
+      ]
+    },
+    {
+      "text": "$4.27",
+      "bbox": [
+        634,
+        435,
+        669,
+        446
+      ]
+    },
+    {
+      "text": "Energy Surcharge",
+      "bbox": [
+        65,
+        449,
+        183,
+        461
+      ]
+    },
+    {
+      "text": "$0.19",
+      "bbox": [
+        634,
+        449,
+        669,
+        460
+      ]
+    },
+    {
+      "text": "Sub-Total of CPA Generation Charges",
+      "bbox": [
+        65,
+        467,
+        314,
+        479
+      ]
+    },
+    {
+      "text": "$99.36",
+      "bbox": [
+        624,
+        467,
+        669,
+        478
+      ]
+    },
+    {
+      "text": "Your New Charges",
+      "bbox": [
+        65,
+        485,
+        195,
+        497
+      ]
+    },
+    {
+      "text": "$99.36",
+      "bbox": [
+        624,
+        485,
+        669,
+        496
+      ]
+    },
+    {
+      "text": "Things you should know",
+      "bbox": [
+        65,
+        533,
+        343,
+        554
+      ]
+    },
+    {
+      "text": "Clean Power Alliance service expands to 35 cities",
+      "bbox": [
+        65,
+        565,
+        448,
+        578
+      ]
+    },
+    {
+      "text": "CPA welcomes our new customers in Hermosa Beach, Monrovia, and Santa Paula who start service in March 2024. Choosing CPA",
+      "bbox": [
+        65,
+        580,
+        912,
+        593
+      ]
+    },
+    {
+      "text": "energy options makes communities cleaner and more sustainable. See your community's environmental benefits at",
+      "bbox": [
+        65,
+        594,
+        808,
+        607
+      ]
+    },
+    {
+      "text": "CleanPowerAlliance.org/communities.",
+      "bbox": [
+        65,
+        608,
+        310,
+        620
+      ]
+    },
+    {
+      "text": "Winter energy savings tip",
+      "bbox": [
+        65,
+        646,
+        263,
+        660
+      ]
+    },
+    {
+      "text": "When you leave the house or before you go to sleep, turn the thermostat down a few degrees to save on heating bills. A programmable",
+      "bbox": [
+        65,
+        662,
+        936,
+        674
+      ]
+    },
+    {
+      "text": "thermostat makes it easy to control the temperature. Learn more at CleanPowerAlliance.org/powerresponse.",
+      "bbox": [
+        65,
+        675,
+        764,
+        687
+      ]
+    },
+    {
+      "text": "Did you know?",
+      "bbox": [
+        65,
+        714,
+        181,
+        727
+      ]
+    },
+    {
+      "text": "Clean Power Alliance is ranked the #1 Green Power Provider in the country by the U.S. Department of Energy's National Renewable",
+      "bbox": [
+        65,
+        729,
+        919,
+        741
+      ]
+    },
+    {
+      "text": "Energy Laboratory. Learn more about this exciting designation at CleanPowerAlliance.org/news.",
+      "bbox": [
+        65,
+        743,
+        684,
+        755
+      ]
+    },
+    {
+      "text": "CPA's Privacy Policy",
+      "bbox": [
+        65,
+        781,
+        228,
+        794
+      ]
+    },
+    {
+      "text": "Clean Power Alliance's privacy policy is available at CleanPowerAlliance.org/privacy-policy.",
+      "bbox": [
+        65,
+        796,
+        654,
+        809
+      ]
+    },
+    {
+      "text": "Visual St",
+      "bbox": [
+        879,
+        949,
+        1000,
+        968
+      ]
+    }
+  ],
+  "candidates": {
+    "total_amount": [
+      {
+        "value": "99.36",
+        "num": 99.36,
+        "score": 0.888,
+        "text": "$99.36",
+        "bbox": [
+          624,
+          485,
+          669,
+          496
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'your new charges' (same_row, prox=0.72)",
+            0.398
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x2",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "99.36",
+        "num": 99.36,
+        "score": 0.48,
+        "text": "$99.36",
+        "bbox": [
+          624,
+          467,
+          669,
+          478
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total' (same_row, prox=0.80)",
+            0.44
+          ],
+          [
+            "negative_anchor 'sub-total' same_row",
+            -0.45
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x2",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "33.94",
+        "num": 33.94,
+        "score": 0.37,
+        "text": "$33.94",
+        "bbox": [
+          624,
+          380,
+          669,
+          391
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "35.74",
+        "num": 35.74,
+        "score": 0.37,
+        "text": "$35.74",
+        "bbox": [
+          624,
+          394,
+          669,
+          405
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "25.22",
+        "num": 25.22,
+        "score": 0.37,
+        "text": "$25.22",
+        "bbox": [
+          624,
+          408,
+          669,
+          419
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "4.27",
+        "num": 4.27,
+        "score": 0.37,
+        "text": "$4.27",
+        "bbox": [
+          634,
+          435,
+          669,
+          446
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "0.19",
+        "num": 0.19,
+        "score": 0.37,
+        "text": "$0.19",
+        "bbox": [
+          634,
+          449,
+          669,
+          460
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      }
+    ],
+    "due_date": [],
+    "sender": [
+      {
+        "value": "SOUTHERN CALIFORNIA EDISON® An EDISON INTERNATIONAL® Company",
+        "score": 0.95,
+        "tier": "S1",
+        "text": "SOUTHERN CALIFORNIA EDISON® An EDISON INTERNATIONAL® Company",
+        "evidence": [
+          [
+            "top_band_text",
+            0.3
+          ],
+          [
+            "large_glyph_height (25 vs mh 12)",
+            0.3
+          ],
+          [
+            "top-left letterhead position (x<300)",
+            0.25
+          ],
+          [
+            "multi_line_letterhead_block (x3)",
+            0.15
+          ],
+          [
+            "institution_hint_word (existing list)",
+            0.4
+          ]
+        ]
+      }
+    ],
+    "recipient": [],
+    "action": []
+  },
+  "fields": {
+    "total_amount": {
+      "value": "99.36",
+      "score": 0.888,
+      "evidence": [
+        [
+          "base_money_token",
+          0.25
+        ],
+        [
+          "strong_anchor 'your new charges' (same_row, prox=0.72)",
+          0.398
+        ],
+        [
+          "has_dollar_sign",
+          0.12
+        ],
+        [
+          "value_repeats_x2",
+          0.12
+        ]
+      ],
+      "runner_up": [
+        "99.36",
+        0.48
+      ]
+    },
+    "due_date": {
+      "value": null,
+      "score": 0.0,
+      "evidence": [
+        [
+          "below_threshold_or_no_candidate",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "sender": {
+      "value": "SOUTHERN CALIFORNIA EDISON® An EDISON INTERNATIONAL® Company",
+      "score": 0.95,
+      "evidence": [
+        [
+          "top_band_text",
+          0.3
+        ],
+        [
+          "large_glyph_height (25 vs mh 12)",
+          0.3
+        ],
+        [
+          "top-left letterhead position (x<300)",
+          0.25
+        ],
+        [
+          "multi_line_letterhead_block (x3)",
+          0.15
+        ],
+        [
+          "institution_hint_word (existing list)",
+          0.4
+        ]
+      ],
+      "runner_up": null
+    },
+    "recipient": {
+      "value": null,
+      "score": 0.0,
+      "evidence": [
+        [
+          "below_threshold_or_no_candidate",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "action": {
+      "value": null,
+      "score": 0.0,
+      "evidence": [
+        [
+          "below_threshold_or_no_candidate",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "payment_status": {
+      "value": "unpaid",
+      "score": 0.8,
+      "evidence": [
+        [
+          "positive amount (99.36) + due/balance anchor, no paid marker",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "_cross_validation": [
+      "amount 99.36 is the largest money token (consistent)"
+    ]
+  },
+  "final": {
+    "sender": "SOUTHERN CALIFORNIA EDISON® An EDISON INTERNATIONAL® Company",
+    "recipient": null,
+    "total_amount": "99.36",
+    "payment_status": "unpaid",
+    "due_date": null,
+    "action": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "document_type": "Letter",
+  "sender": "Clean Power Alliance",
+  "recipient": "Group N001",
+  "amount": "99.36",
+  "due_date": "01/06/24 to 02/05/24 (31 days)",
+  "payment_status": "sub-total of CPA Generation Charges",
+  "action_required": true,
+  "action": "generates new charges",
+  "risk": "high"
+}

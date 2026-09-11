@@ -1,0 +1,10 @@
+{
+  "sender": "这份文件是谁寄出或发布的？只返回发件机构、公司或个人的名称。如果无法确定，返回 null。不要返回收件人。",
+  "recipient": "这份文件是写给谁的？只返回真正的收件人姓名。如果无法确定，返回 null。不要返回发件机构。",
+  "total_amount": "这份文件中，收件人需要支付的总金额（Total Amount Due / Balance Due / Amount You Owe）是多少？如果文件没有明确要求支付，请回答 null。只返回金额或 null，不要解释。",
+  "payment_status": "这份文件的付款状态是什么？只回答 paid、unpaid、not_applicable 或 null。不要根据猜测判断。",
+  "due_date": "这份文件明确要求付款或采取行动的截止日期是什么？请返回 YYYY-MM-DD；如果没有明确截止日期，返回 null。不要把其他日期当成 due date。",
+  "action_required": "这份文件是否明确要求收件人采取行动？只回答 true、false 或 null。不要根据常识推测。",
+  "action": "这份文件明确要求收件人采取什么行动？如果没有明确要求任何行动，返回 null。只返回简短行动描述，不要解释。",
+  "risk": "如果收件人不按照这份文件的要求处理，是否存在文件明确说明的实际后果？只回答 high、medium、low 或 null。没有明确后果就必须返回 null，不要自行推测。"
+}

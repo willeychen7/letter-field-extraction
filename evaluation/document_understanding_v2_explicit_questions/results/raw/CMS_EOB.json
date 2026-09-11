@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"document_type\": \"Bill\",\n  \"sender\": \"Customer Service\",\n  \"recipient\": \"Patient\",\n  \"amount\": \"None\",\n  \"due_date\": \"None\",\n  \"payment_status\": \"null\",\n  \"action_required\": true,\n  \"action\": \"Pay\",\n  \"risk\": \"high\"\n}"
+      }
+    }
+  ],
+  "created": 1788641427,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1320,
+    "total_tokens": 1390,
+    "prompt_tokens_details": {
+      "cached_tokens": 957
+    }
+  },
+  "id": "chatcmpl-vm6O9csT021tcKuHTdIz6MaIKUGH7lIy",
+  "timings": {
+    "cache_n": 957,
+    "prompt_n": 363,
+    "prompt_ms": 147.245,
+    "prompt_per_token_ms": 0.405633608815427,
+    "prompt_per_second": 2465.2789568406397,
+    "predicted_n": 70,
+    "predicted_ms": 619.034,
+    "predicted_per_token_ms": 8.971507246376811,
+    "predicted_per_second": 111.46399066933319
+  }
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "image": "SCE_Bill_Letter.png",
+    "gt_field": "sender",
+    "expected": "SCE",
+    "extracted_field": "sender",
+    "extracted_value": "SOUTHERN CALIFORNIA EDISON ® Company",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "gt_field": "amount_due",
+    "expected": 99.36,
+    "extracted_field": "amount",
+    "extracted_value": "99.36",
+    "expected_substring_in_any_value": true
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "gt_field": "category",
+    "expected": "electric",
+    "extracted_field": "document_type",
+    "extracted_value": "Service account",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "SCE_Letter.png",
+    "gt_field": "sender",
+    "expected": "SCE",
+    "extracted_field": "sender",
+    "extracted_value": "Michael Backstrom",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "SCE_Letter.png",
+    "gt_field": "category",
+    "expected": "NOT_A_BILL",
+    "extracted_field": "document_type",
+    "extracted_value": "E-filed with Docket #2023-SCAs",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "gt_field": "sender",
+    "expected": "SCE",
+    "extracted_field": "sender",
+    "extracted_value": "SOUTHERN CALIFORNIA EDISON",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "gt_field": "due_date",
+    "expected": "2020-05-11",
+    "extracted_field": "due_date",
+    "extracted_value": "05/11/20",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "gt_field": "category",
+    "expected": "electric",
+    "extracted_field": "document_type",
+    "extracted_value": "Your electricity bill",
+    "expected_substring_in_any_value": true
+  },
+  {
+    "image": "SoCalGas.png",
+    "gt_field": "sender",
+    "expected": "SoCalGas",
+    "extracted_field": "sender",
+    "extracted_value": "JOHN B DOE",
+    "expected_substring_in_any_value": true
+  },
+  {
+    "image": "SoCalGas.png",
+    "gt_field": "due_date",
+    "expected": "2016-01-08",
+    "extracted_field": "due_date",
+    "extracted_value": "Jan 8, 2016",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "SoCalGas.png",
+    "gt_field": "category",
+    "expected": "gas",
+    "extracted_field": "document_type",
+    "extracted_value": "Account Summary",
+    "expected_substring_in_any_value": true
+  },
+  {
+    "image": "DMV_Registration.png",
+    "gt_field": "sender",
+    "expected": "DMV",
+    "extracted_field": "sender",
+    "extracted_value": "GONZELES C",
+    "expected_substring_in_any_value": true
+  },
+  {
+    "image": "DMV_Registration.png",
+    "gt_field": "due_date",
+    "expected": "2010-10-16",
+    "extracted_field": "due_date",
+    "extracted_value": "10/16/2010",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "DMV_Registration.png",
+    "gt_field": "category",
+    "expected": "dmv",
+    "extracted_field": "document_type",
+    "extracted_value": "Attachment A",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "gt_field": "sender",
+    "expected": "Allina Health",
+    "extracted_field": "sender",
+    "extracted_value": "JANE DOE",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "gt_field": "due_date",
+    "expected": "2013-04-18",
+    "extracted_field": "due_date",
+    "extracted_value": "04/18/2013",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "gt_field": "category",
+    "expected": "medical_provider",
+    "extracted_field": "document_type",
+    "extracted_value": "HOSPITAL STATEMENT",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "gt_field": "due_date",
+    "expected": "2024-09-05",
+    "extracted_field": "due_date",
+    "extracted_value": "05 Sep 2024",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "gt_field": "sender",
+    "expected": "Hoag",
+    "extracted_field": "sender",
+    "extracted_value": "Hoag Orthopedic Institute",
+    "expected_substring_in_any_value": true
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "gt_field": "amount_due",
+    "expected": 333.33,
+    "extracted_field": "amount",
+    "extracted_value": "333.33",
+    "expected_substring_in_any_value": true
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "gt_field": "category",
+    "expected": "medical_provider",
+    "extracted_field": "document_type",
+    "extracted_value": "RETURN SERVICE REQUESTED",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "gt_field": "sender",
+    "expected": "IRS",
+    "extracted_field": "sender",
+    "extracted_value": "Department of the Treasury Internal Revenue Service",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "gt_field": "category",
+    "expected": "tax",
+    "extracted_field": "document_type",
+    "extracted_value": "Billing Summary",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "IRS_cp503.png",
+    "gt_field": "sender",
+    "expected": "IRS",
+    "extracted_field": "sender",
+    "extracted_value": "JAMES & KAREN Q. HINDS",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "IRS_cp503.png",
+    "gt_field": "due_date",
+    "expected": "2018-01-29",
+    "extracted_field": "due_date",
+    "extracted_value": "January 29, 2018",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "IRS_cp503.png",
+    "gt_field": "category",
+    "expected": "tax",
+    "extracted_field": "document_type",
+    "extracted_value": "Billing Summary",
+    "expected_substring_in_any_value": false
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "gt_field": "sender",
+    "expected": "Medicare",
+    "extracted_field": "sender",
+    "extracted_value": "JENNIFER WASHINGTON",
+    "expected_substring_in_any_value": true
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "gt_field": "category",
+    "expected": "medicare",
+    "extracted_field": "document_type",
+    "extracted_value": "Medicare Summary Notice",
+    "expected_substring_in_any_value": false
+  }
+]

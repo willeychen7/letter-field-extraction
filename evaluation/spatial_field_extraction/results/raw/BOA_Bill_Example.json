@@ -1,0 +1,1679 @@
+{
+  "image": "BOA_Bill_Example.png",
+  "ocr": {
+    "finish_reason": "stop",
+    "elapsed_s": 18.076,
+    "usage": {
+      "completion_tokens": 1698,
+      "prompt_tokens": 1559,
+      "total_tokens": 3257,
+      "prompt_tokens_details": {
+        "cached_tokens": 1545
+      }
+    },
+    "element_count": 91
+  },
+  "elements": [
+    {
+      "text": "Customer Service Information:",
+      "bbox": [
+        738,
+        60,
+        925,
+        69
+      ]
+    },
+    {
+      "text": "BankAmericard",
+      "bbox": [
+        58,
+        71,
+        170,
+        84
+      ]
+    },
+    {
+      "text": "Cash Rewards",
+      "bbox": [
+        184,
+        74,
+        265,
+        83
+      ]
+    },
+    {
+      "text": "www.bankofamerica.com",
+      "bbox": [
+        738,
+        72,
+        874,
+        81
+      ]
+    },
+    {
+      "text": "Bank of America",
+      "bbox": [
+        413,
+        76,
+        588,
+        93
+      ]
+    },
+    {
+      "text": "1,800,637,7455",
+      "bbox": [
+        738,
+        84,
+        823,
+        94
+      ]
+    },
+    {
+      "text": "TTY: 1,877,275,6371",
+      "bbox": [
+        738,
+        96,
+        849,
+        106
+      ]
+    },
+    {
+      "text": "Visa Signature",
+      "bbox": [
+        58,
+        111,
+        170,
+        123
+      ]
+    },
+    {
+      "text": "Mail billing inquiries to:",
+      "bbox": [
+        738,
+        109,
+        884,
+        119
+      ]
+    },
+    {
+      "text": "Bank of America",
+      "bbox": [
+        738,
+        121,
+        826,
+        131
+      ]
+    },
+    {
+      "text": "P.O. Box 982234",
+      "bbox": [
+        738,
+        134,
+        826,
+        144
+      ]
+    },
+    {
+      "text": "El Paso TX 79998-2234",
+      "bbox": [
+        738,
+        146,
+        870,
+        155
+      ]
+    },
+    {
+      "text": "Mail payment to:",
+      "bbox": [
+        738,
+        158,
+        840,
+        169
+      ]
+    },
+    {
+      "text": "Bank of America",
+      "bbox": [
+        738,
+        171,
+        826,
+        181
+      ]
+    },
+    {
+      "text": "P.O. Box 851001",
+      "bbox": [
+        738,
+        183,
+        825,
+        193
+      ]
+    },
+    {
+      "text": "Dallas TX 75285-1001",
+      "bbox": [
+        738,
+        196,
+        858,
+        205
+      ]
+    },
+    {
+      "text": "December 9 - January 8, 2018",
+      "bbox": [
+        780,
+        260,
+        941,
+        270
+      ]
+    },
+    {
+      "text": "Account Summary",
+      "bbox": [
+        58,
+        299,
+        233,
+        317
+      ]
+    },
+    {
+      "text": "Payment Information",
+      "bbox": [
+        477,
+        299,
+        680,
+        317
+      ]
+    },
+    {
+      "text": "Previous Balance",
+      "bbox": [
+        58,
+        328,
+        164,
+        338
+      ]
+    },
+    {
+      "text": "$3,956.38",
+      "bbox": [
+        374,
+        328,
+        429,
+        339
+      ]
+    },
+    {
+      "text": "New Balance Total",
+      "bbox": [
+        477,
+        327,
+        592,
+        337
+      ]
+    },
+    {
+      "text": "$4,543.36",
+      "bbox": [
+        882,
+        327,
+        938,
+        338
+      ]
+    },
+    {
+      "text": "Payments and Other Credits",
+      "bbox": [
+        58,
+        342,
+        235,
+        353
+      ]
+    },
+    {
+      "text": "-$109.00",
+      "bbox": [
+        374,
+        342,
+        429,
+        353
+      ]
+    },
+    {
+      "text": "Current Payment Due",
+      "bbox": [
+        477,
+        341,
+        610,
+        352
+      ]
+    },
+    {
+      "text": "$112.00",
+      "bbox": [
+        892,
+        341,
+        938,
+        352
+      ]
+    },
+    {
+      "text": "Purchases and Adjustments",
+      "bbox": [
+        58,
+        355,
+        231,
+        366
+      ]
+    },
+    {
+      "text": "$628.58",
+      "bbox": [
+        383,
+        355,
+        429,
+        366
+      ]
+    },
+    {
+      "text": "Fees Charged",
+      "bbox": [
+        58,
+        369,
+        148,
+        381
+      ]
+    },
+    {
+      "text": "$0.00",
+      "bbox": [
+        393,
+        369,
+        429,
+        381
+      ]
+    },
+    {
+      "text": "Total Minimum Payment Due",
+      "bbox": [
+        477,
+        370,
+        657,
+        381
+      ]
+    },
+    {
+      "text": "$112.00",
+      "bbox": [
+        892,
+        370,
+        938,
+        381
+      ]
+    },
+    {
+      "text": "Interest Charged",
+      "bbox": [
+        58,
+        384,
+        172,
+        396
+      ]
+    },
+    {
+      "text": "$67.40",
+      "bbox": [
+        386,
+        384,
+        429,
+        396
+      ]
+    },
+    {
+      "text": "Payment Due Date",
+      "bbox": [
+        477,
+        384,
+        592,
+        395
+      ]
+    },
+    {
+      "text": "02/05/2018",
+      "bbox": [
+        875,
+        384,
+        938,
+        394
+      ]
+    },
+    {
+      "text": "New Balance Total",
+      "bbox": [
+        58,
+        413,
+        176,
+        423
+      ]
+    },
+    {
+      "text": "$4,543.36",
+      "bbox": [
+        374,
+        413,
+        429,
+        425
+      ]
+    },
+    {
+      "text": "Late Payment Warning: If we do not receive your Total Minimum",
+      "bbox": [
+        477,
+        413,
+        895,
+        423
+      ]
+    },
+    {
+      "text": "Payment by the date listed above, you may have to pay a late fee of up to",
+      "bbox": [
+        477,
+        426,
+        938,
+        438
+      ]
+    },
+    {
+      "text": "Total Credit Line",
+      "bbox": [
+        58,
+        437,
+        164,
+        447
+      ]
+    },
+    {
+      "text": "$10,000.00",
+      "bbox": [
+        366,
+        437,
+        429,
+        448
+      ]
+    },
+    {
+      "text": "$38.00 and your APRs may be increased up to the Penalty APR of 29.99%.",
+      "bbox": [
+        477,
+        440,
+        945,
+        452
+      ]
+    },
+    {
+      "text": "Total Credit Available",
+      "bbox": [
+        58,
+        451,
+        194,
+        461
+      ]
+    },
+    {
+      "text": "$5,456.64",
+      "bbox": [
+        374,
+        451,
+        429,
+        462
+      ]
+    },
+    {
+      "text": "Total Minimum Payment Warning: If you make only the Total Minimum",
+      "bbox": [
+        477,
+        454,
+        940,
+        466
+      ]
+    },
+    {
+      "text": "Cash Credit Line",
+      "bbox": [
+        58,
+        465,
+        162,
+        475
+      ]
+    },
+    {
+      "text": "$7,000.00",
+      "bbox": [
+        374,
+        465,
+        429,
+        476
+      ]
+    },
+    {
+      "text": "Payment each period, you will pay more in interest and it will take you",
+      "bbox": [
+        477,
+        468,
+        915,
+        479
+      ]
+    },
+    {
+      "text": "Portion of Credit Available",
+      "bbox": [
+        58,
+        478,
+        224,
+        489
+      ]
+    },
+    {
+      "text": "longer to pay off your balance. For example:",
+      "bbox": [
+        477,
+        481,
+        753,
+        493
+      ]
+    },
+    {
+      "text": "for Cash",
+      "bbox": [
+        58,
+        492,
+        112,
+        502
+      ]
+    },
+    {
+      "text": "$5,456.64",
+      "bbox": [
+        374,
+        492,
+        429,
+        503
+      ]
+    },
+    {
+      "text": "If you make no additional",
+      "bbox": [
+        481,
+        500,
+        638,
+        511
+      ]
+    },
+    {
+      "text": "You will payoff the",
+      "bbox": [
+        657,
+        500,
+        776,
+        511
+      ]
+    },
+    {
+      "text": "And you will end up",
+      "bbox": [
+        809,
+        500,
+        930,
+        512
+      ]
+    },
+    {
+      "text": "Statement Closing Date",
+      "bbox": [
+        58,
+        506,
+        209,
+        517
+      ]
+    },
+    {
+      "text": "01/08/2018",
+      "bbox": [
+        366,
+        506,
+        429,
+        516
+      ]
+    },
+    {
+      "text": "charges using this card",
+      "bbox": [
+        492,
+        513,
+        638,
+        524
+      ]
+    },
+    {
+      "text": "balance shown on this",
+      "bbox": [
+        657,
+        513,
+        783,
+        523
+      ]
+    },
+    {
+      "text": "paying an estimated",
+      "bbox": [
+        807,
+        513,
+        930,
+        525
+      ]
+    },
+    {
+      "text": "Days in Billing Cycle",
+      "bbox": [
+        58,
+        520,
+        183,
+        532
+      ]
+    },
+    {
+      "text": "31",
+      "bbox": [
+        414,
+        520,
+        429,
+        529
+      ]
+    },
+    {
+      "text": "and each month you pay",
+      "bbox": [
+        492,
+        527,
+        638,
+        538
+      ]
+    },
+    {
+      "text": "statement in about",
+      "bbox": [
+        657,
+        527,
+        780,
+        536
+      ]
+    },
+    {
+      "text": "total of",
+      "bbox": [
+        850,
+        527,
+        895,
+        537
+      ]
+    },
+    {
+      "text": "Only the Total",
+      "bbox": [
+        510,
+        552,
+        598,
+        563
+      ]
+    },
+    {
+      "text": "18 years",
+      "bbox": [
+        691,
+        552,
+        746,
+        563
+      ]
+    },
+    {
+      "text": "$10,476.00",
+      "bbox": [
+        834,
+        552,
+        908,
+        563
+      ]
+    },
+    {
+      "text": "Minimum Payment",
+      "bbox": [
+        498,
+        566,
+        613,
+        577
+      ]
+    },
+    {
+      "text": "$165.00",
+      "bbox": [
+        534,
+        584,
+        589,
+        596
+      ]
+    },
+    {
+      "text": "36 months",
+      "bbox": [
+        686,
+        584,
+        753,
+        594
+      ]
+    },
+    {
+      "text": "$5,940.00",
+      "bbox": [
+        838,
+        584,
+        904,
+        596
+      ]
+    },
+    {
+      "text": "(Savings = $4,536.00)",
+      "bbox": [
+        800,
+        598,
+        945,
+        609
+      ]
+    },
+    {
+      "text": "If you would like information about credit counseling services, call",
+      "bbox": [
+        477,
+        618,
+        930,
+        629
+      ]
+    },
+    {
+      "text": "866.300.5238.",
+      "bbox": [
+        477,
+        632,
+        575,
+        642
+      ]
+    },
+    {
+      "text": "BANK OF AMERICA",
+      "bbox": [
+        124,
+        780,
+        244,
+        789
+      ]
+    },
+    {
+      "text": "P.O. BOX 851001",
+      "bbox": [
+        124,
+        791,
+        224,
+        801
+      ]
+    },
+    {
+      "text": "DALLAS TX 75285-1001",
+      "bbox": [
+        124,
+        803,
+        264,
+        812
+      ]
+    },
+    {
+      "text": "New Balance Total",
+      "bbox": [
+        498,
+        808,
+        604,
+        817
+      ]
+    },
+    {
+      "text": "$4,543.36",
+      "bbox": [
+        842,
+        808,
+        898,
+        819
+      ]
+    },
+    {
+      "text": "Total Minimum Payment Due",
+      "bbox": [
+        498,
+        824,
+        661,
+        834
+      ]
+    },
+    {
+      "text": "$112.00",
+      "bbox": [
+        851,
+        824,
+        898,
+        834
+      ]
+    },
+    {
+      "text": "Payment Due Date",
+      "bbox": [
+        515,
+        840,
+        622,
+        849
+      ]
+    },
+    {
+      "text": "02/05/2018",
+      "bbox": [
+        820,
+        840,
+        898,
+        849
+      ]
+    },
+    {
+      "text": "Enter payment amount",
+      "bbox": [
+        498,
+        877,
+        628,
+        887
+      ]
+    },
+    {
+      "text": "$",
+      "bbox": [
+        649,
+        877,
+        657,
+        887
+      ]
+    },
+    {
+      "text": "Check here for a change of mailing address or phone numbers.",
+      "bbox": [
+        522,
+        911,
+        840,
+        920
+      ]
+    },
+    {
+      "text": "Please provide all corrections on the reverse side.",
+      "bbox": [
+        522,
+        922,
+        773,
+        930
+      ]
+    },
+    {
+      "text": "Mail this coupon along with your check payable to: Bank of America",
+      "bbox": [
+        521,
+        936,
+        855,
+        945
+      ]
+    }
+  ],
+  "candidates": {
+    "total_amount": [
+      {
+        "value": "112.00",
+        "num": 112.0,
+        "score": 1.023,
+        "text": "$112.00",
+        "bbox": [
+          851,
+          824,
+          898,
+          834
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total minimum payment due' (same_row, prox=0.88)",
+            0.483
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x3",
+            0.12
+          ],
+          [
+            "in_payment_coupon_band",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "4543.36",
+        "num": 4543.36,
+        "score": 1.006,
+        "text": "$4,543.36",
+        "bbox": [
+          842,
+          808,
+          898,
+          819
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'new balance total' (same_row, prox=0.85)",
+            0.466
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x3",
+            0.12
+          ],
+          [
+            "in_payment_coupon_band",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "4543.36",
+        "num": 4543.36,
+        "score": 0.97,
+        "text": "$4,543.36",
+        "bbox": [
+          374,
+          413,
+          429,
+          425
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'new balance total' (same_row, prox=0.87)",
+            0.48
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x3",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "112.00",
+        "num": 112.0,
+        "score": 0.957,
+        "text": "$112.00",
+        "bbox": [
+          892,
+          370,
+          938,
+          381
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total minimum payment due' (same_row, prox=0.85)",
+            0.467
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x3",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "112.00",
+        "num": 112.0,
+        "score": 0.94,
+        "text": "$112.00",
+        "bbox": [
+          892,
+          341,
+          938,
+          352
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'current payment due' (same_row, prox=0.82)",
+            0.45
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x3",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "4543.36",
+        "num": 4543.36,
+        "score": 0.937,
+        "text": "$4,543.36",
+        "bbox": [
+          882,
+          327,
+          938,
+          338
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'new balance total' (same_row, prox=0.81)",
+            0.447
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x3",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "10476.00",
+        "num": 10476.0,
+        "score": 0.837,
+        "text": "$10,476.00",
+        "bbox": [
+          834,
+          552,
+          908,
+          563
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total' (same_row, prox=0.85)",
+            0.467
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "165.00",
+        "num": 165.0,
+        "score": 0.733,
+        "text": "$165.00",
+        "bbox": [
+          534,
+          584,
+          589,
+          596
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total' (below, prox=0.66)",
+            0.363
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "5456.64",
+        "num": 5456.64,
+        "score": 0.566,
+        "text": "$5,456.64",
+        "bbox": [
+          374,
+          492,
+          429,
+          503
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total' (below, prox=0.14)",
+            0.076
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x2",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "5456.64",
+        "num": 5456.64,
+        "score": 0.526,
+        "text": "$5,456.64",
+        "bbox": [
+          374,
+          451,
+          429,
+          462
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total' (same_row, prox=0.88)",
+            0.486
+          ],
+          [
+            "negative_anchor 'credit available' same_row",
+            -0.45
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ],
+          [
+            "value_repeats_x2",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "5940.00",
+        "num": 5940.0,
+        "score": 0.511,
+        "text": "$5,940.00",
+        "bbox": [
+          838,
+          584,
+          904,
+          596
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total' (below, prox=0.26)",
+            0.141
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "67.40",
+        "num": 67.4,
+        "score": 0.461,
+        "text": "$67.40",
+        "bbox": [
+          386,
+          384,
+          429,
+          396
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'new balance total' (below, prox=0.16)",
+            0.091
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "10000.00",
+        "num": 10000.0,
+        "score": 0.399,
+        "text": "$10,000.00",
+        "bbox": [
+          366,
+          437,
+          429,
+          448
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total' (same_row, prox=0.87)",
+            0.479
+          ],
+          [
+            "negative_anchor 'credit line' same_row",
+            -0.45
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "3956.38",
+        "num": 3956.38,
+        "score": 0.396,
+        "text": "$3,956.38",
+        "bbox": [
+          374,
+          328,
+          429,
+          339
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'balance' (same_row, prox=0.86)",
+            0.476
+          ],
+          [
+            "negative_anchor 'previous balance' same_row",
+            -0.45
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "628.58",
+        "num": 628.58,
+        "score": 0.016,
+        "text": "$628.58",
+        "bbox": [
+          383,
+          355,
+          429,
+          366
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'new balance total' (below, prox=0.17)",
+            0.096
+          ],
+          [
+            "negative_anchor 'adjustments' same_row",
+            -0.45
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "7000.00",
+        "num": 7000.0,
+        "score": -0.011,
+        "text": "$7,000.00",
+        "bbox": [
+          374,
+          465,
+          429,
+          476
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'total' (below, prox=0.12)",
+            0.069
+          ],
+          [
+            "negative_anchor 'credit line' same_row",
+            -0.45
+          ],
+          [
+            "has_dollar_sign",
+            0.12
+          ]
+        ]
+      },
+      {
+        "value": "109.00",
+        "num": 109.0,
+        "score": -0.106,
+        "text": "-$109.00",
+        "bbox": [
+          374,
+          342,
+          429,
+          353
+        ],
+        "evidence": [
+          [
+            "base_money_token",
+            0.25
+          ],
+          [
+            "strong_anchor 'new balance total' (below, prox=0.17)",
+            0.094
+          ],
+          [
+            "negative_anchor 'payments and other credits' same_row",
+            -0.45
+          ]
+        ]
+      }
+    ],
+    "due_date": [
+      {
+        "value": "2018-02-05",
+        "score": 0.674,
+        "text": "02/05/2018",
+        "bbox": [
+          820,
+          840,
+          898,
+          849
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "due_anchor 'due date' (same_row, prox=0.87)",
+            0.524
+          ]
+        ]
+      },
+      {
+        "value": "2018-02-05",
+        "score": 0.641,
+        "text": "02/05/2018",
+        "bbox": [
+          875,
+          384,
+          938,
+          394
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "due_anchor 'due date' (same_row, prox=0.82)",
+            0.491
+          ]
+        ]
+      },
+      {
+        "value": "2018-01-09",
+        "score": 0.15,
+        "text": "December 9 - January 8, 2018",
+        "bbox": [
+          780,
+          260,
+          941,
+          270
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ]
+        ]
+      },
+      {
+        "value": "2018-01-08",
+        "score": -0.28,
+        "text": "01/08/2018",
+        "bbox": [
+          366,
+          506,
+          429,
+          516
+        ],
+        "evidence": [
+          [
+            "base_date_token",
+            0.15
+          ],
+          [
+            "due_anchor 'due date' (below, prox=0.12)",
+            0.07
+          ],
+          [
+            "non_deadline_anchor 'statement closing date'",
+            -0.5
+          ]
+        ]
+      }
+    ],
+    "sender": [
+      {
+        "value": "BankAmericard",
+        "score": 0.95,
+        "tier": "S1",
+        "text": "BankAmericard",
+        "evidence": [
+          [
+            "top_band_text",
+            0.3
+          ],
+          [
+            "large_glyph_height (13 vs mh 11)",
+            0.091
+          ],
+          [
+            "top-left letterhead position (x<300)",
+            0.25
+          ],
+          [
+            "institution_hint_word (existing list)",
+            0.4
+          ]
+        ]
+      }
+    ],
+    "recipient": [],
+    "action": [
+      {
+        "value": "pay",
+        "score": 0.45,
+        "text": "Current Payment Due",
+        "bbox": [
+          477,
+          341,
+          610,
+          352
+        ],
+        "evidence": [
+          [
+            "action_phrase 'payment due' -> pay",
+            0.4
+          ],
+          [
+            "upper_half_of_page",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.45,
+        "text": "Total Minimum Payment Due",
+        "bbox": [
+          477,
+          370,
+          657,
+          381
+        ],
+        "evidence": [
+          [
+            "action_phrase 'payment due' -> pay",
+            0.4
+          ],
+          [
+            "upper_half_of_page",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.45,
+        "text": "Payment Due Date",
+        "bbox": [
+          477,
+          384,
+          592,
+          395
+        ],
+        "evidence": [
+          [
+            "action_phrase 'payment due' -> pay",
+            0.4
+          ],
+          [
+            "upper_half_of_page",
+            0.05
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.4,
+        "text": "Total Minimum Payment Due",
+        "bbox": [
+          498,
+          824,
+          661,
+          834
+        ],
+        "evidence": [
+          [
+            "action_phrase 'payment due' -> pay",
+            0.4
+          ]
+        ]
+      },
+      {
+        "value": "pay",
+        "score": 0.4,
+        "text": "Payment Due Date",
+        "bbox": [
+          515,
+          840,
+          622,
+          849
+        ],
+        "evidence": [
+          [
+            "action_phrase 'payment due' -> pay",
+            0.4
+          ]
+        ]
+      }
+    ]
+  },
+  "fields": {
+    "total_amount": {
+      "value": "112.00",
+      "score": 1.023,
+      "evidence": [
+        [
+          "base_money_token",
+          0.25
+        ],
+        [
+          "strong_anchor 'total minimum payment due' (same_row, prox=0.88)",
+          0.483
+        ],
+        [
+          "has_dollar_sign",
+          0.12
+        ],
+        [
+          "value_repeats_x3",
+          0.12
+        ],
+        [
+          "in_payment_coupon_band",
+          0.05
+        ]
+      ],
+      "runner_up": [
+        "4543.36",
+        1.006
+      ]
+    },
+    "due_date": {
+      "value": "2018-02-05",
+      "score": 0.674,
+      "evidence": [
+        [
+          "base_date_token",
+          0.15
+        ],
+        [
+          "due_anchor 'due date' (same_row, prox=0.87)",
+          0.524
+        ]
+      ],
+      "runner_up": [
+        "2018-02-05",
+        0.641
+      ]
+    },
+    "sender": {
+      "value": "BankAmericard",
+      "score": 0.95,
+      "evidence": [
+        [
+          "top_band_text",
+          0.3
+        ],
+        [
+          "large_glyph_height (13 vs mh 11)",
+          0.091
+        ],
+        [
+          "top-left letterhead position (x<300)",
+          0.25
+        ],
+        [
+          "institution_hint_word (existing list)",
+          0.4
+        ]
+      ],
+      "runner_up": null
+    },
+    "recipient": {
+      "value": null,
+      "score": 0.0,
+      "evidence": [
+        [
+          "below_threshold_or_no_candidate",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "action": {
+      "value": "pay",
+      "score": 0.45,
+      "evidence": [
+        [
+          "action_phrase 'payment due' -> pay",
+          0.4
+        ],
+        [
+          "upper_half_of_page",
+          0.05
+        ]
+      ],
+      "runner_up": [
+        "pay",
+        0.45
+      ]
+    },
+    "payment_status": {
+      "value": "unpaid",
+      "score": 0.8,
+      "evidence": [
+        [
+          "positive amount (112.00) + due/balance anchor, no paid marker",
+          0
+        ]
+      ],
+      "runner_up": null
+    },
+    "_cross_validation": [
+      "note: 12 money token(s) larger than chosen amount 112.00"
+    ]
+  },
+  "final": {
+    "sender": "BankAmericard",
+    "recipient": null,
+    "total_amount": "112.00",
+    "payment_status": "unpaid",
+    "due_date": "2018-02-05",
+    "action": "pay"
+  }
+}

@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Policy Information",
+    "sender": "Farmers Insurance",
+    "recipient": "12345-67-89",
+    "amount": "$798.48",
+    "due_date": "01/01/2019 12:01 AM",
+    "payment_status": "unpaid",
+    "action_required": "false",
+    "action": "not_applicable",
+    "risk": "None"
+}
+```

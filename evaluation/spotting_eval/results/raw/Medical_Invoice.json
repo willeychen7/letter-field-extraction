@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"box\": [\"Zylker Heathcare\", \"14B, Northern Street, Greater South Avenue, New York 10001 U.S.A\", \"INVOICE\", \"Bill To\", \"Aaron Brown\", \"Greater South Avenue 10001 New York U.S.A\"],\n    \"text\": \"Zylker Heathcare\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788568595,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 2046,
+    "total_tokens": 2123,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-yqqWFiZSxfoWa000AZeZIOpWk8JYNc2n",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2046,
+    "prompt_ms": 7301.676,
+    "prompt_per_token_ms": 3.568756598240469,
+    "prompt_per_second": 280.20963954029185,
+    "predicted_n": 77,
+    "predicted_ms": 717.556,
+    "predicted_per_token_ms": 9.441526315789474,
+    "predicted_per_second": 105.91507840503041
+  }
+}

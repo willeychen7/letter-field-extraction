@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Policy Information\",\n    \"sender\": \"Farmers Insurance\",\n    \"recipient_name\": \"Jane Smith\",\n    \"address\": \"1234 Main St\",\n    \"account_number\": \"12345-67-89\",\n    \"amount\": \"$798.48\",\n    \"due_date\": \"01/01/2019 12:01 AM\",\n    \"action_required\": \"Mailed separately\",\n    \"important_identifier\": \"Underwritten by\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569118,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 2471,
+    "total_tokens": 2583,
+    "prompt_tokens_details": {
+      "cached_tokens": 2423
+    }
+  },
+  "id": "chatcmpl-3y79Ij26UvcIuIfBiHzZPDQCo4o4NPU1",
+  "timings": {
+    "cache_n": 2423,
+    "prompt_n": 48,
+    "prompt_ms": 42.956,
+    "prompt_per_token_ms": 0.8949166666666667,
+    "prompt_per_second": 1117.422478815532,
+    "predicted_n": 112,
+    "predicted_ms": 1137.993,
+    "predicted_per_token_ms": 10.252189189189188,
+    "predicted_per_second": 97.54014304130166
+  }
+}

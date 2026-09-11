@@ -1,0 +1,11 @@
+{
+  "recipient_name": "JAMES & KAREN Q. HINDS",
+  "address": "22 BOULDER STREET HANSON, CT 00000-7253",
+  "account_number": "None",
+  "policy_member_claim_number": "None",
+  "phone": "None",
+  "email": "None",
+  "ssn": "None",
+  "medicare_medical_id": "None",
+  "other_identifier": "None"
+}

@@ -1,0 +1,13 @@
+```json
+{
+  "document_type": "RETAIL OF INVOICE",
+  "sender": "Hoag Orthopedic Institute",
+  "recipient": "500 Superior Ave., Suite 250, Newport Beach, CA 92663-3662, PFS@hoag.org",
+  "amount": "333.33",
+  "due_date": "None",
+  "payment_status": "PAID",
+  "action_required": false,
+  "action": "PAY",
+  "risk": "low"
+}
+```

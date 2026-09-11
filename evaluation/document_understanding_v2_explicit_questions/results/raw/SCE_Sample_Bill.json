@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"document_type\": \"billing and service inquiry\",\n  \"sender\": \"Southern California Edison\",\n  \"recipient\": \"Your electricity bill\",\n  \"amount\": \"$2,149.55\",\n  \"due_date\": \"05/11/20\",\n  \"payment_status\": \"null\",\n  \"action_required\": null,\n  \"action\": \"Please return the payment stub below with your payment and make your check payable to Southern California Edison. If you want to pay in person, call 1-800-747-8908 for locations, or you can pay online at www.sce.com.\",\n  \"risk\": \"high\"\n}"
+      }
+    }
+  ],
+  "created": 1788641411,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 1484,
+    "total_tokens": 1618,
+    "prompt_tokens_details": {
+      "cached_tokens": 1121
+    }
+  },
+  "id": "chatcmpl-qu7YX3eaFs7Ykbq9OG9zoBP6kOPA4yCC",
+  "timings": {
+    "cache_n": 1121,
+    "prompt_n": 363,
+    "prompt_ms": 148.138,
+    "prompt_per_token_ms": 0.40809366391184576,
+    "prompt_per_second": 2450.4178536229733,
+    "predicted_n": 134,
+    "predicted_ms": 1222.056,
+    "predicted_per_token_ms": 9.188390977443609,
+    "predicted_per_second": 108.83298310388395
+  }
+}

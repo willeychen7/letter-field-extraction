@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Penny Insurance\nPenny General Insurance Company\nP.O. Box 123123\nSan Diego, CA 12345\nDeclarations Page\nThis is a description of your coverage.\nPlease retain for your records.\nPolicy Number: 1234-56-78-90\nCoverage Period:\n11-01-22 through 5-01-23\nDate Issued: November 1, 2022\nEndorsement Effective: 11-01-22\nPenny the Pig\n123 STREET BLVD.\nLOS ANGELES, CA 12345\nEmail Address: example@email.com\n**Named Insured**\nPenny the Pig\n**Additional Drivers**\nJohn Smith\n| Vehicles | VIN | Vehicle Location | Finance Company/Lienholder |\n|---------|-----|------------------|-----------------------------|\n| 2014 Honda Civic | 12312312312312312 | Los Angeles CA 12345 | |\n| 2022 Toyota RAV-4 | 12312312312312312 | Los Angeles CA 12345 | Penny Financing |\n| **Coverages** | **Limits and/or Deductibles** | **Vehicle 1** | **Vehicle 2** |\n| Bodily Injury Liability<br>Each Person/Each<br>Occurrence | $15,000/$30,000 | $80 | $100 |\n| Property Damage<br>Liability | $5,000 | $80 | $90 |\n| Comprehensive | $1,000 Ded | - | $50 |\n| Collision | $500 Ded/Waiver | - | $300 |\n| **Six Month Premium** | | $160 | $540 |\n| **Total Six Month Premium** | | | $700 |\n**Discounts**\nCalifornia Good Driver (All Vehicles)\nMulti-Car (All Vehicles)\nAnti-Theft Device (Veh 2)\nNew Car (Veh 2)"
+      }
+    }
+  ],
+  "created": 1788636940,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 392,
+    "prompt_tokens": 946,
+    "total_tokens": 1338,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-7Uc7NEgxehLfQyq34P0CZUKXItk4kl38",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 946,
+    "prompt_ms": 2620.875,
+    "prompt_per_token_ms": 2.7704809725158563,
+    "prompt_per_second": 360.94815662708066,
+    "predicted_n": 392,
+    "predicted_ms": 3409.534,
+    "predicted_per_token_ms": 8.7200358056266,
+    "predicted_per_second": 114.6784281957593
+  }
+}

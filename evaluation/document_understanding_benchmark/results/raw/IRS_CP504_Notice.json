@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Bill\",\n    \"sender\": \"Department of the Treasury Internal Revenue Service\",\n    \"recipient\": \"IPS\",\n    \"amount\": \"$9,533.53\",\n    \"due_date\": \"January 30, 2019\",\n    \"payment_status\": \"Pay immediately\",\n    \"action_required\": true,\n    \"action\": \"Pay immediately\",\n    \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639766,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 1722,
+    "total_tokens": 1820,
+    "prompt_tokens_details": {
+      "cached_tokens": 1468
+    }
+  },
+  "id": "chatcmpl-2I1kPEBmoqAFVNtNVrK4wCGSjOga2KL1",
+  "timings": {
+    "cache_n": 1468,
+    "prompt_n": 254,
+    "prompt_ms": 147.733,
+    "prompt_per_token_ms": 0.5816259842519685,
+    "prompt_per_second": 1719.317958749907,
+    "predicted_n": 98,
+    "predicted_ms": 982.353,
+    "predicted_per_token_ms": 10.127350515463917,
+    "predicted_per_second": 98.7425090573348
+  }
+}

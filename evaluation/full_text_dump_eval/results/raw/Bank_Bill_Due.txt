@@ -1,0 +1,41 @@
+BUILDING BLOCKS STUDENT HANDOUT
+Sample credit card statement
+Name: Susan Doe
+Address: 1234 Main Street, Anytown, USA
+Account Number: 12345-67-8907
+For Lost or Stolen Card, Call: 1-800-XXX-XXXX
+Payment Information
+Date: 12/30/XX
+Payment Due Date: 1/23/XX
+New Balance: $1392.71
+Minimum Payment: $25
+Account Summary
+Previous Balance $482.42
+Payment, Credits -$350.42
+Purchases $1,258.56
+Cash Advances $0
+Balance Transfers $0
+Fees Charged $0
+Interest Charged $2.15
+New Balance $1,392.71
+Payment Information
+New Balance $1,392.71
+Payment Due Date 1/23/XX
+Minimum Payment Due $25
+Opening/Closing Date 11/27/XX - 12/26/XX
+Credit Access Line $12,000
+Available Credit $10,607.29
+Cash Access Line $2,000
+Available for Cash $2,000
+Past Due Amount $0
+Balance Over the Credit Access Line $0
+Finance Charge Summary
+Purchases 1.65%
+Advances 0.54%
+Periodic Rate
+Annual Percentage Rate (APR) 19.80%
+6.48%
+BUILDING BLOCKS STUDENT HANDOUT
+Sample credit card statement
+1 of 1
+Summer 2022

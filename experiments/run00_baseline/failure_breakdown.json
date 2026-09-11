@@ -1,0 +1,480 @@
+{
+  "source": "hunyuan_gpu_benchmark_49.csv (run00 baseline, GPU)",
+  "n": 49,
+  "latency_s": {
+    "note": "49 imgs",
+    "median": 3.81,
+    "mean": 4.19,
+    "p90": 6.85,
+    "max": 12.38,
+    "min": 0.42
+  },
+  "buckets": {
+    "A_context_overflow": {
+      "count": 3,
+      "files": [
+        {
+          "file": "Progressive_Insurance_Bill.jpg",
+          "shape": "EMPTY",
+          "lat": "0.506",
+          "ptok": "",
+          "ctok": "",
+          "finish": "",
+          "repetition": "False"
+        },
+        {
+          "file": "aaa-policy_renew.jpg",
+          "shape": "EMPTY",
+          "lat": "0.417",
+          "ptok": "",
+          "ctok": "",
+          "finish": "",
+          "repetition": "False"
+        },
+        {
+          "file": "ca-dmv-registration-fee.webp",
+          "shape": "EMPTY",
+          "lat": "1.2",
+          "ptok": "",
+          "ctok": "",
+          "finish": "",
+          "repetition": "False"
+        }
+      ]
+    },
+    "B_truncated": {
+      "count": 2,
+      "files": [
+        {
+          "file": "DMV_registration_late_fee.webp",
+          "shape": "DOC_PARSE_MD",
+          "lat": "12.38",
+          "ptok": "544.0",
+          "ctok": "2272.0",
+          "finish": "length",
+          "repetition": "True"
+        },
+        {
+          "file": "EastWest_Bank_Form.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "11.29",
+          "ptok": "819.0",
+          "ctok": "1997.0",
+          "finish": "length",
+          "repetition": "True"
+        }
+      ]
+    },
+    "C_wrong_output_format": {
+      "count": 38,
+      "files": [
+        {
+          "file": "AAA_insurance_Bill.png",
+          "shape": "PLAIN_TEXT",
+          "lat": "1.648",
+          "ptok": "349.0",
+          "ctok": "198.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "BOA_Bill_Example.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "5.331",
+          "ptok": "1559.0",
+          "ctok": "523.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Bank_Bill_Due.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "3.388",
+          "ptok": "1197.0",
+          "ctok": "337.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Bank_Bill_Example.jpg",
+          "shape": "PLAIN_TEXT",
+          "lat": "3.806",
+          "ptok": "819.0",
+          "ctok": "584.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "CMS_EOB.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "3.814",
+          "ptok": "971.0",
+          "ctok": "518.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Chase_Bank_Bill_Example.webp",
+          "shape": "PLAIN_TEXT",
+          "lat": "3.745",
+          "ptok": "819.0",
+          "ctok": "404.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Chase_Bank_Bill_Example2.webp",
+          "shape": "PLAIN_TEXT",
+          "lat": "2.644",
+          "ptok": "819.0",
+          "ctok": "312.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Coverage_Care_Insurance_Card.png",
+          "shape": "PLAIN_TEXT",
+          "lat": "1.284",
+          "ptok": "577.0",
+          "ctok": "137.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "DMV_Notice.jpeg",
+          "shape": "LAYOUT_PARSE",
+          "lat": "8.176",
+          "ptok": "1729.0",
+          "ctok": "983.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "DMV_Registration.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "6.495",
+          "ptok": "1405.0",
+          "ctok": "800.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "EastWest_Bank_Bill.webp",
+          "shape": "DOC_PARSE_MD",
+          "lat": "5.119",
+          "ptok": "819.0",
+          "ctok": "766.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "First_Bank_Bill.webp",
+          "shape": "DOC_PARSE_MD",
+          "lat": "4.644",
+          "ptok": "1069.0",
+          "ctok": "538.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Great_American_Insurance_Invoice.png",
+          "shape": "PLAIN_TEXT",
+          "lat": "1.857",
+          "ptok": "819.0",
+          "ctok": "162.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "HOA1.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "3.268",
+          "ptok": "819.0",
+          "ctok": "455.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "HOA2.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "5.563",
+          "ptok": "2086.0",
+          "ctok": "167.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "HOA3.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "4.539",
+          "ptok": "1639.0",
+          "ctok": "246.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "HOA4.webp",
+          "shape": "PLAIN_TEXT",
+          "lat": "4.929",
+          "ptok": "851.0",
+          "ctok": "716.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Hospital_Bill.png",
+          "shape": "PLAIN_TEXT",
+          "lat": "6.306",
+          "ptok": "1489.0",
+          "ctok": "679.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "IRS_cp503.png",
+          "shape": "PLAIN_TEXT",
+          "lat": "5.553",
+          "ptok": "1767.0",
+          "ctok": "376.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Medical_Invoice.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "5.303",
+          "ptok": "1969.0",
+          "ctok": "220.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Medicare_Notice_PartA.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "3.59",
+          "ptok": "999.0",
+          "ctok": "423.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Medicare_Notice_PartB.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "3.705",
+          "ptok": "1129.0",
+          "ctok": "409.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Medixare_Premium_Bill.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "5.551",
+          "ptok": "1267.0",
+          "ctok": "668.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Penny_Insurance_Bill.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "3.378",
+          "ptok": "955.0",
+          "ctok": "410.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "SCE_Bill_Letter.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "4.83",
+          "ptok": "1267.0",
+          "ctok": "568.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "SCE_Sample_Bill.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "2.701",
+          "ptok": "1135.0",
+          "ctok": "183.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "SoCalGas.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "5.697",
+          "ptok": "1859.0",
+          "ctok": "378.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "State_Farm_Insurance.webp",
+          "shape": "PLAIN_TEXT",
+          "lat": "4.176",
+          "ptok": "819.0",
+          "ctok": "590.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "State_Farm_Insurance_Card.jpg",
+          "shape": "PLAIN_TEXT",
+          "lat": "1.216",
+          "ptok": "292.0",
+          "ctok": "175.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "UCLA_Health_Bill.png",
+          "shape": "PLAIN_TEXT",
+          "lat": "2.774",
+          "ptok": "1223.0",
+          "ctok": "165.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "UCLA_Health_Bill2.png",
+          "shape": "DOC_PARSE_MD",
+          "lat": "6.847",
+          "ptok": "1180.0",
+          "ctok": "980.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Water_Bill2.jpg",
+          "shape": "PLAIN_TEXT",
+          "lat": "1.754",
+          "ptok": "415.0",
+          "ctok": "248.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Water_Bill3.webp",
+          "shape": "DOC_PARSE_MD",
+          "lat": "7.318",
+          "ptok": "1795.0",
+          "ctok": "663.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "att_bill.webp",
+          "shape": "PLAIN_TEXT",
+          "lat": "4.316",
+          "ptok": "819.0",
+          "ctok": "651.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "aws_invoice.png",
+          "shape": "PLAIN_TEXT",
+          "lat": "2.522",
+          "ptok": "359.0",
+          "ctok": "442.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "hoag-invoice-mychart.png",
+          "shape": "LAYOUT_PARSE",
+          "lat": "3.102",
+          "ptok": "316.0",
+          "ctok": "561.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "statefarm_bill.webp",
+          "shape": "PLAIN_TEXT",
+          "lat": "3.143",
+          "ptok": "819.0",
+          "ctok": "404.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "waste_managment.webp",
+          "shape": "LAYOUT_PARSE",
+          "lat": "6.226",
+          "ptok": "754.0",
+          "ctok": "1017.0",
+          "finish": "stop",
+          "repetition": "False"
+        }
+      ]
+    },
+    "D_semantic_trivial": {
+      "count": 1,
+      "files": [
+        {
+          "file": "food1.jpeg",
+          "shape": "TRIVIAL",
+          "lat": "0.995",
+          "ptok": "819.0",
+          "ctok": "5.0",
+          "finish": "stop",
+          "repetition": "False"
+        }
+      ]
+    },
+    "D_semantic_wrong_task": {
+      "count": 5,
+      "files": [
+        {
+          "file": "All_State_Insurance_Card.jpg",
+          "shape": "TAG_GARBAGE",
+          "lat": "0.495",
+          "ptok": "427.0",
+          "ctok": "8.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Auto_Insurance_Bill1.jpg",
+          "shape": "NL_DESCRIPTION",
+          "lat": "5.577",
+          "ptok": "2437.0",
+          "ctok": "76.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "IRS_CP504_Notice.png",
+          "shape": "NL_DESCRIPTION",
+          "lat": "3.07",
+          "ptok": "1481.0",
+          "ctok": "43.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "Medicare_Notice_of_Denial.png",
+          "shape": "NL_DESCRIPTION",
+          "lat": "5.811",
+          "ptok": "1774.0",
+          "ctok": "449.0",
+          "finish": "stop",
+          "repetition": "False"
+        },
+        {
+          "file": "SCE_Letter.png",
+          "shape": "NL_DESCRIPTION",
+          "lat": "3.554",
+          "ptok": "1729.0",
+          "ctok": "36.0",
+          "finish": "stop",
+          "repetition": "False"
+        }
+      ]
+    }
+  }
+}

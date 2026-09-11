@@ -1,0 +1,2008 @@
+index,filename,latency_sec,http_status,success,prompt_tokens,completion_tokens,finish_reason,truncated,repetition,content,error
+1,AAA_insurance_Bill.png,1.648,200,True,349.0,198.0,stop,False,False,"Personal Umbrella Policy Number Bill Example
+Payment coupon
+Your Policy Number is PUP 054321234
+Your Policy Term is Jan 1 2020 to Jan 1 2021
+PAT SMITH
+1234 MAIN ST
+SPRINGFIELD IL 62704-8725
+AAA Insurance
+PO BOX 740860
+CINCINNATI, OH 45274-0860
+Minimum Due: $12.20
+Due Apr 8 2020
+Total Amount Owed: $12.20
+We must RECEIVE your Total Amount Owed no later than Apr 8 2020.
+Amount Paid: $___
+INSURANCE BILL
+AAA Insurance
+Very Important Personal Umbrella
+Excess Liability Insurance Policy
+MemberSelect Insurance Company
+Installment
+1 Auto Club Drive
+Dearborn, MI 48126
+POLICY NUMBER: PUP 054321234",
+2,All_State_Insurance_Card.jpg,0.495,200,True,427.0,8.0,stop,False,False,<dir>0</dir>,
+3,Auto_Insurance_Bill1.jpg,5.577,200,True,2437.0,76.0,stop,False,False,"The text in the image is a detailed policy information page for a car insurance policy. The page includes information about the policy number, effective date, expiration date, policy number, premium amount, policy premium, fees, and details about the policyholder. It also provides information about the coverage information, including the deductible, coverage, and limits for various types of injuries and damages.",
+4,BOA_Bill_Example.png,5.331,200,True,1559.0,523.0,stop,False,False,"BankAmericard | Cash Rewards®
+Visa Signature®
+# Bank of America
+Customer Service Information: www.bankofamerica.com 1.800.637.7455 TTY: 1.877.275.6371
+Mail billing inquiries to: Bank of America P.O. Box 982234 El Paso TX 79998-2234
+Mail payment to: Bank of America P.O. Box 851001 Dallas TX 75285-1001
+December 9 - January 8, 2018
+## Account Summary
+Previous Balance $3,956.38
+Payments and Other Credits -$109.00
+Purchases and Adjustments $628.58
+Fees Charged $0.00
+Interest Charged $67.40
+New Balance Total $4,543.36
+Total Credit Line $10,000.00
+Total Credit Available $5,456.64
+Cash Credit Line $7,000.00
+Portion of Credit Available for Cash $5,456.64
+Statement Closing Date 01/08/2018
+Days in Billing Cycle 31
+## Payment Information
+New Balance Total $4,543.36
+Current Payment Due $112.00
+Total Minimum Payment Due $112.00
+Payment Due Date 02/05/2018
+Late Payment Warning: If we do not receive your Total Minimum Payment by the date listed above, you may have to pay a late fee of up to $38.00 and your APRs may be increased up to the Penalty APR of 29.99%
+Total Minimum Payment Warning: If you make only the Total Minimum Payment each period, you will pay more in interest and it will take you longer to pay off your balance. For example:
+If you make no additional charges using this card and each month you pay
+You will payoff the balance shown on this statement in about
+And you will end up paying an estimated total of
+Only the Total Minimum Payment $165.00 18 years 36 months $5,940.00 (Savings = $4,536.00)
+If you would like information about credit counseling services, call 866.300.5238.
+BANK OF AMERICA
+P.O. BOX 851001
+DALLAS TX 75285-1001
+New Balance Total $4,543.36
+Total Minimum Payment Due $112.00
+Payment Due Date 02/05/2018
+Enter payment amount $",
+5,Bank_Bill_Due.png,3.388,200,True,1197.0,337.0,stop,False,False,"# BUILDING BLOCKS STUDENT HANDOUT Sample credit card statement
+
+Name: Susan Doe  
+Address: 1234 Main Street, Anytown, USA  
+Account Number: 12345-67-8907
+
+## Payment Information
+Date: 12/30/XX  
+Payment Due Date: 1/23/XX  
+New Balance: $1392.71  
+Minimum Payment: $25
+
+| Account Summary | Payment Information |
+|------------------|---------------------|
+| Previous Balance | $482.42 | New Balance | $1,392.71 |
+| Payment, Credits | -$350.42 | Payment Due Date | 1/23/XX |
+| Purchases | $1,258.56 | Minimum Payment Due | $25 |
+| Cash Advances | $0 | | |
+| Balance Transfers | $0 | | |
+| Fees Charged | $0 | | |
+| Interest Charged | $2.15 | | |
+| New Balance | $1,392.71 | | |
+
+Opening/Closing Date: 11/27/XX - 12/26/XX  
+Credit Access Line: $12,000  
+Available Credit: $10,607.29  
+Cash Access Line: $2,000  
+Available for Cash: $2,000  
+Past Due Amount: $0  
+Balance Over the Credit Access Line: $0
+
+## Finance Charge Summary
+Periodic Rate: 1.65%  
+Annual Percentage Rate (APR): 19.80%  
+Advances: 0.54%  
+Advances: 6.48%",
+6,Bank_Bill_Example.jpg,3.806,200,True,819.0,584.0,stop,False,False,"ETC BANK
+Account Number 1000 0001 1000 0001
+Regular Credit Limit P50,000
+BERGL M. SBUCOL
+4 LIMOUSINE ST RANCHO
+2018
+ESTATE IV EAST PARK
+1800 MARIKINA CITY
+Statement Date 23 January 2018 15 February
+Total Amount Due PHP 50,000
+Minimum Amount Due PHP 2,500
+Previous Balance 25,000.00
+Plus Purchases/Debits 45,000.00
+Less Payments/Credits 20,000.00
+Total Amount Due 50,000.00
+TRANSACTION DETAILS
+Post Date Tran Date Description Previous Balance Amount
+01/23/18 01/23/18 BERGL M. SBUCOL - 1000 0001 1000 0001 2,500.00
+01/22/18 12/21/17 INSTL 1/12 IPHONE X POWER MAC CENTER SM NORTH QUEZON CITY 5,800.00
+01/22/18 12/21/17 SM NORTH DEPT STORE QUEZON CITY 12,000.00
+01/22/18 12/21/17 INSTL 1/3 SM NORTH AUTOMATIC CENTER QUEZON CITY 3,200.00
+01/22/18 12/21/17 SM NORTH TRAVEL CLUB QUEZON CITY 6,500.00
+01/22/18 12/21/17 SM NORTH HYPERMARKET QUEZON CITY 5,000.00
+01/17/18 01/18/18 NIHONBASHITEI MAKATI CITY 3,000.00
+01/14/18 01/15/18 SM MARIKINA HYPERMARKET MARIKINA CITY 2,000.00
+01/10/18 11/11/17 INSTL 2/6 ELECTROWORLD TRINOMA QUEZON CITY 2,500.00
+01/07/18 06/08/17 INSTL 7/12 ELECTROWORLD TRINOMA QUEZON CITY 2,500.00
+01/03/18 01/03/18 CASH PAYMENT - THANK YOU ETC BANK 20,000.00C
+TOTAL AMOUNT DUE 50,000.00
+****END OF STATEMENT***
+ETC BANK CARD CORPORATION
+ETC BLDG 4620 Ayala Avenue, Makati City, Philippines",
+7,CMS_EOB.png,3.814,200,True,971.0,518.0,stop,False,False,"# EXPLANATION OF BENEFITS
+
+## 1 Customer Service Number: 1-800-123-4567
+
+| Statement Date: | XXXXXXX |
+|----------------|----------|
+| Document Number: | XXXXXXXXX |
+| Member Name: | |
+| Address: | |
+| City, State, Zip: | |
+
+## THIS IS NOT A BILL
+
+| Subscriber Number: | XXXXXXXXX |
+|-------------------|--------------|
+| ID: | XXXXXXX |
+| Group: | ABCDE |
+| Group Number: | XXXXX |
+
+## Patient Name: XXXXXXX
+
+## Date Received: XXXXXXXXX
+
+## Provider:
+
+## Payee: 2
+
+## Claim Number: XXXXXXXX
+
+## Date Paid: XXXXXXXX
+
+## 3. Service Description
+shows the health services you received, like a medical visit, lab test, or screening.
+
+## 4. Provider Charges
+is the amount your provider bills for your visit.
+
+## 5. Allowed Charges
+is the amount your provider will be paid; this may not be the same as the Provider Charges.
+
+## Claim Detail
+
+| Line No. | Date of Service | Service Description | Claim Status | Provider Charges | Allowed Charges | Co Pay | Deductible | Coinsurance | Paid by Insurer | What You Owe | Remark Code |
+|---------|-----------------|---------------------|--------------|------------------|-----------------|--------|------------|------------|----------------|-------------|-------------|
+| 1 | 3/20/22-3/20/22 | Medical care | Paid | $31.60 | $2.15 | $0.00 | $0.00 | $0.00 | $2.15 | $0.00 | PDC |
+| 2 | 3/20/22-3/20/22 | Medical care | Paid | $375.00 | $118.12 | $35.00 | $0.00 | $0.00 | $83.12 | $35.00 | PDC |
+| | | | Total | $406.60 | $120.27 | $35.00 | $0.00 | $0.00 | $85.27 | $35.00 | PDC |
+
+## What your Provider Can Charge You
+
+## Your Responsibility
+
+## Total Claim Cost
+
+## Remark Code: PDC
+—Billed amount is higher than the maximum payment insurance allows. The payment is for the allowed amount.",
+8,Chase_Bank_Bill_Example.webp,3.745,200,True,819.0,404.0,stop,False,False,"CHASE
+JPMorgan Chase Bank, N.A.
+PO Box 059754
+San Antonio, TX 78265-9754
+
+CUSTOMER SERVICE INFORMATION
+Web site: 1-800-242-7338
+Service Center: 1-800-242-7383
+Hearing Impaired: 1-888-622-4273
+Para Español: 1-713-262-1679
+International Calls: 1-888-622-4273
+Debbie Anita Walsh
+65 S. Michigan Ave
+HOWELL MI, 48843
+
+CHECKING SUMMARY
+Chase Business Select Checking
+Beginning Balance: $15,050.80
+Deposits and Additions: 2
+Electronic Withdrawals: 2
+Ending Balance: $14,824.76
+Your monthly service fee was waived because you maintained an average checking balance of $7,500.00 or a minimum checking balance of $5,000.00 or more during the statement period.
+
+DEPOSIT AND ADDITIONS
+DATE: 02/15
+DESCRIPTION: ATM Check Deposit
+AMOUNT: $125.00
+02/15: ATM Cash Deposit
+5.00
+Total Deposits and Additions: $130.00
+
+DEPOSIT AND ADDITIONS
+DATE: 02/28
+DESCRIPTION: Qwest 8002441111 Telephone 2063864199818 CCID ID: 9Qc0273801
+AMOUNT: $249.96
+02/28: Qwest 8002441111 Telephone 2063654528111 CCID ID: 9Qc0273801
+106.08
+Total Electronic Withdrawals: $356.04
+
+DAILY ENDING BALANCE
+DATE: 02/15
+AMOUNT: $15,180.80
+02/28: 14,824.76",
+9,Chase_Bank_Bill_Example2.webp,2.644,200,True,819.0,312.0,stop,False,False,"CHASE
+JPMorgan Chase Bank N.A.
+Ohio/West Virginia Markets
+P O Box 260180
+Baton Rouge, LA 70826-0180
+00013452 DDA 001 LA 10205-YYN T 1 00000000 07 0000
+Company Name
+Company Address
+State Zip
+CHECKING SUMMARY
+Beginning Balance
+Deposits and Additions
+Checks Paid
+Other Withdrawals, Fees & Charges
+Ending Balance
+16
+$81,607.40
+125,883.63
+2
+-3,169.04
+4
+-15,025.68
+$189,296.31
+This message confirms that you have overdraft protection on your checking account.
+DEPOSITS AND ADDITIONS
+DATE
+DESCRIPTION
+AMOUNT
+07/02
+Deposit
+$17 120.00
+07/09
+Deposit
+24 610.00
+07/14
+Deposit
+11 424.00
+07/15
+Deposit
+1 349.00
+07/21
+Deposit
+5 000.00
+07/21
+Deposit
+3 120.00
+07/23
+Deposit
+33 138.00
+07/28
+Deposit
+18 114.00
+07/30
+Deposit
+6 908.63
+07/30
+Deposit
+5 100.00
+Total Deposits and Additions
+$125,883.63",
+10,Coverage_Care_Insurance_Card.png,1.284,200,True,577.0,137.0,stop,False,False,"<trans>
+Insurance Company
+Member Name: Jane Doe 1
+Member Number: XXX XXX XXXXXX 2
+Group Number: XXX XXX XXXXXX 3
+PCP Copay: $15.00 4
+Specialist Copay: $25.00 4
+Emergency Room Copay: $25.00 4
+Member Service: 800 XXX XXXXXX 5
+Plan Type: 134 6
+Effective Date: 1/1/21 7
+Prescription Group #: 123456789 7
+Prescription Copay: $15.00 Generic $25.00 Name brand 7
+</trans>",
+11,DMV_Notice.jpeg,8.176,200,True,1729.0,983.0,stop,False,False,"<hy-meta><layout>figure</layout><poly>(416,0),(518,0),(518,69),(416,69)</poly></hy-meta>
+
+<hy-meta><layout>figure_title</layout><poly>(348,73),(583,73),(583,85),(348,85)</poly></hy-meta>
+
+<hy-meta><layout>figure_title</layout><poly>(348,73),(583,73),(583,85),(348,85)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(270,85),(661,85),(661,101),(270,101)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(322,101),(612,101),(612,112),(322,112)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(710,102),(853,102),(853,113),(710,113)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(103,103),(172,103),(172,112),(103,112)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(103,114),(162,114),(162,122),(103,122)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(295,114),(641,114),(641,123),(295,123)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(751,115),(820,115),(820,124),(751,124)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(408,126),(506,126),(506,135),(408,135)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(409,137),(500,137),(500,147),(409,147)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(398,246),(541,246),(541,257),(398,257)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(61,280),(172,280),(172,291),(61,291)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(55,308),(775,308),(775,353),(55,353)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(50,354),(430,354),(430,377),(50,377)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(48,380),(458,380),(458,394),(48,394)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(44,401),(170,401),(170,414),(44,414)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(38,432),(771,432),(771,466),(38,466)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(33,479),(222,479),(222,496),(33,496)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(27,512),(417,512),(417,535),(27,535)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(23,545),(275,545),(275,563),(23,563)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(16,578),(783,578),(783,630),(16,630)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(8,646),(761,646),(761,697),(8,697)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(6,711),(764,711),(764,747),(6,747)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(6,747),(750,747),(750,780),(6,780)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(3,796),(413,796),(413,824),(3,824)</poly></hy-meta>
+
+<hy-meta><layout>footer</layout><poly>(253,969),(582,969),(582,982),(253,982)</poly></hy-meta>",
+12,DMV_Registration.png,6.495,200,True,1405.0,800.0,stop,False,False,"# VEHICLE REGISTRATION RENEWAL NOTICE
+
+VIN: LORERLESSL1202
+MAKE: CHEV
+YR: 1978
+BODY TYPE: SD
+LICENSE PLATE: 3SMG081
+AMOUNT DUE: $95
+DUE DATE: 10/16/2010
+
+## To renew, just provide:
+
+### Renewal Fees
+REGISTRATION FEE: $56
+LICENSE FEE (May be an income tax deduction): $29
+SPECIAL PLATE FEE: $0
+COUNTY/DISTRICT FEES: $0
+OWNER RESPONSIBILITY FEE: $0
+
+### FEES
+REGISTRATION FEE: $56
+LICENSE FEE (May be an income tax deduction): $29
+SPECIAL PLATE FEE: $0
+COUNTY/DISTRICT FEES: $0
+OWNER RESPONSIBILITY FEE: $0
+
+### TOTAL DUE ON OR BEFORE 10/16/2010: $95
+
+## WARNING
+To declare a new operating weight, your signature, date, and weight code are required on the GVW/CGW Change Request shown below. If no change necessary, do not complete. See insert for additional information.
+
+## PLANNED NONOPERATION
+If you plan not to operate (PNO) this vehicle, please check the box and return the bottom part with your PNO payment.
+
+## CARB Non-Compliant Vehicle:
+Contact CARB at (866) 634-3735 or visit arb.ca.gov/trunkstop.com for more information.
+
+## OR $18 TO FILE PLANNED NONOPERATION
+POSTMARKED: $118
+RENEWAL: $31
+PNO: $39
+After 10/16/10 through: $131
+After through: $172
+After 07/13/11: $65
+AFTER 07/13/2011: $172
+NO PNO
+
+## LATE PAYMENT
+POSTMARKED: $118
+RENEWAL: $31
+PNO: $39
+After 10/16/10 through: $131
+After through: $172
+After 07/13/11: $65
+AFTER 07/13/2011: $172
+NO PNO
+
+## DETACH AND RETURN
+Planned Nonoperation Change of Address (see back)
+
+040101 03282216000801 0009500 28902101020100 00050002000 0000007700 16036998 50 K111110A B070910F01 00001 P100C1
+
+Change my GVW/CGW Operating Weight as shown below. This change is effective on the Due Date shown on this form.
+
+Unladen W/C GVW 10,000 LB GVW Code CGW Code
+
+And Under (R)
+
+I certify under penalty of perjury under the laws of the State of California. that the information I provided is true and correct.
+
+Signature: Date:
+
+LICENSE NUMBER: 3SMG081
+MAKE: CHEV
+VIN: LORERLESSL1202
+DMV USE: DUE DATE: AMOUNT DUE: 10/16/2010: $95
+
+MAKE PAYMENT TO: STUBC
+
+GONZELES C
+3615 S HOPE ST
+LOS ANGELES CA 90007-4370
+DMV RENEWAL
+P.O. BOX 942897
+SACRAMENTO CA 94297-0898
+040101032822160008010009500289021010201000050002000000007700160369850",
+13,DMV_registration_late_fee.webp,12.38,200,True,544.0,2272.0,length,True,True,"# Vehicle Registration Renewal Notice
+
+## Vehicle Registration Renewal Notice
+
+| VIN | MAKE | YR | BODY TYPE | LICENSE PLATE | AMOUNT DUE | DUE DATE |
+|-----|------|---|------------|----------------|------------|----------|
+| XXXXXXXXXXXXXXXX | XXXX | XXXX | XXXXXXXX | XXXXXXXX | $XXX | XX/XX/XX/XXX |
+
+## Torenew, just provide:
+
+### Renewal Fees
+- REGISTRATION FEE: $XXX
+- LICENSE FEE (may be an income tax deduction): $XXX
+- WEIGHT FEE: $XXX
+- SPECIAL PLATE FEE: $XXX
+- COUNTY / DISTRICT FEES: $XX
+- OWNER RESPONSIBILITY FEE: $XX
+- SMOG ABATEMENT FEE: $XX
+
+### Fees
+- TOTAL DUE ON OR BEFORE: $XXX
+- REGISTRATION FEE: $XXX
+- LICENSE FEE: $XXX
+- WEIGHT FEE: $XXX
+- SPECIAL PLATE FEE: $XXX
+- COUNTY / DISTRICT FEES: $XXX
+- OWNER RESPONSIBILITY FEE: $XXX
+- SMOG ABATEMENT FEE: $XXX
+
+## Return by Mail
+- OR $XX TO FILE PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPERATION
+- PLANNED NONOPER",
+14,EastWest_Bank_Bill.webp,5.119,200,True,819.0,766.0,stop,False,False,"# Business Checking Account Statement
+
+Company name: Kaboom Fireworks
+
+Account Summary
+Opening Balance $6,713.87
+Total Credits +$1,510.28
+Total Debits -$5,070.38
+
+Account inquiries +1-833-468-8356
+Call Telephone Banking, 24 hours a day
+
+Closing Balance +$3,153.77
+
+| Details of your account | For the period from | July 31, 2023. to August 31, 2023 | | |
+|-------------------------|-----------------------|------------------------------------|------------|------------|
+| Date | Description of transaction | Debit | Credit | Balance |
+| 2023 | STATEMENT OPENING BALANCE | | | 6,713.87 |
+| 1-Aug | DEPOSIT NIGHT DEPOSIT |  | 235.15 | 6,949.02 |
+| 1-Aug | BANK FEE CHECK PRINTING | 38.90 | | 6,910.12 |
+| 1-Aug | WITHDRAWAL/CHECK 301095 | 45.00 | | 6,865.12 |
+| 1-Aug | WITHDRAWAL/CHECK 301096 | 883.30 | | 5,981.82 |
+| 5-Aug | WITHDRAWAL/CHECK 301066 | 36.00 | | 5,945.82 |
+| 7-Aug | WITHDRAWAL/CHECK 301099 | 855.10 | | 5,090.72 |
+| 8-Aug | WITHDRAWAL/CHECK 301100 | 566.60 | | 4,524.12 |
+| 10-Aug | WITHDRAWAL/CHECK 301097 | 141.80 | | 4,382.32 |
+| 12-Aug | WITHDRAWAL/CHECK 301098 | 253.80 | | 4,128.52 |
+| 13-Aug | DEPOSIT NIGHT DEPOSIT | | 656.20 | 4,784.72 |
+| 15-Aug | WITHDRAWAL/CHECK 300903 | 362.50 | | 4,422.22 |
+| 18-Aug | WITHDRAWAL/CHECK 300902 | 90.40 | | 4,331.82 |
+| 18-Aug | WITHDRAWAL/CHECK 301050 | 10.00 | | 4,321.82 |
+| 18-Aug | WITHDRAWAL/CHECK 300906 | 883.30 | | 3,438.52 |
+| 20-Aug | DEPOSIT NIGHT DEPOSIT | | 9.68 | 3,448.20 |
+| 21-Aug | DEPOSIT NIGHT DEPOSIT | | 369.25 | 3,817.45 |
+| 22-Aug | WITHDRAWAL/CHECK 300905 | 266.98 | | 3,550.47 |
+| 24-Aug | DEPOSIT NIGHT DEPOSIT | | 240.00 | 3,790.47 |
+| 25-Aug | WITHDRAWAL/CHECK 300910 | 38.30 | | 3,752.17 |
+| 29-Aug | WITHDRAWAL/CHECK 300911 | 598.40 | | 3,153.77 |
+| 31-Aug | CLOSING BALANCE | | | 3,153.77 |",
+15,EastWest_Bank_Form.png,11.29,200,True,819.0,1997.0,length,True,True,"<trans>
+# EAST WEST BANK
+
+## Financial Statement
+
+### Property Address: ________________________
+
+### Do you intend to keep the property? ________________________
+
+### Is the property listed for sale?  ▢ Yes ▢ No
+
+### Borrower Name: ________________________
+
+### Mailing address: ________________________
+
+### Total number of persons living at this address:  ________________________
+
+### Home Phone: ________________________
+
+### Co-Borrower Name: ________________________
+
+### Mailing Address: ________________________
+
+### Total number of persons living at this address:  ________________________
+
+### Home Phone: ________________________
+
+### Have you contacted credit counseling services? ▢ Yes ▢ No
+
+### Monthly Income (Borrower) ________________________
+
+| Gross Wages | Gross Wages | Co-Borrower | Co-Borrower |
+|-------------|-------------|-------------|-------------|
+| Unemployment Income | Unemployment income | $ | $ |
+| Child Support/Alimony | Child Support/Alimony | $ | $ |
+| Disability Income | Disability Income | $ | $ |
+| Rental Income | Rental Income | $ | $ |
+| Other | Other | $ | $ |
+| Less: Federal & State Tax, FICA | Less: Federal & State Tax, FICA | $ | $ |
+| Less: Other Deductions (401k, etc.) | Less: Other Deductions (401k, etc.) | $ | $ |
+| Total | Total | $ | $ |
+
+### Monthly Expenses (All Borrowers) ________________________
+
+| Other Mortgages, Liens, Rents | $ | Checking Accounts | $ |
+|------------------------------------|----|-------------------|----|
+| Auto Loan(s) | $ | Savings / Money Market | $ |
+| Auto Expenses / Insurance | $ | Stocks, Bonds and CD's | $ |
+| Credit Cards & Installment | $ | IRA / Keogh Accounts | $ |
+| Loans | $ | 401K / ESOP / Accounts | $ |
+| Health Insurance | $ | Home | $ |
+| Medical | $ | Other Real Estate | $ |
+| Child Care / Child Support / Alimony | $ | Cars with No Liens | $ |
+| Food / Spending Money | $ | Other | $ |
+| Water / Sewer / Utilities / Phone | $ | Other | $ |
+| Other | $ | Total | $ |
+| Total | Total | $ | $ |
+
+*(We) agree that the financial information provided is an accurate statement of my(our) financial status. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial information provided. My(our) signature) below means the holder of my(our) mortgage the authority to confirm the information (we) have discussed in this financial statement to verify that it is accurate by ordering a credit report and to contact my real estate agent (we) to arrange for any further action on my(our) behalf. (We) understand and acknowledge that any action taken by the lender of my(our) mortgage loans on my(our) behalf will be made in strict balance on the financial",
+16,First_Bank_Bill.webp,4.644,200,True,1069.0,538.0,stop,False,False,"# FIRST BANK
+1234 Main Street, Capital City, OH 12345-0123
+1-800-555-1234
+
+USA Small Business, LLC
+Mr. Jack Smith
+345 Maple Street
+Capital City, OH 12345-0123
+123-555-5678
+
+Account Name: USA Small Business Checking
+Account Number: 000000012345
+
+Statement Period: 03/01 to 04/01
+
+## ACCOUNT SUMMARY
+Balance on March 1: $27,584.38
+Total money in: $10,273.39
+Total money out: $10,510.07
+Balance on April 1: $27,347.70
+
+| DATE | DESCRIPTION | WITHDRAWAL | DEPOSIT | BALANCE |
+|------|-------------|------------|---------|---------|
+|  | Previous balance |  |  | 27,584.38 |
+| 03/02 | Internet Bill | 75.99 |  | 27,508.39 |
+| 03/05 | Electric Bill | 253.68 |  | 27,254.71 |
+| 03/06 | Check No. 4598<br>Payment from Lisa Williams |  | 456.84 | 27,711.55 |
+| 03/10 | Deposit from Credit Card Processor |  | 5,891.26 | 33,602.81 |
+| 03/12 | Payroll Run | 3,894.75 |  | 29,708.06 |
+| 03/16 | Debit Transaction<br>Main Office Wholesale | 243.46 |  | 29,464.60 |
+| 03/21 | Rent Bill | 750.00 |  | 28,714.60 |
+| 03/21 | Check No. 234<br>Payment From Mark Moore |  | 268.84 | 28,983.44 |
+| 03/26 | Payroll Run | 3,743.23 |  | 25,240.21 |
+| 03/28 | Deposit |  | 3,656.45 | 28,896.66 |
+| 03/29 | Debit Transaction<br>ABC Business Supplies | 1,548.96 |  | 27,347.70 |
+|  | Ending balance |  |  | 27,347.70 |
+
+© Patriot Software, LLC. All Rights Reserved.
+This is not intended as legal advice.
+
+PATRIOT",
+17,Great_American_Insurance_Invoice.png,1.857,200,True,819.0,162.0,stop,False,False,"GREAT AMERICAN INSURANCE GROUP
+Mail to: PARKER 2ND LANE NEWCITY AL 10001
+Policy #: ATP072
+Statement Date: 01/08/2009
+Due Date: 01/10/2009
+Agency #: P01001
+PETER 1ST LANE NEWCITY CA 10001
+For billing inquiries, please contact Direct Bill Customer Service at 1-800-847-4357, option 2, between 8:00 a.m. and 5:00 p.m. (EST), Monday through Thursday, and 8:00 a.m. and 3:30 p.m. on Fridays. For questions regarding policy or premiums, please contact your agency.",
+18,HOA1.png,3.268,200,True,819.0,455.0,stop,False,False,"<trans>
+# B+H
+BLUEBONNETHIGHLANDS
+HOMEOWNERS ASSOCIATION
+
+## Date
+1/1/13
+
+## Due Date
+1/31/13
+
+# Invoice
+
+P.O. Box 82986
+Baton Rouge, LA 70884
+bbhbilling@yahoo.com
+225.678.1505
+
+*Please register your e-mail address at www.bluebonnethighlands.org to ensure you receive important community information, newsletters, invoices, etc.
+
+| Description | Amount |
+|-------------|--------|
+| 2013 Fairhill/Springlake Homeowner's Dues | 360.00 |
+| Payments/Credits | $0.00 |
+| Balance Due | $360.00 |
+
+Please complete the following information and return with payment. Please include an e-mail address. By providing an e-mail address, future invoices and correspondence will be e-mailed, saving the association postage expenses. ***Also, remember to add bbbhilling@yahoo.com to your e-mail address book to ensure that you receive important information.
+
+Detach here and return bottom portion with payment.
+
+Lot #: ________________________ Name: ________________________
+
+Phone Number(s): ________________________
+
+E-mail address(es): ________________________
+
+Amount Enclosed: ________________________
+
+| Payment Option #1 – Automatic Withdrawal | Payment Option #2 – Check or Credit | Payment Option #3 – Dropbox |
+|------------------------------------------|-----------------------------------|-----------------------------|
+| Please complete the ""Bank Draft Authorization"" form and mail, along with a voided check, to Bluebonnet Highlands, PO Box 82986, Baton Rouge, LA 70884. This form can be printed from our website. | Annually: $360 due by 1/31 Semi-annually: $180 due by 1/31 ~ $180 due by 7/31 | *Save postage and time by dropping your payment off in a secured locked dropbox located next to the Clubhouse door, inside the gate at the Recreational Center. |
+
+WWW.BLUEBONNETHIGHLANDS.ORG
+</trans>",
+19,HOA2.png,5.563,200,True,2086.0,167.0,stop,False,False,"# Real Estate HOA Dues Statement
+
+Date: January 1, 2085
+
+Resident Information:
+Name: [Your Name]
+Property Address: 892 Elmwood Drive, Cedar Creek, TX 75123
+Account Number: 764892305
+Billing Period: January 1, 2085 to December 31, 2085
+
+## 1. Amount Due:
+HOA Dues: $1,200.00 (Annual)
+Due Date: January 31, 2085
+Late Fee: $50.00 (if paid after February 15, 2085)
+Total Amount Due: $1,250.00
+
+## 2. Payment Instructions:
+Please make your payment by the due date to avoid late fees. Payments can be made via:",
+20,HOA3.png,4.539,200,True,1639.0,246.0,stop,False,False,"Your Company Inc.
+1234 Company St,
+Company Town, ST 12345
+
+Upload Logo
+
+HOA DUES INVOICE
+
+Bill To
+Customer Name
+1234 Customer St,
+Customer Town, ST 12345
+
+Invoice #: 0000007
+Invoice date: 10-02-2025
+Due date: 10-16-2025
+
+| QTY | Description | Unit Price | Amount |
+|----|-------------|------------|--------|
+| 3  | Monthly HOA dues | 250.00 | $750.00 |
+| 1  | Special assessment fee | 300.00 | $300.00 |
+| 1  | Late payment penalty | 50.00 | $50.00 |
+| 1  | Clubhouse maintenance fee | 100.00 | $100.00 |
+|  | Subtotal | $1200.00 |  |
+|  | Sales Tax (0%) | .00 |  |
+|  | Total (USD) | $1200.00 |  |
+
+Terms and Conditions
+Payment is due in 14 days
+Please make checks payable to: Your Company Inc.",
+21,HOA4.webp,4.929,200,True,851.0,716.0,stop,False,False,"Happy Hills Association c/o Jellybird HOA Management 17319 San Pedro Ave, Suite 320 San Antonio, TX 78232
+Jane Smith 1234 Happy Tree San Antonio, TX 78232
+Download the JellyBird HOA App 1. Scan this QR Code 2. Click on your app store link 3. Install the app 4. Register account and login
+Property Address 1234 Happy Tree
+Amount Due $100.00 1234123412
+Due Date Statement Date 10/01/2024 08/08/2024
+Current Over 30 Days Over 60 Days Over 90 Days Amount Due
+$100.00 $0.00 $0.00 $100.00
+Date Description Adjustment Balance
+10/01/2024 Quartery Assessment 2023 eCheck $100.00 $100.00
+10/02/2024 eCheck $100.00 $0.00
+05/01/2024 First Quarter Assessment 2024 $100.00 $100.00
+05/01/2024 Second Quarter Assessment 2024 $100.00 $200.00
+05/01/2024 eCheck $200.00 $0.00
+07/01/2024 Quartery Assessment 2024 $100.00 $100.00
+07/12/2024 Credit Card $100.00 $0.00
+10/01/2024 Quartery Assessment 2024 $100.00 $100.00
+Greetings Neighbor, your HOA assessment payment is currently due. We encourage you to download the JellyBird HOA Mobile App and keep up with community news, make payments, submit property improvement requests, manage your account, and more. Please login to your account or scan the QR code in the top right corner of this page and register using the account number on this statement. While you're there, please opt-in for electronic statements for your assessment notices by opening the bottom right menu, selecting ""My Profile,"" then ""Billing information"" and selecting the check box ""E-statements.""
+The due date on this statement refers to upcoming assessment amounts. Please login to your JellyBird HOA Mobile app to see your current balance. Payments are easy on the JellyBird HOA Mobile App, and can also be made by calling your payment processing center at 866-729-5327, option 1.
+Association policies include additional fees and charges that will be assessed when payments are received after the due date. For questions related to this statement, please use the message center in the JellyBird HOA Mobile App to communicate with the Board of Directors.
+**Accounts with Association Attorney may owe additional funds. Please contact the Association Attorney for the full balance due.**
+Please detach and return this portion with payment. Do not staple or fold
+Happy Hills Association c/o JellyBird HOA Management 17319 San Pedro Ave, Suite 320 San Antonio, TX 78232
+Please allow 15 days for mailing and processing due to the expected delivery delays of the USPS. Pay online for faster processing. Thank you!
+Amount Due: $100.00
+Due Date: 1/1/2025
+Account Number: 1234123412
+Billed To: Jane Smith
+Please do not include correspondence with your payment
+Remit to: Happy Hills Association P.O. Box 292875 Lewisville, TX 75029",
+22,Hospital_Bill.png,6.306,200,True,1489.0,679.0,stop,False,False,"<trans>
+# Allina Health
+
+Allina Health  
+2925 Chicago Avenue  
+Minneapolis, MN 55407-1321
+
+## Billing Questions?  
+Please call us at 612-262-9000 or 1-800-859-5077,  
+Monday - Thursday 8am - 4:30pm  
+Friday 9am - 4:30pm  
+Please check box if address below is incorrect or if your  
+Insurance updates and indicate change(s) on the reverse side.
+
+## ADDRESSEE  
+JANE DOE  
+123 ANY STREET  
+ANYWHERE, USA 55555 T
+
+## IF PAYING BY CREDIT CARD, FILL OUT BELOW  
+CHECK CARD USING  
+FOR PAYMENT  
+CARD NUMBER  
+SIGNATURE  
+IF PAYING BY CREDIT CARD, FILL OUT BELOW  
+MasterCard  
+DISCOVER  
+VISA  
+AMERICAN EXPRESS  
+MedCredit  
+EXP. DATE  
+VISA CITY  
+AMOUNT PAID  
+STATEMENT DATE  
+ACCOUNT NUMBER  
+PLEASE PAY THIS AMOUNT  
+03/28/2013  
+0000000  
+$419.07  
+Pay Online:  
+www.allinahealth.org/payhospitalbill  
+see reverse side for additional payment options  
+04/18/2013  
+04/18/2013  
+## PLEASE MAKE CHECKS PAYABLE AND REMIT TO:  
+ALLINA HEALTH  
+PO BOX 9125  
+MINNEAPOLIS MN 55480-9125
+
+## HOSPITAL STATEMENT  
+ACCOUNT NUMBER  
+0000000  
+PATIENT NAME  
+JANE DOE  
+HOSPITAL NAME  
+Medical Center  
+Date  
+Description  
+Charges/Payments  
+SERVICES FROM 07/07/2010 TO 07/07/2010  
+If you require an itemization of charges, please call (612) 262-9000 or (800) 859-5077.  
+07/07/10  
+Laboratory General  
+$654.80  
+TOTAL CHARGES  
+$654.80  
+03/26/13  
+Insurance Payment  
+$0.00  
+03/27/13  
+Uninsured Discount  
+-235.73  
+BALANCE:  
+$419.07  
+PLEASE NOTE: If you have requested this itemized statement, the balance listed as patient responsibility may still be pending with your insurance company.  
+Thank you for choosing Allina Health
+
+## Did you know you can pay this bill online?  
+Go to allinahealth.org/payhospitalbill  
+for secure payment with your credit card  
+You can also pay your bill by mail.  
+PLEASE PAY THIS AMOUNT  
+$419.07  
+FOR BILLING INQUIRIES: 612-262-9000 or 1-800-859-5077 (if you
+</trans>",
+23,IRS_CP504_Notice.png,3.07,200,True,1481.0,43.0,stop,False,False,"The text in the image is a notice of intent to seize (levy) your property or rights to property. It provides details about the amount due immediately, the billing summary, and instructions for payment.",
+24,IRS_cp503.png,5.553,200,True,1767.0,376.0,stop,False,False,"<trans>
+IRS
+Department of the Treasury
+Internal Revenue Service
+Holtsville, NY 11742-0480
+
+JAMES & KAREN Q. HINDS
+22 BOULDER STREET
+HANSON, CT 00000-7253
+
+Second reminder: You have unpaid taxes for 2016
+Amount due: $9,533.53
+
+As we notified you before, our records show you have unpaid taxes for the tax year ended December 31, 2016 (Form 1040A). If you don't pay $9,533.53 by January 29, 2018, the amount of interest will increase and additional penalties may apply.
+
+If you already have an installment or payment agreement in place for this tax year, then continue with that agreement.
+
+What you need to do immediately
+If you agree with the amount due and you're not working with an IRS representative
+Pay the amount due of $9,533.53 by January 29, 2018, to avoid additional interest and applicable penalty charges.
+Pay online or mail a check or money order with the attached payment stub. You can pay online now at www.irs.gov/payments.
+
+Continued on back...
+
+IRS
+James Q. Hinds
+22 Boulder Street
+Hanson, CT 00000-7253
+
+Payment
+Make your check or money order payable to the United States Treasury.
+Write your social security number (NNN-NN-NNNN), the tax year (2016), and form number (1040A) on your payment.
+
+INTERNAL REVENUE SERVICE
+CINCINNATI, OH 4599-0149
+Amount due by
+January 29, 2018
+$9,533.53
+</trans>",
+25,Medical_Invoice.png,5.303,200,True,1969.0,220.0,stop,False,False,"# Zylker Heathcare
+14B, Northern Street, Greater South Avenue, New York 10001 U.S.A
+# INVOICE
+## Bill To
+Aaron Brown
+Greater South Avenue 10001 New York U.S.A
+|  | Invoice# | Invoice Date | Terms | Due Date |
+| :--| :--| :--| :--| :--|
+| # | Item & Description |  | Due on Receipt | 05 Sep 2024 |
+| 1 | Ambulance service | 05 Aug 2024 |  | 900.00 |
+| 2 | Emergency ward charges |  |  | 10,000.00 |
+| 3 | Behavioural therapy |  |  | 3000.00 |
+|  |  |  |  | Sub Total | 13,900.00 |
+|  |  |  |  | Tax Rate (5%) | 695 |
+|  |  |  |  | Total | $14,595.00 |",
+26,Medicare_Notice_PartA.png,3.59,200,True,999.0,423.0,stop,False,False,"Page 1 of 4
+# Medicare Summary Notice for Part A (Hospital Insurance)
+The Official Summary of Your Medicare Claims from the Centers for Medicare & Medicaid Services
+JENNIFER WASHINGTON
+TEMPORARY ADDRESS NAME
+STREET ADDRESS
+CITY, ST 12345-6789
+## THIS IS NOT A BILL
+## 2 Notice for Jennifer Washington
+| Medicare Number | 1A23BC4DE56 |
+|------------------|--------------|
+| Date of This Notice | September 15, 2020 |
+| Claims Processed Between | June 15 – September 15, 2020 |
+## Your Deductible Status
+Your deductible is what you must pay each benefit period for most health services before Medicare begins to pay.
+### Part A Deductible: You have now met your $1,184.00 deductible for inpatient hospital services for the benefit period that began May 27, 2020.
+## Be Informed!
+Welcome to your new Medicare Summary Notice! It has clear language, larger print, and a personal summary of your claims and deductibles. This improved notice better explains how to get help with your questions, report fraud, or file an appeal. It also includes important information from Medicare!
+## Your Claims & Costs This Period
+Did Medicare Approve All Claims? YES
+See page 2 for how to double-check this notice.
+Total You May Be Billed $2,062.50
+## Facilities with Claims This Period
+June 18 – June 21, 2020
+Otero Hospital
+## 4
+## 5
+## 6
+## 7
+¿Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español.
+如果需要国语帮助，请致电联邦医疗保险，请先说“agent”，然后说“Mandarin”.
+1-800-MEDICARE (1-800-633-4227)",
+27,Medicare_Notice_PartB.png,3.705,200,True,1129.0,409.0,stop,False,False,"# Medicare Summary Notice for Part B (Medical Insurance)
+
+The Official Summary of Your Medicare Claims from the Centers for Medicare & Medicaid Services
+
+JENNIFER WASHINGTON  
+TEMPORARY ADDRESS NAME  
+STREET ADDRESS  
+CITY, ST 12345-6789
+
+## THIS IS NOT A BILL
+
+### Notice for Jennifer Washington
+
+| Medicare Number | XXXX-XXX-1234 |
+|------------------|----------------|
+| Date of This Notice | March 1, 2024 |
+| Claims Processed Between | January 1 – March 1, 2024 |
+
+---
+
+### Your Deductible Status
+
+Your deductible is what you must pay for most health services before Medicare begins to pay.
+
+Part B Deductible: You have now met $85.00 of your $147.00 deductible for 2024.
+
+---
+
+### Your Claims & Costs This Period
+
+Did Medicare Approve All Services? NO  
+Number of Services Medicare Denied: 1  
+See claims starting on page 3. Look for **NO** in the “Service Approved?” column. See the last page for how to handle a denied claim.  
+Total You May Be Billed: $90.00
+
+---
+
+### Providers with Claims This Period
+
+January 21, 2024  
+Craig I. Secosan, M.D.
+
+---
+
+### Be Informed
+
+You can get your Medicare Summary Notices (MSNs) online. Get your electronic MSNs any month you have a processed claim by signing up at Medicare.gov/go-digital.
+
+¿Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español.  
+如果需要国语帮助，请致电联邦医疗保险，请先说“agent”，然后说“Mandarin”.  
+1-800-MEDICARE (1-800-633-4227)",
+28,Medicare_Notice_of_Denial.png,5.811,200,True,1774.0,449.0,stop,False,False,"The text in the image is a notice of denial of Medicare Part D prescription drug coverage. It includes the following sections:
+
+1. Important: This notice explains your right to appeal our decision. Read this notice carefully. If you need help, you can call one of the numbers listed under the section titled ""Get help & more information.""
+2. Logo
+3. NOTICE OF DENIAL OF MEDICARE PART D PRESCRIPTION DRUG COVERAGE
+4. Date:
+5. Enrollee's Name:
+6. Member Number:
+7. Your request was denied
+8. We have denied coverage or payment under your Medicare Part D benefit for the following prescription drug(s) that you or your prescriber requested:
+9. Why did we deny your request?
+10. We denied this request under Medicare Part D because {Provide specific rationale for the denial, including any applicable Medicare coverage rule or Part D plan policy. See instructions for additional detail.}:
+11. You should share a copy of this decision with your prescriber so you and your prescriber can discuss next steps. If your prescriber requested coverage on your behalf, we have shared this decision with your prescriber.
+12. [Language to be inserted, as applicable, for prescription drugs that are or may be covered under Medicare Parts A or B]:
+13. [Medicare Advantage plans that also provide Part D coverage (MA-PDs):] {This request was denied under your Medicare Part D benefit; however, coverage/payment for the requested drug(s) has been approved under Medicare Part A/B {explain the conditions of approval in a readable and understandable format}. If you think Medicare Part D should cover this drug for you, you may appeal.}
+14. [Standalone Part D plans (PDPs):] {This request was denied under your Medicare Part D benefit; however, it may be covered under Medicare Part A or Part B. For more information, talk to your prescriber or call 1-800-MEDICARE.}
+15. Form CMS-10146
+16. OMB Approval No. 0938-0976 (Expires 12/31/2024)",
+29,Medixare_Premium_Bill.png,5.551,200,True,1267.0,668.0,stop,False,False,"# Medicare Premium Bill
+
+## 1. **DELINQUENT BILL**
+E4955-DEB-0112589-T01997 ALL FOR AADC 212
+CHARLIE MEDICARE
+123 EXAMPLE STREET
+APARTMENT A
+ANYTOWN, USA 12345-6789
+
+## 2. **Statement Date**
+09/27/2021
+
+## 3. **Your Medicare Number**
+1EG4TE5MK70
+
+## 4. **Last Payment Received**
+$678.90 on 07/22/2021
+
+## 5. **Total Amount Due**
+$2,715.60 by 10/25/2021
+
+## 6. **Want to pay electronically?**
+- Pay online at Medicare.gov
+- Establish online bill pay with your bank
+- Enroll in Medicare Easy Pay
+
+## 7. **Summary Of Charges**
+| Coverage Periods | Part A (Hospital Insurance) | Part B (Medical Insurance) | Part B IRMA | Part D IRMA | Total Amount |
+|------------------|---------------------------|---------------------------|------------|-------------|---------------|
+| Current Premium Due | 11/01/2021 – 11/30/2021 | $471.00 | $148.50 | $59.40 | $678.90 |
+| Past Premium Due | 08/01/2021 – 10/31/2021 | $1,413.00 | $445.50 | $178.20 | $2,036.70 |
+| Total Amount Due: | | | | | $2,715.60 |
+| Due In Full By: | | | | | 10/25/2021 |
+
+## 8. **Coverage Termination Dates For Past-due Accounts**
+Your Medicare coverage will end on this date if we don't get your payment by the due date. If your Medicare coverage is canceled, contact your local Social Security field office or call 1-800-772-1213. TTY users call 1-800-325-0778.
+
+## 9. **Part A Termination**
+10/31/2021
+
+## 10. **CHARLIE MEDICARE**
+123 EXAMPLE STREET
+APARTMENT A
+ANYTOWN, USA 12345-6789
+
+## 11. **Amount You're Paying: $ 2,715.60**
+Due In Full By: 10/25/2021
+
+## 12. **Medicare Number: 1EG4TE5MK70**
+
+## 13. **Send just one payment and one coupon per envelope. Write your Medicare Number on your check or money order. Use the return envelope included with your bill.**
+
+## 14. **Visa/MasterCard/American Express/Discover Accepted: ________________________________________________________________________________________**
+Expiration Date: (mm/yyyy)
+Credit/Debit Card Billing ZIP Code: ________________________________________________________________________________________
+
+## 15. **Don't Send Cash. Make check/money order payable to: CMS Medicare Insurance**
+Send Payment To: Medicare Premium Collection Center P.O. Box 790355 St. Louis, MO 63179-0355",
+30,Penny_Insurance_Bill.png,3.378,200,True,955.0,410.0,stop,False,False,"# Penny Insurance
+
+Penny General Insurance Company  
+P.O. Box 123123  
+San Diego, CA 12345
+
+Date Issued: November 1, 2022
+
+## Declarations Page  
+This is a description of your coverage.  
+Please retain for your records.
+
+Policy Number: 1234-56-78-90  
+Coverage Period:  
+11-01-22 through 5-01-23  
+Endorsement Effective: 11-01-22
+
+Penny the Pig  
+123 STREET BLVD.  
+LOS ANGELES, CA 12345  
+Email Address: example@email.com
+
+| Named Insured | Additional Drivers |
+|-----------------|--------------------|
+| Penny the Pig | John Smith |
+
+| Vehicles | VIN | Vehicle Location | Finance Company/Lienholder |
+|----------|-----|------------------|----------------------------|
+| 2014 Honda Civic | 12312312312312312 | Los Angeles CA 12345 | |
+| 2022 Toyota RAV-4 | 12312312312312312 | Los Angeles CA 12345 | Penny Financing |
+
+| Coverages | Limits and/or Deductibles | Vehicle 1 | Vehicle 2 |
+|-----------|---------------------------|-----------|-----------|
+| Bodily Injury Liability<br>Each Person/Each<br>Occurrence | $15,000/$30,000 | $80 | $100 |
+| Property Damage Liability | $5,000 | $80 | $90 |
+| Comprehensive | $1,000 Ded | - | $50 |
+| Collision | $500 Ded/Waiver | - | $300 |
+| Six Month Premium | | $160 | $540 |
+| Total Six Month Premium | | | $700 |
+
+## Discounts  
+California Good Driver (All Vehicles)  
+Multi-Car (All Vehicles)  
+Anti-Theft Device (Veh 2)  
+New Car (Veh 2)",
+31,Progressive_Insurance_Bill.jpg,0.506,400,False,,,,False,False,,"{""error"":{""code"":400,""message"":""request (4090 tokens) exceeds the available context size (2816 tokens), try increasing it"",""type"":""exceed_context_size_error"",""n_prompt_tokens"":4090,""n_ctx"":2816}}"
+32,SCE_Bill_Letter.png,4.83,200,True,1267.0,568.0,stop,False,False,"# Clean Power Alliance Service Details
+
+## Overview
+Clean Power Alliance service expands to 35 cities, welcoming new customers in Hermosa Beach, Monrovia, and Santa Paula. Starting service in March 2024, the service aims to make communities cleaner and more sustainable. The service is ranked #1 Green Power Provider in the country by the U.S. Department of Energy's National Renewable Energy Laboratory.
+
+---
+
+## Key Information
+
+### 1. Service Account
+- **Service ID**: 8012345678
+- **Service Address**: 1234 FIRST AVE, SIMI VALLEY, CA
+- **POD-ID**: 123456789012345678
+
+### 2. Rotating Outage
+- **Group**: N001
+
+### 3. New Charges
+#### CLEAN POWER ALLIANCE
+- **Your rate**: TOU-D-4
+- **Service Account**: 8012345678
+- **Billing period**: 01/06/24 to 02/05/24 (31 days)
+- **Generation Charges**:
+  - **Lean Power - Mid-Peak - Winter**: $33.94/kWh @ 0.2106
+  - **Lean Power - Off-Peak - Winter**: $35.74/kWh @ 0.13589
+  - **Lean Power - Super Off-Pk**: $25.22/kWh @ 0.11733
+  - **Winter**: $4.27/kWh
+  - **User Utility Tax**: $0.19/kWh
+  - **Energy Surcharge**: $0.19/kWh
+  - **Sub-Total of CPA Generation Charges**: $99.36
+
+#### Your New Charges: $99.36
+
+---
+
+## Things You Should Know
+
+### 1. Clean Power Alliance Service Expansion
+- **Expansion to 35 Cities**: The service welcomes new customers in Hermosa Beach, Monrovia, and Santa Paula. Starting service in March 2024, the service aims to make communities cleaner and more sustainable.
+
+### 2. Winter Energy Savings Tip
+- **How to Save**: When you leave the house or before you go to sleep, turn the thermostat down a few degrees to save on heating bills. A programmable thermostat makes it easy to control the temperature. Learn more at CleanPowerAlliance.org/powerresponse.
+
+### 3. Did You Know?
+- **Rankings**: Clean Power Alliance is ranked #1 Green Power Provider in the country by the U.S. Department of Energy's National Renewable Energy Laboratory.
+
+### 4. CPA's Privacy Policy
+- **Privacy Policy**: Clean Power Alliance's privacy policy is available at CleanPowerAlliance.org/privacy-policy.",
+33,SCE_Letter.png,3.554,200,True,1729.0,36.0,stop,False,False,The text is a legal document from Southern California Edison Company's (SCE) agreement to implement the findings (including recommendations) of the 2023 Safety Culture Assessment Report.,
+34,SCE_Sample_Bill.png,2.701,200,True,1135.0,183.0,stop,False,False,"# Your electricity bill
+
+## VALUED CUSTOMER / Page 1 of 7
+
+## 2 Customer Account
+2-00-000-0000
+PO BOX 0000
+ANY CITY, CA 90000-0000
+
+## 3 Your account summary
+Previous Balance
+Wire credit adjustment
+Your new charges
+
+## 4 Summary of your billing detail
+Service account
+Service address
+Billing period
+Your rate
+New charges
+
+## 5
+
+## 1 Amount due $2,149.55
+$2,326.18
+-$2,326.18
+$2,149.55
+
+## 2
+Total amount you owe $2,149.55
+
+## 4
+Summary of your billing detail
+
+## 5
+Amount due by 05/11/20 $2,149.55
+Amount enclosed $",
+35,SoCalGas.png,5.697,200,True,1859.0,378.0,stop,False,False,"# Account Summary
+Amount of Last Bill: $25.18
+Payment Received: -25.18
+Current Charges: +40.56
+Total Amount Due: $40.56
+
+# Current Charges
+Rate: GR - Residential
+Climate Zone: 1
+Baseline Allowance: 54 Therms
+Meter Number: 92879508 (Next scheduled read date Jan 15 2016)
+Cycle: 10
+
+| Billing Period | Days | Current Reading | Previous Reading | Difference | x | Billing Factor | = | Total Therms |
+|----------------|------|-----------------|------------------|------------|---|----------------|---|--------------|
+| 11/12/15 - 12/14/15 | 32   | 2485            | 2448             | 37         | 1.005 |                |   | 37           |
+
+## GAS CHARGES
+Customer Charge: 32 Days x $.16438 = 5.26
+Gas Service (Details below): 37 Therms
+
+| Therms used | Baseline | Amount($) |
+|-------------|-----------|-----------|
+| Therms used | 37 |  |
+| Rate/Therm | $.79865 |  |
+| Charge      | $.29.55  | 29.55 |
+
+## Total Gas Charges: $34.81
+## TAXES & FEES ON GAS CHARGES
+State Regulatory Fee: 37 Therms x $.00068 = .03
+Public Purpose Surcharge: 37 Therms x $.10738 = 3.97
+Los Angeles County Users Tax: $38.81 x 4.50% = 1.75
+
+## Total Taxes and Fees on Gas Charges: $5.75
+## Total Current Charges: $40.56",
+36,State_Farm_Insurance.webp,4.176,200,True,819.0,590.0,stop,False,False,"<trans>
+# State Farm
+
+State Farm Mutual Automobile Insurance Company
+
+7401 Cypress Gardens Boulevard
+
+Winter Haven FL 33889
+
+AT1
+
+1 A -6163 A
+
+SHEMARIA, ALFRED I & DEANNA
+
+39.95 TOM LANE DR
+
+PENSACOLA FL 32504-7557
+
+## BALANCE DUE NOTICE
+
+POLICY NUMBER 476 7233-A30.59P
+
+Full payment by Date Due continues this policy to JANUARY 30 2017
+
+81051-1-A ECHO Pmt
+
+DATE DUE PLEASE PAY THIS AMOUNT
+
+SEP 28 2016 $323.91
+
+Year Make Model Class
+
+2012 MAZDA 3 2000900002
+
+This balance due amount is the result of a 50/50 payment. The full amount shown is due on date shown. A $2 service charge has been deducted from the previous amount paid.
+
+Previous charge of $591 included.
+
+Your current semiannual premium is $641.91.
+
+## Thanks for letting us serve you...
+
+Agent MIKE JOHNSON
+
+Telephone (850)478-7748 or (850)478-6232
+
+IF YOU HAVE A NEW OR DIFFERENT CAR, HAVE ADDED ANY DRIVERS, OR HAVE MOVED, PLEASE CONTACT YOUR AGENT.
+
+INSURED SHEMARIA, ALFRED I & DEANNA
+
+POLICY NUMBER 476 7233-A30.59P
+
+## DIS REGARD ANY PREVIOUS BILLING NOTICES YOU MAY HAVE RECEIVED ON THIS POLICY.
+
+DATE DUE PLEASE PAY THIS AMOUNT
+
+SEP 28 2016 $323.91
+
+## 67 1792 6283
+
+Please keep this part for your record.
+
+Prepared AUG 02 2016
+
+PLEASE RETURN THIS PART WITH YOUR CHECK MADE PAYABLE TO STATE FARM
+
+DATE DUE PLEASE PAY THIS AMOUNT
+
+SEP 28 2016 $323.91
+
+Please contact your State Farm agent to make any policy charges.
+
+1909610301
+
+Insurance Support Center
+
+P. D. Box 538002
+
+North Metro, GA 30029-8002
+
+12010816 114-62016 (6h4021)
+
+For office use only 000077
+
+6163 FA4D
+
+MUTL VOL
+
+AUTO BAL DUE $323.91 1030
+
+1 A 81051-1-A APP DATE 12-09-16
+
+PREM CANC 10-30-16 PREP DT 08-02-16
+
+809630400032391 95910047672338119 >
+
+P6
+</trans>",
+37,State_Farm_Insurance_Card.jpg,1.216,200,True,292.0,175.0,stop,False,False,"State Farm Mutual Automobile Insurance Company
+POLICY NUMBER 000 0000-000-000 EFFECTIVE
+MAR 22 2014 TO SEP 14 2017
+INSURED JANET SMITH
+MUTL
+VOL
+YR 2017 MAKE NISSAN
+MODEL JUKE
+VIN 0N0MQ0XG0HP000000
+AGENT RAYMOND STAR
+0000-000
+PHONE (770)123-4567
+NAIC 00000
+COVERAGES A C D200 G50 R UE-250
+Current status of liability coverage for this vehicle is maintained by the Georgia Department of Motor Vehicle Safety. It is available to law enforcement agencies upon a registration check.
+SEE REVERSE SIDE FOR ADDITIONAL COVERAGE INFORMATION",
+38,UCLA_Health_Bill.png,2.774,200,True,1223.0,165.0,stop,False,False,"UCLA Health
+Resnick Neuropsychiatric Hospital at UCLA
+P.O. Box 64460
+Los Angeles, CA 90064-0460
+GUARANTOR NUMBER 123456789
+STATEMENT DATE 10/01/2012
+CARD HOLDER SIGNATURE
+EXP. DATE
+MAIL PAYMENT TO
+#BWNMGNP
+#204 6000 0007 6261 1#
+JOHN Q. PATIENT
+25 ANY STREET
+LOS ANGELES, CA 90064
+RESnick Neuropsychiatric Hospital at UCLA
+PATIENT BUSINESS SERVICES
+FILE 748260
+LOS ANGELES, CA 90074-8260
+01233345678911080107000273952X
+",
+39,UCLA_Health_Bill2.png,6.847,200,True,1180.0,980.0,stop,False,False,"# UCLA Health
+Ronald Reagan UCLA Medical Center
+Santa Monica-UCLA Medical Center and Orthopaedic Hospital
+
+## HOSPITAL SERVICES
+
+### QUESTIONS?
+Please contact us at (310) 825-8021 for the following services:
+- To speak to a Customer Service Representative: 7:30 a.m. to 4:30 p.m. weekdays (except holidays).
+- Automated Account Information: 24 hours, 7 days a week.
+- See reverse for automated options.
+
+### ACCOUNT SUMMARY
+GUARANTOR NUMBER: 123456789
+STATEMENT DATE: October 1, 2012
+FINANCIALLY RESPONSIBLE: John Q. Patient
+TOTAL CURRENT CHARGES: $6,336.00
+PATIENT PAYMENTS: $1,600.00
+INSURANCE PAYMENTS: $2,300.00
+INSURANCE ADJUSTMENTS: $800.00
+INSURANCE PENDING: $1,400.00
+
+YOUR RESPONSIBILITY TO PAY $236.00 DUE: 11/01/2012
+
+### FOR JOHN Q. PATIENT'S VISIT TO UCLA HEALTH AT RONALD REAGAN UCLA MEDICAL CENTER
+ACCT #: 223456789
+STATUS: PAST DUE
+DATE(S) OF SERVICE: 07/12/12-08/18/12
+DESCRIPTION OF SERVICE: Emergency Room
+CHARGES: 2,470.00
+PATIENT PAYMENTS: $1,500.00
+INS. CO. PAYMENTS: $300.00
+ADJUSTMENTS: $200.00
+INSURANCE PENDING: $700.00
+YOUR RESPONSIBILITY: 25.00
+
+### FOR SALLY R. PATIENT'S VISIT TO UCLA HEALTH AT RONALD REAGAN UCLA MEDICAL CENTER
+ACCT #: 123456999
+STATUS: CURRENT
+DATE(S) OF SERVICE: 09/01/12-09/03/12
+DESCRIPTION OF SERVICE: Ct Abdomen W&wo Contrast
+CHARGES: 1,480.00
+PATIENT PAYMENTS: $1,500.00
+INS. CO. PAYMENTS: $2,000.00
+ADJUSTMENTS: $600.00
+INSURANCE PENDING: $20.00
+YOUR RESPONSIBILITY: 211.00
+
+### FOR MARY P. PATIENT'S VISIT TO SANTA MONICA-UCLA MEDICAL CENTER AND ORTHOPAEDIC HOSPITAL
+ACCT #: 456789101
+STATUS: CURRENT
+DATE(S) OF SERVICE: 08/01/12-08/01/12
+DESCRIPTION OF SERVICE: MRI
+CHARGES: 710.00
+PATIENT PAYMENTS: $1,600.00
+INS. CO. PAYMENTS: $3,010.00
+ADJUSTMENTS: $800.00
+INSURANCE PENDING: $720.00
+YOUR RESPONSIBILITY: $236.00
+
+GUARANTOR NUMBER: 123456789
+STATEMENT DATE: 10/01/2012
+AMOUNT DUE: $236.00
+MINIMUM DUE: $236.00
+PLEASE PRINT CARD HOLDER NAME
+CARD NO.: 1
+CARD HOLDER SIGNATURE
+EXP DATE: 01/01/2012
+MAKE CHECK PAYABLE TO: THE REGENTS OF THE UNIVERSITY OF CALIFORNIA
+MAIL PAYMENT TO:
+#BWNMGNP
+#204 6000 0007 6261 1#
+JOHN Q. PATIENT
+25 ANY STREET
+LOS ANGELES, CA 90064
+
+Ronald Reagan UCLA Medical Center
+Santa Monica-UCLA Medical Center and Orthopaedic Hospital
+PATIENT BUSINESS SERVICES
+FILE 748260
+LOS ANGELES, CA 90074-8260
+
+## IMPORTANT:
+ABOUT YOUR HOSPITAL ACCOUNT
+Your account reflects a balance due in the amount of $236.00.
+Please remit payment by 11/01/2012.
+We hope to serve you again if your healthcare need arises.
+Please return the stub at the bottom with your payment in the enclosed envelope.
+For credit card payments complete the stub at the bottom.",
+40,Water_Bill2.jpg,1.754,200,True,415.0,248.0,stop,False,False,"The Efficient Customer
+Dates of Service 9/10/15 10/09/15
+USAGE - LOW VOLUME 5
+USAGE - BASE RATE 6
+WATER SERVICE CHARGE
+YOUR ALLOCATION FOR THIS BILL
+BILL CALCULATION BASED ON
+TO AVOID LATE CHARGE PAY BEFORE
+Meter Reading 1548 1559
+Units Used 11 CCF
+$10.30
+The Wasteful Customer
+Dates of Service 9/10/15 10/09/15
+USAGE - LOW VOLUME 5
+USAGE - BASE RATE 6
+USAGE - INEFFICIENT 4
+USAGE - WASTEFUL 5
+WATER SERVICE CHARGE
+YOUR ALLOCATION FOR THIS BILL
+BILL CALCULATION BASED ON
+TO AVOID LATE CHARGE PAY BEFORE
+Meter Reading 1548 1568
+Units Used 20 CCF
+$10.30
+$5.55
+$9.72
+$15.68
+$72.65
+$10.30
+$113.90",
+41,Water_Bill3.webp,7.318,200,True,1795.0,663.0,stop,False,False,"# TRABUCO CANYON WATER DISTRICT Rates & Charges Effective July 1, 2025
+
+## Water Service Rates and Charges
+Effective April 1, 2025
+
+### Potable Water Fixed Charges ($/mo.)
+| 5/8"" & 3/4"" | $ 55.37 |
+| :--| :--|
+| 1"" | $ 113.55 |
+| 1½"" | $ 210.52 |
+| 2"" | $ 326.89 |
+| 3"" | $ 695.39 |
+| 4"" | $ 1,238.45 |
+| 6"" | $ 2,537.88 |
+
+### Potable Water Variable Rates ($/hcf)
+| Single-Family | Tier 1 (0-13 hcf) | Tier 2 (14-21 hcf) | Tier 3 (> 21 hcf) |
+| :--| :--| :--| :--|
+| Tier 1 | $ 5.41 |  |  |
+| Tier 2 | $ 6.97 |  |  |
+| Tier 3 | $ 7.55 |  |  |
+
+### Multi-Family
+| Tier 1 (0-6 hcf) | $ 5.33 |
+| :--| :--|
+| Tier 2 (> 6 hcf) | $ 7.11 |
+
+### Commercial
+| $ 6.00 |
+| :--|
+| Irrigation | $ 6.00 |
+| Agricultural | $ 6.00 |
+
+## Zone (Power) Surcharges ($/hcf)
+| Zone 1 – Base | $ - |
+| :--| :--|
+| Zone 2 – Topanga/Saddle Crest | 0.60 |
+| Zone 3 – Canyon Creek | 1.06 |
+| Zone 4 – Falcon | 1.62 |
+| Zone 5 – Joplin | 0.17 |
+
+*Water service variable & fixed charges include a pass-through charge as determined by wholesale water agencies, including Metropolitan Water District (MWDSC)
+
+## Wastewater Service Rates and Charges
+Effective July 1, 2024
+
+### Wastewater Fixed Charges ($/mo.)
+| Residential | $ 53.27 |
+| :--| :--|
+| Commercial | 14.60 |
+
+### Commercial Wastewater Variable Rates ($/hcf)
+| Commercial – Low | $ 5.55 |
+| :--| :--|
+| Commercial - Medium | 9.28 |
+| Commercial - High | 14.34 |
+
+## Wastewater Service Rates and Charges
+Effective July 1, 2025
+
+### Wastewater Fixed Charges ($/mo.)
+| Residential | $ 61.80 |
+| :--| :--|
+| Commercial | 16.94 |
+
+### Commercial Wastewater Variable Rates ($/hcf)
+| Commercial – Low | $ 6.44 |
+| :--| :--|
+| Commercial - Medium | 10.77 |
+| Commercial - High | 16.64 |
+
+TRABUCO CANYON",
+42,aaa-policy_renew.jpg,0.417,400,False,,,,False,False,,"{""error"":{""code"":400,""message"":""request (3027 tokens) exceeds the available context size (2816 tokens), try increasing it"",""type"":""exceed_context_size_error"",""n_prompt_tokens"":3027,""n_ctx"":2816}}"
+43,att_bill.webp,4.316,200,True,819.0,651.0,stop,False,False,"<trans>
+att com
+TECH GROUP & ASSOCIATES, INC
+Page: 1 of 6
+924 WINDBELL CIR
+Bill Cycle Date: 01/25/19 - 01/27/19
+MESQUITE, TX 75149-3125
+Account: 207289569829
+Foundation Account: FAN S8037035
+Invoice: 287289569829002052019
+
+Wireless Statement
+Bill-At-A-Glance
+Previous Balance $0.00
+Payment $0.00
+Adjustments $0.00
+Balance $0.00
+New Charges $6.33CR
+Balance $6.33CR
+Payment is Not Required
+
+Service Summary
+Service
+Page
+Total
+Wireless
+469 818-6541 $66.27CR 3
+469 818-6624 $59.94 5
+Total New Charges $6.33CR
+Wireless
+469 818-6541 3.45
+469 818-6624 0.00
+Total 3.46
+
+Your bill, simplified
+Soon, your bill will be even easier to read. Be on the lookout for improvements within the next few bills.
+
+Group 1 - Data Summary - Jan 25 thru Jan 27
+Bus. Unim Plus with Private WiFi Multi Line - Includes unlimited domestic wireless data, talk and on elig device After 22GB of data usage, AT&T may slow speeds includes up to 15GB of tethering/line on elig device. After 15GB tethering usage is slowed to max of 128 Kbps. Stream saver included. Add/ monthly access charge applies per device Elig for $20 AutoPay discount (applied w/in 2 bills) Elig for $15 (3 phones), $40 (4 phones) or $35 (5 or more phones) discount applied to plan charge. Other rest/'s apply. See att com/unlimitedplan
+Data Used (SB)
+469 818-6541 3.45
+469 818-6624 0.00
+Total 3.46
+
+Manage Your Account:
+Online att.com/myatt
+Mobile app att.com/myattapp
+Support: 800 331-0500 or 611 from your mobile device
+TTY: 866 241-6567
+For Important information about your bill, please see the News You Can Use section (Page 5)
+
+Return bottom portion with your check in the enclosed envelope.
+Wireless Services provided by AT&T Mobility, LLC.
+Payment is Not Required $6.33CR
+Payment is Not Required $6.33CR
+TECH GROUP & ASSOCIATES, INC
+924 WINDBELL CIR
+MESQUITE, TX 76149-3125
+AT&T
+CHECK FOR AUTO PAY
+(SEE REVERSE)
+AT&T MOBILITY
+PO Box 6463
+Carol Stream, IL 60197-6463
+999002872895698290000000000633000000000633013
+</trans>",
+44,aws_invoice.png,2.522,200,True,359.0,442.0,stop,False,False,"<trans>
+# amazon  
+web services
+
+## Greetings from Amazon Web Services,  
+We are willing to service you with an electronic invoice for your use of AWS services. Your account  
+will be charged $ 135.38 . Additional information regarding your bill, individual service charge  
+details, and your account history are available on the Account Summary Page.  
+
+Account ID  
+Invoice No  
+Statement Date  
+Payment Date  
+Payments  
+2778333  
+09/03/2010  
+09/03/2010  
+
+Bill To  
+Service Provider  
+Attn: Jeff Barr  
+Amazon Web Services LLC  
+A/O: Terry Avenue North  
+Sammamiah, WA 98074,  
+Seattle WA 98109-5210  
+
+Billing Period: Aug 1 - Aug 31, 2010  
+Service Name  
+Amount Due  
+Amazon CloudFront  
+$ 1.27  
+AWS Data Transfer  
+$ 1.89  
+Amazon Simple Storage Service  
+$ 3.34  
+Amazon SimpleDB  
+$ 6.75  
+Amazon Simple Notification Service  
+$ 0.00  
+Amazon Elastic Compute Cloud  
+$ 85.13  
+Amazon Simple Queue Service  
+$ 0.00  
+Taxes  
+$ 0.00  
+Total due in US Dollars  
+$ 136.38  
+
+*This is a VAT invoice.  
+All web services are sold by Amazon Web Services LLC.  
+The above charges include charges incurred by your account as well as by all accounts you are  
+responsible for through Consolidated Billing.  
+For customers who need to rent consumption tax in Japan, the Account Summary Page provides  
+details of services from Japan.  
+Thank you for using Amazon Web Services.  
+Sincerely,  
+The Amazon Web Services Team  
+This message was produced and distributed by Amazon Web Services LLC, 410 Terry Avenue  
+North, Seattle, Washington 98109-5210
+</trans>",
+45,ca-dmv-registration-fee.webp,1.2,400,False,,,,False,False,,"{""error"":{""code"":400,""message"":""request (4089 tokens) exceeds the available context size (2816 tokens), try increasing it"",""type"":""exceed_context_size_error"",""n_prompt_tokens"":4089,""n_ctx"":2816}}"
+46,food1.jpeg,0.995,200,True,819.0,5.0,stop,False,False,图片中没有文字。,
+47,hoag-invoice-mychart.png,3.102,200,True,316.0,561.0,stop,False,False,"<hy-meta><layout>doc_title</layout><poly>(0,0),(253,0),(253,53),(0,53)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(69,178),(160,178),(160,347)500 Superior Ave.(179,184),(316,238)Suite 250(179,238),(255,275)Newport Beach, CA 92663-3662(179,275),(425,325)PFS@hoag.org(179,325),(294,372)949-764-8404(179,372),(281,416)12345-1ABC(437,347),(514,381)RETURN SERVICE REQUESTED(69,447),(285,484)To pay your bill online, please visit www.orthopedichospital.com(69,481),(493,525)Jane Doe(575,447),(638,481)00112233(839,447),(910,481)AMOUNT YOU OWE(575,494),(700,531)AMOUNT PAID(839,494),(923,531)Check box if address or insurance information(81,553),(305,584)is incorrect and indicate change(s) on reverse side(81,584),(305,622)$333.33(605,553),(658,594)PAGE: 1 of 1(362,609),(450,644)12345-1ABC TBMX1D18000001(63,700),(231,728)xXx(5,744),(28,772)JANE DOE(69,838),(144,872)HOAG ORTHOPEDIC INSTITUTE(580,844),(795,878)1234 MOCKINGBIRD LANE(69,878),(255,916)MAILSTOP: 14294131(580,878),(709,916)NEWPORT BEACH, CA 92663(69,922),(272,962)PO BOX 660064(580,922),(685,956)DALLAS, TX 75266-0064(580,956),(738,994)",
+48,statefarm_bill.webp,3.143,200,True,819.0,404.0,stop,False,False,"State Farm Lloyds
+A Lloyds Company in Richardson, Texas
+PO Box 2356
+Bloomington IL 61702-2356
+AT1 H-08-1441-FAB2 F H4
+SMITH, BRENDA
+3460 GREAT TRI FO WAY APT 2026
+DALLAS TX 75216-7808
+State Farm
+RENEWAL DECLARATIONS
+AMOUNT DUE: None
+Payment is due by BILLED THROUGH SFPP
+Policy Number: 84-EW-D206-9
+Policy Period: 12 Months
+Effective Dates: MAY 10 2023 to MAY 10 2024
+The policy period begins and ends at 12:01 am standard time at the residence premises.
+Your State Farm Agent
+LINDA DESPAIN CLU, CHFC
+100 DECKER CT STE 100
+IRVING TX 75062-2205
+Phone: (469) 586-4244 or (214) 591-0552
+Automatic Renewal
+If the POLICY PERIOD is shown as 12 MONTHS, this policy will be renewed automatically subject to the premiums, rules, and forms in effect for each succeeding policy period. If this policy is terminated, we will give you and the Mortgagee/Lienholder written notice in compliance with the policy provisions or as required by law.
+IMPORTANT MESSAGES
+THIS POLICY CONTAINS A POLLUTION EXCLUSION (INCLUDING BUT NOT LIMITED TO ASBESTOS AND LEAD) LOCATED UNDER SECTION II - EXCLUSIONS.
+The Inflation Coverage provision may change your deductible. Refer to page 11 of your policy.
+PREMIUM
+Annual Premium $165.00
+Your premium has already been adjusted by the following:
+Home/Auto Discount Claim Record Discount
+Loyal Customer
+Total Premium $165.00",
+49,waste_managment.webp,6.226,200,True,754.0,1017.0,stop,False,False,"<hy-meta><layout>doc_title</layout><poly>(129,63),(371,63),(371,106),(129,106)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(138,106),(363,106),(363,174),(138,174)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(184,174),(231,174),(231,267),(184,267)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(235,174),(282,174),(282,265),(235,265)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(298,174),(322,174),(322,260),(298,260)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(405,169),(606,169),(606,197),(405,197)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(397,190),(615,190),(615,215),(397,215)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(397,210),(615,210),(615,233),(397,233)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(398,228),(615,228),(615,253),(398,253)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(417,250),(595,250),(595,286),(417,286)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(611,350),(720,350),(720,372),(611,372)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(611,372),(720,372),(720,394),(611,394)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(611,394),(720,394),(720,416),(611,416)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(611,416),(720,416),(720,438),(611,438)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(611,438),(720,438),(720,460),(611,460)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(611,460),(720,460),(720,482),(611,482)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(611,482),(720,482),(720,504),(611,504)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(114,501),(861,501),(861,538),(114,538)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(112,525),(891,525),(891,584),(112,584)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(109,563),(904,563),(904,605),(109,605)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(108,596),(482,596),(482,628),(108,628)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(97,614),(901,614),(901,778),(97,778)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(90,750),(950,750),(950,906),(90,906)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(30,931),(53,931),(53,966),(30,966)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(307,917),(610,917),(610,947),(307,947)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(630,912),(644,912),(644,934),(630,934)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(644,912),(746,912),(746,934),(644,934)</poly></hy-meta>
+
+<hy-meta><layout>figure</layout><poly>(830,935),(932,935),(932,963),(830,963)</poly></hy-meta>
+
+<hy-meta><layout>paragraph</layout><poly>(791,963),(973,963),(973,992),(791,992)</poly></hy-meta>",

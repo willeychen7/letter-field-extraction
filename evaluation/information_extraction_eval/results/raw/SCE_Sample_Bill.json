@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Your electricity bill\",\n    \"sender\": \"SOUTHERN CALIFORNIA EDISON\",\n    \"recipient_name\": \"YOUR CUSTOMER\",\n    \"address\": \"ANY CITY, CA 90000-0000\",\n    \"account_number\": \"2-00-000-0000\",\n    \"amount\": \"$2,149.55\",\n    \"due_date\": \"05/11/20\",\n    \"action_required\": \"Please return the payment stub below with your payment and make your check payable to Southern California Edison.\",\n    \"important_identifier\": \"STMT 04212020 P1\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569109,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 1169,
+    "total_tokens": 1316,
+    "prompt_tokens_details": {
+      "cached_tokens": 1121
+    }
+  },
+  "id": "chatcmpl-q133ktjTojPLb2TT4NKCq7AcJebURFWM",
+  "timings": {
+    "cache_n": 1121,
+    "prompt_n": 48,
+    "prompt_ms": 38.884,
+    "prompt_per_token_ms": 0.8100833333333334,
+    "prompt_per_second": 1234.440901141858,
+    "predicted_n": 147,
+    "predicted_ms": 1263.047,
+    "predicted_per_token_ms": 8.651006849315069,
+    "predicted_per_second": 115.59348147772808
+  }
+}

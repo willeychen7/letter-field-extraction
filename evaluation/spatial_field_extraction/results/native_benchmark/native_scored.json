@@ -1,0 +1,1625 @@
+{
+  "per_field": {
+    "sender": [
+      22,
+      50
+    ],
+    "recipient": [
+      12,
+      50
+    ],
+    "total_amount": [
+      25,
+      50
+    ],
+    "due_date": [
+      23,
+      50
+    ]
+  },
+  "hallucination": 63,
+  "scored": 50,
+  "total": 50,
+  "rows": [
+    {
+      "key": "SCE_Bill_Letter",
+      "field": "sender",
+      "pred": "8012345678",
+      "gold": "SCE",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "SCE_Bill_Letter",
+      "field": "recipient",
+      "pred": "123456789012345678",
+      "gold": "BAKER, NATE",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "SCE_Bill_Letter",
+      "field": "total_amount",
+      "pred": "8012345678",
+      "gold": "99.36",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "SCE_Bill_Letter",
+      "field": "due_date",
+      "pred": "2024-05-24",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "SCE_Letter",
+      "field": "sender",
+      "pred": "Shannon O'Rourke",
+      "gold": "SCE",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "SCE_Letter",
+      "field": "recipient",
+      "pred": "California Natural Resources Agency",
+      "gold": "Shannon O'Rourke",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "SCE_Letter",
+      "field": "total_amount",
+      "pred": "715 P Street 20th Floor",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "SCE_Letter",
+      "field": "due_date",
+      "pred": "2024-04-24",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "SCE_Sample_Bill",
+      "field": "sender",
+      "pred": "SOUTHERN CALIFORNIA EDISON",
+      "gold": "SCE",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "SCE_Sample_Bill",
+      "field": "recipient",
+      "pred": "Customer Account",
+      "gold": "VALUED CUSTOMER",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "SCE_Sample_Bill",
+      "field": "total_amount",
+      "pred": "$2,149.55",
+      "gold": "2149.55",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "SCE_Sample_Bill",
+      "field": "due_date",
+      "pred": "2020-05-11",
+      "gold": "2020-05-11",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "SoCalGas",
+      "field": "sender",
+      "pred": "JOHN B DOE",
+      "gold": "SoCalGas",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "SoCalGas",
+      "field": "recipient",
+      "pred": "MONTEREY PARK CA 91754-2217",
+      "gold": "JOHN B DOE",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "SoCalGas",
+      "field": "total_amount",
+      "pred": "$40.56",
+      "gold": "40.56",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "SoCalGas",
+      "field": "due_date",
+      "pred": "2016-01-08",
+      "gold": "2016-01-08",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Water_Bill2",
+      "field": "sender",
+      "pred": "Meter Reading",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Water_Bill2",
+      "field": "recipient",
+      "pred": "Units Used",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Water_Bill2",
+      "field": "total_amount",
+      "pred": "11 CCF",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Water_Bill2",
+      "field": "due_date",
+      "pred": "2015-11-07",
+      "gold": "2015-11-07",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "BOA_Bill_Example",
+      "field": "sender",
+      "pred": "BankAmericard",
+      "gold": "Bank of America",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "BOA_Bill_Example",
+      "field": "recipient",
+      "pred": "Bank of America",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "BOA_Bill_Example",
+      "field": "total_amount",
+      "pred": "$3,956.38",
+      "gold": "4543.36",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "BOA_Bill_Example",
+      "field": "due_date",
+      "pred": "2018-02-05",
+      "gold": "2018-02-05",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Bank_Bill_Due",
+      "field": "sender",
+      "pred": "Name: Susan Doe",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Bank_Bill_Due",
+      "field": "recipient",
+      "pred": "For Lost or Stolen Card, Call:",
+      "gold": "Susan Doe",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Bank_Bill_Due",
+      "field": "total_amount",
+      "pred": "1-800-XXX-XXXX",
+      "gold": "1392.71",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Bank_Bill_Due",
+      "field": "due_date",
+      "pred": "1/23/XX",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "AAA_insurance_Bill",
+      "field": "sender",
+      "pred": "AAA Insurance",
+      "gold": "AAA Insurance",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "AAA_insurance_Bill",
+      "field": "recipient",
+      "pred": "AAA Insurance",
+      "gold": "PAT SMITH",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "AAA_insurance_Bill",
+      "field": "total_amount",
+      "pred": "$12.20",
+      "gold": "12.20",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "AAA_insurance_Bill",
+      "field": "due_date",
+      "pred": "2020-04-08",
+      "gold": "2020-04-08",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "All_State_Insurance_Card",
+      "field": "sender",
+      "pred": "Allstate Fire and Casualty Insurance Company",
+      "gold": "Allstate",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "All_State_Insurance_Card",
+      "field": "recipient",
+      "pred": "George and Christine E Murphy",
+      "gold": "George and Christine E Murphy",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "All_State_Insurance_Card",
+      "field": "total_amount",
+      "pred": "2837 Stonington Court",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "All_State_Insurance_Card",
+      "field": "due_date",
+      "pred": "2015-07-01",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Auto_Insurance_Bill1",
+      "field": "sender",
+      "pred": "Farmers Insurance",
+      "gold": "Farmers Insurance",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Auto_Insurance_Bill1",
+      "field": "recipient",
+      "pred": "Jane Smith",
+      "gold": "Jack Smith",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Auto_Insurance_Bill1",
+      "field": "total_amount",
+      "pred": "$798.48",
+      "gold": null,
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Auto_Insurance_Bill1",
+      "field": "due_date",
+      "pred": "2019-06-01",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Great_American_Insurance_Invoice",
+      "field": "sender",
+      "pred": "GREAT AMERICAN INSURANCE GROUP",
+      "gold": "Great American Insurance",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Great_American_Insurance_Invoice",
+      "field": "recipient",
+      "pred": "PARKER",
+      "gold": "PARKER",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Great_American_Insurance_Invoice",
+      "field": "total_amount",
+      "pred": "$0.00",
+      "gold": "336.30",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Great_American_Insurance_Invoice",
+      "field": "due_date",
+      "pred": "2009-01-10",
+      "gold": "2009-01-10",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "DMV_Registration",
+      "field": "sender",
+      "pred": "LORERLESSL1202",
+      "gold": "DMV",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "DMV_Registration",
+      "field": "recipient",
+      "pred": "CHEV",
+      "gold": "GONZELES C",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "DMV_Registration",
+      "field": "total_amount",
+      "pred": "$95",
+      "gold": "95.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "DMV_Registration",
+      "field": "due_date",
+      "pred": "2010-10-16",
+      "gold": "2010-10-16",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "DMV_Notice",
+      "field": "sender",
+      "pred": "JOSH STEIN",
+      "gold": "NC Division of Motor Vehicles",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "DMV_Notice",
+      "field": "recipient",
+      "pred": "J.R. \"JOEY\" HOPKINS",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "DMV_Notice",
+      "field": "total_amount",
+      "pred": "$83.50",
+      "gold": "83.50",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "DMV_Notice",
+      "field": "due_date",
+      "pred": "2025-09-10",
+      "gold": null,
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Hospital_Bill",
+      "field": "sender",
+      "pred": "JANE DOE",
+      "gold": "Allina Health",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Hospital_Bill",
+      "field": "recipient",
+      "pred": "ALLINA HEALTH",
+      "gold": "JANE DOE",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Hospital_Bill",
+      "field": "total_amount",
+      "pred": "$654.80",
+      "gold": "419.07",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Hospital_Bill",
+      "field": "due_date",
+      "pred": "2013-04-18",
+      "gold": "2013-04-18",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Medical_Invoice",
+      "field": "sender",
+      "pred": "Zylker Heathcare",
+      "gold": null,
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Medical_Invoice",
+      "field": "recipient",
+      "pred": "Aaron Brown",
+      "gold": "Aaron Brown",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Medical_Invoice",
+      "field": "total_amount",
+      "pred": "900.00",
+      "gold": "14595.00",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Medical_Invoice",
+      "field": "due_date",
+      "pred": "2024-09-05",
+      "gold": "2024-09-05",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "CMS_EOB",
+      "field": "sender",
+      "pred": "Customer Service Number: 1-800-123-4567",
+      "gold": null,
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "CMS_EOB",
+      "field": "recipient",
+      "pred": "Member Name:",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "CMS_EOB",
+      "field": "total_amount",
+      "pred": "XXX",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "CMS_EOB",
+      "field": "due_date",
+      "pred": "XXXXXX",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "hoag-invoice-mychart",
+      "field": "sender",
+      "pred": "Hoag Orthopedic Institute",
+      "gold": "Hoag",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "hoag-invoice-mychart",
+      "field": "recipient",
+      "pred": "500 Superior Ave. Suite 250 Newport Beach, CA 92663-3662 PFS@hoag.org",
+      "gold": "JANE DOE",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "hoag-invoice-mychart",
+      "field": "total_amount",
+      "pred": "2222222",
+      "gold": "333.33",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "hoag-invoice-mychart",
+      "field": "due_date",
+      "pred": "2018-10-19",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "IRS_CP504_Notice",
+      "field": "sender",
+      "pred": "Department of the Treasury Internal Revenue Service",
+      "gold": "IRS",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "IRS_CP504_Notice",
+      "field": "recipient",
+      "pred": "CITY, STATE ZIP",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "IRS_CP504_Notice",
+      "field": "total_amount",
+      "pred": "$9,533.53",
+      "gold": "9533.53",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "IRS_CP504_Notice",
+      "field": "due_date",
+      "pred": "2019-01-30",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "IRS_cp503",
+      "field": "sender",
+      "pred": "James & KAREN Q. HINDS",
+      "gold": "IRS",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "IRS_cp503",
+      "field": "recipient",
+      "pred": "JAMES & KAREN Q. HINDS",
+      "gold": "JAMES & KAREN Q. HINDS",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "IRS_cp503",
+      "field": "total_amount",
+      "pred": "$9,533.53",
+      "gold": "9533.53",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "IRS_cp503",
+      "field": "due_date",
+      "pred": "2018-01-29",
+      "gold": "2018-01-29",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Medicare_Notice_PartA",
+      "field": "sender",
+      "pred": "JENNIFER WASHINGTON",
+      "gold": "Medicare",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Medicare_Notice_PartA",
+      "field": "recipient",
+      "pred": "TEMPORARY ADDRESS NAME",
+      "gold": "JENNIFER WASHINGTON",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Medicare_Notice_PartA",
+      "field": "total_amount",
+      "pred": "$1,184.00",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Medicare_Notice_PartA",
+      "field": "due_date",
+      "pred": "2020-09-15",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Water_Bill3",
+      "field": "sender",
+      "pred": "TRABUCO CANYON WATER DISTRICT",
+      "gold": "Trabuco Canyon Water District",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Water_Bill3",
+      "field": "recipient",
+      "pred": "TRABUCO CANYON WATER DISTRICT",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Water_Bill3",
+      "field": "total_amount",
+      "pred": "55.37",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Water_Bill3",
+      "field": "due_date",
+      "pred": "2025-04-01",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "water_bill",
+      "field": "sender",
+      "pred": "John Smith",
+      "gold": "Ventura River Water District",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "water_bill",
+      "field": "recipient",
+      "pred": "VENTURA RIVER WATER DISTRICT",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "water_bill",
+      "field": "total_amount",
+      "pred": "$71.20",
+      "gold": "71.20",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "water_bill",
+      "field": "due_date",
+      "pred": "2024-04-30",
+      "gold": "2024-04-30",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "waste_managment",
+      "field": "sender",
+      "pred": "Your Payment is Due",
+      "gold": "WM",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "waste_managment",
+      "field": "recipient",
+      "pred": "Your Account",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "waste_managment",
+      "field": "total_amount",
+      "pred": "$87.05",
+      "gold": "87.05",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "waste_managment",
+      "field": "due_date",
+      "pred": "2025-07-02",
+      "gold": "2025-07-02",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "att_bill",
+      "field": "sender",
+      "pred": "TECH GROUP & ASSOCIATES, INC",
+      "gold": "AT&T",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "att_bill",
+      "field": "recipient",
+      "pred": "AT&T",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "att_bill",
+      "field": "total_amount",
+      "pred": "$6.33CR",
+      "gold": null,
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "att_bill",
+      "field": "due_date",
+      "pred": "01/25/19 - 01/27/19",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "UCLA_Health_Bill",
+      "field": "sender",
+      "pred": "Resnick Neuropsychiatric Hospital at UCLA",
+      "gold": "UCLA Health",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "UCLA_Health_Bill",
+      "field": "recipient",
+      "pred": "UCLA Health",
+      "gold": "John Q. Patient",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "UCLA_Health_Bill",
+      "field": "total_amount",
+      "pred": "$472.00",
+      "gold": "472.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "UCLA_Health_Bill",
+      "field": "due_date",
+      "pred": "2012-11-01",
+      "gold": "2012-11-01",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "UCLA_Health_Bill2",
+      "field": "sender",
+      "pred": "Ronald Reagan UCLA Medical Center",
+      "gold": "UCLA Health",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "UCLA_Health_Bill2",
+      "field": "recipient",
+      "pred": "Santa Monica-UCLA Medical Center and Orthopaedic Hospital",
+      "gold": "John Q. Patient",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "UCLA_Health_Bill2",
+      "field": "total_amount",
+      "pred": "$236.00",
+      "gold": "236.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "UCLA_Health_Bill2",
+      "field": "due_date",
+      "pred": "2012-11-01",
+      "gold": "2012-11-01",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Eye_care-invoice",
+      "field": "sender",
+      "pred": "John Smith",
+      "gold": "Vision Plus Of Ballard",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Eye_care-invoice",
+      "field": "recipient",
+      "pred": "Mark Pyle O.D.",
+      "gold": "John Smith",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Eye_care-invoice",
+      "field": "total_amount",
+      "pred": "109.00",
+      "gold": "109.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Eye_care-invoice",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "key": "Progressive_Insurance_Bill",
+      "field": "sender",
+      "pred": "John Smith",
+      "gold": "Progressive",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Progressive_Insurance_Bill",
+      "field": "recipient",
+      "pred": "QAU2612",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Progressive_Insurance_Bill",
+      "field": "total_amount",
+      "pred": "500.00",
+      "gold": null,
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Progressive_Insurance_Bill",
+      "field": "due_date",
+      "pred": "2020-04-21",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Penny_Insurance_Bill",
+      "field": "sender",
+      "pred": "Penny the Pig",
+      "gold": "Penny Insurance",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Penny_Insurance_Bill",
+      "field": "recipient",
+      "pred": "John Smith",
+      "gold": "Penny the Pig",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Penny_Insurance_Bill",
+      "field": "total_amount",
+      "pred": "$700",
+      "gold": null,
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Penny_Insurance_Bill",
+      "field": "due_date",
+      "pred": "11-01-22 through 5-01-23",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "State_Farm_Insurance_Card",
+      "field": "sender",
+      "pred": "State Farm",
+      "gold": "State Farm",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "State_Farm_Insurance_Card",
+      "field": "recipient",
+      "pred": "JANET SMITH",
+      "gold": "JANET SMITH",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "State_Farm_Insurance_Card",
+      "field": "total_amount",
+      "pred": "000 0000-000-000",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "State_Farm_Insurance_Card",
+      "field": "due_date",
+      "pred": "2014-09-22",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Coverage_Care_Insurance_Card",
+      "field": "sender",
+      "pred": "Jane Doe",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Coverage_Care_Insurance_Card",
+      "field": "recipient",
+      "pred": "Jane Doe",
+      "gold": "Jane Doe",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Coverage_Care_Insurance_Card",
+      "field": "total_amount",
+      "pred": "$15.00",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Coverage_Care_Insurance_Card",
+      "field": "due_date",
+      "pred": "2021-01-01",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "State_Farm_Insurance",
+      "field": "sender",
+      "pred": "State Farm Mutual Automobile Insurance Company",
+      "gold": "State Farm",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "State_Farm_Insurance",
+      "field": "recipient",
+      "pred": "7401 Cypress Gardens Boulevard Winter Haven FL",
+      "gold": "SHEMARIA, ALFRED I & DEANNA",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "State_Farm_Insurance",
+      "field": "total_amount",
+      "pred": "$59.1",
+      "gold": "323.91",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "State_Farm_Insurance",
+      "field": "due_date",
+      "pred": "2016-09-28",
+      "gold": "2016-09-28",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "statefarm_bill",
+      "field": "sender",
+      "pred": "STATE FARM",
+      "gold": "State Farm",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "statefarm_bill",
+      "field": "recipient",
+      "pred": "STATE FARM Lloyds",
+      "gold": "SMITH, BRENDA",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "statefarm_bill",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "key": "statefarm_bill",
+      "field": "due_date",
+      "pred": "2023-05-10",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "aaa-policy_renew",
+      "field": "sender",
+      "pred": null,
+      "gold": "AAA",
+      "ok": false,
+      "kind": "null_miss"
+    },
+    {
+      "key": "aaa-policy_renew",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "key": "aaa-policy_renew",
+      "field": "total_amount",
+      "pred": "$88.00",
+      "gold": "88.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "aaa-policy_renew",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "key": "DMV_registration_late_fee",
+      "field": "sender",
+      "pred": "VIN",
+      "gold": "DMV",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "DMV_registration_late_fee",
+      "field": "recipient",
+      "pred": "RENEWAL FEE",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "DMV_registration_late_fee",
+      "field": "total_amount",
+      "pred": "XXX",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "DMV_registration_late_fee",
+      "field": "due_date",
+      "pred": "XX/XX/XXX",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "ca-dmv-registration-fee",
+      "field": "sender",
+      "pred": "STHOOF CALIFORNIA",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "ca-dmv-registration-fee",
+      "field": "recipient",
+      "pred": "01 CURR RF",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "ca-dmv-registration-fee",
+      "field": "total_amount",
+      "pred": "71.00",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "ca-dmv-registration-fee",
+      "field": "due_date",
+      "pred": "2024-03-02",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Medicare_Notice_PartB",
+      "field": "sender",
+      "pred": "JENNIFER WASHINGTON",
+      "gold": "Medicare",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Medicare_Notice_PartB",
+      "field": "recipient",
+      "pred": "Craig I. Secosan, M.D.",
+      "gold": "JENNIFER WASHINGTON",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Medicare_Notice_PartB",
+      "field": "total_amount",
+      "pred": "$147.00",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Medicare_Notice_PartB",
+      "field": "due_date",
+      "pred": "2024-03-01",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Medicare_Notice_of_Denial",
+      "field": "sender",
+      "pred": "Enrollee's Name:",
+      "gold": "Medicare",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Medicare_Notice_of_Denial",
+      "field": "recipient",
+      "pred": "Member Number:",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Medicare_Notice_of_Denial",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "key": "Medicare_Notice_of_Denial",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "key": "Medixare_Premium_Bill",
+      "field": "sender",
+      "pred": "CHARLIE MEDICARE",
+      "gold": "Medicare",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Medixare_Premium_Bill",
+      "field": "recipient",
+      "pred": "ANYTOWN, USA",
+      "gold": "CHARLIE MEDICARE",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Medixare_Premium_Bill",
+      "field": "total_amount",
+      "pred": "$2,715.60",
+      "gold": "2715.60",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Medixare_Premium_Bill",
+      "field": "due_date",
+      "pred": "2021-10-25",
+      "gold": "2021-10-25",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Bank_Bill_Example",
+      "field": "sender",
+      "pred": "BERGL M. SBUCOL",
+      "gold": "ETC Bank",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Bank_Bill_Example",
+      "field": "recipient",
+      "pred": "ESTATE IV EAST PARK",
+      "gold": "BERGL M. SBUCOL",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Bank_Bill_Example",
+      "field": "total_amount",
+      "pred": "50,000.00",
+      "gold": "50000.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Bank_Bill_Example",
+      "field": "due_date",
+      "pred": "15 February",
+      "gold": "2018-02-15",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "EastWest_Bank_Form",
+      "field": "sender",
+      "pred": "EAST WEST BANK",
+      "gold": "East West Bank",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "EastWest_Bank_Form",
+      "field": "recipient",
+      "pred": "Bank",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "EastWest_Bank_Form",
+      "field": "total_amount",
+      "pred": "Total $",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "EastWest_Bank_Form",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "ok": true,
+      "kind": "both_null"
+    },
+    {
+      "key": "EastWest_Bank_Bill",
+      "field": "sender",
+      "pred": "East West Bank",
+      "gold": "East West Bank",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "EastWest_Bank_Bill",
+      "field": "recipient",
+      "pred": "Kaboom Fireworks",
+      "gold": null,
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "EastWest_Bank_Bill",
+      "field": "total_amount",
+      "pred": "$6,713.87",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "EastWest_Bank_Bill",
+      "field": "due_date",
+      "pred": "2023-07-31",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example",
+      "field": "sender",
+      "pred": "Debbie Anita Walsh",
+      "gold": "Chase",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example",
+      "field": "recipient",
+      "pred": "HOWELL, MI, 48843",
+      "gold": "Debbie Anita Walsh",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example",
+      "field": "total_amount",
+      "pred": "$15,050.80",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example",
+      "field": "due_date",
+      "pred": "02/15",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example2",
+      "field": "sender",
+      "pred": "JPMorgan Chase Bank N.A.",
+      "gold": "Chase",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example2",
+      "field": "recipient",
+      "pred": "Chase Bank N.A.",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example2",
+      "field": "total_amount",
+      "pred": "$81,607.40",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "Chase_Bank_Bill_Example2",
+      "field": "due_date",
+      "pred": "07/02",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "First_Bank_Bill",
+      "field": "sender",
+      "pred": "USA Small Business, LLC",
+      "gold": "First Bank",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "First_Bank_Bill",
+      "field": "recipient",
+      "pred": "Mr. Jack Smith",
+      "gold": "Jack Smith",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "First_Bank_Bill",
+      "field": "total_amount",
+      "pred": "$10,273.39",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "First_Bank_Bill",
+      "field": "due_date",
+      "pred": "03/01",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "HOA1",
+      "field": "sender",
+      "pred": "P.O. Box 82986 Baton Rouge, LA 70884",
+      "gold": "Bluebonnet Highlands Homeowners Association",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "HOA1",
+      "field": "recipient",
+      "pred": "bbhbilling@yahoo.com",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "HOA1",
+      "field": "total_amount",
+      "pred": "360.00",
+      "gold": "360.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "HOA1",
+      "field": "due_date",
+      "pred": "2013-01-31",
+      "gold": "2013-01-31",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "HOA2",
+      "field": "sender",
+      "pred": "YOUR LOGO",
+      "gold": "KinFinity",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "HOA2",
+      "field": "recipient",
+      "pred": "KinFinity",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "HOA2",
+      "field": "total_amount",
+      "pred": "$1,250.00",
+      "gold": "1250.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "HOA2",
+      "field": "due_date",
+      "pred": "January 31, 2085",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "HOA3",
+      "field": "sender",
+      "pred": "Your Company Inc.",
+      "gold": "Your Company Inc.",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "HOA3",
+      "field": "recipient",
+      "pred": "Customer Name",
+      "gold": "Customer Name",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "HOA3",
+      "field": "total_amount",
+      "pred": "$1200.00",
+      "gold": "1200.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "HOA3",
+      "field": "due_date",
+      "pred": "10-16-2025",
+      "gold": "2025-10-16",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "HOA4",
+      "field": "sender",
+      "pred": "c/o Jellybird HOA Management",
+      "gold": "Happy Hills Association",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "HOA4",
+      "field": "recipient",
+      "pred": "Jane Smith",
+      "gold": "Jane Smith",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "HOA4",
+      "field": "total_amount",
+      "pred": "$100.00",
+      "gold": "100.00",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "HOA4",
+      "field": "due_date",
+      "pred": "2024-10-01",
+      "gold": "2024-10-01",
+      "ok": true,
+      "kind": "correct"
+    },
+    {
+      "key": "aws_invoice",
+      "field": "sender",
+      "pred": "Attn: Jeff Barr",
+      "gold": "Amazon Web Services",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "aws_invoice",
+      "field": "recipient",
+      "pred": "Amazon Web Services LLC",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "key": "aws_invoice",
+      "field": "total_amount",
+      "pred": "$1.89",
+      "gold": "135.38",
+      "ok": false,
+      "kind": "wrong"
+    },
+    {
+      "key": "aws_invoice",
+      "field": "due_date",
+      "pred": "2010-09-03",
+      "gold": null,
+      "ok": false,
+      "kind": "null_hallucination"
+    }
+  ]
+}

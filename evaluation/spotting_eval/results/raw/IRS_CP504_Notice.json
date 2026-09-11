@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"box\": [\"Department of the Treasury Internal Revenue Service IRS\", \"Notice CP504 Tax year 2018\", \"Notice date January 30, 2019\", \"Taxpayer Identification number NNN-NN-NNNN\", \"To contact us\", \"Your caller ID NNNN\", \"Page 1 of 7\"],\n    \"text\": \"BUSINESS NAME\",\n    \"box\": [\"CITY, STATE ZIP\"]\n}\n```"
+      }
+    }
+  ],
+  "created": 1788568611,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 1558,
+    "total_tokens": 1658,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-su3sxdYEnIk9WoeBYpdwZlbR5ydq7Dd1",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1558,
+    "prompt_ms": 4772.351,
+    "prompt_per_token_ms": 3.0631264441591783,
+    "prompt_per_second": 326.4638330248551,
+    "predicted_n": 100,
+    "predicted_ms": 885.439,
+    "predicted_per_token_ms": 8.943828282828283,
+    "predicted_per_second": 111.80894448968252
+  }
+}

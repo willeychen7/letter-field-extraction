@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "RETAIN THIS PORTION FOR YOUR RECORDS PLEASE DETACH AND RETURN LOWER PORTION WITH YOUR PAYMENT If PAYING BY MASTERCARD, DISCOVER OR VISA, FILL OUT BELOW. CHECK CARD USING FOR PAYMENT VISA VISA AMERICAN EXPRESS CARD NUMBER EXP DATE SIGNATURE STATEMENT DATE 10/19/18 12345-1ABC PATIENT NAME ACCOUNT NUMBER 00112233 Jane Doe AMOUNT PAID AMOUNT PAID To pay your bill online, please visit www.orthopedichospital.com For your convenience your Online Biller ID is: 2222222 Check box if address or insurance information is incorrect and indicate change(s) on reverse side PAGE: 1 of 1 12345-1ABC TBMX1D18000001 6230140 (PC2) xXx JANE DOE HOAG ORTHOPEDIC INSTITUTE 1234 MOCKINGBIRD LANE NEWPORT BEACH, CA 92663 HOAG ORTHOPEDIC INSTITUTE MAILSTOP: 14294131 PO BOX 660064 DALLAS, TX 75266-0064"
+      }
+    }
+  ],
+  "created": 1788637086,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 257,
+    "prompt_tokens": 307,
+    "total_tokens": 564,
+    "prompt_tokens_details": {
+      "cached_tokens": 302
+    }
+  },
+  "id": "chatcmpl-Hdx9hhNmBWYp6CZEIqHQ0v01euaTLyYl",
+  "timings": {
+    "cache_n": 302,
+    "prompt_n": 5,
+    "prompt_ms": 21.064,
+    "prompt_per_token_ms": 4.2128,
+    "prompt_per_second": 237.37181921762246,
+    "predicted_n": 257,
+    "predicted_ms": 1978.584,
+    "predicted_per_token_ms": 7.72884375,
+    "predicted_per_second": 129.38545950032952
+  }
+}

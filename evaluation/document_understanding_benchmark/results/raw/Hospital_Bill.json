@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"HOSPITAL STATEMENT\",\n    \"sender\": \"JANE DOE\",\n    \"recipient\": \"ALLINA HEALTH\",\n    \"amount\": \"$654.80\",\n    \"due_date\": \"04/18/2013\",\n    \"payment_status\": \"paid\",\n    \"action_required\": true,\n    \"action\": \"Laboratory General\",\n    \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639760,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 1730,
+    "total_tokens": 1830,
+    "prompt_tokens_details": {
+      "cached_tokens": 1476
+    }
+  },
+  "id": "chatcmpl-57XJTppoTkfgBUGHNT8gqTWQ0s2qV2ZS",
+  "timings": {
+    "cache_n": 1476,
+    "prompt_n": 254,
+    "prompt_ms": 123.847,
+    "prompt_per_token_ms": 0.48758661417322835,
+    "prompt_per_second": 2050.9176645376956,
+    "predicted_n": 100,
+    "predicted_ms": 1060.573,
+    "predicted_per_token_ms": 10.712858585858587,
+    "predicted_per_second": 93.34576686376138
+  }
+}

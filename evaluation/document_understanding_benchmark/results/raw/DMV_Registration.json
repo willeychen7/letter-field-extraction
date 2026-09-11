@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Attachment A\",\n    \"sender\": \"GONZELES C\",\n    \"recipient\": \"DMV RENEWAL\",\n    \"amount\": \"$95\",\n    \"due_date\": \"10/16/2010\",\n    \"payment_status\": \"paid\",\n    \"action_required\": true,\n    \"action\": \"MAKE PAYMENT TO:\",\n    \"risk\": null\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639756,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 1646,
+    "total_tokens": 1746,
+    "prompt_tokens_details": {
+      "cached_tokens": 1392
+    }
+  },
+  "id": "chatcmpl-UMVb9JO6k0IPtPne8A4OOODl1iIh1zg6",
+  "timings": {
+    "cache_n": 1392,
+    "prompt_n": 254,
+    "prompt_ms": 107.142,
+    "prompt_per_token_ms": 0.4218188976377953,
+    "prompt_per_second": 2370.685632151724,
+    "predicted_n": 100,
+    "predicted_ms": 917.301,
+    "predicted_per_token_ms": 9.265666666666666,
+    "predicted_per_second": 107.92531568154835
+  }
+}

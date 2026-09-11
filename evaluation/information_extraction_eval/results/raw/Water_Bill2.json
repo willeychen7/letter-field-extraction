@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"The Efficient Customer\",\n    \"sender\": \"Meter Reading\",\n    \"recipient_name\": \"Units Used\",\n    \"address\": \"9/10/15 10/09/15\",\n    \"account_number\": \"1548\",\n    \"amount\": \"11 CCF\",\n    \"due_date\": \"11/07/15\",\n    \"action_required\": \"TO AVOID LATE CHARGE PAY BEFORE\",\n    \"important_identifier\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569111,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 449,
+    "total_tokens": 565,
+    "prompt_tokens_details": {
+      "cached_tokens": 401
+    }
+  },
+  "id": "chatcmpl-TW0okOcZt93VdVxZV3wGQurEp2lOoXHB",
+  "timings": {
+    "cache_n": 401,
+    "prompt_n": 48,
+    "prompt_ms": 35.955,
+    "prompt_per_token_ms": 0.7490625,
+    "prompt_per_second": 1335.0020859407593,
+    "predicted_n": 116,
+    "predicted_ms": 1073.243,
+    "predicted_per_token_ms": 9.332547826086955,
+    "predicted_per_second": 107.15187520440386
+  }
+}

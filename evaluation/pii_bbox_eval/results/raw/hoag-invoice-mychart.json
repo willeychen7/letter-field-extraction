@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"recipient_name\": \"Hoag Orthopedic Institute\",\n  \"address\": \"500 Superior Ave. Suite 250 Newport Beach, CA 92663-3662 PFS@hoag.org 949-764-8404\",\n  \"account_number\": \"00112233\",\n  \"policy_member_claim_number\": \"12345-1ABC\",\n  \"phone\": \"333.33\",\n  \"email\": \"None\",\n  \"ssn\": \"None\",\n  \"medicare_medical_id\": \"None\",\n  \"other_identifier\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569584,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 822,
+    "total_tokens": 954,
+    "prompt_tokens_details": {
+      "cached_tokens": 302
+    }
+  },
+  "id": "chatcmpl-KtKOgqjEHGGSXkd1iilcZolItv2CTMUt",
+  "timings": {
+    "cache_n": 302,
+    "prompt_n": 520,
+    "prompt_ms": 194.413,
+    "prompt_per_token_ms": 0.3738711538461539,
+    "prompt_per_second": 2674.7182544377174,
+    "predicted_n": 132,
+    "predicted_ms": 1252.086,
+    "predicted_per_token_ms": 9.557908396946566,
+    "predicted_per_second": 104.62540113059326
+  }
+}

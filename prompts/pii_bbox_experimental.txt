@@ -1,0 +1,26 @@
+请仔细阅读这张美国信件图片，找出图片中属于以下类型的个人隐私信息（PII），并严格按照下面的 JSON schema 输出结果，不要输出 JSON 以外的任何文字：
+
+{
+  "recipient_name": null,
+  "address": null,
+  "account_number": null,
+  "policy_member_claim_number": null,
+  "phone": null,
+  "email": null,
+  "ssn": null,
+  "medicare_medical_id": null,
+  "other_identifier": null
+}
+
+对于图片中确实存在的每一类信息，把对应的 key 的值替换成：
+{"text": "图片中的原始文字", "bbox": [xmin, ymin, xmax, ymax]}
+其中 bbox 坐标必须归一化到 [0, 1000] 范围内，且只覆盖这一条信息本身，不要包含旁边不相关的文字或标签。
+
+严格规则（必须逐条遵守）：
+1. 只根据图片中明确出现的内容作答，不要猜测、不要根据常识补充图片中不存在的信息。
+2. 如果图片中根本没有某一类信息（比如没有电话号码、没有 SSN、没有 email），对应的 key 必须保持 JSON 的 null，不能填任何东西进去。
+3. 绝对不能把一种类型的编号当成另一种类型填进去。例如：不能把 POD-ID、account number、case number、policy number 当成电话号码填进 "phone"；不能把日期、VIN、用量数字当成账号或金额；不能把电话号码当成 account_number。如果分不清某个数字属于哪一类，宁可放进最贴切的一类并如实说明，也不要为了填满字段而乱填。
+4. "recipient_name" 只填收件人（这封信是写给谁的）的姓名，不要填发件机构名称，也不要把姓名和其他文字（如页码、日期）合并在一起——只提取姓名本身对应的文字和 bbox。
+5. "account_number" 和 "policy_member_claim_number" 是两个不同的字段：account_number 指账户/服务账号；policy_member_claim_number 指保单号/会员号/理赔号/病历号这类，如果图片中两者都有，分别填写；只有一种就只填那一种，另一个保持 null。
+6. bbox 必须只框住这条 PII 本身的文字，不要把旁边的标签文字（比如"Account:"这几个字）或其他无关文字一起框进去。
+7. 只输出上面 schema 对应的 JSON 对象本身，不要有任何解释性文字、不要用代码块包裹。

@@ -1,0 +1,8 @@
+EXPLANATION OF BENEFITS 1 Customer Service Number: 1-800-123-4567 Statement Date: XXXXX Member Name: Document Number: XXXXXXXXX Address: City, State, Zip: 2 THIS IS NOT A BILL Subscriber Number: XXXXXXXXX ID: XXXXXXX Group: ABCDE Group Number: XXXXX Patient Name: XXXXXXX Provider: Claim Number: XXXXXXX Date Received: XXXXXXXXX Payee: 2 Date Paid: XXXXXXXXX
+3. Service Description shows the health services you received, like a medical visit, lab test, or screening. 4. Provider Charges is the amount your provider bills for your visit. 5. Allowed Charges is the amount your provider will be paid; this may not be the same as the Provider Charges.
+Claim Detail 3 What your Provider Can Charge You 4 5 Your Responsibility 6 Total Claim Cost 7 What You Owe 8 Remark Code
+Line No. 3/20/22-3/20/22 4 5 6 7 8
+1 3/20/22-3/20/22 4 5 6 7 8
+2 3/20/22-3/20/22 4 5 6 7 8
+Total $406.60 $120.27 $35.00 $0.00 $0.00 $85.27 $35.00 PDC
+Remark Code: PDC—Billed amount is higher than the maximum payment insurance allows. The payment is for the allowed amount.

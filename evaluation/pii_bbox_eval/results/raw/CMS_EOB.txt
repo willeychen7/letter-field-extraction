@@ -1,0 +1,11 @@
+{
+  "recipient_name": null,
+  "address": null,
+  "account_number": null,
+  "policy_member_claim_number": null,
+  "phone": null,
+  "email": null,
+  "ssn": null,
+  "medicare_medical_id": null,
+  "other_identifier": null
+}

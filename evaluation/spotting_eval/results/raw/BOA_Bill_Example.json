@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Customer Service Information:(738,59),(926,70)BankAmericard(58,70),(171,84)Cash Rewards(184,73),(265,83)www.bankofamerica.com(738,71),(874,81)Bank of America(413,75),(588,94)1.800.637.7455(738,84),(823,94)Visa Signature(58,111),(168,124)TTY: 1.877.275.6371(738,96),(849,106)Mail billing inquiries to:(738,108),(884,120)Bank of America(738,121),(826,131)P.O. Box 982234(738,133),(826,144)El Paso TX 79998-2234(738,145),(870,155)Mail payment to:(738,157),(840,169)Bank of America(738,170),(826,180)P.O. Box 851001(738,182),(825,193)Dallas TX 75285-1001(738,195),(858,205)December 9 - January 8, 2018(780,260),(942,271)Account Summary(58,299),(234,317)Payment Information(477,299),(680,317)Previous Balance(58,328),(164,339)$3,956.38(374,328),(429,340)New Balance Total(477,326),(592,337)$4,543.36(882,326),(938,338)Payments and Other Credits(58,342),(235,354)- $109.00(374,342),(429,353)Current Payment Due(477,340),(610,352)$112.00(892,340),(938,352)Purchases and Adjustments(58,355),(231,367)$628.58(383,355),(429,366)Fees Charged(58,369),(148,382)$0.00(393,369),(429,381)Total Minimum Payment Due(477,369),(657,381)$112.00(892,369),(938,381)Interest Charged(58,384),(172,396)$67.40(386,384),(429,395)Payment Due Date(477,383),(592,395)02/05/2018(875,383),(938,394)New Balance Total(58,413),(176,424)$4,543.36(374,413),(429,425)Late Payment Warning: If we do not receive your Total Minimum(477,412),(895,424)Payment by the date listed above, you may have to pay a late fee of up to(477,426),(938,439)Total Credit Line(58,437),(164,448)$10,000.00(367,437),(429,448)$38.00 and your APRs may be increased up to the Penalty APR of 29.99%.(477,440),(946,453)Total Credit Available(58,451),(194,461)$5,456.64(374,451),(429,462)Total Minimum Payment Warning: If you make only the Total Minimum(477,454),(940,467)Cash Credit Line(58,464),(162,475)$7,000.00(374,464),(429,475)Payment each period, you will pay more in interest and it will take you(477,468),(915,480)Portion of Credit Available(58,477),(224,489)longer to pay off your balance. For example:(477,481),(754,493)for Cash(58,491),(112,502)$5,456.64(374,491),(429,503)If you make no additional(481,499),(638,511)You will payoff the(657,499),(776,511)And you will end up(809,499),(930,512)Statement Closing Date(58,505),(209,517)01/08/2018(366,505),(429,515)charges using this card(495,512),(638,524)balance shown on this(653,512),(783,523)paying an estimated(806,512),(931,525)Days in Billing Cycle(58,519),(183,532)31(414,519),(429,529)and each month you pay(495,526),(638,538)statement in about(653,526),(780,536)total of(850,526),(895,537)Only the Total(509,552),(599,563)18 years(691,552),(747,563)$10,476.00(834,552),(909,563)Minimum Payment(495,566),(614,578)$165.00(534,584),(589,596)36 months(686,584),(753,595)$5,940.00(838,584),(904,596)(Savings = $4,536.00)(800,597),(946,610)If you would like information about credit counseling services, call(476,617),(931,630)866.300.5238.(476,631),(575,642)BANK OF AMERICA(124,780),(244,789)P.O. BOX 851001(124,791),(224,801)DALLAS TX 75285-1001(124,803),(264,812)New Balance Total(497,807),(604,817)$4,543.36(842,807),(899,818)Total Minimum Payment Due(497,823),(661,834)$112.00(851,823),(899,834)Payment Due Date(515,840),(618,850)02/05/2018(820,840),(898,850)Enter payment amount(498,876),(629,887)$(649,876),(657,887)Check here for a change of mailing address or phone numbers.(522,911),(841,921)Please provide all corrections on the reverse side.(522,921),(773,931)Mail this coupon along with your check payable to: Bank of America(521,936),(855,946)"
+      }
+    }
+  ],
+  "created": 1788568438,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 1699,
+    "prompt_tokens": 1636,
+    "total_tokens": 3335,
+    "prompt_tokens_details": {
+      "cached_tokens": 1545
+    }
+  },
+  "id": "chatcmpl-z7cBE5tUGs4tC2jeTa1jFimnxUG47hcT",
+  "timings": {
+    "cache_n": 1545,
+    "prompt_n": 91,
+    "prompt_ms": 47.04,
+    "prompt_per_token_ms": 0.5169230769230769,
+    "prompt_per_second": 1934.5238095238096,
+    "predicted_n": 1699,
+    "predicted_ms": 19596.364,
+    "predicted_per_token_ms": 11.540850412249707,
+    "predicted_per_second": 86.64872728430642
+  }
+}

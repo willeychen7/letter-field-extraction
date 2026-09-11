@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"OFFICIAL NOTICE\",\n    \"sender\": \"STATE OF NORTH CAROLINA DEPARTMENT OF TRANSPORTATION\",\n    \"recipient_name\": \"J.R. \\\"JOEY\\\" HOPKINS\",\n    \"address\": \"3118 MAIL SERVICE CNTR RALEIGH, N.C. 27699-3118\",\n    \"account_number\": \"(919) 715-7000\",\n    \"amount\": \"08/01/2025\",\n    \"due_date\": \"09/10/2025\",\n    \"action_required\": \"REINSTATED\",\n    \"important_identifier\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569126,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 1763,
+    "total_tokens": 1913,
+    "prompt_tokens_details": {
+      "cached_tokens": 1715
+    }
+  },
+  "id": "chatcmpl-Sn8G1zko8ZkQWdml3Vuwb3pys3CDEW8k",
+  "timings": {
+    "cache_n": 1715,
+    "prompt_n": 48,
+    "prompt_ms": 31.009,
+    "prompt_per_token_ms": 0.6460208333333334,
+    "prompt_per_second": 1547.937695507756,
+    "predicted_n": 150,
+    "predicted_ms": 1401.871,
+    "predicted_per_token_ms": 9.408530201342282,
+    "predicted_per_second": 106.28652707702777
+  }
+}

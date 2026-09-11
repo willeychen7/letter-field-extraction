@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Sample credit card statement\",\n    \"sender\": \"Susan Doe\",\n    \"recipient\": \"Name: Susan Doe\",\n    \"amount\": \"$1392.71\",\n    \"due_date\": \"1/23/XX\",\n    \"payment_status\": \"paid\",\n    \"action_required\": true,\n    \"action\": \"For Lost or Stolen Card, Call: 1-800-XXX-XXXX\",\n    \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639747,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 1438,
+    "total_tokens": 1550,
+    "prompt_tokens_details": {
+      "cached_tokens": 1184
+    }
+  },
+  "id": "chatcmpl-IjNu3dYppEjLCxA8ieh7JCF927PoMpdH",
+  "timings": {
+    "cache_n": 1184,
+    "prompt_n": 254,
+    "prompt_ms": 115.668,
+    "prompt_per_token_ms": 0.45538582677165357,
+    "prompt_per_second": 2195.9401044368365,
+    "predicted_n": 112,
+    "predicted_ms": 1010.326,
+    "predicted_per_token_ms": 9.102036036036036,
+    "predicted_per_second": 109.86552855217029
+  }
+}

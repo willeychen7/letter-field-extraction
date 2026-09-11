@@ -1,0 +1,16 @@
+image,status,inference_time_s,prompt_tokens,completion_tokens,finish_reason,error
+AAA_insurance_Bill.png,ok,2.619,378,233,stop,
+All_State_Insurance_Card.jpg,ok,2.449,456,201,stop,
+Auto_Insurance_Bill1.jpg,ok,16.415,2466,610,stop,
+BOA_Bill_Example.png,ok,11.929,1588,679,stop,
+Bank_Bill_Due.png,ok,9.808,1226,630,stop,
+Bank_Bill_Example.jpg,ok,12.067,848,986,stop,
+CMS_EOB.png,ok,6.532,1000,699,stop,
+Chase_Bank_Bill_Example.webp,error,0.008,,,,HTTP Error 400: Bad Request
+Chase_Bank_Bill_Example2.webp,error,0.004,,,,HTTP Error 400: Bad Request
+Coverage_Care_Insurance_Card.png,ok,3.109,606,211,stop,
+DMV_Notice.jpeg,ok,10.819,1758,448,stop,
+DMV_Registration.png,ok,14.684,1434,965,stop,
+DMV_registration_late_fee.webp,error,0.011,,,,HTTP Error 400: Bad Request
+EastWest_Bank_Bill.webp,error,0.011,,,,HTTP Error 400: Bad Request
+EastWest_Bank_Form.png,ok,47.848,848,4096,length,

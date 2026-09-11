@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Service Account\",\n    \"sender\": \"Service Account\",\n    \"recipient\": \"Service Account\",\n    \"amount\": \"8012345678\",\n    \"due_date\": \"01/06/24 to 02/05/24 (31 days)\",\n    \"payment_status\": \"unpaid\",\n    \"action_required\": \"true\",\n    \"action\": \"unpaid\",\n    \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639738,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 1508,
+    "total_tokens": 1611,
+    "prompt_tokens_details": {
+      "cached_tokens": 1253
+    }
+  },
+  "id": "chatcmpl-QlO1I17wXYsoEjbz5stIyONvRpEWTaGf",
+  "timings": {
+    "cache_n": 1253,
+    "prompt_n": 255,
+    "prompt_ms": 129.018,
+    "prompt_per_token_ms": 0.5059529411764706,
+    "prompt_per_second": 1976.4683997581733,
+    "predicted_n": 103,
+    "predicted_ms": 918.928,
+    "predicted_per_token_ms": 9.009098039215687,
+    "predicted_per_second": 110.99890306966378
+  }
+}

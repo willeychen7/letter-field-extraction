@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Personal Umbrella Policy Number Bill Example",
+    "sender": "AAA Insurance MemberSelect Insurance Company",
+    "recipient": "CINCINNATI, OH 45274-0860",
+    "amount": "$12.20",
+    "due_date": "Apr 8 2020",
+    "payment_status": "paid",
+    "action_required": "true",
+    "action": "Installment",
+    "risk": "None"
+}
+```

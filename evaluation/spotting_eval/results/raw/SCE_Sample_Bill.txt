@@ -1,0 +1,6 @@
+```json
+{
+    "box": ["Customer Account", "Date bill prepared", "Amount due $2,149.55", "Your account summary", "Previous Balance", "Wire credit adjustment", "Your new charges", "Total amount you owe", "Summary of your billing detail", "Service account", "Service address", "Billing period", "Your rate", "New charges", "STMT 04212020 P1", "VALUED CUSTOMER", "P.O. BOX 300", "ROSEMEAD, CA 91772-0001"],
+    "text": "SOUTHERN CALIFORNIA\nEDISON\nAn EDISON INTERNATIONAL Company\nFor billing and service inquiries\n1-800-990-7788\nwww.sce.com\nYour electricity bill\nVALUED CUSTOMER / Page 1 of 7"
+}
+```

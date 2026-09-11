@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"INVOICE\",\n    \"sender\": \"Zylker Heathcare\",\n    \"recipient_name\": \"Aaron Brown\",\n    \"address\": \"14B, Northern Street, Greater South Avenue, New York 10001 U.S.A\",\n    \"account_number\": \"INV-000006\",\n    \"amount\": \"900.00\",\n    \"due_date\": \"05 Sep 2024\",\n    \"action_required\": \"None\",\n    \"important_identifier\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569129,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 2003,
+    "total_tokens": 2121,
+    "prompt_tokens_details": {
+      "cached_tokens": 1955
+    }
+  },
+  "id": "chatcmpl-2vzQN2OPOCP1UOQQIvBxI0wtXu5kwNGd",
+  "timings": {
+    "cache_n": 1955,
+    "prompt_n": 48,
+    "prompt_ms": 32.276,
+    "prompt_per_token_ms": 0.6724166666666668,
+    "prompt_per_second": 1487.173131738753,
+    "predicted_n": 118,
+    "predicted_ms": 1134.713,
+    "predicted_per_token_ms": 9.69840170940171,
+    "predicted_per_second": 103.10977313206071
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"recipient_name\": \"Susan Doe\",\n  \"address\": \"1234 Main Street, Anytown, USA\",\n  \"account_number\": \"12345-67-8907\",\n  \"policy_member_claim_number\": \"None\",\n  \"phone\": \"1-800-XXX-XXXX\",\n  \"email\": \"None\",\n  \"ssn\": \"None\",\n  \"medicare_medical_id\": \"None\",\n  \"other_identifier\": \"None\"\n}"
+      }
+    }
+  ],
+  "created": 1788569572,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 1703,
+    "total_tokens": 1812,
+    "prompt_tokens_details": {
+      "cached_tokens": 1183
+    }
+  },
+  "id": "chatcmpl-hWDw6vBkOP87rBMcMoLK6jd1bi8HTj7i",
+  "timings": {
+    "cache_n": 1183,
+    "prompt_n": 520,
+    "prompt_ms": 228.264,
+    "prompt_per_token_ms": 0.4389692307692308,
+    "prompt_per_second": 2278.0639960747203,
+    "predicted_n": 109,
+    "predicted_ms": 1008.083,
+    "predicted_per_token_ms": 9.334101851851852,
+    "predicted_per_second": 107.13403559032342
+  }
+}

@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "OFFICIAL NOTICE",
+    "sender": "STATE OF NORTH CAROLINA DEPARTMENT OF TRANSPORTATION",
+    "recipient": "J.R. \"JOEY\" HOPKINS",
+    "amount": "$83.50",
+    "due_date": "09/10/2025",
+    "payment_status": "paid",
+    "action_required": "true",
+    "action": "A RESTORATION FEE OF $83.50 IS NEEDED AND HAS TO BE PAID TO THE DIVISION OF MOTOR VEHICLES BEFORE YOUR NORTH CAROLINA DRIVING PRIVILEGE CAN BE REINSTATED.",
+    "risk": "None"
+}
+```

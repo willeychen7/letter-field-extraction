@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"recipient_name\": \"None\",\n  \"address\": \"None\",\n  \"account_number\": \"None\",\n  \"policy_member_claim_number\": \"None\",\n  \"phone\": \"None\",\n  \"email\": \"None\",\n  \"ssn\": \"None\",\n  \"medicare_medical_id\": \"None\",\n  \"other_identifier\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569574,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 933,
+    "total_tokens": 1023,
+    "prompt_tokens_details": {
+      "cached_tokens": 413
+    }
+  },
+  "id": "chatcmpl-cvPFaAvT3cggnkh2y7siEpktmMsDNiEi",
+  "timings": {
+    "cache_n": 413,
+    "prompt_n": 520,
+    "prompt_ms": 198.735,
+    "prompt_per_token_ms": 0.3821826923076923,
+    "prompt_per_second": 2616.54967670516,
+    "predicted_n": 90,
+    "predicted_ms": 765.823,
+    "predicted_per_token_ms": 8.604752808988763,
+    "predicted_per_second": 116.21484337764731
+  }
+}

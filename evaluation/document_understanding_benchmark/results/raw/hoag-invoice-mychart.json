@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"RETURN SERVICE REQUESTED\",\n    \"sender\": \"JANE DOE\",\n    \"recipient\": \"HOAG ORTHOPEDIC INSTITUTE\",\n    \"amount\": \"$333.33\",\n    \"due_date\": \"None\",\n    \"payment_status\": \"AMOUNT PAID\",\n    \"action_required\": \"true\",\n    \"action\": \"None\",\n    \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639765,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 557,
+    "total_tokens": 661,
+    "prompt_tokens_details": {
+      "cached_tokens": 315
+    }
+  },
+  "id": "chatcmpl-Ecf9zOB6ST2DW2vQQVGuK226UBgEdm1d",
+  "timings": {
+    "cache_n": 315,
+    "prompt_n": 242,
+    "prompt_ms": 117.712,
+    "prompt_per_token_ms": 0.4864132231404959,
+    "prompt_per_second": 2055.8651624303384,
+    "predicted_n": 104,
+    "predicted_ms": 917.375,
+    "predicted_per_token_ms": 8.906553398058252,
+    "predicted_per_second": 112.27687695871373
+  }
+}

@@ -1,0 +1,1825 @@
+{
+  "n_images": 20,
+  "frozen": true,
+  "overall_accuracy_all": 0.7833,
+  "overall_correct": 94,
+  "overall_total": 120,
+  "authoritative_subset": {
+    "images": [
+      "SCE_Bill_Letter",
+      "SCE_Letter",
+      "SCE_Sample_Bill",
+      "SoCalGas",
+      "DMV_Registration",
+      "Hospital_Bill",
+      "Medical_Invoice",
+      "hoag-invoice-mychart",
+      "IRS_CP504_Notice",
+      "IRS_cp503",
+      "Medicare_Notice_PartA"
+    ],
+    "fields": [
+      "sender",
+      "total_amount",
+      "due_date",
+      "payment_status"
+    ],
+    "accuracy": 0.9091,
+    "correct": 40,
+    "total": 44
+  },
+  "per_field": {
+    "sender": {
+      "accuracy": 0.75,
+      "correct": 15,
+      "total": 20,
+      "by_gt_confidence": {
+        "authoritative": {
+          "acc": 0.909,
+          "n": 11
+        },
+        "derived": {
+          "acc": 0.556,
+          "n": 9
+        }
+      }
+    },
+    "recipient": {
+      "accuracy": 0.55,
+      "correct": 11,
+      "total": 20,
+      "by_gt_confidence": {
+        "authoritative": {
+          "acc": 0.636,
+          "n": 11
+        },
+        "derived": {
+          "acc": 0.444,
+          "n": 9
+        }
+      }
+    },
+    "total_amount": {
+      "accuracy": 0.95,
+      "correct": 19,
+      "total": 20,
+      "by_gt_confidence": {
+        "authoritative": {
+          "acc": 1.0,
+          "n": 11
+        },
+        "derived": {
+          "acc": 0.889,
+          "n": 9
+        }
+      }
+    },
+    "payment_status": {
+      "accuracy": 0.75,
+      "correct": 15,
+      "total": 20,
+      "by_gt_confidence": {
+        "authoritative": {
+          "acc": 0.818,
+          "n": 11
+        },
+        "derived": {
+          "acc": 0.667,
+          "n": 9
+        }
+      }
+    },
+    "due_date": {
+      "accuracy": 0.9,
+      "correct": 18,
+      "total": 20,
+      "by_gt_confidence": {
+        "authoritative": {
+          "acc": 0.909,
+          "n": 11
+        },
+        "derived": {
+          "acc": 0.889,
+          "n": 9
+        }
+      }
+    },
+    "action": {
+      "accuracy": 0.8,
+      "correct": 16,
+      "total": 20,
+      "by_gt_confidence": {
+        "authoritative": {
+          "acc": 1.0,
+          "n": 11
+        },
+        "derived": {
+          "acc": 0.556,
+          "n": 9
+        }
+      }
+    }
+  },
+  "answer_taxonomy": {
+    "correct": 67,
+    "both_null": 27,
+    "null_miss": 13,
+    "wrong": 7,
+    "null_hallucination": 6
+  },
+  "null_hallucination": {
+    "count": 1,
+    "null_slots": 17,
+    "rate": 0.0588
+  },
+  "ocr": {
+    "SCE_Bill_Letter": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 12.167,
+      "prompt_tokens": 1267,
+      "completion_tokens": 1164,
+      "element_count": 55
+    },
+    "SCE_Letter": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 10.116,
+      "prompt_tokens": 1729,
+      "completion_tokens": 908,
+      "element_count": 36
+    },
+    "SCE_Sample_Bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 14.127,
+      "prompt_tokens": 1135,
+      "completion_tokens": 1381,
+      "element_count": 73
+    },
+    "SoCalGas": {
+      "finish_reason": "length",
+      "truncated": true,
+      "elapsed_s": 126.063,
+      "prompt_tokens": 1859,
+      "completion_tokens": 8192,
+      "element_count": 119
+    },
+    "Water_Bill2": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 9.968,
+      "prompt_tokens": 415,
+      "completion_tokens": 1027,
+      "element_count": 58
+    },
+    "BOA_Bill_Example": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 19.405,
+      "prompt_tokens": 1559,
+      "completion_tokens": 1698,
+      "element_count": 91
+    },
+    "Bank_Bill_Due": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 12.207,
+      "prompt_tokens": 1197,
+      "completion_tokens": 1100,
+      "element_count": 63
+    },
+    "AAA_insurance_Bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 5.082,
+      "prompt_tokens": 349,
+      "completion_tokens": 539,
+      "element_count": 28
+    },
+    "All_State_Insurance_Card": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 6.278,
+      "prompt_tokens": 427,
+      "completion_tokens": 654,
+      "element_count": 34
+    },
+    "Auto_Insurance_Bill1": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 18.02,
+      "prompt_tokens": 2437,
+      "completion_tokens": 1478,
+      "element_count": 84
+    },
+    "Great_American_Insurance_Invoice": {
+      "finish_reason": "length",
+      "truncated": true,
+      "elapsed_s": 107.429,
+      "prompt_tokens": 819,
+      "completion_tokens": 8192,
+      "element_count": 82
+    },
+    "DMV_Registration": {
+      "finish_reason": "length",
+      "truncated": true,
+      "elapsed_s": 119.548,
+      "prompt_tokens": 1405,
+      "completion_tokens": 8192,
+      "element_count": 340
+    },
+    "DMV_Notice": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 14.686,
+      "prompt_tokens": 1729,
+      "completion_tokens": 900,
+      "element_count": 34
+    },
+    "Hospital_Bill": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 16.869,
+      "prompt_tokens": 1489,
+      "completion_tokens": 1586,
+      "element_count": 82
+    },
+    "Medical_Invoice": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 6.385,
+      "prompt_tokens": 1969,
+      "completion_tokens": 550,
+      "element_count": 33
+    },
+    "CMS_EOB": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 16.033,
+      "prompt_tokens": 971,
+      "completion_tokens": 1658,
+      "element_count": 100
+    },
+    "hoag-invoice-mychart": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 7.416,
+      "prompt_tokens": 316,
+      "completion_tokens": 860,
+      "element_count": 44
+    },
+    "IRS_CP504_Notice": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 14.655,
+      "prompt_tokens": 1481,
+      "completion_tokens": 1399,
+      "element_count": 73
+    },
+    "IRS_cp503": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 14.899,
+      "prompt_tokens": 1767,
+      "completion_tokens": 1352,
+      "element_count": 69
+    },
+    "Medicare_Notice_PartA": {
+      "finish_reason": "stop",
+      "truncated": false,
+      "elapsed_s": 10.585,
+      "prompt_tokens": 999,
+      "completion_tokens": 1049,
+      "element_count": 52
+    }
+  },
+  "truncated_images": [
+    "SoCalGas",
+    "Great_American_Insurance_Invoice",
+    "DMV_Registration"
+  ],
+  "rows": [
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "sender",
+      "pred": "EDISON®",
+      "gold": "SCE",
+      "accept": [
+        "southern california edison",
+        "edison"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "recipient",
+      "pred": null,
+      "gold": "BAKER, NATE",
+      "accept": [
+        "nate baker",
+        null
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "total_amount",
+      "pred": "99.36",
+      "gold": "99.36",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "accept": [],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "action",
+      "pred": null,
+      "gold": "pay",
+      "accept": [
+        null
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Letter",
+      "field": "sender",
+      "pred": "EDISON",
+      "gold": "SCE",
+      "accept": [
+        "southern california edison",
+        "edison"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Letter",
+      "field": "recipient",
+      "pred": "Deputy Director",
+      "gold": "Shannon O'Rourke",
+      "accept": [
+        "office of energy infrastructure safety",
+        "deputy director",
+        null
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Letter",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "accept": [],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Letter",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "not_applicable",
+      "accept": [],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Letter",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "accept": [],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Letter",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        "respond",
+        "review"
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Sample_Bill",
+      "field": "sender",
+      "pred": "EDISON",
+      "gold": "SCE",
+      "accept": [
+        "southern california edison",
+        "edison"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Sample_Bill",
+      "field": "recipient",
+      "pred": null,
+      "gold": "VALUED CUSTOMER",
+      "accept": [
+        null
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Sample_Bill",
+      "field": "total_amount",
+      "pred": "2149.55",
+      "gold": "2149.55",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Sample_Bill",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Sample_Bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2020-05-11",
+      "accept": [],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SCE_Sample_Bill",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SoCalGas",
+      "field": "sender",
+      "pred": "SoCalGas",
+      "gold": "SoCalGas",
+      "accept": [
+        "the gas company",
+        "southern california gas"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SoCalGas",
+      "field": "recipient",
+      "pred": "THANK YOU",
+      "gold": "JOHN B DOE",
+      "accept": [
+        null
+      ],
+      "correct": false,
+      "kind": "wrong",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SoCalGas",
+      "field": "total_amount",
+      "pred": "40.56",
+      "gold": "40.56",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SoCalGas",
+      "field": "payment_status",
+      "pred": "paid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": false,
+      "kind": "wrong",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SoCalGas",
+      "field": "due_date",
+      "pred": "2016-01-08",
+      "gold": "2016-01-08",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "SoCalGas",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Water_Bill2",
+      "field": "sender",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        "water",
+        "water district"
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Water_Bill2",
+      "field": "recipient",
+      "pred": "Meter Reading",
+      "gold": null,
+      "accept": [
+        null
+      ],
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Water_Bill2",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        "25.57",
+        "113.90",
+        "10.30"
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Water_Bill2",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "not_applicable",
+      "accept": [
+        "unpaid"
+      ],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Water_Bill2",
+      "field": "due_date",
+      "pred": "2015-11-07",
+      "gold": "2015-11-07",
+      "accept": [
+        null
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Water_Bill2",
+      "field": "action",
+      "pred": null,
+      "gold": "pay",
+      "accept": [
+        null,
+        "review"
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "sender",
+      "pred": "BankAmericard",
+      "gold": "Bank of America",
+      "accept": [
+        "bankamericard"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        null
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "total_amount",
+      "pred": "112.00",
+      "gold": "4543.36",
+      "accept": [
+        "112.00"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "due_date",
+      "pred": "2018-02-05",
+      "gold": "2018-02-05",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Bank_Bill_Due",
+      "field": "sender",
+      "pred": "Purchases",
+      "gold": null,
+      "accept": [
+        null
+      ],
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Bank_Bill_Due",
+      "field": "recipient",
+      "pred": "Name: Susan Doe",
+      "gold": "Susan Doe",
+      "accept": [
+        null
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Bank_Bill_Due",
+      "field": "total_amount",
+      "pred": "1392.71",
+      "gold": "1392.71",
+      "accept": [
+        "25"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Bank_Bill_Due",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [
+        "not_applicable"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Bank_Bill_Due",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        null
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Bank_Bill_Due",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "accept": [
+        null,
+        "call"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "AAA_insurance_Bill",
+      "field": "sender",
+      "pred": "AAA Insurance",
+      "gold": "AAA Insurance",
+      "accept": [
+        "aaa",
+        "memberselect insurance"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "AAA_insurance_Bill",
+      "field": "recipient",
+      "pred": null,
+      "gold": "PAT SMITH",
+      "accept": [],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "AAA_insurance_Bill",
+      "field": "total_amount",
+      "pred": "12.20",
+      "gold": "12.20",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "AAA_insurance_Bill",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "AAA_insurance_Bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2020-04-08",
+      "accept": [],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "AAA_insurance_Bill",
+      "field": "action",
+      "pred": null,
+      "gold": "pay",
+      "accept": [],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "All_State_Insurance_Card",
+      "field": "sender",
+      "pred": "Thank you for choosing Allstate",
+      "gold": "Allstate",
+      "accept": [
+        "allstate fire and casualty insurance company"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "All_State_Insurance_Card",
+      "field": "recipient",
+      "pred": null,
+      "gold": "George and Christine E Murphy",
+      "accept": [
+        "george and christine e murphy",
+        "george murphy"
+      ],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "All_State_Insurance_Card",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        null
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "All_State_Insurance_Card",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "not_applicable",
+      "accept": [],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "All_State_Insurance_Card",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "accept": [],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "All_State_Insurance_Card",
+      "field": "action",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        null,
+        "review"
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Auto_Insurance_Bill1",
+      "field": "sender",
+      "pred": "Auto Insurance Declaration Page",
+      "gold": "Farmers Insurance",
+      "accept": [
+        "farmers"
+      ],
+      "correct": false,
+      "kind": "wrong",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Auto_Insurance_Bill1",
+      "field": "recipient",
+      "pred": null,
+      "gold": "Jack Smith",
+      "accept": [
+        "jane smith",
+        "jack smith jr."
+      ],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Auto_Insurance_Bill1",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        "798.48"
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Auto_Insurance_Bill1",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "not_applicable",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Auto_Insurance_Bill1",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "accept": [],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Auto_Insurance_Bill1",
+      "field": "action",
+      "pred": "pay",
+      "gold": null,
+      "accept": [
+        null,
+        "contact",
+        "review"
+      ],
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Great_American_Insurance_Invoice",
+      "field": "sender",
+      "pred": "GREAT AMERICAN INSURANCE COMPANY",
+      "gold": "Great American Insurance",
+      "accept": [
+        "great american insurance group",
+        "great american insurance company"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Great_American_Insurance_Invoice",
+      "field": "recipient",
+      "pred": null,
+      "gold": "PARKER",
+      "accept": [
+        "peter",
+        null
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Great_American_Insurance_Invoice",
+      "field": "total_amount",
+      "pred": "336.30",
+      "gold": "336.30",
+      "accept": [
+        "1000.00",
+        "1003.00"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Great_American_Insurance_Invoice",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Great_American_Insurance_Invoice",
+      "field": "due_date",
+      "pred": "2009-01-10",
+      "gold": "2009-01-10",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Great_American_Insurance_Invoice",
+      "field": "action",
+      "pred": "contact",
+      "gold": "pay",
+      "accept": [],
+      "correct": false,
+      "kind": "wrong",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "DMV_Registration",
+      "field": "sender",
+      "pred": "COUNTY/DISTRICT FEES",
+      "gold": "DMV",
+      "accept": [
+        "department of motor vehicles",
+        "california dmv",
+        "state of california"
+      ],
+      "correct": false,
+      "kind": "wrong",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "DMV_Registration",
+      "field": "recipient",
+      "pred": "CARB Non",
+      "gold": "GONZELES C",
+      "accept": [
+        "c gonzeles",
+        null
+      ],
+      "correct": false,
+      "kind": "wrong",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "DMV_Registration",
+      "field": "total_amount",
+      "pred": "95.00",
+      "gold": "95.00",
+      "accept": [
+        "95"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "DMV_Registration",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "DMV_Registration",
+      "field": "due_date",
+      "pred": "2010-10-16",
+      "gold": "2010-10-16",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "DMV_Registration",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "accept": [
+        "renew"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "DMV_Notice",
+      "field": "sender",
+      "pred": "DIRECTOR OF CUSTOMER COMPLIANCE SERVICES",
+      "gold": "NC Division of Motor Vehicles",
+      "accept": [
+        "state of north carolina",
+        "department of transportation",
+        "dmv",
+        "ncdot"
+      ],
+      "correct": false,
+      "kind": "wrong",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "DMV_Notice",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        null
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "DMV_Notice",
+      "field": "total_amount",
+      "pred": null,
+      "gold": "83.50",
+      "accept": [],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "DMV_Notice",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "unpaid",
+      "accept": [],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "DMV_Notice",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        "2025-09-10"
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "DMV_Notice",
+      "field": "action",
+      "pred": null,
+      "gold": "pay",
+      "accept": [],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "sender",
+      "pred": "Allina Health",
+      "gold": "Allina Health",
+      "accept": [
+        "allina"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "recipient",
+      "pred": "JANE DOE",
+      "gold": "JANE DOE",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "total_amount",
+      "pred": "419.07",
+      "gold": "419.07",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "due_date",
+      "pred": "2013-04-18",
+      "gold": "2013-04-18",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "sender",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        "zylker heathcare",
+        "zylker healthcare"
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "recipient",
+      "pred": "Aaron Brown",
+      "gold": "Aaron Brown",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "total_amount",
+      "pred": "14595.00",
+      "gold": "14595.00",
+      "accept": [
+        "14595",
+        "14595.0"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "due_date",
+      "pred": "2024-09-05",
+      "gold": "2024-09-05",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "CMS_EOB",
+      "field": "sender",
+      "pred": "EXPLANATION OF BENEFITS",
+      "gold": null,
+      "accept": [
+        "cms",
+        "medicare",
+        "customer service number"
+      ],
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "CMS_EOB",
+      "field": "recipient",
+      "pred": "Document Number: XXXXXXXXX",
+      "gold": null,
+      "accept": [
+        null
+      ],
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "CMS_EOB",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        "0.00",
+        "85.27",
+        "35.00",
+        "406.60"
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "CMS_EOB",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "not_applicable",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "CMS_EOB",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "accept": [],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "CMS_EOB",
+      "field": "action",
+      "pred": "review",
+      "gold": null,
+      "accept": [
+        null,
+        "review"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "derived"
+    },
+    {
+      "image": "hoag-invoice-mychart",
+      "field": "sender",
+      "pred": "Hoag",
+      "gold": "Hoag",
+      "accept": [
+        "hoag orthopedic institute",
+        "orthopedic hospital"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "hoag-invoice-mychart",
+      "field": "recipient",
+      "pred": null,
+      "gold": "JANE DOE",
+      "accept": [],
+      "correct": false,
+      "kind": "null_miss",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "hoag-invoice-mychart",
+      "field": "total_amount",
+      "pred": "333.33",
+      "gold": "333.33",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "hoag-invoice-mychart",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "hoag-invoice-mychart",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "accept": [],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "hoag-invoice-mychart",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_CP504_Notice",
+      "field": "sender",
+      "pred": "IRS",
+      "gold": "IRS",
+      "accept": [
+        "internal revenue service",
+        "department of the treasury"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_CP504_Notice",
+      "field": "recipient",
+      "pred": "CITY, STATE ZIP",
+      "gold": null,
+      "accept": [
+        null
+      ],
+      "correct": false,
+      "kind": "null_hallucination",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_CP504_Notice",
+      "field": "total_amount",
+      "pred": "9533.53",
+      "gold": "9533.53",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_CP504_Notice",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_CP504_Notice",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "accept": [
+        null
+      ],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_CP504_Notice",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "sender",
+      "pred": "IRS",
+      "gold": "IRS",
+      "accept": [
+        "internal revenue service",
+        "department of the treasury"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "recipient",
+      "pred": "JAMES & KAREN Q. HINDS",
+      "gold": "JAMES & KAREN Q. HINDS",
+      "accept": [
+        "james & karen q. hinds"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "total_amount",
+      "pred": "9533.53",
+      "gold": "9533.53",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "due_date",
+      "pred": "2018-01-29",
+      "gold": "2018-01-29",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "sender",
+      "pred": "Medicare Summary Notice",
+      "gold": "Medicare",
+      "accept": [
+        "centers for medicare",
+        "cms",
+        "medicaid"
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "recipient",
+      "pred": "JENNIFER WASHINGTON",
+      "gold": "JENNIFER WASHINGTON",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "accept": [],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "not_applicable",
+      "accept": [],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "accept": [],
+      "correct": true,
+      "kind": "both_null",
+      "gt_confidence": "authoritative"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "action",
+      "pred": "review",
+      "gold": "review",
+      "accept": [
+        null
+      ],
+      "correct": true,
+      "kind": "correct",
+      "gt_confidence": "authoritative"
+    }
+  ],
+  "predictions": {
+    "SCE_Bill_Letter": {
+      "sender": "EDISON®",
+      "recipient": null,
+      "total_amount": "99.36",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "SCE_Letter": {
+      "sender": "EDISON",
+      "recipient": "Deputy Director",
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": null
+    },
+    "SCE_Sample_Bill": {
+      "sender": "EDISON",
+      "recipient": null,
+      "total_amount": "2149.55",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "pay"
+    },
+    "SoCalGas": {
+      "sender": "SoCalGas",
+      "recipient": "THANK YOU",
+      "total_amount": "40.56",
+      "payment_status": "paid",
+      "due_date": "2016-01-08",
+      "action": "pay"
+    },
+    "Water_Bill2": {
+      "sender": null,
+      "recipient": "Meter Reading",
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": "2015-11-07",
+      "action": null
+    },
+    "BOA_Bill_Example": {
+      "sender": "BankAmericard",
+      "recipient": null,
+      "total_amount": "112.00",
+      "payment_status": "unpaid",
+      "due_date": "2018-02-05",
+      "action": "pay"
+    },
+    "Bank_Bill_Due": {
+      "sender": "Purchases",
+      "recipient": "Name: Susan Doe",
+      "total_amount": "1392.71",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "pay"
+    },
+    "AAA_insurance_Bill": {
+      "sender": "AAA Insurance",
+      "recipient": null,
+      "total_amount": "12.20",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "All_State_Insurance_Card": {
+      "sender": "Thank you for choosing Allstate",
+      "recipient": null,
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": null
+    },
+    "Auto_Insurance_Bill1": {
+      "sender": "Auto Insurance Declaration Page",
+      "recipient": null,
+      "total_amount": null,
+      "payment_status": "not_applicable",
+      "due_date": null,
+      "action": "pay"
+    },
+    "Great_American_Insurance_Invoice": {
+      "sender": "GREAT AMERICAN INSURANCE COMPANY",
+      "recipient": null,
+      "total_amount": "336.30",
+      "payment_status": "unpaid",
+      "due_date": "2009-01-10",
+      "action": "contact"
+    },
+    "DMV_Registration": {
+      "sender": "COUNTY/DISTRICT FEES",
+      "recipient": "CARB Non",
+      "total_amount": "95.00",
+      "payment_status": "unpaid",
+      "due_date": "2010-10-16",
+      "action": "pay"
+    },
+    "DMV_Notice": {
+      "sender": "DIRECTOR OF CUSTOMER COMPLIANCE SERVICES",
+      "recipient": null,
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": null
+    },
+    "Hospital_Bill": {
+      "sender": "Allina Health",
+      "recipient": "JANE DOE",
+      "total_amount": "419.07",
+      "payment_status": "unpaid",
+      "due_date": "2013-04-18",
+      "action": "pay"
+    },
+    "Medical_Invoice": {
+      "sender": null,
+      "recipient": "Aaron Brown",
+      "total_amount": "14595.00",
+      "payment_status": "unpaid",
+      "due_date": "2024-09-05",
+      "action": "pay"
+    },
+    "CMS_EOB": {
+      "sender": "EXPLANATION OF BENEFITS",
+      "recipient": "Document Number: XXXXXXXXX",
+      "total_amount": null,
+      "payment_status": "not_applicable",
+      "due_date": null,
+      "action": "review"
+    },
+    "hoag-invoice-mychart": {
+      "sender": "Hoag",
+      "recipient": null,
+      "total_amount": "333.33",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "pay"
+    },
+    "IRS_CP504_Notice": {
+      "sender": "IRS",
+      "recipient": "CITY, STATE ZIP",
+      "total_amount": "9533.53",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "pay"
+    },
+    "IRS_cp503": {
+      "sender": "IRS",
+      "recipient": "JAMES & KAREN Q. HINDS",
+      "total_amount": "9533.53",
+      "payment_status": "unpaid",
+      "due_date": "2018-01-29",
+      "action": "pay"
+    },
+    "Medicare_Notice_PartA": {
+      "sender": "Medicare Summary Notice",
+      "recipient": "JENNIFER WASHINGTON",
+      "total_amount": null,
+      "payment_status": "not_applicable",
+      "due_date": null,
+      "action": "review"
+    }
+  }
+}

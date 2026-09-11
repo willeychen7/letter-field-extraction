@@ -1,0 +1,1408 @@
+[
+  {
+    "key": "SCE_Bill_Letter",
+    "domain": "UTILITIES_SERVICES",
+    "action": null,
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "SCE_Letter",
+    "domain": "OTHER",
+    "action": null,
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "SCE_Sample_Bill",
+    "domain": "UTILITIES_SERVICES",
+    "action": "pay",
+    "n_phones": 2,
+    "n_usable": 2,
+    "kinds": [
+      "billing",
+      "billing"
+    ],
+    "aligned_kinds": [
+      "billing",
+      "billing"
+    ],
+    "phones": [
+      {
+        "raw": "1-800-990-7788",
+        "norm": "8009907788",
+        "kind": "billing",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "EDISON",
+        "label_above": "For billing and service inquiries",
+        "org_context": "EDISON"
+      },
+      {
+        "raw": "1-800-747-8908",
+        "norm": "8007478908",
+        "kind": "billing",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "(14-574) Tear here",
+        "label_above": "Please return the payment stub below with your payment and make your check payable to Southern California Edison.",
+        "org_context": "Please return the payment stub below with your payment and make your check payable to Southern California Edison."
+      }
+    ]
+  },
+  {
+    "key": "SoCalGas",
+    "domain": "UTILITIES_SERVICES",
+    "action": "pay",
+    "n_phones": 3,
+    "n_usable": 2,
+    "kinds": [
+      "general",
+      "general",
+      "tty"
+    ],
+    "aligned_kinds": [
+      "general",
+      "general"
+    ],
+    "phones": [
+      {
+        "raw": "1-800-427-2200",
+        "norm": "8004272200",
+        "kind": "general",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "SoCalGas JOHN B DOE",
+        "label_above": "24 Hour Service",
+        "org_context": "SoCalGas"
+      },
+      {
+        "raw": "1-800-342-4545",
+        "norm": "8003424545",
+        "kind": "general",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "24915 APPLE CT",
+        "label_above": "1-800-427-2200 English 24 Hour Service",
+        "org_context": "SoCalGas"
+      },
+      {
+        "raw": "1-800-252-0259",
+        "norm": "8002520259",
+        "kind": "tty",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": true,
+        "is_placeholder": false,
+        "label_left": "A. Sempra Energy utility MONTEREY PARK CA 91754-2217",
+        "label_above": "1-800-342-4545 Español 1-800-427-2200 English",
+        "org_context": "SoCalGas"
+      }
+    ]
+  },
+  {
+    "key": "Water_Bill2",
+    "domain": "OTHER",
+    "action": null,
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "BOA_Bill_Example",
+    "domain": "BANKING_FINANCE",
+    "action": "pay",
+    "n_phones": 3,
+    "n_usable": 2,
+    "kinds": [
+      "customer_service",
+      "tty",
+      "general"
+    ],
+    "aligned_kinds": [
+      "customer_service",
+      "general"
+    ],
+    "phones": [
+      {
+        "raw": "1,800,637,7455",
+        "norm": "8006377455",
+        "kind": "customer_service",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "Bank of America",
+        "label_above": "www.bankofamerica.com Customer Service Information:",
+        "org_context": "www.bankofamerica.com"
+      },
+      {
+        "raw": "1,877,275,6371",
+        "norm": "8772756371",
+        "kind": "tty",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": true,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "1,800,637,7455 www.bankofamerica.com",
+        "org_context": "www.bankofamerica.com"
+      },
+      {
+        "raw": "866.300.5238",
+        "norm": "8663005238",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "If you would like information about credit counseling services, call",
+        "org_context": "If you would like information about credit counseling services, call"
+      }
+    ]
+  },
+  {
+    "key": "Bank_Bill_Due",
+    "domain": "BANKING_FINANCE",
+    "action": "pay",
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "AAA_insurance_Bill",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "All_State_Insurance_Card",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "Auto_Insurance_Bill1",
+    "domain": "INSURANCE",
+    "action": "pay",
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "Great_American_Insurance_Invoice",
+    "domain": "INSURANCE",
+    "action": "contact",
+    "n_phones": 2,
+    "n_usable": 2,
+    "kinds": [
+      "billing",
+      "general"
+    ],
+    "aligned_kinds": [
+      "general"
+    ],
+    "phones": [
+      {
+        "raw": "1-800-847-4357",
+        "norm": "8008474357",
+        "kind": "billing",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "",
+        "org_context": "Agency #"
+      },
+      {
+        "raw": "1-800-847-4357",
+        "norm": "8008474357",
+        "kind": "general",
+        "band": "footer_coupon",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "Amount Enclosed : $",
+        "org_context": "Agency # :"
+      }
+    ]
+  },
+  {
+    "key": "DMV_Registration",
+    "domain": "GOVERNMENT",
+    "action": "renew",
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "general"
+    ],
+    "aligned_kinds": [
+      "general"
+    ],
+    "phones": [
+      {
+        "raw": "(866) 634-3735",
+        "norm": "8666343735",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "Contact CARB at Vehicle:",
+        "org_context": "COUNTY/DISTRICT FEES"
+      }
+    ]
+  },
+  {
+    "key": "DMV_Notice",
+    "domain": "GOVERNMENT",
+    "action": null,
+    "n_phones": 2,
+    "n_usable": 2,
+    "kinds": [
+      "unlabeled",
+      "unlabeled"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "(919) 715-7000",
+        "norm": "9197157000",
+        "kind": "unlabeled",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "3118 MAIL SERVICE CNTR RALEIGH, N.C. 27699-3118 NC DIVISION OF MOTOR VEHICLES",
+        "org_context": "DEPARTMENT OF TRANSPORTATION"
+      },
+      {
+        "raw": "(919)715-7000",
+        "norm": "9197157000",
+        "kind": "unlabeled",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "BY THE DIVISION OF MOTOR VEHICLES. IF ADDITIONAL INFORMATION CONCERNING THIS ORDER IS IN ADDITION TO AND DOES NOT SUPERSEDE ANY PRIOR ORDER ISSUED",
+        "org_context": "DEPARTMENT OF TRANSPORTATION"
+      }
+    ]
+  },
+  {
+    "key": "Hospital_Bill",
+    "domain": "HEALTHCARE",
+    "action": "pay",
+    "n_phones": 6,
+    "n_usable": 6,
+    "kinds": [
+      "billing",
+      "billing",
+      "general",
+      "general",
+      "billing",
+      "billing"
+    ],
+    "aligned_kinds": [
+      "billing",
+      "billing",
+      "general",
+      "general",
+      "billing",
+      "billing"
+    ],
+    "phones": [
+      {
+        "raw": "612-262-9000",
+        "norm": "6122629000",
+        "kind": "billing",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "Billing Questions?",
+        "org_context": "Allina Health"
+      },
+      {
+        "raw": "1-800-859-5077",
+        "norm": "8008595077",
+        "kind": "billing",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "Billing Questions?",
+        "org_context": "Allina Health"
+      },
+      {
+        "raw": "(612) 262-9000",
+        "norm": "6122629000",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "SERVICES FROM 07/07/2010 TO 07/07/2010",
+        "org_context": "SERVICES FROM 07/07/2010 TO 07/07/2010"
+      },
+      {
+        "raw": "(800) 859-5077",
+        "norm": "8008595077",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "SERVICES FROM 07/07/2010 TO 07/07/2010",
+        "org_context": "SERVICES FROM 07/07/2010 TO 07/07/2010"
+      },
+      {
+        "raw": "612-262-9000",
+        "norm": "6122629000",
+        "kind": "billing",
+        "band": "footer_coupon",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "Go to allinahealth.org/payhospitalbill for secure payment with your credit card You can also pay your bill by mail.",
+        "label_above": "PLEASE PAY THIS AMOUNT $419.07",
+        "org_context": "Thank you for choosing Allina Health"
+      },
+      {
+        "raw": "1-800-859-5077",
+        "norm": "8008595077",
+        "kind": "billing",
+        "band": "footer_coupon",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "Go to allinahealth.org/payhospitalbill for secure payment with your credit card You can also pay your bill by mail.",
+        "label_above": "PLEASE PAY THIS AMOUNT $419.07",
+        "org_context": "Thank you for choosing Allina Health"
+      }
+    ]
+  },
+  {
+    "key": "Medical_Invoice",
+    "domain": "OTHER",
+    "action": "pay",
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "CMS_EOB",
+    "domain": "HEALTHCARE",
+    "action": "review",
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "customer_service"
+    ],
+    "aligned_kinds": [
+      "customer_service"
+    ],
+    "phones": [
+      {
+        "raw": "1-800-123-4567",
+        "norm": "8001234567",
+        "kind": "customer_service",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "EXPLANATION OF BENEFITS 1",
+        "label_above": "",
+        "org_context": null
+      }
+    ]
+  },
+  {
+    "key": "hoag-invoice-mychart",
+    "domain": "HEALTHCARE",
+    "action": "pay",
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "unlabeled"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "949-764-8404",
+        "norm": "9497648404",
+        "kind": "unlabeled",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "PFS@hoag.org Newport Beach, CA 92663-3662",
+        "org_context": "PFS@hoag.org"
+      }
+    ]
+  },
+  {
+    "key": "IRS_CP504_Notice",
+    "domain": "GOVERNMENT",
+    "action": "pay",
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "customer_service"
+    ],
+    "aligned_kinds": [
+      "customer_service"
+    ],
+    "phones": [
+      {
+        "raw": "800-829-1040",
+        "norm": "8008291040",
+        "kind": "customer_service",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "To contact us",
+        "label_above": "Taxpayer Identification number NNN-NN-NNNN",
+        "org_context": "Department of the Treasury"
+      }
+    ]
+  },
+  {
+    "key": "IRS_cp503",
+    "domain": "GOVERNMENT",
+    "action": "pay",
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "Medicare_Notice_PartA",
+    "domain": "HEALTHCARE",
+    "action": "review",
+    "n_phones": 2,
+    "n_usable": 2,
+    "kinds": [
+      "general",
+      "general"
+    ],
+    "aligned_kinds": [
+      "general",
+      "general"
+    ],
+    "phones": [
+      {
+        "raw": "1-800-MEDICARE",
+        "norm": "VANITY:MEDICARE",
+        "kind": "general",
+        "band": "footer_coupon",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "如果需要国语帮助，请致电联邦医疗保险，请先说“agent”，然后说“Mandarin”.",
+        "label_above": "¡Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español. 7",
+        "org_context": "¡Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español."
+      },
+      {
+        "raw": "1-800-633-4227",
+        "norm": "8006334227",
+        "kind": "general",
+        "band": "footer_coupon",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "如果需要国语帮助，请致电联邦医疗保险，请先说“agent”，然后说“Mandarin”.",
+        "label_above": "¡Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español. 7",
+        "org_context": "¡Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español."
+      }
+    ]
+  },
+  {
+    "key": "Water_Bill3",
+    "domain": "UTILITIES_SERVICES",
+    "action": null,
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "water_bill",
+    "domain": "UTILITIES_SERVICES",
+    "action": "pay",
+    "n_phones": 2,
+    "n_usable": 2,
+    "kinds": [
+      "billing",
+      "customer_service"
+    ],
+    "aligned_kinds": [
+      "billing",
+      "customer_service"
+    ],
+    "phones": [
+      {
+        "raw": "855-594-0615",
+        "norm": "8555940615",
+        "kind": "billing",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "VENTURA RIVER Water District 409 OLD BALDWIN RD | OJAL CA 93023 For Customer Service call (855) 646-3403 or",
+        "label_above": "Service Address:",
+        "org_context": "Water District"
+      },
+      {
+        "raw": "(855) 646-3403",
+        "norm": "8556463403",
+        "kind": "customer_service",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "VENTURA RIVER Water District",
+        "label_above": "409 OLD BALDWIN RD | OJAL CA 93023 VENTURA RIVER",
+        "org_context": "Water District"
+      }
+    ]
+  },
+  {
+    "key": "waste_managment",
+    "domain": "UTILITIES_SERVICES",
+    "action": null,
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "att_bill",
+    "domain": "UTILITIES_SERVICES",
+    "action": null,
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "UCLA_Health_Bill",
+    "domain": "HEALTHCARE",
+    "action": "pay",
+    "n_phones": 2,
+    "n_usable": 1,
+    "kinds": [
+      "customer_service",
+      "fax"
+    ],
+    "aligned_kinds": [
+      "customer_service"
+    ],
+    "phones": [
+      {
+        "raw": "(310) 825-8021",
+        "norm": "3108258021",
+        "kind": "customer_service",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "QUESTIONS?",
+        "org_context": "HOSPITAL SERVICES"
+      },
+      {
+        "raw": "(310) 794-8552",
+        "norm": "3107948552",
+        "kind": "fax",
+        "band": "body",
+        "is_fax": true,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "See reverse for automated options.",
+        "label_above": "Los Angeles, CA 90024-6502 10920 Wilshire Blvd., Suite 1600",
+        "org_context": "UCLA Health"
+      }
+    ]
+  },
+  {
+    "key": "UCLA_Health_Bill2",
+    "domain": "HEALTHCARE",
+    "action": "pay",
+    "n_phones": 2,
+    "n_usable": 1,
+    "kinds": [
+      "customer_service",
+      "fax"
+    ],
+    "aligned_kinds": [
+      "customer_service"
+    ],
+    "phones": [
+      {
+        "raw": "(310) 825-8021",
+        "norm": "3108258021",
+        "kind": "customer_service",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "QUESTIONS?",
+        "org_context": "HOSPITAL SERVICES"
+      },
+      {
+        "raw": "(310) 794-8552",
+        "norm": "3107948552",
+        "kind": "fax",
+        "band": "body",
+        "is_fax": true,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "See reverse for automated options.",
+        "label_above": "LOS ANGELES, CA 90024-6502 10920 Wilshire Blvd., Suite 1600",
+        "org_context": "UCLA Health"
+      }
+    ]
+  },
+  {
+    "key": "Eye_care-invoice",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 2,
+    "n_usable": 2,
+    "kinds": [
+      "unlabeled",
+      "unlabeled"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "(123) 456-7890",
+        "norm": "1234567890",
+        "kind": "unlabeled",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "123 Example St",
+        "label_above": "Status: Exam only Order: 11110 Date: Apr-01-2016",
+        "org_context": null
+      },
+      {
+        "raw": "(123) 456-7690",
+        "norm": "1234567690",
+        "kind": "unlabeled",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "Seattle, WA 98107 123 Example St",
+        "org_context": null
+      }
+    ]
+  },
+  {
+    "key": "Progressive_Insurance_Bill",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "unlabeled"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "(999) 999-9999",
+        "norm": "9999999999",
+        "kind": "unlabeled",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "QAU 2612 Appraiser",
+        "org_context": "PROGRESSIVE"
+      }
+    ]
+  },
+  {
+    "key": "Penny_Insurance_Bill",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "State_Farm_Insurance_Card",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "general"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "(770)123-4567",
+        "norm": "7701234567",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "PHONE",
+        "label_above": "RAYMOND STAR JUKE",
+        "org_context": "State Farm Mutual Automobile Insurance Company"
+      }
+    ]
+  },
+  {
+    "key": "Coverage_Care_Insurance_Card",
+    "domain": "OTHER",
+    "action": null,
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "unlabeled"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "XXX XXX XXXX",
+        "norm": "PLACEHOLDER",
+        "kind": "unlabeled",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": true,
+        "label_left": "",
+        "label_above": "Member Name: Jane Doe 1",
+        "org_context": "Insurance Company"
+      }
+    ]
+  },
+  {
+    "key": "State_Farm_Insurance",
+    "domain": "INSURANCE",
+    "action": "pay",
+    "n_phones": 2,
+    "n_usable": 2,
+    "kinds": [
+      "general",
+      "general"
+    ],
+    "aligned_kinds": [
+      "general",
+      "general"
+    ],
+    "phones": [
+      {
+        "raw": "(850)478-7748",
+        "norm": "8504787748",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "Telephone",
+        "label_above": "Mike Johnson",
+        "org_context": "State Farm Mutual Automobile Insurance Company"
+      },
+      {
+        "raw": "(850)478-6232",
+        "norm": "8504786232",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "Telephone",
+        "label_above": "Mike Johnson",
+        "org_context": "State Farm Mutual Automobile Insurance Company"
+      }
+    ]
+  },
+  {
+    "key": "statefarm_bill",
+    "domain": "INSURANCE",
+    "action": "renew",
+    "n_phones": 2,
+    "n_usable": 2,
+    "kinds": [
+      "general",
+      "general"
+    ],
+    "aligned_kinds": [
+      "general",
+      "general"
+    ],
+    "phones": [
+      {
+        "raw": "(469) 586-4244",
+        "norm": "4695864244",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "IRVING TX 75062-2205",
+        "org_context": "Your State Farm Agent"
+      },
+      {
+        "raw": "(214) 591-0552",
+        "norm": "2145910552",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "IRVING TX 75062-2205",
+        "org_context": "Your State Farm Agent"
+      }
+    ]
+  },
+  {
+    "key": "aaa-policy_renew",
+    "domain": "BANKING_FINANCE",
+    "action": "pay",
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "general"
+    ],
+    "aligned_kinds": [
+      "general"
+    ],
+    "phones": [
+      {
+        "raw": "1-800-222-8252",
+        "norm": "8002228252",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "00173 4707107 000174 000347 0001/0001",
+        "label_above": "AAA.com/Renew",
+        "org_context": "AAA.com/Renew"
+      }
+    ]
+  },
+  {
+    "key": "DMV_registration_late_fee",
+    "domain": "GOVERNMENT",
+    "action": "renew",
+    "n_phones": 3,
+    "n_usable": 3,
+    "kinds": [
+      "unlabeled",
+      "general",
+      "unlabeled"
+    ],
+    "aligned_kinds": [
+      "general"
+    ],
+    "phones": [
+      {
+        "raw": "XXXXXXXXXX",
+        "norm": "PLACEHOLDER",
+        "kind": "unlabeled",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": true,
+        "label_left": "",
+        "label_above": "VIN",
+        "org_context": "Public Service Agency"
+      },
+      {
+        "raw": "1-800-921-1117",
+        "norm": "8009211117",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "VISIT WWW.DMV.CA.GOV OR Number is: 000000",
+        "org_context": "VISIT WWW.DMV.CA.GOV OR"
+      },
+      {
+        "raw": "XXXXXXXXXX",
+        "norm": "PLACEHOLDER",
+        "kind": "unlabeled",
+        "band": "footer_coupon",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": true,
+        "label_left": "",
+        "label_above": "",
+        "org_context": "For DMV Use Only"
+      }
+    ]
+  },
+  {
+    "key": "ca-dmv-registration-fee",
+    "domain": "GOVERNMENT",
+    "action": null,
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "Medicare_Notice_PartB",
+    "domain": "HEALTHCARE",
+    "action": "review",
+    "n_phones": 2,
+    "n_usable": 2,
+    "kinds": [
+      "general",
+      "general"
+    ],
+    "aligned_kinds": [
+      "general",
+      "general"
+    ],
+    "phones": [
+      {
+        "raw": "1-800-MEDICARE",
+        "norm": "VANITY:MEDICARE",
+        "kind": "general",
+        "band": "footer_coupon",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "如果需要国语帮助，请致电联邦医疗保险，请先说“agent”，然后说“Mandarin”.",
+        "label_above": "¿Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español. 7",
+        "org_context": "¿Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español."
+      },
+      {
+        "raw": "1-800-633-4227",
+        "norm": "8006334227",
+        "kind": "general",
+        "band": "footer_coupon",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "如果需要国语帮助，请致电联邦医疗保险，请先说“agent”，然后说“Mandarin”.",
+        "label_above": "¿Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español. 7",
+        "org_context": "¿Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español."
+      }
+    ]
+  },
+  {
+    "key": "Medicare_Notice_of_Denial",
+    "domain": "HEALTHCARE",
+    "action": "call",
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "Medixare_Premium_Bill",
+    "domain": "HEALTHCARE",
+    "action": "pay",
+    "n_phones": 2,
+    "n_usable": 0,
+    "kinds": [
+      "tty",
+      "tty"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "1-800-772-1213",
+        "norm": "8007721213",
+        "kind": "tty",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": true,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "your local Social Security field office or call If your Medicare coverage is canceled, contact",
+        "org_context": "If your Medicare coverage is canceled, contact"
+      },
+      {
+        "raw": "1-800-325-0778",
+        "norm": "8003250778",
+        "kind": "tty",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": true,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "your local Social Security field office or call If your Medicare coverage is canceled, contact",
+        "org_context": "If your Medicare coverage is canceled, contact"
+      }
+    ]
+  },
+  {
+    "key": "Bank_Bill_Example",
+    "domain": "BANKING_FINANCE",
+    "action": "pay",
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "unlabeled"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "1800 MARIKINA",
+        "norm": "VANITY:1800 MARIKINA",
+        "kind": "unlabeled",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "ESTATE IV EAST PARK 2018",
+        "org_context": "ETC BANK"
+      }
+    ]
+  },
+  {
+    "key": "EastWest_Bank_Form",
+    "domain": "BANKING_FINANCE",
+    "action": null,
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "general"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "877.392.6868",
+        "norm": "8773926868",
+        "kind": "general",
+        "band": "footer_coupon",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "Rev. 2/12/08",
+        "label_above": "",
+        "org_context": "Before mailing, make sure you have signed and dated this form, include copies of your two most recent pay stubs and bank statements of your checking and/or savings"
+      }
+    ]
+  },
+  {
+    "key": "EastWest_Bank_Bill",
+    "domain": "BANKING_FINANCE",
+    "action": null,
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "Chase_Bank_Bill_Example",
+    "domain": "BANKING_FINANCE",
+    "action": null,
+    "n_phones": 4,
+    "n_usable": 3,
+    "kinds": [
+      "customer_service",
+      "tty",
+      "general",
+      "general"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "1-800-242-7338",
+        "norm": "8002427338",
+        "kind": "customer_service",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "Service Center:",
+        "label_above": "chase.com CUSTOMER SERVICE INFORMATION",
+        "org_context": "chase.com"
+      },
+      {
+        "raw": "1-800-242-7383",
+        "norm": "8002427383",
+        "kind": "tty",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": true,
+        "is_placeholder": false,
+        "label_left": "Hearing Impaired:",
+        "label_above": "1-800-242-7338 chase.com",
+        "org_context": "chase.com"
+      },
+      {
+        "raw": "1-888-622-4273",
+        "norm": "8886224273",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "Para Español:",
+        "label_above": "1-800-242-7383 1-800-242-7338",
+        "org_context": "chase.com"
+      },
+      {
+        "raw": "1-713-262-1679",
+        "norm": "7132621679",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "International Calls:",
+        "label_above": "1-888-622-4273 1-800-242-7383",
+        "org_context": "chase.com"
+      }
+    ]
+  },
+  {
+    "key": "Chase_Bank_Bill_Example2",
+    "domain": "BANKING_FINANCE",
+    "action": null,
+    "n_phones": 4,
+    "n_usable": 3,
+    "kinds": [
+      "customer_service",
+      "tty",
+      "general",
+      "general"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "1-800-935-9935",
+        "norm": "8009359935",
+        "kind": "customer_service",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "Service Center:",
+        "label_above": "www.Chase.com CUSTOMER SERVICE INFORMATION",
+        "org_context": "www.Chase.com"
+      },
+      {
+        "raw": "1-800-242-7383",
+        "norm": "8002427383",
+        "kind": "tty",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": true,
+        "is_placeholder": false,
+        "label_left": "Hearing Impaired:",
+        "label_above": "1-800-935-9935 www.Chase.com",
+        "org_context": "www.Chase.com"
+      },
+      {
+        "raw": "1-877-312-4273",
+        "norm": "8773124273",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "Para Español:",
+        "label_above": "1-800-242-7383 1-800-935-9935",
+        "org_context": "www.Chase.com"
+      },
+      {
+        "raw": "1-713-262-1679",
+        "norm": "7132621679",
+        "kind": "general",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "International Calls:",
+        "label_above": "1-877-312-4273 1-800-242-7383",
+        "org_context": "www.Chase.com"
+      }
+    ]
+  },
+  {
+    "key": "First_Bank_Bill",
+    "domain": "BANKING_FINANCE",
+    "action": null,
+    "n_phones": 2,
+    "n_usable": 2,
+    "kinds": [
+      "general",
+      "unlabeled"
+    ],
+    "aligned_kinds": [],
+    "phones": [
+      {
+        "raw": "1-800-555-1234",
+        "norm": "8005551234",
+        "kind": "general",
+        "band": "header",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "1234 Main Street, Capital City, OH 12345-0123",
+        "org_context": "FIRST BANK"
+      },
+      {
+        "raw": "123-555-5678",
+        "norm": "1235555678",
+        "kind": "unlabeled",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "Capital City, OH 12345-0123",
+        "org_context": "FIRST BANK"
+      }
+    ]
+  },
+  {
+    "key": "HOA1",
+    "domain": "HOUSING_PROPERTY",
+    "action": "pay",
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "billing"
+    ],
+    "aligned_kinds": [
+      "billing"
+    ],
+    "phones": [
+      {
+        "raw": "225.678.1505",
+        "norm": "2256781505",
+        "kind": "billing",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "bbhbilling@yahoo.com Baton Rouge, LA 70884",
+        "org_context": "HOMEOWNERS ASSOCIATION"
+      }
+    ]
+  },
+  {
+    "key": "HOA2",
+    "domain": "HOUSING_PROPERTY",
+    "action": "pay",
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "HOA3",
+    "domain": "HOUSING_PROPERTY",
+    "action": "pay",
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  },
+  {
+    "key": "HOA4",
+    "domain": "HOUSING_PROPERTY",
+    "action": "pay",
+    "n_phones": 1,
+    "n_usable": 1,
+    "kinds": [
+      "billing"
+    ],
+    "aligned_kinds": [
+      "billing"
+    ],
+    "phones": [
+      {
+        "raw": "866-729-5327",
+        "norm": "8667295327",
+        "kind": "billing",
+        "band": "body",
+        "is_fax": false,
+        "is_tty": false,
+        "is_placeholder": false,
+        "label_left": "",
+        "label_above": "The due date on this statement refers to upcoming assessment amounts. Please login to your JellyBird HOA Mobile app to see your current balance.",
+        "org_context": "The due date on this statement refers to upcoming assessment amounts. Please login to your JellyBird HOA Mobile app to see your current balance."
+      }
+    ]
+  },
+  {
+    "key": "aws_invoice",
+    "domain": "UTILITIES_SERVICES",
+    "action": "pay",
+    "n_phones": 0,
+    "n_usable": 0,
+    "kinds": [],
+    "aligned_kinds": [],
+    "phones": []
+  }
+]

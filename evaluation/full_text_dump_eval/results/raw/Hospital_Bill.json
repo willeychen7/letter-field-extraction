@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "ALN414 Allina Health Allina Health 2925 Chicago Avenue Minneapolis, MN 55407-1321 Billing Questions? Please call us at 612-262-9000 or 1-800-859-5077, Monday - Thursday 8am - 4:30pm Friday 9am - 4:30pm Please check box if address below is incorrect or if your Insurance updates and indicate change(s) on the reverse side. ADDRESSEE JANE DOE 123 ANY STREET ANYWHERE, USA 55555 T IF PAYING BY CREDIT CARD, FILL OUT BELOW CHECK CARD USING FOR PAYMENT CARD NUMBER MasterCard DISCOVER VISA AMERICAN EXPRESS MedCredit EXPIRES DATE AMOUNT PAID SIGNATURE STATEMENT DATE ACCOUNT NUMBER PLEASE PAY THIS AMOUNT 03/28/2013 0000000 Pay Online: www.allinahealth.org/payhospitalbill see reverse side for additional payment options 04/18/2013 04/18/2013 PAGE 1 OF 1 PLEASE MAKE CHECKS PAYABLE AND REMIT TO: ALLINA HEALTH PO BOX 9125 MINNEAPOLIS MN 55480-9125 HOSPITAL STATEMENT ACCOUNT NUMBER PATIENT NAME HOSPITAL NAME 0000000 JANE DOE Medical Center Date Description Charges/Payments SERVICES FROM 07/07/2010 TO 07/07/2010 If you require an itemization of charges, please call (612) 262-9000 or (800) 859-5077. 07/07/10 Laboratory General $654.80 TOTAL CHARGES $654.80 03/26/13 Insurance Payment $0.00 03/27/13 Uninsured Discount -235.73 BALANCE: $419.07 PLEASE NOTE: If you have requested this itemized statement, the balance listed as patient responsibility may still be pending with your insurance company. Thank you for choosing Allina Health Did you know you can pay this bill online? PLEASE PAY THIS AMOUNT $419.07 Go to allinahealth.org/payhospitalbill You can also pay your bill by mail. FOR BILLING INQUIRIES: 612-262-9000 or 1-800-859-5077 (if you for secure payment with your credit card"
+      }
+    }
+  ],
+  "created": 1788636890,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 516,
+    "prompt_tokens": 1480,
+    "total_tokens": 1996,
+    "prompt_tokens_details": {
+      "cached_tokens": 1475
+    }
+  },
+  "id": "chatcmpl-gYW0NPzxw6OCJCTQg7YijZgUCKQHspId",
+  "timings": {
+    "cache_n": 1475,
+    "prompt_n": 5,
+    "prompt_ms": 23.74,
+    "prompt_per_token_ms": 4.747999999999999,
+    "prompt_per_second": 210.6149957877001,
+    "predicted_n": 516,
+    "predicted_ms": 4879.564,
+    "predicted_per_token_ms": 9.47488155339806,
+    "predicted_per_second": 105.542216476718
+  }
+}

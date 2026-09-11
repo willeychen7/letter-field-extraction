@@ -1,0 +1,13 @@
+```json
+{
+  "document_type": "Auto Insurance Declaration Page",
+  "sender": "Farmers Insurance",
+  "recipient": "Policy Premium and Fees",
+  "amount": "$798.48",
+  "due_date": "01/01/2019 12:01 AM",
+  "payment_status": "null",
+  "action_required": true,
+  "action": "Payment",
+  "risk": "None"
+}
+```

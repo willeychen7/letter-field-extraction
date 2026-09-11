@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Sample credit card statement\",\n    \"sender\": \"Name: Susan Doe\",\n    \"recipient_name\": \"For Lost or Stolen Card, Call:\",\n    \"address\": \"1234 Main Street, Anytown, USA\",\n    \"account_number\": \"12345-67-8907\",\n    \"amount\": \"1392.71\",\n    \"due_date\": \"1/23/XX\",\n    \"action_required\": \"None\",\n    \"important_identifier\": \"1-800-XXX-XXXX\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569114,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 1231,
+    "total_tokens": 1355,
+    "prompt_tokens_details": {
+      "cached_tokens": 1183
+    }
+  },
+  "id": "chatcmpl-7X7nyhquTg3UwO2Q8OQ5UJUtybYhIkQy",
+  "timings": {
+    "cache_n": 1183,
+    "prompt_n": 48,
+    "prompt_ms": 29.45,
+    "prompt_per_token_ms": 0.6135416666666667,
+    "prompt_per_second": 1629.8811544991513,
+    "predicted_n": 124,
+    "predicted_ms": 1073.716,
+    "predicted_per_token_ms": 8.72939837398374,
+    "predicted_per_second": 114.55543179015682
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Go paperless at www.sce.com/ebilling. It's fast, easy and secure.(377,33),(938,48)SOUTHERN CALIFORNIA(135,50),(271,59)EDISON(135,61),(275,87)An EDISON INTERNATIONAL Company(64,96),(271,107)BAKER, NATE / Page 5 of 5(756,98),(943,110)Service account(65,155),(178,165)8012345678(215,156),(295,166)POD-ID(407,155),(458,165)SUPPLY/GENERATION(669,152),(950,170)Service address(65,170),(178,180)1234 FIRST AVE(215,171),(326,181)123456789012345678(407,171),(552,180)CLEAN POWER ALLIANCE(692,176),(951,192)SIMI VALLEY, CA(215,185),(332,196)Rotating outage(65,210),(177,222)Group N001(215,210),(292,222)supplies your electricity(748,197),(949,214)Details of your new charges(66,260),(385,281)CLEAN POWER ALLIANCE(65,297),(253,308)Your rate: TOU-D-4(65,318),(193,328)Service Account: 8012345678(65,332),(260,343)Billing period: 01/06/24 to 02/05/24 (31 days)(65,346),(355,358)Generation Charges(65,366),(205,378)Lean Power - Mid-Peak - Winter(65,380),(274,391)161.14 kWh @ 0.2106(283,380),(427,391)$33.94(624,380),(669,391)Lean Power - Off-Peak - Winter(65,394),(269,405)262.98 kWh @ 0.13589(283,394),(436,405)$35.74(624,394),(669,405)Lean Power - Super OfPk -(65,408),(241,419)214.99 kWh @ 0.11733(283,408),(437,419)$25.22(624,408),(669,419)Winter(65,422),(109,431)User Utility Tax(65,435),(165,446)$4.27(634,435),(669,446)Energy Surcharge(65,449),(183,461)$0.19(634,449),(669,460)Sub-Total of CPA Generation Charges(65,468),(314,479)$99.36(624,468),(669,478)Your New Charges(65,486),(195,498)$99.36(624,486),(669,496)Things you should know(65,534),(343,554)Clean Power Alliance service expands to 35 cities(65,565),(449,578)CPA welcomes our new customers in Hermosa Beach, Monrovia, and Santa Paula who start service in March 2024. Choosing CPA(65,580),(912,593)energy options makes communities cleaner and more sustainable. See your community's environmental benefits at(65,595),(808,607)CleanPowerAlliance.org/communities.(65,609),(310,620)Winter energy savings tip(65,646),(263,660)When you leave the house or before you go to sleep, turn the thermostat down a few degrees to save on heating bills. A programmable(65,662),(936,674)thermostat makes it easy to control the temperature. Learn more at CleanPowerAlliance.org/powerresponse.(65,676),(765,687)Did you know?(65,714),(181,727)Clean Power Alliance is ranked the #1 Green Power Provider in the country by the U.S. Department of Energy's National Renewable(65,729),(919,741)Energy Laboratory. Learn more about this exciting designation at CleanPowerAlliance.org/news.(65,743),(685,755)CPA's Privacy Policy(65,781),(228,794)Clean Power Alliance's privacy policy is available at CleanPowerAlliance.org/privacy-policy.(65,796),(654,808)Visual St(879,949),(1000,968)"
+      }
+    }
+  ],
+  "created": 1788568363,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 1162,
+    "prompt_tokens": 1344,
+    "total_tokens": 2506,
+    "prompt_tokens_details": {
+      "cached_tokens": 1342
+    }
+  },
+  "id": "chatcmpl-HkJus531FhFnO64zSDTlOYyf7RZP4UDP",
+  "timings": {
+    "cache_n": 1342,
+    "prompt_n": 2,
+    "prompt_ms": 162.924,
+    "prompt_per_token_ms": 81.462,
+    "prompt_per_second": 12.275662271979574,
+    "predicted_n": 1162,
+    "predicted_ms": 12588.259,
+    "predicted_per_token_ms": 10.842600344530577,
+    "predicted_per_second": 92.22879827941259
+  }
+}

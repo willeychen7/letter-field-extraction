@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"document_type\": \"RETAIL OF INVOICE\",\n  \"sender\": \"Hoag Orthopedic Institute\",\n  \"recipient\": \"500 Superior Ave., Suite 250, Newport Beach, CA 92663-3662, PFS@hoag.org\",\n  \"amount\": \"333.33\",\n  \"due_date\": \"None\",\n  \"payment_status\": \"PAID\",\n  \"action_required\": false,\n  \"action\": \"PAY\",\n  \"risk\": \"low\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788641428,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 665,
+    "total_tokens": 782,
+    "prompt_tokens_details": {
+      "cached_tokens": 302
+    }
+  },
+  "id": "chatcmpl-z2C0rrUwxdI6zZf8UbeCTLpiN5YhX3Cx",
+  "timings": {
+    "cache_n": 302,
+    "prompt_n": 363,
+    "prompt_ms": 134.059,
+    "prompt_per_token_ms": 0.3693085399449036,
+    "prompt_per_second": 2707.76299987319,
+    "predicted_n": 117,
+    "predicted_ms": 978.238,
+    "predicted_per_token_ms": 8.433086206896553,
+    "predicted_per_second": 118.58054992752274
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "document_type": "EXPLANATION OF BENEFITS",
+  "sender": "Customer Service Number: 1-800-123-4567",
+  "recipient_name": "Member Name:",
+  "address": "Address:",
+  "account_number": "1-800-123-4567",
+  "amount": "XXX",
+  "due_date": "XXX",
+  "action_required": "None",
+  "important_identifier": "Customer Service Number: 1-800-123-4567"
+}

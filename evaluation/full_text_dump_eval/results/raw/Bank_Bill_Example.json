@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "etc\nETC BANK\nMarket Card\nAccount Number 1000 0001 1000 0001\nRegular Credit Limit P50,000\nBERGL M. SBUCOL\n4 LIMOUSINE ST RANCHO\n2018\nESTATE IV EAST PARK\n1800 MARIKINA CITY\nStatement Date 23 January 2018\nPayment Due Date 15 February\nTotal Amount Due PHP 50,000\nMinimum Amount Due PHP 2,500\nPrevious Balance 25,000.00\nPlus Purchases/Debits 45,000.00\nLess Payments/Credits 20,000.00\nTotal Amount Due 50,000.00\nTRANSACTION DETAILS\nPost Date Tran Date Description Previous Balance Amount\n01/23/18 01/23/18 BERGL M. SBUCOL - 1000 0001 1000 0001 FINANCE CHARGES 2,500.00\n01/22/18 12/21/17 BERGL M. SBUCOL - 4645 5189 2167 2001 INSTL 1/12 IPHONE X POWER MAC CENTER SM NORTH QUEZON CITY 5,800.00\n01/22/18 12/21/17 SM NORTH DEPT STORE QUEZON CITY 12,000.00\n01/22/18 12/21/17 INSTL 1/3 SM NORTH AUTOMATIC CENTER QUEZON CITY 3,200.00\n01/22/18 12/21/17 SM NORTH TRAVEL CLUB QUEZON CITY 6,500.00\n01/22/18 12/21/17 SM NORTH HYPERMARKET QUEZON CITY 5,000.00\n01/17/18 01/18/18 NIHONBASHITEI MAKATI CITY 3,000.00\n01/14/18 01/15/18 SM MARIKINA HYPERMARKET MARIKINA CITY 2,000.00\n01/10/18 11/11/17 INSTL 2/6 ELECTROWORLD TRINOMA QUEZON CITY 2,500.00\n01/07/18 06/08/17 INSTL 7/12 ELECTROWORLD TRINOMA QUEZON CITY 2,500.00\n01/03/18 01/03/18 CASH PAYMENT - THANK YOU ETC BANK 20,000.00C\nTOTAL AMOUNT DUE 50,000.00\n****END OF STATEMENT***\nETC BANK CARD CORPORATION\nETC BLDG 4620 Ayala Avenue, Makati City, Philippines"
+      }
+    }
+  ],
+  "created": 1788636832,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 619,
+    "prompt_tokens": 810,
+    "total_tokens": 1429,
+    "prompt_tokens_details": {
+      "cached_tokens": 806
+    }
+  },
+  "id": "chatcmpl-jHemzJ8ykAfUagsLEySuEN92zh3oHTGE",
+  "timings": {
+    "cache_n": 806,
+    "prompt_n": 4,
+    "prompt_ms": 26.705,
+    "prompt_per_token_ms": 6.67625,
+    "prompt_per_second": 149.78468451600824,
+    "predicted_n": 619,
+    "predicted_ms": 5359.009,
+    "predicted_per_token_ms": 8.671535598705502,
+    "predicted_per_second": 115.3198287220641
+  }
+}

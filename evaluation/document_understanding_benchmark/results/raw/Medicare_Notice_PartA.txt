@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Medicare Summary Notice",
+    "sender": "JENNIFER WASHINGTON",
+    "recipient": "CITY, ST 12345-6789",
+    "amount": "$2,062.50",
+    "due_date": "June 15 – September 15, 2020",
+    "payment_status": "unpaid",
+    "action_required": true,
+    "action": "Pay",
+    "risk": "None"
+}
+```

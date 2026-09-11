@@ -1,0 +1,6 @@
+```json
+{
+    "box": ["Zylker Heathcare", "14B, Northern Street, Greater South Avenue, New York 10001 U.S.A", "INVOICE", "Bill To", "Aaron Brown", "Greater South Avenue 10001 New York U.S.A"],
+    "text": "Zylker Heathcare"
+}
+```

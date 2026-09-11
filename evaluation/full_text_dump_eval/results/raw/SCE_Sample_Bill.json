@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "SOUTHERN CALIFORNIA EDISON $ ^{®} $ For billing and service inquiries 1-800-990-7788 www.sce.com Your electricity bill VALUED CUSTOMER / Page 1 of 7\n 2 Customer Account 2-00-000-0000 Date bill prepared 04/21/20 1 Amount due $2,149.55 PO BOX 0000 ANY CITY, CA 90000-0000\n 3 Your account summary Previous Balance Wire credit adjustment $2,326.18 $2,326.18 Your new charges $2,149.55 $2,149.55\n $ Total amount you owe $2,149.55\n 4 Summary of your billing detail Service account 3-000-0000-01 Service address 0000 ANY BLVD ANY CITY, CA Billing period 03/18/20 to 04/16/20 Your rate TOU-GS-2-D (SCE) 3-000-0000-02 0000 ANY BLVD ANY CITY, CA 03/18/20 to 04/16/20 TOU-GS-2-D $677.73 $1,471.82 $2,149.55\nPlease return the payment stub below with your payment and make your check payable to Southern California Edison. If you want to pay in person, call 1-800-747-8908 for locations, or you can pay online at www.sce.com.\nTear here\n(14-574) Tear here\nSOUTHERN CALIFORNIA EDISON $ ^{®} $ An EDISON INTERNATIONAL Company Customer account 2-00-000-0000 Please write this number on the memo line of your check. Make your check payable to Southern California Edison. Amount due by 05/11/20 $ 2,149.55 Amount enclosed $ Amount enclosed\n 6 STMT 04212020 P1 VALUED CUSTOMER PO BOX 0000 ANY CITY, CA 90000-0000 P.O. BOX 300 ROSEMEAD, CA 91772-0001\n00000072 000218409000215872000434281"
+      }
+    }
+  ],
+  "created": 1788636989,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 475,
+    "prompt_tokens": 1126,
+    "total_tokens": 1601,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-cZjctWiJrE7VQ8aqU6XF70bEv3i4qRrk",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1126,
+    "prompt_ms": 3326.989,
+    "prompt_per_token_ms": 2.954697158081705,
+    "prompt_per_second": 338.4441607711958,
+    "predicted_n": 475,
+    "predicted_ms": 4282.865,
+    "predicted_per_token_ms": 9.03558016877637,
+    "predicted_per_second": 110.6735794847608
+  }
+}

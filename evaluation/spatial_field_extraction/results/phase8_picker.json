@@ -1,0 +1,815 @@
+[
+  {
+    "key": "SCE_Bill_Letter",
+    "domain": "UTILITIES_SERVICES",
+    "action": null,
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "SCE_Letter",
+    "domain": "OTHER",
+    "action": null,
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "SCE_Sample_Bill",
+    "domain": "UTILITIES_SERVICES",
+    "action": "pay",
+    "n_phones": 2,
+    "gt": [
+      "8009907788",
+      "billing"
+    ],
+    "pick": {
+      "phone_number": "8009907788",
+      "contact_type": "billing",
+      "contact_organization": "EDISON",
+      "score": 4.0,
+      "reason": "kind=billing(+3); header(+1)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "SoCalGas",
+    "domain": "UTILITIES_SERVICES",
+    "action": "pay",
+    "n_phones": 3,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 2.5,
+      "reason": "best phone scored 2.5 < 3.0"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Water_Bill2",
+    "domain": "OTHER",
+    "action": null,
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "BOA_Bill_Example",
+    "domain": "BANKING_FINANCE",
+    "action": "pay",
+    "n_phones": 3,
+    "gt": [
+      "8006377455",
+      "customer_service"
+    ],
+    "pick": {
+      "phone_number": "8006377455",
+      "contact_type": "customer_service",
+      "contact_organization": "www.bankofamerica.com",
+      "score": 3.0,
+      "reason": "kind=customer_service(+2); header(+1)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "Bank_Bill_Due",
+    "domain": "BANKING_FINANCE",
+    "action": "pay",
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "AAA_insurance_Bill",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "All_State_Insurance_Card",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Auto_Insurance_Bill1",
+    "domain": "INSURANCE",
+    "action": "pay",
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Great_American_Insurance_Invoice",
+    "domain": "INSURANCE",
+    "action": "contact",
+    "n_phones": 2,
+    "gt": [
+      "8008474357",
+      "billing"
+    ],
+    "pick": {
+      "phone_number": "8008474357",
+      "contact_type": "billing",
+      "contact_organization": "Agency #",
+      "score": 3.0,
+      "reason": "kind=billing(+2); repeats across bands(+1); lone specifically-labelled phone (floor 2.0)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "DMV_Registration",
+    "domain": "GOVERNMENT",
+    "action": "renew",
+    "n_phones": 1,
+    "gt": [
+      null,
+      null
+    ],
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 2.0,
+      "reason": "best phone scored 2.0 < 3.0"
+    },
+    "verdict": "correct_null"
+  },
+  {
+    "key": "DMV_Notice",
+    "domain": "GOVERNMENT",
+    "action": null,
+    "n_phones": 2,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 2.3,
+      "reason": "best phone scored 2.3 < 3.0"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Hospital_Bill",
+    "domain": "HEALTHCARE",
+    "action": "pay",
+    "n_phones": 6,
+    "gt": [
+      "6122629000",
+      "billing"
+    ],
+    "pick": {
+      "phone_number": "6122629000",
+      "contact_type": "billing",
+      "contact_organization": "Allina Health",
+      "score": 5.5,
+      "reason": "kind=billing(+3); header(+1); repeats across bands(+1); org matches sender(+0.5)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "Medical_Invoice",
+    "domain": "OTHER",
+    "action": "pay",
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "CMS_EOB",
+    "domain": "HEALTHCARE",
+    "action": "review",
+    "n_phones": 1,
+    "gt": [
+      "8001234567",
+      "customer_service"
+    ],
+    "pick": {
+      "phone_number": "8001234567",
+      "contact_type": "customer_service",
+      "contact_organization": null,
+      "score": 3.0,
+      "reason": "kind=customer_service(+2); header(+1); lone specifically-labelled phone (floor 2.0)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "hoag-invoice-mychart",
+    "domain": "HEALTHCARE",
+    "action": "pay",
+    "n_phones": 1,
+    "gt": [
+      "9497648404",
+      "billing"
+    ],
+    "pick": {
+      "phone_number": "9497648404",
+      "contact_type": "billing",
+      "contact_organization": "PFS@hoag.org",
+      "score": 3.5,
+      "reason": "kind=billing(+3); org matches sender(+0.5); lone specifically-labelled phone (floor 2.0)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "IRS_CP504_Notice",
+    "domain": "GOVERNMENT",
+    "action": "pay",
+    "n_phones": 1,
+    "gt": [
+      "8008291040",
+      "customer_service"
+    ],
+    "pick": {
+      "phone_number": "8008291040",
+      "contact_type": "customer_service",
+      "contact_organization": "Department of the Treasury",
+      "score": 3.5,
+      "reason": "kind=customer_service(+2); header(+1); lone specifically-labelled phone (floor 2.0)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "IRS_cp503",
+    "domain": "GOVERNMENT",
+    "action": "pay",
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Medicare_Notice_PartA",
+    "domain": "HEALTHCARE",
+    "action": "review",
+    "n_phones": 1,
+    "gt": [
+      "8006334227",
+      "general"
+    ],
+    "pick": {
+      "phone_number": "8006334227",
+      "contact_type": "general",
+      "contact_organization": "¡Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español.",
+      "score": 3.0,
+      "reason": "kind=general(+1); coupon(+1); org matches sender(+0.5)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "Water_Bill3",
+    "domain": "UTILITIES_SERVICES",
+    "action": null,
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "water_bill",
+    "domain": "UTILITIES_SERVICES",
+    "action": "pay",
+    "n_phones": 2,
+    "gt": [
+      "8555940615",
+      "billing"
+    ],
+    "pick": {
+      "phone_number": "8555940615",
+      "contact_type": "billing",
+      "contact_organization": "Water District",
+      "score": 4.5,
+      "reason": "kind=billing(+3); header(+1); org matches sender(+0.5)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "waste_managment",
+    "domain": "UTILITIES_SERVICES",
+    "action": null,
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "att_bill",
+    "domain": "UTILITIES_SERVICES",
+    "action": null,
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "UCLA_Health_Bill",
+    "domain": "HEALTHCARE",
+    "action": "pay",
+    "n_phones": 2,
+    "gt": [
+      "3108258021",
+      "customer_service"
+    ],
+    "pick": {
+      "phone_number": "3108258021",
+      "contact_type": "customer_service",
+      "contact_organization": "HOSPITAL SERVICES",
+      "score": 2.0,
+      "reason": "kind=customer_service(+2); lone specifically-labelled phone (floor 2.0)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "UCLA_Health_Bill2",
+    "domain": "HEALTHCARE",
+    "action": "pay",
+    "n_phones": 2,
+    "gt": [
+      "3108258021",
+      "customer_service"
+    ],
+    "pick": {
+      "phone_number": "3108258021",
+      "contact_type": "customer_service",
+      "contact_organization": "HOSPITAL SERVICES",
+      "score": 2.0,
+      "reason": "kind=customer_service(+2); lone specifically-labelled phone (floor 2.0)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "Eye_care-invoice",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 2,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.3,
+      "reason": "best phone scored 0.3 < 3.0"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Progressive_Insurance_Bill",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 1,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 1.3,
+      "reason": "best phone scored 1.3 < 3.0"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Penny_Insurance_Bill",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "State_Farm_Insurance_Card",
+    "domain": "INSURANCE",
+    "action": null,
+    "n_phones": 1,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "best phone scored 0.0 < 3.0"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Coverage_Care_Insurance_Card",
+    "domain": "OTHER",
+    "action": null,
+    "n_phones": 1,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "State_Farm_Insurance",
+    "domain": "INSURANCE",
+    "action": "pay",
+    "n_phones": 2,
+    "gt": [
+      "8504787748",
+      "general"
+    ],
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 1.5,
+      "reason": "best phone scored 1.5 < 3.0"
+    },
+    "verdict": "missed"
+  },
+  {
+    "key": "statefarm_bill",
+    "domain": "INSURANCE",
+    "action": "renew",
+    "n_phones": 2,
+    "gt": [
+      "4695864244",
+      "general"
+    ],
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 2.5,
+      "reason": "best phone scored 2.5 < 3.0"
+    },
+    "verdict": "missed"
+  },
+  {
+    "key": "aaa-policy_renew",
+    "domain": "BANKING_FINANCE",
+    "action": "pay",
+    "n_phones": 1,
+    "gt": [
+      "8002228252",
+      "general"
+    ],
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 1.0,
+      "reason": "best phone scored 1.0 < 3.0"
+    },
+    "verdict": "missed"
+  },
+  {
+    "key": "DMV_registration_late_fee",
+    "domain": "GOVERNMENT",
+    "action": "renew",
+    "n_phones": 3,
+    "gt": [
+      "8009211117",
+      "general"
+    ],
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 2.0,
+      "reason": "best phone scored 2.0 < 3.0"
+    },
+    "verdict": "missed"
+  },
+  {
+    "key": "ca-dmv-registration-fee",
+    "domain": "GOVERNMENT",
+    "action": null,
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Medicare_Notice_PartB",
+    "domain": "HEALTHCARE",
+    "action": "review",
+    "n_phones": 1,
+    "gt": [
+      "8006334227",
+      "general"
+    ],
+    "pick": {
+      "phone_number": "8006334227",
+      "contact_type": "general",
+      "contact_organization": "¿Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español.",
+      "score": 3.0,
+      "reason": "kind=general(+1); coupon(+1); org matches sender(+0.5)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "Medicare_Notice_of_Denial",
+    "domain": "HEALTHCARE",
+    "action": "call",
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Medixare_Premium_Bill",
+    "domain": "HEALTHCARE",
+    "action": "pay",
+    "n_phones": 2,
+    "gt": [
+      null,
+      null
+    ],
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "correct_null"
+  },
+  {
+    "key": "Bank_Bill_Example",
+    "domain": "BANKING_FINANCE",
+    "action": "pay",
+    "n_phones": 1,
+    "gt": [
+      null,
+      null
+    ],
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "correct_null"
+  },
+  {
+    "key": "EastWest_Bank_Form",
+    "domain": "BANKING_FINANCE",
+    "action": null,
+    "n_phones": 1,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 1.0,
+      "reason": "best phone scored 1.0 < 3.0"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "EastWest_Bank_Bill",
+    "domain": "BANKING_FINANCE",
+    "action": null,
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Chase_Bank_Bill_Example",
+    "domain": "BANKING_FINANCE",
+    "action": null,
+    "n_phones": 4,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 2.5,
+      "reason": "best phone scored 2.5 < 3.0"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "Chase_Bank_Bill_Example2",
+    "domain": "BANKING_FINANCE",
+    "action": null,
+    "n_phones": 4,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 2.5,
+      "reason": "best phone scored 2.5 < 3.0"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "First_Bank_Bill",
+    "domain": "BANKING_FINANCE",
+    "action": null,
+    "n_phones": 2,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 1.0,
+      "reason": "best phone scored 1.0 < 3.0"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "HOA1",
+    "domain": "HOUSING_PROPERTY",
+    "action": "pay",
+    "n_phones": 1,
+    "gt": [
+      "2256781505",
+      "billing"
+    ],
+    "pick": {
+      "phone_number": "2256781505",
+      "contact_type": "billing",
+      "contact_organization": "HOMEOWNERS ASSOCIATION",
+      "score": 3.0,
+      "reason": "kind=billing(+3); lone specifically-labelled phone (floor 2.0)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "HOA2",
+    "domain": "HOUSING_PROPERTY",
+    "action": "pay",
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "HOA3",
+    "domain": "HOUSING_PROPERTY",
+    "action": "pay",
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  },
+  {
+    "key": "HOA4",
+    "domain": "HOUSING_PROPERTY",
+    "action": "pay",
+    "n_phones": 1,
+    "gt": [
+      "8667295327",
+      "billing"
+    ],
+    "pick": {
+      "phone_number": "8667295327",
+      "contact_type": "billing",
+      "contact_organization": "The due date on this statement refers to upcoming assessment amounts. Please login to your JellyBird HOA Mobile app to see your current balance.",
+      "score": 3.0,
+      "reason": "kind=billing(+3); lone specifically-labelled phone (floor 2.0)"
+    },
+    "verdict": "correct"
+  },
+  {
+    "key": "aws_invoice",
+    "domain": "UTILITIES_SERVICES",
+    "action": "pay",
+    "n_phones": 0,
+    "gt": null,
+    "pick": {
+      "phone_number": null,
+      "contact_type": null,
+      "contact_organization": null,
+      "score": 0.0,
+      "reason": "no usable phone element"
+    },
+    "verdict": "n/a"
+  }
+]

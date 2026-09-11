@@ -1,0 +1,7 @@
+```json
+{
+    "box": ["Department of the Treasury Internal Revenue Service IRS", "Notice CP504 Tax year 2018", "Notice date January 30, 2019", "Taxpayer Identification number NNN-NN-NNNN", "To contact us", "Your caller ID NNNN", "Page 1 of 7"],
+    "text": "BUSINESS NAME",
+    "box": ["CITY, STATE ZIP"]
+}
+```

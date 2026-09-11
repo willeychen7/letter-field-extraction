@@ -1,0 +1,11 @@
+{
+  "document_type": "HOSPITAL STATEMENT",
+  "sender": "JANE DOE",
+  "recipient": "ALLINA HEALTH",
+  "amount": "$654.80",
+  "due_date": "03/26/13",
+  "payment_status": "BALANCE",
+  "action_required": true,
+  "action": "Laboratory General",
+  "risk": "high"
+}

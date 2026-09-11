@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "T\nV\nIRS Department of the Treasury Internal Revenue Service Holtsville, NY 11742-0480\nNotice CP504\nTax year 2018\nNotice date January 30, 2019\nTaxpayer Identification number NNN-NN-NNNN\nTo contact us 800-829-1040\nYour caller ID NNNN\nPage 1 of 7\nBUSINESS NAME\nADDRESS\nCITY, STATE ZIP\nNotice of intent to seize (levy) your property or rights to property\nAmount due immediately: $9,533.53\nThis is a notice of intent to levy your state tax refund or other property. As we notified you before, our records show you have unpaid taxes for the tax year ended December 31, 2018 (Form 1040A). If you don't call us to make payment arrangements or we don't receive the amount due within 30 days from the date of this notice, we may levy your property or rights to property and apply it to the $9,533.53 you owe.\nBilling Summary\nAmount you owed $9,444.07\nFailure-to-pay penalty 34.98\nInterest charges 54.48\nAmount due immediately $9,533.53\nWhat you need to do immediately If you agree with the amount due and you're not working with an IRS representative\nPay the amount due of $9,533.53 immediately or we may file Notice of Federal Tax Lien, the amount of interest will increase, and additional penalties may apply.\nPay online or mail a check or money order with the attached payment stub. You can pay online now at www.irs.gov/payments.\nContinued on back...\nT\nV\nIRS BUSINESS NAME\nADDRESS\nCITY, STATE ZIP\nNotice CP504\nTaxpayer ID number NNN-NN-NNNN\nJanuary 30, 2019\nPayment\nMake your check or money order payable to the United States Treasury.\nWrite your Taxpayer ID number (NNN-NN-NNNN), the tax year (2018), and form number (1040A) on your payment.\nINTERNAL REVENUE SERVICE\nCINCINNATI, OH 45999-0149\nPay immediately\n$9,533.53"
+      }
+    }
+  ],
+  "created": 1788636895,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 489,
+    "prompt_tokens": 1472,
+    "total_tokens": 1961,
+    "prompt_tokens_details": {
+      "cached_tokens": 1467
+    }
+  },
+  "id": "chatcmpl-xQELvZJmpqQEqwDtnNMWHrPThkDZnkHU",
+  "timings": {
+    "cache_n": 1467,
+    "prompt_n": 5,
+    "prompt_ms": 26.009,
+    "prompt_per_token_ms": 5.2018,
+    "prompt_per_second": 192.24114729516708,
+    "predicted_n": 489,
+    "predicted_ms": 4656.038,
+    "predicted_per_token_ms": 9.541061475409835,
+    "predicted_per_second": 104.81014115434625
+  }
+}

@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "The Efficient Customer",
+    "sender": "Meter Reading",
+    "recipient_name": "Units Used",
+    "address": "9/10/15 10/09/15",
+    "account_number": "1548",
+    "amount": "11 CCF",
+    "due_date": "11/07/15",
+    "action_required": "TO AVOID LATE CHARGE PAY BEFORE",
+    "important_identifier": "None"
+}
+```

@@ -1,0 +1,11 @@
+{
+  "document_type": "Bill",
+  "sender": "James & Karen Q. Hinds",
+  "recipient": "Hanson, CT 00000-7253",
+  "amount": "$9,533.53",
+  "due_date": "January 29, 2018",
+  "payment_status": "null",
+  "action_required": true,
+  "action": "Pay the amount due of $9,533.53 by January 29, 2018, to avoid additional interest and applicable penalty charges.",
+  "risk": "high"
+}

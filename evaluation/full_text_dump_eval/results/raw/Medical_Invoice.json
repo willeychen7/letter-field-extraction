@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Zylker Heathcare 14B,Northern Street,Greater South Avenue,New York 10001 U.S.A\nINVOICE\nBill To Aaron Brown Greater South Avenue 10001 New York U.S.A\nInvoice# INV-000006 Invoice Date 05 Aug 2024 Terms Due on Receipt Due Date 05 Sep 2024 # Item & Description Amount 1 Ambulance service 900.00 2 Emergency ward charges 10,000.00 3 Behavioural therapy 3000.00 Sub Total 13,900.00 Tax Rate (5%) 695 Total $14,595.00"
+      }
+    }
+  ],
+  "created": 1788636903,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 1960,
+    "total_tokens": 2094,
+    "prompt_tokens_details": {
+      "cached_tokens": 1955
+    }
+  },
+  "id": "chatcmpl-TpWvTGCvEw2Ktrr72GJZkCraePpLkrwl",
+  "timings": {
+    "cache_n": 1955,
+    "prompt_n": 5,
+    "prompt_ms": 26.733,
+    "prompt_per_token_ms": 5.3466000000000005,
+    "prompt_per_second": 187.03475105674636,
+    "predicted_n": 134,
+    "predicted_ms": 1380.507,
+    "predicted_per_token_ms": 10.37975187969925,
+    "predicted_per_second": 96.34141659549715
+  }
+}

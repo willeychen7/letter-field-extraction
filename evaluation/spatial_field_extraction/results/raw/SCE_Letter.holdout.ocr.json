@@ -1,0 +1,13 @@
+{
+  "content": "SOUTHERN CALIFORNIA(171,46),(313,55)Michael Backstrom(739,43),(898,57)EDISON(171,57),(317,82)Vice President, Regulatory Affairs(620,65),(898,80)An EDISON INTERNATIONAL® Company(100,91),(312,101)April 24, 2024(407,129),(522,145)Shannon O’Rourke(100,173),(256,187)Deputy Director(100,195),(220,209)Office of Energy Infrastructure Safety(100,215),(420,231)California Natural Resources Agency(100,237),(413,252)715 P Street 20th Floor(100,258),(302,272)Sacramento, CA 95814(100,279),(293,294)E-filed with Docket #2023-SCAs(583,319),(849,333)SUBJECT:(140,361),(222,374)Southern California Edison Company's (SCE) Agreement to Implement(267,363),(872,379)the Findings (Including Recommendations) of the 2023 Safety Culture(267,384),(873,400)Assessment Report(267,405),(436,420)Deputy Director O’Rourke:(100,461),(332,477)Pursuant to Public Utilities Code Section 8389(e)(2), SCE can satisfy the “good(100,507),(775,523)standing” requirement for safety certification by agreeing “to implement the findings(100,530),(843,546)of its most recent safety culture assessment” (SCA). Energy Safety’s letter of March 22,(100,553),(850,569)2024, enclosing SCE’s 2023 Safety Culture Assessment Report (SCA Report), states that(100,575),(855,591)SCE may do so “by submitting a letter to this effect [to] the 2023 Safety Culture(100,598),(790,614)Assessments docket.”(100,622),(290,637)National Safety Council (NSC), a consultant retained by the Office of Energy(100,670),(756,686)Infrastructure Safety (Energy Safety), conducted the 2023 SCA for SCE between June(100,693),(828,709)and July, 2023. On February 23, 2024, Energy Safety released the draft 2023 SCA Report(100,716),(835,731)to SCE for comment. Pursuant to the guidance from Energy Safety, SCE submitted(100,739),(778,755)comments on March 8, 2024. On March 22, 2024, Energy Safety issued the SCA Report(100,762),(847,778)attaching SCE’s comments to the draft report.¹ The recommendations by Energy(100,785),(800,801)Safety on SCE’s 2023 SCA and SCE’s response to these recommendations are described(100,808),(854,824)below.(100,832),(159,846)The report states that SCE “has exhibited continued growth in safety culture maturity(100,878),(816,894)since 2021,”² that “focus group participants described SCE as an organization with(100,901),(781,917)1 2023 Safety Culture Assessment Report for SCE, available at: 2023 SCA for SCE(100,943),(651,956)2 SCA Report, p. 3.(100,960),(225,973)",
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 908,
+    "prompt_tokens": 1729,
+    "total_tokens": 2637,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "elapsed_s": 15.678
+}

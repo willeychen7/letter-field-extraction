@@ -1,0 +1,9 @@
+field,direct_hunyuan,spatial_pipeline,change
+sender,0.333,1.000,+0.667
+recipient,0.667,1.000,+0.333
+total_amount,0.333,1.000,+0.667
+payment_status,0.167,1.000,+0.833
+due_date,0.333,1.000,+0.667
+action,0.333,1.000,+0.667
+OVERALL (6 fields),0.361,1.000,+0.639
+"baseline historical (8 fields, 48 req)",0.396,,

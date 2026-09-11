@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "BankAmericard Cash Rewards\nVisa Signature\nAccount Summary\nPrevious Balance $3,956.38\nPayments and Other Credits -$109.00\nPurchases and Adjustments $628.58\nFees Charged $0.00\nInterest Charged $67.40\nNew Balance Total $4,543.36\nTotal Credit Line $10,000.00\nTotal Credit Available $5,456.64\nCash Credit Line $7,000.00\nPortion of Credit Available for Cash $5,456.64\nStatement Closing Date 01/08/2018\nDays in Billing Cycle 31\nPayment Information\nNew Balance Total $4,543.36\nCurrent Payment Due $112.00\nTotal Minimum Payment Due $112.00\nPayment Due Date 02/05/2018\nLate Payment Warning: If we do not receive your Total Minimum Payment by the date listed above, you may have to pay a late fee of up to $38.00 and your APRs may be increased up to the Penalty APR of 29.99%.\nTotal Minimum Payment Warning: If you make only the Total Minimum Payment each period, you will pay more in interest and it will take you longer to pay off your balance. For example:\nIf you make no additional charges using this card and each month you pay\nYou will payoff the balance shown on this statement in about\nAnd you will end up paying an estimated total of\nOnly the Total Minimum Payment $165.00 18 years 36 months $5,940.00 (Savings = $4,536.00)\nIf you would like information about credit counseling services, call 866.300.5238.\nBANK OF AMERICA\nP.O. BOX 851001\nDALLAS TX 75285-1001\nNew Balance Total $4,543.36\nTotal Minimum Payment Due $112.00\nPayment Due Date 02/05/2018\nEnter payment amount\nCheck here for a change of mailing address or phone numbers. Please provide all corrections on the reverse side.\nMail this coupon along with your check payable to: Bank of America"
+      }
+    }
+  ],
+  "created": 1788636823,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 453,
+    "prompt_tokens": 1550,
+    "total_tokens": 2003,
+    "prompt_tokens_details": {
+      "cached_tokens": 1545
+    }
+  },
+  "id": "chatcmpl-c70TIHWehtyq9CLeTdAbL6cW0zC1DFVX",
+  "timings": {
+    "cache_n": 1545,
+    "prompt_n": 5,
+    "prompt_ms": 26.292,
+    "prompt_per_token_ms": 5.2584,
+    "prompt_per_second": 190.17191541153204,
+    "predicted_n": 453,
+    "predicted_ms": 4342.694,
+    "predicted_per_token_ms": 9.607730088495575,
+    "predicted_per_second": 104.08285732312706
+  }
+}

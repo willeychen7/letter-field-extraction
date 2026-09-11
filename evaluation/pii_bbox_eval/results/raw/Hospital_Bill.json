@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"recipient_name\": \"JANE DOE\",\n  \"address\": \"123 ANY STREET ANYWHERE, USA 55555 T\",\n  \"account_number\": \"0000000\",\n  \"policy_member_claim_number\": \"None\",\n  \"phone\": \"None\",\n  \"email\": \"None\",\n  \"ssn\": \"None\",\n  \"medicare_medical_id\": \"None\",\n  \"other_identifier\": \"None\"\n}"
+      }
+    }
+  ],
+  "created": 1788569580,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 1995,
+    "total_tokens": 2098,
+    "prompt_tokens_details": {
+      "cached_tokens": 1475
+    }
+  },
+  "id": "chatcmpl-8q1UaqisQLKOUKFfgyzwSlKKbdjfiqeD",
+  "timings": {
+    "cache_n": 1475,
+    "prompt_n": 520,
+    "prompt_ms": 240.604,
+    "prompt_per_token_ms": 0.4627,
+    "prompt_per_second": 2161.227577263886,
+    "predicted_n": 103,
+    "predicted_ms": 1123.524,
+    "predicted_per_token_ms": 11.014941176470588,
+    "predicted_per_second": 90.78577760688691
+  }
+}

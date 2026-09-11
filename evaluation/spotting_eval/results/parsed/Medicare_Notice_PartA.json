@@ -1,0 +1,782 @@
+[
+  {
+    "text": "1",
+    "bbox_norm": [
+      47,
+      42,
+      60,
+      60
+    ],
+    "bbox_pixel": [
+      40.4,
+      46.5,
+      51.6,
+      66.5
+    ]
+  },
+  {
+    "text": "4",
+    "bbox_norm": [
+      487,
+      25,
+      507,
+      45
+    ],
+    "bbox_pixel": [
+      418.8,
+      27.7,
+      436.0,
+      49.9
+    ]
+  },
+  {
+    "text": "Page 1 of 4",
+    "bbox_norm": [
+      847,
+      53,
+      937,
+      69
+    ],
+    "bbox_pixel": [
+      728.4,
+      58.7,
+      805.8,
+      76.5
+    ]
+  },
+  {
+    "text": "MEDICARE SUMMARY NOTICE",
+    "bbox_norm": [
+      195,
+      54,
+      669,
+      87
+    ],
+    "bbox_pixel": [
+      167.7,
+      59.8,
+      575.3,
+      96.4
+    ]
+  },
+  {
+    "text": "for Part A (Hospital Insurance)",
+    "bbox_norm": [
+      195,
+      85,
+      629,
+      116
+    ],
+    "bbox_pixel": [
+      167.7,
+      94.2,
+      540.9,
+      128.5
+    ]
+  },
+  {
+    "text": "THE OFFICIAL SUMMARY OF YOUR MEDICARE CLAIMS FROM THE CENTERS FOR MEDICARE & MEDICAID SERVICES",
+    "bbox_norm": [
+      195,
+      129,
+      917,
+      144
+    ],
+    "bbox_pixel": [
+      167.7,
+      142.9,
+      788.6,
+      159.6
+    ]
+  },
+  {
+    "text": "JENNIFER WASHINGTON",
+    "bbox_norm": [
+      116,
+      175,
+      343,
+      188
+    ],
+    "bbox_pixel": [
+      99.8,
+      193.9,
+      295.0,
+      208.3
+    ]
+  },
+  {
+    "text": "TEMPORARY ADDRESS NAME",
+    "bbox_norm": [
+      116,
+      194,
+      387,
+      207
+    ],
+    "bbox_pixel": [
+      99.8,
+      215.0,
+      332.8,
+      229.4
+    ]
+  },
+  {
+    "text": "THIS IS NOT A BILL",
+    "bbox_norm": [
+      615,
+      193,
+      839,
+      209
+    ],
+    "bbox_pixel": [
+      528.9,
+      213.8,
+      721.5,
+      231.6
+    ]
+  },
+  {
+    "text": "STREET ADDRESS",
+    "bbox_norm": [
+      116,
+      213,
+      278,
+      226
+    ],
+    "bbox_pixel": [
+      99.8,
+      236.0,
+      239.1,
+      250.4
+    ]
+  },
+  {
+    "text": "CITY, ST 12345-6789",
+    "bbox_norm": [
+      116,
+      232,
+      288,
+      246
+    ],
+    "bbox_pixel": [
+      99.8,
+      257.1,
+      247.7,
+      272.6
+    ]
+  },
+  {
+    "text": "2",
+    "bbox_norm": [
+      31,
+      310,
+      47,
+      330
+    ],
+    "bbox_pixel": [
+      26.7,
+      343.5,
+      40.4,
+      365.6
+    ]
+  },
+  {
+    "text": "Notice for Jennifer Washington",
+    "bbox_norm": [
+      79,
+      310,
+      396,
+      329
+    ],
+    "bbox_pixel": [
+      67.9,
+      343.5,
+      340.6,
+      364.5
+    ]
+  },
+  {
+    "text": "Your Claims & Costs This Period",
+    "bbox_norm": [
+      519,
+      310,
+      837,
+      327
+    ],
+    "bbox_pixel": [
+      446.3,
+      343.5,
+      719.8,
+      362.3
+    ]
+  },
+  {
+    "text": "5",
+    "bbox_norm": [
+      912,
+      309,
+      929,
+      327
+    ],
+    "bbox_pixel": [
+      784.3,
+      342.4,
+      798.9,
+      362.3
+    ]
+  },
+  {
+    "text": "Medicare Number",
+    "bbox_norm": [
+      79,
+      341,
+      224,
+      354
+    ],
+    "bbox_pixel": [
+      67.9,
+      377.8,
+      192.6,
+      392.2
+    ]
+  },
+  {
+    "text": "1A23BC4DE56",
+    "bbox_norm": [
+      281,
+      341,
+      406,
+      354
+    ],
+    "bbox_pixel": [
+      241.7,
+      377.8,
+      349.2,
+      392.2
+    ]
+  },
+  {
+    "text": "Did Medicare Approve All Claims?",
+    "bbox_norm": [
+      519,
+      341,
+      806,
+      357
+    ],
+    "bbox_pixel": [
+      446.3,
+      377.8,
+      693.2,
+      395.6
+    ]
+  },
+  {
+    "text": "YES",
+    "bbox_norm": [
+      903,
+      341,
+      936,
+      354
+    ],
+    "bbox_pixel": [
+      776.6,
+      377.8,
+      805.0,
+      392.2
+    ]
+  },
+  {
+    "text": "Date of This Notice",
+    "bbox_norm": [
+      79,
+      370,
+      228,
+      383
+    ],
+    "bbox_pixel": [
+      67.9,
+      410.0,
+      196.1,
+      424.4
+    ]
+  },
+  {
+    "text": "September 15, 2020",
+    "bbox_norm": [
+      281,
+      370,
+      455,
+      386
+    ],
+    "bbox_pixel": [
+      241.7,
+      410.0,
+      391.3,
+      427.7
+    ]
+  },
+  {
+    "text": "See page 2 for how to double-check this notice.",
+    "bbox_norm": [
+      519,
+      360,
+      884,
+      376
+    ],
+    "bbox_pixel": [
+      446.3,
+      398.9,
+      760.2,
+      416.6
+    ]
+  },
+  {
+    "text": "Claims Processed",
+    "bbox_norm": [
+      79,
+      398,
+      216,
+      411
+    ],
+    "bbox_pixel": [
+      67.9,
+      441.0,
+      185.8,
+      455.4
+    ]
+  },
+  {
+    "text": "June 15-",
+    "bbox_norm": [
+      281,
+      398,
+      363,
+      411
+    ],
+    "bbox_pixel": [
+      241.7,
+      441.0,
+      312.2,
+      455.4
+    ]
+  },
+  {
+    "text": "Total You May Be Billed",
+    "bbox_norm": [
+      519,
+      389,
+      718,
+      405
+    ],
+    "bbox_pixel": [
+      446.3,
+      431.0,
+      617.5,
+      448.7
+    ]
+  },
+  {
+    "text": "$2,062.50",
+    "bbox_norm": [
+      852,
+      389,
+      937,
+      405
+    ],
+    "bbox_pixel": [
+      732.7,
+      431.0,
+      805.8,
+      448.7
+    ]
+  },
+  {
+    "text": "Between",
+    "bbox_norm": [
+      79,
+      417,
+      150,
+      430
+    ],
+    "bbox_pixel": [
+      67.9,
+      462.0,
+      129.0,
+      476.4
+    ]
+  },
+  {
+    "text": "September 15, 2020",
+    "bbox_norm": [
+      281,
+      417,
+      455,
+      432
+    ],
+    "bbox_pixel": [
+      241.7,
+      462.0,
+      391.3,
+      478.7
+    ]
+  },
+  {
+    "text": "Facilities with Claims This Period",
+    "bbox_norm": [
+      519,
+      442,
+      848,
+      459
+    ],
+    "bbox_pixel": [
+      446.3,
+      489.7,
+      729.3,
+      508.6
+    ]
+  },
+  {
+    "text": "6",
+    "bbox_norm": [
+      912,
+      455,
+      929,
+      473
+    ],
+    "bbox_pixel": [
+      784.3,
+      504.1,
+      798.9,
+      524.1
+    ]
+  },
+  {
+    "text": "3",
+    "bbox_norm": [
+      31,
+      473,
+      47,
+      492
+    ],
+    "bbox_pixel": [
+      26.7,
+      524.1,
+      40.4,
+      545.1
+    ]
+  },
+  {
+    "text": "Your Deductible Status",
+    "bbox_norm": [
+      65,
+      469,
+      302,
+      485
+    ],
+    "bbox_pixel": [
+      55.9,
+      519.7,
+      259.7,
+      537.4
+    ]
+  },
+  {
+    "text": "June 18- June 21, 2020",
+    "bbox_norm": [
+      519,
+      472,
+      710,
+      486
+    ],
+    "bbox_pixel": [
+      446.3,
+      523.0,
+      610.6,
+      538.5
+    ]
+  },
+  {
+    "text": "Your deductible is what you must pay each benefit",
+    "bbox_norm": [
+      65,
+      499,
+      453,
+      514
+    ],
+    "bbox_pixel": [
+      55.9,
+      552.9,
+      389.6,
+      569.5
+    ]
+  },
+  {
+    "text": "Otero Hospital",
+    "bbox_norm": [
+      519,
+      492,
+      645,
+      508
+    ],
+    "bbox_pixel": [
+      446.3,
+      545.1,
+      554.7,
+      562.9
+    ]
+  },
+  {
+    "text": "period for most health services before Medicare",
+    "bbox_norm": [
+      65,
+      518,
+      436,
+      533
+    ],
+    "bbox_pixel": [
+      55.9,
+      573.9,
+      375.0,
+      590.6
+    ]
+  },
+  {
+    "text": "begins to pay.",
+    "bbox_norm": [
+      65,
+      537,
+      175,
+      552
+    ],
+    "bbox_pixel": [
+      55.9,
+      595.0,
+      150.5,
+      611.6
+    ]
+  },
+  {
+    "text": "Part A Deductible: You have now met your",
+    "bbox_norm": [
+      65,
+      565,
+      415,
+      580
+    ],
+    "bbox_pixel": [
+      55.9,
+      626.0,
+      356.9,
+      642.6
+    ]
+  },
+  {
+    "text": "$1,184.00 deductible for inpatient hospital",
+    "bbox_norm": [
+      65,
+      582,
+      422,
+      599
+    ],
+    "bbox_pixel": [
+      55.9,
+      644.9,
+      362.9,
+      663.7
+    ]
+  },
+  {
+    "text": "services for the benefit period that began",
+    "bbox_norm": [
+      65,
+      602,
+      400,
+      617
+    ],
+    "bbox_pixel": [
+      55.9,
+      667.0,
+      344.0,
+      683.6
+    ]
+  },
+  {
+    "text": "May 27, 2020.",
+    "bbox_norm": [
+      65,
+      620,
+      175,
+      635
+    ],
+    "bbox_pixel": [
+      55.9,
+      687.0,
+      150.5,
+      703.6
+    ]
+  },
+  {
+    "text": "Be Informed!",
+    "bbox_norm": [
+      65,
+      665,
+      200,
+      680
+    ],
+    "bbox_pixel": [
+      55.9,
+      736.8,
+      172.0,
+      753.4
+    ]
+  },
+  {
+    "text": "Welcome to your new Medicare Summary Notice!",
+    "bbox_norm": [
+      65,
+      695,
+      455,
+      710
+    ],
+    "bbox_pixel": [
+      55.9,
+      770.1,
+      391.3,
+      786.7
+    ]
+  },
+  {
+    "text": "It has clear language, larger print, and a personal",
+    "bbox_norm": [
+      65,
+      714,
+      445,
+      729
+    ],
+    "bbox_pixel": [
+      55.9,
+      791.1,
+      382.7,
+      807.7
+    ]
+  },
+  {
+    "text": "summary of your claims and deductibles. This",
+    "bbox_norm": [
+      65,
+      732,
+      426,
+      748
+    ],
+    "bbox_pixel": [
+      55.9,
+      811.1,
+      366.4,
+      828.8
+    ]
+  },
+  {
+    "text": "improved notice better explains how to get help with",
+    "bbox_norm": [
+      65,
+      751,
+      473,
+      767
+    ],
+    "bbox_pixel": [
+      55.9,
+      832.1,
+      406.8,
+      849.8
+    ]
+  },
+  {
+    "text": "your questions, report fraud, or file an appeal. It also",
+    "bbox_norm": [
+      65,
+      770,
+      473,
+      786
+    ],
+    "bbox_pixel": [
+      55.9,
+      853.2,
+      406.8,
+      870.9
+    ]
+  },
+  {
+    "text": "includes important information from Medicare!",
+    "bbox_norm": [
+      65,
+      788,
+      438,
+      804
+    ],
+    "bbox_pixel": [
+      55.9,
+      873.1,
+      376.7,
+      890.8
+    ]
+  },
+  {
+    "text": "7",
+    "bbox_norm": [
+      910,
+      897,
+      932,
+      916
+    ],
+    "bbox_pixel": [
+      782.6,
+      993.9,
+      801.5,
+      1014.9
+    ]
+  },
+  {
+    "text": "¡Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español.",
+    "bbox_norm": [
+      65,
+      933,
+      852,
+      947
+    ],
+    "bbox_pixel": [
+      55.9,
+      1033.8,
+      732.7,
+      1049.3
+    ]
+  },
+  {
+    "text": "如果需要国语帮助，请致电联邦医疗保险，请先说“agent”，然后说“Mandarin”.",
+    "bbox_norm": [
+      65,
+      948,
+      601,
+      963
+    ],
+    "bbox_pixel": [
+      55.9,
+      1050.4,
+      516.9,
+      1067.0
+    ]
+  },
+  {
+    "text": "1-800-MEDICARE (1-800-633-4227)",
+    "bbox_norm": [
+      683,
+      950,
+      936,
+      963
+    ],
+    "bbox_pixel": [
+      587.4,
+      1052.6,
+      805.0,
+      1067.0
+    ]
+  }
+]

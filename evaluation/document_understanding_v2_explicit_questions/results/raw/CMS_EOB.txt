@@ -1,0 +1,11 @@
+{
+  "document_type": "Bill",
+  "sender": "Customer Service",
+  "recipient": "Patient",
+  "amount": "None",
+  "due_date": "None",
+  "payment_status": "null",
+  "action_required": true,
+  "action": "Pay",
+  "risk": "high"
+}

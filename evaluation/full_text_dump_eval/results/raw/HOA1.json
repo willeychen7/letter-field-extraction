@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "B+H BLUEBONNETHIGHLANDS HOMEOWNERS ASSOCIATION\n**Date**  **Due Date**\n**1/1/13** **1/31/13**\n# Invoice\nP.O. Box 82986\nBaton Rouge, LA 70884\nbbhbilling@yahoo.com\n225.678.1505\n*Please register your e-mail address at www.bluebonnethighlands.org to ensure you receive important community information, newsletters, invoices, etc.\n| Description | Amount |\n| :--| :--|\n| 2013 Fairhill/Springlake Homeowner's Dues | 360.00 |\n| Payments/Credits | $0.00 |\n| Balance Due | $360.00 |\nPlease complete the following information and return with payment. Please include an e-mail address. By providing an e-mail address, future invoices and correspondence will be e-mailed, saving the association postage expenses. ***Also, remember to add bbbhilling@yahoo.com to your e-mail address book to ensure that you receive important information.\nDetach here and return bottom portion with payment.\nLot #: ____ Name: ____\nPhone Number(s): ____\nE-mail address(es): ____\nAmount Enclosed: ____\n| Payment Option #1 – Automatic Withdrawal | Payment Option #2 – Check or Credit Annually: $360 due by 1/31 Semi-annually: $180 due by 1/31 ~ $180 due by 7/31 *If paying by check, please mail payment, along with the completed information above, to BBH, PO Box 82986, Baton Rouge, LA 70884. If paying by credit card, please visit: https://ipn.intuit.com/pay/BBHHOA. | Payment Option #3 – Dropbox *Save postage and time by dropping your payment off in a secured locked dropbox located next to the Clubhouse door, inside the gate at the Recreational Center. |\n| Please complete the \"Bank Draft Authorization\" form and mail, along with a voided check, to Bluebonnet Highlands, PO Box 82986, Baton Rouge, LA 70884. This form can be printed from our website. |"
+      }
+    }
+  ],
+  "created": 1788636868,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 477,
+    "prompt_tokens": 810,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-staenMevkNuNrgv4VvQG0tC0ddVr551H",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 810,
+    "prompt_ms": 1980.182,
+    "prompt_per_token_ms": 2.444669135802469,
+    "prompt_per_second": 409.05330924127173,
+    "predicted_n": 477,
+    "predicted_ms": 4143.428,
+    "predicted_per_token_ms": 8.704680672268907,
+    "predicted_per_second": 114.88072195293365
+  }
+}

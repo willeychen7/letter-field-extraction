@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Account Summary\",\n    \"sender\": \"JOHN B DOE\",\n    \"recipient_name\": \"SoCalGas\",\n    \"address\": \"24915 APPLE CT MONTEREY PARK CA 91754-2217\",\n    \"account_number\": \"011 022 1000 2\",\n    \"amount\": \"$25.18\",\n    \"due_date\": \"Jan 8, 2016\",\n    \"action_required\": \"THANK YOU\",\n    \"important_identifier\": \"www.socalgas.com\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569110,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 1893,
+    "total_tokens": 2020,
+    "prompt_tokens_details": {
+      "cached_tokens": 1845
+    }
+  },
+  "id": "chatcmpl-Y9B0IMqvzFXDDcmELB5HnqLSDr0U1xUm",
+  "timings": {
+    "cache_n": 1845,
+    "prompt_n": 48,
+    "prompt_ms": 31.611,
+    "prompt_per_token_ms": 0.6585625,
+    "prompt_per_second": 1518.4587643541804,
+    "predicted_n": 127,
+    "predicted_ms": 1177.304,
+    "predicted_per_token_ms": 9.34368253968254,
+    "predicted_per_second": 107.02418406800622
+  }
+}

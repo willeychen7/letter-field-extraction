@@ -1,0 +1,11 @@
+{
+  "document_type": "OFFICIAL NOTICE",
+  "sender": "STATE OF NORTH CAROLINA DEPARTMENT OF TRANSPORTATION",
+  "recipient": "CUSTOMER NO.",
+  "amount": "83.50",
+  "due_date": "09/10/2025",
+  "payment_status": "null",
+  "action_required": true,
+  "action": "PAYMENT OF THE REQUIRED RESTORATION FEE",
+  "risk": "high"
+}

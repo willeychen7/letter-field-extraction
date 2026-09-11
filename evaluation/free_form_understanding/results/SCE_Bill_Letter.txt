@@ -1,0 +1,45 @@
+这是一封来自清洁电力联盟（Clean Power Alliance）的**服务通知信件**，内容如下：  
+
+
+### 1. 信件基本信息  
+- **发件人**：Baker, NATE（地址：Page 5 of 5）  
+- **公司**：SOUTHERN CALIFORNIA EDISON INTERNATIONAL® Company（美国南加州迪森国际公司）  
+- **服务类型**：清洁电力联盟（CLEAN POWER ALLIANCE）的**供应/发电服务**（“SUPPLY/GENERATION CLEAN POWER ALLIANCE supplies your electricity”）  
+
+
+### 2. 服务详情（新收费项目）  
+- **CLEAN POWER ALLIANCE 服务**：  
+  - 服务编号：TOU - D - 4  
+  - 服务账户：8012345678  
+  - 计费周期：2024年1月6日至2025年2月5日（31天）  
+  - 新收费项目：  
+    - **发电费用**：  
+      - 冬季（Winter）：161.14 kWh @ 0.2106（每千瓦时每英尺）  
+      - 夏季（Mid - Peak）：262.98 kWh @ 0.13589（每千瓦时每英尺）  
+      - 夏季（Super Off - Peak）：214.99 kWh @ 0.11733（每千瓦时每英尺）  
+      - 用户公用事业税（User Utility Tax）：$4.27  
+      - 能源附加费（Energy Surcharge）：$0.19  
+    - **子 - 总计（Sub - Total）**：99.36美元  
+    - **新收费总额**：99.36美元  
+
+
+### 3. 服务推广与节能提示  
+- **推广信息**：清洁电力联盟服务已扩展到35个城市（Clean Power Alliance service expands to 35 cities）。  
+- **节能提示**：选择清洁电力联盟的能源选项，能让社区更清洁、更可持续。社区环境效益可查阅其网站（CleanPowerAlliance.org/communities）。  
+- **节能技巧**：当您离开家或睡前，将恒温器调至“低度”以节省取暖费。程序性恒温器可轻松控制温度。  
+
+
+### 4. 客户信息  
+- **客户姓名**：Group N001（客户组）  
+
+
+### 5. 隐私政策  
+清洁电力联盟的隐私政策可在其网站（CleanPowerAlliance.org/privacy - policy）查阅。  
+
+
+### 6. 收件人需求  
+需**收件人提供电力服务**（“provides your electricity”）。  
+
+
+### 总结  
+这是一份清洁电力联盟的**服务通知**，告知客户该联盟已覆盖35个城市，并推广其能源服务，同时提示客户选择清洁电力联盟的能源选项，以降低社区环境成本。

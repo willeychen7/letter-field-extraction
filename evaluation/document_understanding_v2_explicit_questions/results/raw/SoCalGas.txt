@@ -1,0 +1,13 @@
+```json
+{
+  "document_type": "Account Summary",
+  "sender": "JOHN B DOE",
+  "recipient": "MONTEREY PARK CA 91754-2217",
+  "amount": "$40.56",
+  "due_date": "Jan 8, 2016",
+  "payment_status": "THANK YOU",
+  "action_required": false,
+  "action": "THANK YOU",
+  "risk": "high"
+}
+```

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Thank you for choosing Allstate\n\n## Proof of Insurance Card\n\nFor your convenience, two insurance cards have been included for each veh of these cards be kept in each vehicle. Please place them in your vehicles by\n\nColorado - Proof of Auto Insurance Card\n\nAllstate Fire and Casualty Insurance Company\n\nGeorge and Christine E Murphy\n\n2837 Stonington Court\n\nHighlands Ranch CO 80126-8015\n\nPOLICY NUMBER\n\n976 910 934\n\nEFFECTIVE DATE\n\n01/01/15\n\nEXPIRATION DATE\n\n07/01/15\n\nAllstate.\n\nYou're in good hands.\n\nColorado - Proof of Au Insurance Card\n\nAllstate Fire and Casualty Ins\n\nGeorge and Christine E Mu\n\n2837 Stonington Court\n\nHighlands Ranch CO 80126\n\nPOLICY NUMBER\n\n976 910 934\n\nEFFECTIVE DATE\n\n01/01/15\n\nEXPIRATION DATE\n\n07/01/15"
+      }
+    }
+  ],
+  "created": 1788566413,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 201,
+    "prompt_tokens": 456,
+    "total_tokens": 657,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-EXGmyaikxPSD5RZriU5jmcI0l2WMWbsP",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 456,
+    "prompt_ms": 868.47,
+    "prompt_per_token_ms": 1.9045394736842105,
+    "prompt_per_second": 525.0613147258972,
+    "predicted_n": 201,
+    "predicted_ms": 1563.124,
+    "predicted_per_token_ms": 7.81562,
+    "predicted_per_second": 127.94890232636693
+  }
+}

@@ -1,0 +1,13 @@
+```json
+{
+  "recipient_name": "Hoag Orthopedic Institute",
+  "address": "500 Superior Ave. Suite 250 Newport Beach, CA 92663-3662 PFS@hoag.org 949-764-8404",
+  "account_number": "00112233",
+  "policy_member_claim_number": "12345-1ABC",
+  "phone": "333.33",
+  "email": "None",
+  "ssn": "None",
+  "medicare_medical_id": "None",
+  "other_identifier": "None"
+}
+```

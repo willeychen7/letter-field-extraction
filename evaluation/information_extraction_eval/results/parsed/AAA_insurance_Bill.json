@@ -1,0 +1,11 @@
+{
+  "document_type": "Payment coupon",
+  "sender": "AAA Insurance",
+  "recipient_name": "AAA Insurance MemberSelect Insurance Company",
+  "address": "1 Auto Club Drive, Dearborn, MI 48126",
+  "account_number": "PUP 054321234",
+  "amount": "$12.20",
+  "due_date": "Apr 8 2020",
+  "action_required": "We must RECEIVE your Total Amount Owed no later than Apr 8 2020.",
+  "important_identifier": "AAA Insurance MemberSelect Insurance Company"
+}

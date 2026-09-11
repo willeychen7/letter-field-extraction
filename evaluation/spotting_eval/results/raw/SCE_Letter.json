@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"box\": [\"Shannon O'Rourke\", \"Deputy Director\", \"Office of Energy Infrastructure Safety\", \"California Natural Resources Agency\", \"715 P Street 20th Floor\", \"Sacramento, CA 95814\"],\n    \"text\": \"April 24, 2024\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788568369,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1806,
+    "total_tokens": 1876,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-D08dijiEg5wrvo8zA75wBN0MDggJbJvS",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1806,
+    "prompt_ms": 5734.661,
+    "prompt_per_token_ms": 3.1753383167220375,
+    "prompt_per_second": 314.92707241108064,
+    "predicted_n": 70,
+    "predicted_ms": 801.994,
+    "predicted_per_token_ms": 11.623101449275362,
+    "predicted_per_second": 86.03555637573348
+  }
+}

@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Service Account",
+    "sender": "Service Account",
+    "recipient": "Service Account",
+    "amount": "8012345678",
+    "due_date": "01/06/24 to 02/05/24 (31 days)",
+    "payment_status": "unpaid",
+    "action_required": "true",
+    "action": "unpaid",
+    "risk": "None"
+}
+```

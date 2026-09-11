@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"document_type\": \"Medicare Summary Notice\",\n  \"sender\": \"JENNIFER WASHINGTON\",\n  \"recipient\": \"CITY, ST 12345-6789\",\n  \"amount\": \"$1,184.00\",\n  \"due_date\": \"September 15, 2020\",\n  \"payment_status\": \"null\",\n  \"action_required\": true,\n  \"action\": \"Deductible\",\n  \"risk\": \"high\"\n}"
+      }
+    }
+  ],
+  "created": 1788641432,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 1348,
+    "total_tokens": 1449,
+    "prompt_tokens_details": {
+      "cached_tokens": 985
+    }
+  },
+  "id": "chatcmpl-C3Z2rXbMLvhVCaTLZuHcsoEh5BCfWbnK",
+  "timings": {
+    "cache_n": 985,
+    "prompt_n": 363,
+    "prompt_ms": 155.053,
+    "prompt_per_token_ms": 0.42714325068870523,
+    "prompt_per_second": 2341.1349667533036,
+    "predicted_n": 101,
+    "predicted_ms": 918.147,
+    "predicted_per_token_ms": 9.181470000000001,
+    "predicted_per_second": 108.91502123298338
+  }
+}

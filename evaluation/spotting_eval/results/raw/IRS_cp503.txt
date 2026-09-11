@@ -1,0 +1,6 @@
+```json
+{
+    "box": ["Notice", "Tax year", "Notice date", "Social security number", "To contact us", "Your caller ID", "Page 1 of 5"],
+    "text": "JAMES & KAREN Q. HINDS\n22 BOULDER STREET\nHANSON, CT 00000-7253"
+}
+```

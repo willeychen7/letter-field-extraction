@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Account Summary",
+    "sender": "BankAmericard",
+    "recipient": "Bank of America",
+    "amount": "$3,956.38",
+    "due_date": "02/05/2018",
+    "payment_status": "unpaid",
+    "action_required": "false",
+    "action": "Payments and Other Credits",
+    "risk": "None"
+}
+```

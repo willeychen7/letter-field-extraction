@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Your electricity bill",
+    "sender": "SOUTHERN CALIFORNIA EDISON",
+    "recipient": "Your electricity bill",
+    "amount": "$2,149.55",
+    "due_date": "05/11/20",
+    "payment_status": "paid",
+    "action_required": true,
+    "action": "Make your check payable to Southern California Edison.",
+    "risk": "None"
+}
+```

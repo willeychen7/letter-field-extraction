@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "OFFICIAL NOTICE",
+    "sender": "STATE OF NORTH CAROLINA DEPARTMENT OF TRANSPORTATION",
+    "recipient_name": "J.R. \"JOEY\" HOPKINS",
+    "address": "3118 MAIL SERVICE CNTR RALEIGH, N.C. 27699-3118",
+    "account_number": "(919) 715-7000",
+    "amount": "08/01/2025",
+    "due_date": "09/10/2025",
+    "action_required": "REINSTATED",
+    "important_identifier": "None"
+}
+```

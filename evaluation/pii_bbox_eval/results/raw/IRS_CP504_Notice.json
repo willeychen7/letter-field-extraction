@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"recipient_name\": null,\n  \"address\": null,\n  \"account_number\": null,\n  \"policy_member_claim_number\": null,\n  \"phone\": null,\n  \"email\": null,\n  \"ssn\": null,\n  \"medicare_medical_id\": null,\n  \"other_identifier\": null\n}"
+      }
+    }
+  ],
+  "created": 1788569585,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 1987,
+    "total_tokens": 2057,
+    "prompt_tokens_details": {
+      "cached_tokens": 1467
+    }
+  },
+  "id": "chatcmpl-5NdJt6Rj871TGH3Eo7z9q4inessClsq5",
+  "timings": {
+    "cache_n": 1467,
+    "prompt_n": 520,
+    "prompt_ms": 237.26,
+    "prompt_per_token_ms": 0.45626923076923076,
+    "prompt_per_second": 2191.688443058248,
+    "predicted_n": 70,
+    "predicted_ms": 666.009,
+    "predicted_per_token_ms": 9.652304347826087,
+    "predicted_per_second": 103.60220357382558
+  }
+}

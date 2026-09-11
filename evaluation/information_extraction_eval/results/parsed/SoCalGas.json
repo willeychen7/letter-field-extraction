@@ -1,0 +1,11 @@
+{
+  "document_type": "Account Summary",
+  "sender": "JOHN B DOE",
+  "recipient_name": "SoCalGas",
+  "address": "24915 APPLE CT MONTEREY PARK CA 91754-2217",
+  "account_number": "011 022 1000 2",
+  "amount": "$25.18",
+  "due_date": "Jan 8, 2016",
+  "action_required": "THANK YOU",
+  "important_identifier": "www.socalgas.com"
+}

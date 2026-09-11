@@ -1,0 +1,1 @@
+Insurance Company Member Name: Jane Doe 1 Member Number: XXX XXX XXX Group Number: XXX XXX XXX 2 3 4 PCP Copay: $15.00 Specialist Copay: $25.00 Emergency Room Copay: $25.00 5 Member Service: 800 XXX XXX 6 Plan Type: 134 Effective Date: 1/1/21 Prescription Group #: 123456789 Prescription Copay: $15.00 Generic $25.00 Name brand 7

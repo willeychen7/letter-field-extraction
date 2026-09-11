@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "CMS-500 (04/24) DEPARTMENT OF HEALTH & HUMAN SERVICES CENTERS FOR MEDICARE & MEDICAID SERVICES 1 DELINQUENT BILL E4955-DEB-0112589-T01997 ALL FOR AADC 212 CHARLIE MEDICARE 123 EXAMPLE STREET APARTMENT A ANYTOWN, USA 12345-6789 2 Statement Date 09/27/2021 3 Your Medicare Number 1EG4TE5MK70 4 Last Payment Received $678.90 on 07/22/2021 5 Total Amount Due $2,715.60 by 10/25/2021 6 Want to pay electronically? Pay online at Medicare.gov Establish online bill pay with your bank Enroll in Medicare Easy Pay 7 Summary Of Charges 8 Coverage Periods 9 Part A (Hospital Insurance) + Part B (Medical Insurance) + Part B IRMAA Part D IRMAA Total Amount 10/25/2021 11 Current Premium Due 11/01/2021-11/30/2021 $471.00 $148.50 $0 $678.90 12 Past Premium Due 08/01/2021-10/31/2021 $1,413.00 $445.50 $178.20 $2,036.70 13 Total Amount Due: $2,715.60 Due In Full By: 14 Due In Full By: 15 Coverage Termination Dates For Past-due Accounts 16 Your Medicare coverage will end on this date if we don't get your payment by the due date. If your Medicare coverage is canceled, contact your local Social Security field office or call 1-800-772-1213. TTY users call 1-800-325-0778. 16 PART A TERMINATION 17 PART B TERMINATION 18 PART D TERMINATION 19 10/31/2021 20 10/31/2021 21 10/31/2021 22 NOTE: Don't send letters with your payment or write notes on the coupon - this will delay your payment. 23 24 25 26 27 28 29 30 31 1 CHARLIE MEDICARE 123 EXAMPLE STREET APARTMENT A ANYTOWN, USA 12345-6789 32 Amount You're Paying: $ 33 Amount Due: $ 2,715.60 Due In Full By: 10/25/2021 34 Medicare Number: 1EG4TE5MK70 35 1EG4TE5MK70 1 Send just one payment and one coupon per envelope. Write your Medicare Number on your check or money order. Use the return envelope included with your bill. 4320224635204728264944 182834 0271560 120 1 Visa/MasterCard/American Express/Discover Accepted: 2 Visa/MasterCard/American Express/Discover Accepted: 3 Expiration Date: (mm/yyyy) 4 Credit/Debit Card Billing ZIP Code: 5 Signature: 6 Don't Send Cash. Make check/money order payable to: CMS Medicare Insurance 7 Send Payment To: Medicare Premium Collection Center P.O. Box 790355 St. Louis, MO 63179-0355"
+      }
+    }
+  ],
+  "created": 1788636934,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 717,
+    "prompt_tokens": 1258,
+    "total_tokens": 1975,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-XC2XG7rmnoqDzJV1mRZf0TKO1xbHevwe",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1258,
+    "prompt_ms": 3811.946,
+    "prompt_per_token_ms": 3.0301637519872813,
+    "prompt_per_second": 330.01516810573924,
+    "predicted_n": 717,
+    "predicted_ms": 6707.971,
+    "predicted_per_token_ms": 9.368674581005585,
+    "predicted_per_second": 106.73868446956612
+  }
+}

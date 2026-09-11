@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"EXPLANATION OF BENEFITS\",\n    \"sender\": \"Customer Service Number: 1-800-123-4567\",\n    \"recipient_name\": \"Member Name:\",\n    \"address\": \"Address:\",\n    \"account_number\": \"1-800-123-4567\",\n    \"amount\": \"XXX\",\n    \"due_date\": \"XXX\",\n    \"action_required\": \"None\",\n    \"important_identifier\": \"Customer Service Number: 1-800-123-4567\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569130,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 1005,
+    "total_tokens": 1127,
+    "prompt_tokens_details": {
+      "cached_tokens": 957
+    }
+  },
+  "id": "chatcmpl-CobWDW9sBEVmpLunPUJ8e89heLu7aTjY",
+  "timings": {
+    "cache_n": 957,
+    "prompt_n": 48,
+    "prompt_ms": 28.179,
+    "prompt_per_token_ms": 0.5870624999999999,
+    "prompt_per_second": 1703.3961460662197,
+    "predicted_n": 122,
+    "predicted_ms": 1016.541,
+    "predicted_per_token_ms": 8.401165289256198,
+    "predicted_per_second": 119.03110646791423
+  }
+}

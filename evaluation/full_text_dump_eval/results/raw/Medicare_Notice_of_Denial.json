@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "DEPARTMENT OF HEALTH AND HUMAN SERVICES CENTERS FOR MEDICARE & MEDICAID SERVICES\nImportant: This notice explains your right to appeal our decision. Read this notice carefully. If you need help, you can call one of the numbers listed under the section titled “Get help & more information.”\n[Logo]\nNOTICE OF DENIAL OF MEDICARE PART D PRESCRIPTION DRUG COVERAGE\nDate:\nEnrollee's Name:\nMember Number:\nYour request was denied\nWe have denied coverage or payment under your Medicare Part D benefit for the following prescription drug(s) that you or your prescriber requested:\nWhy did we deny your request?\nWe denied this request under Medicare Part D because {Provide specific rationale for the denial, including any applicable Medicare coverage rule or Part D plan policy. See instructions for additional detail.}:\nYou should share a copy of this decision with your prescriber so you and your prescriber can discuss next steps. If your prescriber requested coverage on your behalf, we have shared this decision with your prescriber.\n[Language to be inserted, as applicable, for prescription drugs that are or may be covered under Medicare Parts A or B]:\n[Medicare Advantage plans that also provide Part D coverage (MA-PDs):] {This request was denied under your Medicare Part D benefit; however, coverage/payment for the requested drug(s) has been approved under Medicare Part A/B {explain the conditions of approval in a readable and understandable format}. If you think Medicare Part D should cover this drug for you, you may appeal.}\n[Standalone Part D plans (PDPs):] {This request was denied under your Medicare Part D benefit; however, it may be covered under Medicare Part A or Part B. For more information, talk to your prescriber or call 1-800-MEDICARE.}\nForm CMS-10146\nOMB Approval No. 0938-0976 (Expires 12/31/2024)"
+      }
+    }
+  ],
+  "created": 1788636923,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 421,
+    "prompt_tokens": 1765,
+    "total_tokens": 2186,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-X33rYgs0T1NW55pQFbDQ12znYmMJUqaz",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1765,
+    "prompt_ms": 6243.909,
+    "prompt_per_token_ms": 3.537625495750708,
+    "prompt_per_second": 282.67548421990136,
+    "predicted_n": 421,
+    "predicted_ms": 4027.535,
+    "predicted_per_token_ms": 9.589369047619048,
+    "predicted_per_second": 104.28214776532047
+  }
+}

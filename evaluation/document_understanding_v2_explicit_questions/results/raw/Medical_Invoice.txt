@@ -1,0 +1,11 @@
+{
+  "document_type": "INVOICE",
+  "sender": "Zylker Heathcare",
+  "recipient": "Aaron Brown",
+  "amount": "900.00",
+  "due_date": "05 Sep 2024",
+  "payment_status": "null",
+  "action_required": null,
+  "action": "null",
+  "risk": "high"
+}

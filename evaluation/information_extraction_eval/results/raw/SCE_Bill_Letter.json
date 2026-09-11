@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Service account\",\n    \"sender\": \"SOUTHERN CALIFORNIA EDISON ® Company\",\n    \"recipient_name\": \"CLEAN POWER ALLIANCE\",\n    \"address\": \"1234 FIRST AVE SIMI VALLEY, CA\",\n    \"account_number\": \"8012345678\",\n    \"amount\": \"99.36\",\n    \"due_date\": \"02/05/24\",\n    \"action_required\": \"None\",\n    \"important_identifier\": \"TOU-D-4\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569106,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 1301,
+    "total_tokens": 1426,
+    "prompt_tokens_details": {
+      "cached_tokens": 1253
+    }
+  },
+  "id": "chatcmpl-6wmwayH4PQZ92d8g4fG0PjhXcKJxofOQ",
+  "timings": {
+    "cache_n": 1253,
+    "prompt_n": 48,
+    "prompt_ms": 39.626,
+    "prompt_per_token_ms": 0.8255416666666666,
+    "prompt_per_second": 1211.3258971382427,
+    "predicted_n": 125,
+    "predicted_ms": 1098.465,
+    "predicted_per_token_ms": 8.858588709677418,
+    "predicted_per_second": 112.88479833221815
+  }
+}

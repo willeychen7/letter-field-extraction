@@ -1,0 +1,5 @@
+```json
+{
+    "box": ["AAA Payment coupon", "Your Policy Number Is PUP 054321234", "Your Policy Term is Jan 1 2020 to Jan 1 2021", "PAT SMITH", "1234 MAIN ST", "SPRINGFIELD IL 62704-8725", "Minimum Due:", "Due Apr 8 2020", "Total Amount Owed:", "We must RECEIVE your Total Amount Owed no later than Apr 8 2020.", "Amount Paid: $", "AAA Insurance", "PO BOX 740860", "CINCINNATI, OH 45274-0860", "AAA Insurance MemberSelect Insurance Company", "1 Auto Club Drive", "Dearborn, MI 48126", "INSURANCE BILL", "Very Important Personal Umbrella", "Excess Liability Insurance Policy", "Installment", "POLICY NUMBER:", "PUP 054321234"]
+}
+```

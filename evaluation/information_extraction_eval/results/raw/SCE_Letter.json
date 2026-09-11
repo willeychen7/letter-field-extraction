@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"E-filed with Docket #2023-SCAs\",\n    \"sender\": \"Michael Backstrom\",\n    \"recipient_name\": \"Shannon O'Rourke\",\n    \"address\": \"Office of Energy Infrastructure Safety, California Natural Resources Agency, 715 P Street 20th Floor, Sacramento, CA 95814\",\n    \"account_number\": \"None\",\n    \"amount\": \"None\",\n    \"due_date\": \"April 24, 2024\",\n    \"action_required\": \"None\",\n    \"important_identifier\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569107,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 1763,
+    "total_tokens": 1897,
+    "prompt_tokens_details": {
+      "cached_tokens": 1715
+    }
+  },
+  "id": "chatcmpl-Wyt3rgY2eiHFePTJdqS3KlaXkZd9kzPd",
+  "timings": {
+    "cache_n": 1715,
+    "prompt_n": 48,
+    "prompt_ms": 30.843,
+    "prompt_per_token_ms": 0.6425625,
+    "prompt_per_second": 1556.2688454430504,
+    "predicted_n": 134,
+    "predicted_ms": 1355.467,
+    "predicted_per_token_ms": 10.19148120300752,
+    "predicted_per_second": 98.12116414490356
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Thank you for choosing Allstate\\nProof of Insurance Card\\nFor your convenience, two insurance cards have been included for each veh of these cards be kept in each vehicle. Please place them in your vehicles by\\nColorado - Proof of Auto\\nInsurance Card\\nAllstate Fire and Casualty Insurance Company\\nGeorge and Christine E Murphy\\n2837 Stonington Court\\nHighlands Ranch CO 80126-8015\\nPOLICY NUMBER\\n976 910 934\\nEFFECTIVE DATE\\n01/01/15\\nEXPIRATION DATE\\n07/01/15\\nYEAR / MAKE / MODEL\\n2001 Ford Truck F150\\nVEHICLE ID NUMBER\\n1FTZX17211NA68201\\nColorado - Proof of Au\\nInsurance Card\\nAllstate Fire and Casualty Ins\\nGeorge and Christine E Mu\\n2837 Stonington Court\\nHighlands Ranch CO 80126\\nPOLICY NUMBER\\n976 910 934\\nEFFECTIVE DATE\\n01/01/15\\nEXPIRATION DATE\\n07/01/15"
+      }
+    }
+  ],
+  "created": 1788636812,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 224,
+    "prompt_tokens": 418,
+    "total_tokens": 642,
+    "prompt_tokens_details": {
+      "cached_tokens": 413
+    }
+  },
+  "id": "chatcmpl-U3tNgKyl72nBaLyPlUidrpLFgaIy05K0",
+  "timings": {
+    "cache_n": 413,
+    "prompt_n": 5,
+    "prompt_ms": 19.043,
+    "prompt_per_token_ms": 3.8085999999999998,
+    "prompt_per_second": 262.5636716903849,
+    "predicted_n": 224,
+    "predicted_ms": 1799.233,
+    "predicted_per_token_ms": 8.068309417040359,
+    "predicted_per_second": 123.9417018251666
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "PREMIUM INVOICE(407,26),(597,39)Policy # :(679,26),(743,38)ATP072(891,26),(942,36)GREAT AMERICAN INSURANCE COMPANY(337,42),(670,53)Statement Date :(679,47),(790,57)01/08/2009(875,47),(944,57)Due Date :(679,64),(751,75)01/10/2009(875,64),(944,75)GREAT AMERICAN(31,69),(258,91)INSURANCE GROUP(115,94),(258,105)1 of 2(913,89),(952,100)Agency #(585,118),(643,129)P01001(681,118),(726,128)PETER(585,132),(631,141)1ST LANE(585,144),(655,154)NEWCTCY CA 10001(585,157),(721,167)Mail To:(104,162),(161,172)PARKER(104,176),(164,186)2ND LANE(104,189),(177,199)NEWCTCY AL 10001(104,202),(244,212)For billing inquiries, please contact Direct Bill Customer Service at 1-800-847-4357, option 2, between 8:00 a.m. and 5:00 p.m.(25,272),(860,284)(EST), Monday through Thursday, and 8:00 a.m. and 3:30 p.m. on Fridays. For questions regarding policy or premiums, please contact(25,286),(909,298)your agency.(25,300),(110,312)Prior Balance(81,348),(178,359)Premium &(295,348),(379,359)Payments &(519,348),(603,360)Minimum(714,348),(783,359)Payment(854,348),(916,360)Including Fees(78,362),(180,375)Fees(322,362),(352,373)Adjustments(515,362),(603,375)Due(736,362),(764,373)In Full(856,362),(907,373)$0.00(184,385),(223,395)$1,003.00(363,383),(430,394)$0.00(636,383),(675,394)$336.30(752,383),(807,394)$1,000.00(875,383),(942,394)Trans(45,403),(88,413)Policy(153,403),(195,415)Description(242,403),(321,415)Transaction(708,403),(792,413)Minimum(854,403),(923,413)Date(49,417),(85,427)Number(145,417),(204,427)Amount(723,417),(781,427)Due(875,417),(903,427)01/01/09(40,434),(99,444)ATP072(148,434),(204,444)NEW BUSINESS PREMIUM(242,434),(439,444)12/10/2008-12/10/2009(501,434),(655,444)$1,000.00(741,434),(807,444)$333.30(889,434),(942,444)01/07/09(40,450),(99,460)ATP072(148,450),(204,460)SERVICE FEE(242,450),(342,460)$3.00(772,450),(807,460)$3.00(905,450),(942,460)Minimum Amount Due(646,641),(810,652)$336.30(898,641),(952,652)Detach Here(444,685),(519,695)Please return this portion of the statement with your remittance.(306,713),(653,723)Policy # :(674,715),(740,727)ATP072(885,715),(937,725)Agency # :(674,732),(748,744)P01001(891,732),(936,742)Statement Date :(674,751),(783,761)01/08/2009(875,751),(937,761)GREAT AMERICAN(31,768),(258,789)Due Date :(674,768),(748,779)01/10/2009(875,768),(937,779)Payment in Full :(674,786),(788,797)$1,000.00(875,786),(934,796)INSURANCE GROUP(115,793),(258,804)Minimum Due :(674,804),(781,814)$336.30(885,804),(934,814)Amount Enclosed : $(666,827),(798,838)To pay by ACH or credit card, call 1-800-847-4357, option 2.(529,849),(934,862)Mail to address(78,868),(198,879)PARKER(78,899),(146,909)2ND LANE(78,911),(159,921)NEWCTCY AL 10001(78,923),(230,934)549500000000000000000000000000P010010001000000000003630(85,946),(694,957)"
+      }
+    }
+  ],
+  "created": 1788568515,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 1504,
+    "prompt_tokens": 896,
+    "total_tokens": 2400,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-Y9lNTyrQSo3GDESAAVKP6mIX2oa8TfFu",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 896,
+    "prompt_ms": 1987.677,
+    "prompt_per_token_ms": 2.2183895089285715,
+    "prompt_per_second": 450.7774653527712,
+    "predicted_n": 1504,
+    "predicted_ms": 13945.478,
+    "predicted_per_token_ms": 9.278428476380572,
+    "predicted_per_second": 107.7768721875292
+  }
+}

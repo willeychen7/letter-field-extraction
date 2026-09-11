@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Payment coupon\",\n    \"sender\": \"AAA Insurance\",\n    \"recipient_name\": \"AAA Insurance MemberSelect Insurance Company\",\n    \"address\": \"1 Auto Club Drive, Dearborn, MI 48126\",\n    \"account_number\": \"PUP 054321234\",\n    \"amount\": \"$12.20\",\n    \"due_date\": \"Apr 8 2020\",\n    \"action_required\": \"We must RECEIVE your Total Amount Owed no later than Apr 8 2020.\",\n    \"important_identifier\": \"AAA Insurance MemberSelect Insurance Company\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569115,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 383,
+    "total_tokens": 520,
+    "prompt_tokens_details": {
+      "cached_tokens": 335
+    }
+  },
+  "id": "chatcmpl-ZbytrQl2UrQMnOKWwx5ljZ4EIOJGN97I",
+  "timings": {
+    "cache_n": 335,
+    "prompt_n": 48,
+    "prompt_ms": 39.099,
+    "prompt_per_token_ms": 0.8145625,
+    "prompt_per_second": 1227.6528811478556,
+    "predicted_n": 137,
+    "predicted_ms": 1067.932,
+    "predicted_per_token_ms": 7.852441176470588,
+    "predicted_per_second": 127.34893232902469
+  }
+}

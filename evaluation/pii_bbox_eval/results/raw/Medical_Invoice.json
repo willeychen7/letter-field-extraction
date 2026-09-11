@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"recipient_name\": \"Aaron Brown\",\n  \"address\": \"Greater South Avenue 10001 New York U.S.A\",\n  \"account_number\": \"None\",\n  \"policy_member_claim_number\": \"None\",\n  \"phone\": \"None\",\n  \"email\": \"None\",\n  \"ssn\": \"None\",\n  \"medicare_medical_id\": \"None\",\n  \"other_identifier\": \"None\"\n}"
+      }
+    }
+  ],
+  "created": 1788569582,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 99,
+    "prompt_tokens": 2475,
+    "total_tokens": 2574,
+    "prompt_tokens_details": {
+      "cached_tokens": 1955
+    }
+  },
+  "id": "chatcmpl-3DbwulPMwu40F4OXjK1qJ46HO7Te1epT",
+  "timings": {
+    "cache_n": 1955,
+    "prompt_n": 520,
+    "prompt_ms": 259.618,
+    "prompt_per_token_ms": 0.4992653846153846,
+    "prompt_per_second": 2002.942785168979,
+    "predicted_n": 99,
+    "predicted_ms": 1009.303,
+    "predicted_per_token_ms": 10.299010204081632,
+    "predicted_per_second": 97.09670931325876
+  }
+}

@@ -1,0 +1,1824 @@
+{
+  "n": 50,
+  "accuracy": 0.84,
+  "correct": 42,
+  "other_predicted": 4,
+  "other_gold": 2,
+  "confusion": {
+    "UTILITIES_SERVICES": {
+      "UTILITIES_SERVICES": 7,
+      "OTHER": 1
+    },
+    "OTHER": {
+      "OTHER": 1,
+      "UTILITIES_SERVICES": 1
+    },
+    "BANKING_FINANCE": {
+      "BANKING_FINANCE": 8
+    },
+    "INSURANCE": {
+      "INSURANCE": 8,
+      "BANKING_FINANCE": 1
+    },
+    "GOVERNMENT": {
+      "GOVERNMENT": 6,
+      "HEALTHCARE": 1
+    },
+    "HEALTHCARE": {
+      "HEALTHCARE": 8,
+      "OTHER": 2,
+      "INSURANCE": 1
+    },
+    "HOUSING_PROPERTY": {
+      "INSURANCE": 1,
+      "HOUSING_PROPERTY": 4
+    }
+  },
+  "rows": [
+    {
+      "key": "SCE_Bill_Letter",
+      "split": "dev",
+      "gold": "UTILITIES_SERVICES",
+      "pred": "UTILITIES_SERVICES",
+      "correct": true,
+      "top": "UTILITIES_SERVICES",
+      "top_score": 5.0,
+      "second": "BANKING_FINANCE",
+      "second_score": 0.7,
+      "gap": 4.3,
+      "letterhead": "SOUTHERN CALIFORNIA EDISON® An EDISON INTERNATIONAL® Company",
+      "note": "",
+      "evidence": {
+        "UTILITIES_SERVICES": {
+          "issuer": [
+            "edison"
+          ],
+          "subject": [
+            "service address",
+            "kwh"
+          ],
+          "layout": [
+            "your new charges"
+          ],
+          "groups": 3
+        },
+        "BANKING_FINANCE": {
+          "issuer": [
+            "savings"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "SCE_Letter",
+      "split": "dev",
+      "gold": "OTHER",
+      "pred": "OTHER",
+      "correct": true,
+      "top": "GOVERNMENT",
+      "top_score": 0.7,
+      "second": "UTILITIES_SERVICES",
+      "second_score": 0.7,
+      "gap": 0.0,
+      "letterhead": "SOUTHERN CALIFORNIA EDISON",
+      "note": "utility<->state-regulator correspondence, not a consumer letter",
+      "evidence": {
+        "GOVERNMENT": {
+          "issuer": [
+            "irs"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        },
+        "UTILITIES_SERVICES": {
+          "issuer": [
+            "edison"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "SCE_Sample_Bill",
+      "split": "dev",
+      "gold": "UTILITIES_SERVICES",
+      "pred": "UTILITIES_SERVICES",
+      "correct": true,
+      "top": "UTILITIES_SERVICES",
+      "top_score": 4.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.35,
+      "gap": 3.65,
+      "letterhead": "SOUTHERN CALIFORNIA EDISON An EDISON INTERNATIONAL Company",
+      "note": "",
+      "evidence": {
+        "UTILITIES_SERVICES": {
+          "issuer": [
+            "edison"
+          ],
+          "subject": [
+            "service address"
+          ],
+          "layout": [
+            "your new charges"
+          ],
+          "groups": 3
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [
+            "amount you owe"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "SoCalGas",
+      "split": "dev",
+      "gold": "UTILITIES_SERVICES",
+      "pred": "UTILITIES_SERVICES",
+      "correct": true,
+      "top": "UTILITIES_SERVICES",
+      "top_score": 5.0,
+      "second": "INSURANCE",
+      "second_score": 0.0,
+      "gap": 5.0,
+      "letterhead": "SoCalGas",
+      "note": "",
+      "evidence": {
+        "UTILITIES_SERVICES": {
+          "issuer": [
+            "socalgas"
+          ],
+          "subject": [
+            "billing period",
+            "therms"
+          ],
+          "layout": [
+            "amount due"
+          ],
+          "groups": 3
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "Water_Bill2",
+      "split": "dev",
+      "gold": "UTILITIES_SERVICES",
+      "pred": "OTHER",
+      "correct": false,
+      "top": "UTILITIES_SERVICES",
+      "top_score": 0.7,
+      "second": "INSURANCE",
+      "second_score": 0.0,
+      "gap": 0.7,
+      "letterhead": "",
+      "note": "teaching handout, still a water bill in form",
+      "evidence": {
+        "UTILITIES_SERVICES": {
+          "issuer": [],
+          "subject": [
+            "meter reading",
+            "ccf"
+          ],
+          "layout": [],
+          "groups": 1
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "BOA_Bill_Example",
+      "split": "dev",
+      "gold": "BANKING_FINANCE",
+      "pred": "BANKING_FINANCE",
+      "correct": true,
+      "top": "BANKING_FINANCE",
+      "top_score": 4.0,
+      "second": "UTILITIES_SERVICES",
+      "second_score": 2.0,
+      "gap": 2.0,
+      "letterhead": "BankAmericard",
+      "note": "",
+      "evidence": {
+        "BANKING_FINANCE": {
+          "issuer": [
+            "bank"
+          ],
+          "subject": [
+            "bankamericard"
+          ],
+          "layout": [
+            "total minimum payment"
+          ],
+          "groups": 3
+        },
+        "UTILITIES_SERVICES": {
+          "issuer": [],
+          "subject": [
+            "account summary"
+          ],
+          "layout": [
+            "previous balance"
+          ],
+          "groups": 2
+        }
+      }
+    },
+    {
+      "key": "Bank_Bill_Due",
+      "split": "dev",
+      "gold": "BANKING_FINANCE",
+      "pred": "BANKING_FINANCE",
+      "correct": true,
+      "top": "BANKING_FINANCE",
+      "top_score": 4.0,
+      "second": "UTILITIES_SERVICES",
+      "second_score": 2.0,
+      "gap": 2.0,
+      "letterhead": "",
+      "note": "'sample credit card statement' handout",
+      "evidence": {
+        "BANKING_FINANCE": {
+          "issuer": [
+            "chase"
+          ],
+          "subject": [
+            "credit card"
+          ],
+          "layout": [
+            "finance charge summary"
+          ],
+          "groups": 3
+        },
+        "UTILITIES_SERVICES": {
+          "issuer": [],
+          "subject": [
+            "account summary"
+          ],
+          "layout": [
+            "previous balance"
+          ],
+          "groups": 2
+        }
+      }
+    },
+    {
+      "key": "AAA_insurance_Bill",
+      "split": "dev",
+      "gold": "INSURANCE",
+      "pred": "INSURANCE",
+      "correct": true,
+      "top": "INSURANCE",
+      "top_score": 3.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.0,
+      "gap": 3.0,
+      "letterhead": "AAA Insurance",
+      "note": "GAP: personal umbrella / excess liability, not auto; no general-insurance class",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [
+            "aaa insurance"
+          ],
+          "subject": [
+            "policy number"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "All_State_Insurance_Card",
+      "split": "dev",
+      "gold": "INSURANCE",
+      "pred": "INSURANCE",
+      "correct": true,
+      "top": "INSURANCE",
+      "top_score": 4.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.0,
+      "gap": 4.0,
+      "letterhead": "Thank you for choosing Allstate",
+      "note": "",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [
+            "allstate"
+          ],
+          "subject": [
+            "policy number",
+            "vehicle"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "Auto_Insurance_Bill1",
+      "split": "dev",
+      "gold": "INSURANCE",
+      "pred": "INSURANCE",
+      "correct": true,
+      "top": "INSURANCE",
+      "top_score": 6.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.35,
+      "gap": 5.65,
+      "letterhead": "FARMERS INSURANCE",
+      "note": "",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [
+            "farmers insurance"
+          ],
+          "subject": [
+            "policy number",
+            "vehicle",
+            "bodily injury"
+          ],
+          "layout": [
+            "coverage information"
+          ],
+          "groups": 3
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [
+            "this is not a bill"
+          ],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "Great_American_Insurance_Invoice",
+      "split": "dev",
+      "gold": "INSURANCE",
+      "pred": "INSURANCE",
+      "correct": true,
+      "top": "INSURANCE",
+      "top_score": 5.0,
+      "second": "BANKING_FINANCE",
+      "second_score": 0.35,
+      "gap": 4.65,
+      "letterhead": "PREMIUM INVOICE GREAT AMERICAN INSURANCE COMPANY",
+      "note": "GAP: generic commercial premium invoice, type not stated",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [
+            "insurance company"
+          ],
+          "subject": [
+            "policy #",
+            "premium"
+          ],
+          "layout": [
+            "premium invoice"
+          ],
+          "groups": 3
+        },
+        "BANKING_FINANCE": {
+          "issuer": [],
+          "subject": [
+            "credit card"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "DMV_Registration",
+      "split": "dev",
+      "gold": "GOVERNMENT",
+      "pred": "GOVERNMENT",
+      "correct": true,
+      "top": "GOVERNMENT",
+      "top_score": 3.0,
+      "second": "INSURANCE",
+      "second_score": 0.35,
+      "gap": 2.65,
+      "letterhead": "VEHICLE REGISTRATION RENEWAL NOTICE MAKE CHEV",
+      "note": "vehicle + government; taxonomy routes DMV -> GOVERNMENT_TAX",
+      "evidence": {
+        "GOVERNMENT": {
+          "issuer": [
+            "dmv"
+          ],
+          "subject": [
+            "registration renewal"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [
+            "vehicle"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "DMV_Notice",
+      "split": "dev",
+      "gold": "GOVERNMENT",
+      "pred": "GOVERNMENT",
+      "correct": true,
+      "top": "GOVERNMENT",
+      "top_score": 4.0,
+      "second": "HEALTHCARE",
+      "second_score": 3.0,
+      "gap": 1.0,
+      "letterhead": "STATE OF NORTH CAROLINA DEPARTMENT OF TRANSPORTATION NC DIVISION OF MOTOR VEHICLES",
+      "note": "",
+      "evidence": {
+        "GOVERNMENT": {
+          "issuer": [
+            "department of transportation"
+          ],
+          "subject": [
+            "driving privilege"
+          ],
+          "layout": [
+            "official notice"
+          ],
+          "groups": 3
+        },
+        "HEALTHCARE": {
+          "issuer": [
+            "vision"
+          ],
+          "subject": [
+            "procedure"
+          ],
+          "layout": [],
+          "groups": 2
+        }
+      }
+    },
+    {
+      "key": "Hospital_Bill",
+      "split": "dev",
+      "gold": "HEALTHCARE",
+      "pred": "HEALTHCARE",
+      "correct": true,
+      "top": "HEALTHCARE",
+      "top_score": 3.0,
+      "second": "INSURANCE",
+      "second_score": 0.7,
+      "gap": 2.3,
+      "letterhead": "Allina Health",
+      "note": "",
+      "evidence": {
+        "HEALTHCARE": {
+          "issuer": [
+            "health"
+          ],
+          "subject": [
+            "patient"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "INSURANCE": {
+          "issuer": [
+            "insurance company"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "Medical_Invoice",
+      "split": "dev",
+      "gold": "HEALTHCARE",
+      "pred": "OTHER",
+      "correct": false,
+      "top": "INSURANCE",
+      "top_score": 0.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.0,
+      "gap": 0.0,
+      "letterhead": "",
+      "note": "",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "CMS_EOB",
+      "split": "dev",
+      "gold": "HEALTHCARE",
+      "pred": "HEALTHCARE",
+      "correct": true,
+      "top": "HEALTHCARE",
+      "top_score": 5.0,
+      "second": "INSURANCE",
+      "second_score": 0.0,
+      "gap": 5.0,
+      "letterhead": "",
+      "note": "",
+      "evidence": {
+        "HEALTHCARE": {
+          "issuer": [
+            "health"
+          ],
+          "subject": [
+            "explanation of benefits",
+            "provider"
+          ],
+          "layout": [
+            "this is not a bill"
+          ],
+          "groups": 3
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "hoag-invoice-mychart",
+      "split": "dev",
+      "gold": "HEALTHCARE",
+      "pred": "HEALTHCARE",
+      "correct": true,
+      "top": "HEALTHCARE",
+      "top_score": 3.0,
+      "second": "HOUSING_PROPERTY",
+      "second_score": 0.7,
+      "gap": 2.3,
+      "letterhead": "Hoag ORTHOPEDIC",
+      "note": "",
+      "evidence": {
+        "HEALTHCARE": {
+          "issuer": [
+            "orthopedic"
+          ],
+          "subject": [
+            "amount you owe"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "HOUSING_PROPERTY": {
+          "issuer": [
+            "hoa"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "IRS_CP504_Notice",
+      "split": "dev",
+      "gold": "GOVERNMENT",
+      "pred": "GOVERNMENT",
+      "correct": true,
+      "top": "GOVERNMENT",
+      "top_score": 5.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.35,
+      "gap": 4.65,
+      "letterhead": "IRS",
+      "note": "",
+      "evidence": {
+        "GOVERNMENT": {
+          "issuer": [
+            "irs"
+          ],
+          "subject": [
+            "tax year",
+            "notice of intent to levy"
+          ],
+          "layout": [
+            "billing summary"
+          ],
+          "groups": 3
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [
+            "amount you owe"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "IRS_cp503",
+      "split": "dev",
+      "gold": "GOVERNMENT",
+      "pred": "GOVERNMENT",
+      "correct": true,
+      "top": "GOVERNMENT",
+      "top_score": 5.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.35,
+      "gap": 4.65,
+      "letterhead": "IRS",
+      "note": "",
+      "evidence": {
+        "GOVERNMENT": {
+          "issuer": [
+            "irs"
+          ],
+          "subject": [
+            "tax year",
+            "unpaid taxes"
+          ],
+          "layout": [
+            "billing summary"
+          ],
+          "groups": 3
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [
+            "amount you owe"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "Medicare_Notice_PartA",
+      "split": "dev",
+      "gold": "HEALTHCARE",
+      "pred": "HEALTHCARE",
+      "correct": true,
+      "top": "HEALTHCARE",
+      "top_score": 6.0,
+      "second": "INSURANCE",
+      "second_score": 0.35,
+      "gap": 5.65,
+      "letterhead": "Medicare Summary Notice",
+      "note": "CONFUSION: Medicare Summary Notice -- health context, not gov notice",
+      "evidence": {
+        "HEALTHCARE": {
+          "issuer": [
+            "health"
+          ],
+          "subject": [
+            "summary notice",
+            "patient",
+            "medicare"
+          ],
+          "layout": [
+            "this is not a bill"
+          ],
+          "groups": 3
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [
+            "deductible"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "Water_Bill3",
+      "split": "holdout",
+      "gold": "UTILITIES_SERVICES",
+      "pred": "UTILITIES_SERVICES",
+      "correct": true,
+      "top": "UTILITIES_SERVICES",
+      "top_score": 4.0,
+      "second": "INSURANCE",
+      "second_score": 0.0,
+      "gap": 4.0,
+      "letterhead": "TRABUCO CANYON WATER DISTRICT",
+      "note": "rate sheet, not a bill",
+      "evidence": {
+        "UTILITIES_SERVICES": {
+          "issuer": [
+            "water district"
+          ],
+          "subject": [
+            "hcf"
+          ],
+          "layout": [
+            "rates & charges"
+          ],
+          "groups": 3
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "water_bill",
+      "split": "holdout",
+      "gold": "UTILITIES_SERVICES",
+      "pred": "UTILITIES_SERVICES",
+      "correct": true,
+      "top": "UTILITIES_SERVICES",
+      "top_score": 5.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.7,
+      "gap": 4.3,
+      "letterhead": "Water District",
+      "note": "",
+      "evidence": {
+        "UTILITIES_SERVICES": {
+          "issuer": [
+            "water district"
+          ],
+          "subject": [
+            "service address",
+            "hcf"
+          ],
+          "layout": [
+            "current charge summary"
+          ],
+          "groups": 3
+        },
+        "HEALTHCARE": {
+          "issuer": [
+            "health"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "waste_managment",
+      "split": "holdout",
+      "gold": "UTILITIES_SERVICES",
+      "pred": "UTILITIES_SERVICES",
+      "correct": true,
+      "top": "UTILITIES_SERVICES",
+      "top_score": 4.0,
+      "second": "INSURANCE",
+      "second_score": 0.0,
+      "gap": 4.0,
+      "letterhead": "",
+      "note": "",
+      "evidence": {
+        "UTILITIES_SERVICES": {
+          "issuer": [
+            " wm "
+          ],
+          "subject": [
+            "pickup schedule"
+          ],
+          "layout": [
+            "previous balance"
+          ],
+          "groups": 3
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "att_bill",
+      "split": "holdout",
+      "gold": "UTILITIES_SERVICES",
+      "pred": "UTILITIES_SERVICES",
+      "correct": true,
+      "top": "UTILITIES_SERVICES",
+      "top_score": 4.0,
+      "second": "INSURANCE",
+      "second_score": 0.0,
+      "gap": 4.0,
+      "letterhead": "TECH GROUP & ASSOCIATES, INC",
+      "note": "phone/telecom",
+      "evidence": {
+        "UTILITIES_SERVICES": {
+          "issuer": [
+            "at&t"
+          ],
+          "subject": [
+            "wireless"
+          ],
+          "layout": [
+            "previous balance"
+          ],
+          "groups": 3
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "UCLA_Health_Bill",
+      "split": "holdout",
+      "gold": "HEALTHCARE",
+      "pred": "HEALTHCARE",
+      "correct": true,
+      "top": "HEALTHCARE",
+      "top_score": 5.0,
+      "second": "BANKING_FINANCE",
+      "second_score": 3.0,
+      "gap": 2.0,
+      "letterhead": "Health Resnick Neuropsychiatric Hospital at UCLA",
+      "note": "",
+      "evidence": {
+        "HEALTHCARE": {
+          "issuer": [
+            "health"
+          ],
+          "subject": [
+            "patient",
+            "medical insurance"
+          ],
+          "layout": [
+            "hospital services"
+          ],
+          "groups": 3
+        },
+        "BANKING_FINANCE": {
+          "issuer": [
+            "financial"
+          ],
+          "subject": [
+            "credit card"
+          ],
+          "layout": [],
+          "groups": 2
+        }
+      }
+    },
+    {
+      "key": "UCLA_Health_Bill2",
+      "split": "holdout",
+      "gold": "HEALTHCARE",
+      "pred": "HEALTHCARE",
+      "correct": true,
+      "top": "HEALTHCARE",
+      "top_score": 5.0,
+      "second": "BANKING_FINANCE",
+      "second_score": 3.0,
+      "gap": 2.0,
+      "letterhead": "QUESTIONS? Please contact us at (310) 825-8021 for the following services: To speak to a Customer Service Representative:",
+      "note": "",
+      "evidence": {
+        "HEALTHCARE": {
+          "issuer": [
+            "health"
+          ],
+          "subject": [
+            "patient",
+            "medical insurance"
+          ],
+          "layout": [
+            "hospital services"
+          ],
+          "groups": 3
+        },
+        "BANKING_FINANCE": {
+          "issuer": [
+            "financial"
+          ],
+          "subject": [
+            "credit card"
+          ],
+          "layout": [],
+          "groups": 2
+        }
+      }
+    },
+    {
+      "key": "Eye_care-invoice",
+      "split": "holdout",
+      "gold": "HEALTHCARE",
+      "pred": "INSURANCE",
+      "correct": false,
+      "top": "INSURANCE",
+      "top_score": 4.0,
+      "second": "HEALTHCARE",
+      "second_score": 3.0,
+      "gap": 1.0,
+      "letterhead": "Vision Plus Of Ballard",
+      "note": "optometry",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [
+            "insurance company"
+          ],
+          "subject": [
+            "vin",
+            "comprehensive"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "HEALTHCARE": {
+          "issuer": [
+            "vision"
+          ],
+          "subject": [
+            "patient"
+          ],
+          "layout": [],
+          "groups": 2
+        }
+      }
+    },
+    {
+      "key": "Progressive_Insurance_Bill",
+      "split": "holdout",
+      "gold": "INSURANCE",
+      "pred": "INSURANCE",
+      "correct": true,
+      "top": "INSURANCE",
+      "top_score": 4.0,
+      "second": "GOVERNMENT",
+      "second_score": 3.0,
+      "gap": 1.0,
+      "letterhead": "QAU 2612 (999) 999-9999 (Work) pd_suite_test_email@progressive.co",
+      "note": "auto claim repair estimate",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [
+            "progressive"
+          ],
+          "subject": [
+            "vehicle",
+            "collision"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "GOVERNMENT": {
+          "issuer": [
+            "irs"
+          ],
+          "subject": [],
+          "layout": [
+            "page 1 of"
+          ],
+          "groups": 2
+        }
+      }
+    },
+    {
+      "key": "Penny_Insurance_Bill",
+      "split": "holdout",
+      "gold": "INSURANCE",
+      "pred": "INSURANCE",
+      "correct": true,
+      "top": "INSURANCE",
+      "top_score": 6.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.0,
+      "gap": 6.0,
+      "letterhead": "Penny Insurance Penny General Insurance Company",
+      "note": "",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [
+            "insurance company"
+          ],
+          "subject": [
+            "policy number",
+            "vehicle",
+            "bodily injury"
+          ],
+          "layout": [
+            "each person/each"
+          ],
+          "groups": 3
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "State_Farm_Insurance_Card",
+      "split": "holdout",
+      "gold": "INSURANCE",
+      "pred": "INSURANCE",
+      "correct": true,
+      "top": "INSURANCE",
+      "top_score": 6.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.0,
+      "gap": 6.0,
+      "letterhead": "GEORGIA INSURANCE POLICY INFORMATION CARD",
+      "note": "",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [
+            "insurance company"
+          ],
+          "subject": [
+            "policy number",
+            "vehicle",
+            "liability coverage"
+          ],
+          "layout": [
+            "coverage information"
+          ],
+          "groups": 3
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "Coverage_Care_Insurance_Card",
+      "split": "holdout",
+      "gold": "HEALTHCARE",
+      "pred": "OTHER",
+      "correct": false,
+      "top": "INSURANCE",
+      "top_score": 0.7,
+      "second": "HEALTHCARE",
+      "second_score": 0.35,
+      "gap": 0.35,
+      "letterhead": "Insurance Company",
+      "note": "health-plan member ID card",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [
+            "insurance company"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [
+            "copay"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "State_Farm_Insurance",
+      "split": "holdout",
+      "gold": "INSURANCE",
+      "pred": "INSURANCE",
+      "correct": true,
+      "top": "INSURANCE",
+      "top_score": 6.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.0,
+      "gap": 6.0,
+      "letterhead": "State Farm State Farm Mutual Automobile Insurance Company 7401 Cypress Gardens Boulevard",
+      "note": "",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [
+            "insurance company"
+          ],
+          "subject": [
+            "policy number",
+            "make model",
+            "premium"
+          ],
+          "layout": [
+            "balance due notice"
+          ],
+          "groups": 3
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "statefarm_bill",
+      "split": "holdout",
+      "gold": "HOUSING_PROPERTY",
+      "pred": "INSURANCE",
+      "correct": false,
+      "top": "INSURANCE",
+      "top_score": 6.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.7,
+      "gap": 5.3,
+      "letterhead": "State Farm Lloyds A Lloyds Company in Richardson, Texas",
+      "note": "GAP: renters insurance -- home-related, no home-insurance class",
+      "evidence": {
+        "INSURANCE": {
+          "issuer": [
+            "state farm"
+          ],
+          "subject": [
+            "policy number",
+            "vin",
+            "deductible"
+          ],
+          "layout": [
+            "renewal declarations"
+          ],
+          "groups": 3
+        },
+        "HEALTHCARE": {
+          "issuer": [
+            "vision"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "aaa-policy_renew",
+      "split": "holdout",
+      "gold": "INSURANCE",
+      "pred": "BANKING_FINANCE",
+      "correct": false,
+      "top": "BANKING_FINANCE",
+      "top_score": 3.0,
+      "second": "INSURANCE",
+      "second_score": 0.7,
+      "gap": 2.3,
+      "letterhead": "Membership Renewal Notice",
+      "note": "GAP: AAA roadside membership, not insurance",
+      "evidence": {
+        "BANKING_FINANCE": {
+          "issuer": [
+            "savings"
+          ],
+          "subject": [
+            "credit card"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [
+            "vehicle",
+            "deductible"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "DMV_registration_late_fee",
+      "split": "holdout",
+      "gold": "GOVERNMENT",
+      "pred": "GOVERNMENT",
+      "correct": true,
+      "top": "GOVERNMENT",
+      "top_score": 3.0,
+      "second": "INSURANCE",
+      "second_score": 0.35,
+      "gap": 2.65,
+      "letterhead": "State of California Department of Public Service Agency",
+      "note": "",
+      "evidence": {
+        "GOVERNMENT": {
+          "issuer": [
+            "state of "
+          ],
+          "subject": [
+            "registration renewal"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [
+            "vehicle"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "ca-dmv-registration-fee",
+      "split": "holdout",
+      "gold": "GOVERNMENT",
+      "pred": "GOVERNMENT",
+      "correct": true,
+      "top": "GOVERNMENT",
+      "top_score": 3.0,
+      "second": "INSURANCE",
+      "second_score": 0.0,
+      "gap": 3.0,
+      "letterhead": "",
+      "note": "phone photo of a DMV fee screen",
+      "evidence": {
+        "GOVERNMENT": {
+          "issuer": [
+            "dmv"
+          ],
+          "subject": [
+            "smog"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "Medicare_Notice_PartB",
+      "split": "holdout",
+      "gold": "HEALTHCARE",
+      "pred": "HEALTHCARE",
+      "correct": true,
+      "top": "HEALTHCARE",
+      "top_score": 6.0,
+      "second": "INSURANCE",
+      "second_score": 0.35,
+      "gap": 5.65,
+      "letterhead": "Medicare Summary Notice",
+      "note": "CONFUSION: Medicare Summary Notice",
+      "evidence": {
+        "HEALTHCARE": {
+          "issuer": [
+            "health"
+          ],
+          "subject": [
+            "summary notice",
+            "provider",
+            "medicare"
+          ],
+          "layout": [
+            "this is not a bill"
+          ],
+          "groups": 3
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [
+            "deductible"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "Medicare_Notice_of_Denial",
+      "split": "holdout",
+      "gold": "HEALTHCARE",
+      "pred": "HEALTHCARE",
+      "correct": true,
+      "top": "HEALTHCARE",
+      "top_score": 4.0,
+      "second": "GOVERNMENT",
+      "second_score": 0.7,
+      "gap": 3.3,
+      "letterhead": "DEPARTMENT OF HEALTH AND HUMAN SERVICES CENTERS FOR MEDICARE & MEDICAID SERVICES",
+      "note": "CONFUSION: CMS Part D denial -- coverage decision vs gov notice",
+      "evidence": {
+        "HEALTHCARE": {
+          "issuer": [
+            "health"
+          ],
+          "subject": [
+            "medicare"
+          ],
+          "layout": [
+            "notice of denial"
+          ],
+          "groups": 3
+        },
+        "GOVERNMENT": {
+          "issuer": [
+            "health and human services"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "Medixare_Premium_Bill",
+      "split": "holdout",
+      "gold": "GOVERNMENT",
+      "pred": "HEALTHCARE",
+      "correct": false,
+      "top": "HEALTHCARE",
+      "top_score": 3.0,
+      "second": "BANKING_FINANCE",
+      "second_score": 0.7,
+      "gap": 2.3,
+      "letterhead": "Medicare Premium Bill",
+      "note": "CONFUSION: CMS premium DELINQUENT BILL -- gov biller vs healthcare topic",
+      "evidence": {
+        "HEALTHCARE": {
+          "issuer": [
+            "health"
+          ],
+          "subject": [
+            "medicare"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "BANKING_FINANCE": {
+          "issuer": [
+            "bank"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "Bank_Bill_Example",
+      "split": "holdout",
+      "gold": "BANKING_FINANCE",
+      "pred": "BANKING_FINANCE",
+      "correct": true,
+      "top": "BANKING_FINANCE",
+      "top_score": 4.0,
+      "second": "UTILITIES_SERVICES",
+      "second_score": 0.35,
+      "gap": 3.65,
+      "letterhead": "ETC",
+      "note": "non-US (PHP) credit card statement",
+      "evidence": {
+        "BANKING_FINANCE": {
+          "issuer": [
+            "bank"
+          ],
+          "subject": [
+            "credit card"
+          ],
+          "layout": [
+            "transaction detail"
+          ],
+          "groups": 3
+        },
+        "UTILITIES_SERVICES": {
+          "issuer": [],
+          "subject": [],
+          "layout": [
+            "previous balance"
+          ],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "EastWest_Bank_Form",
+      "split": "holdout",
+      "gold": "BANKING_FINANCE",
+      "pred": "BANKING_FINANCE",
+      "correct": true,
+      "top": "BANKING_FINANCE",
+      "top_score": 6.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.7,
+      "gap": 5.3,
+      "letterhead": "Financial Statement",
+      "note": "CONFUSION: mortgage-hardship financial form -- bank vs housing",
+      "evidence": {
+        "BANKING_FINANCE": {
+          "issuer": [
+            "financial"
+          ],
+          "subject": [
+            "checking",
+            "loan",
+            "credit card"
+          ],
+          "layout": [
+            "financial statement"
+          ],
+          "groups": 3
+        },
+        "HEALTHCARE": {
+          "issuer": [
+            "health"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "EastWest_Bank_Bill",
+      "split": "holdout",
+      "gold": "BANKING_FINANCE",
+      "pred": "BANKING_FINANCE",
+      "correct": true,
+      "top": "BANKING_FINANCE",
+      "top_score": 4.0,
+      "second": "UTILITIES_SERVICES",
+      "second_score": 0.35,
+      "gap": 3.65,
+      "letterhead": "EASTWESTBANK",
+      "note": "business checking statement",
+      "evidence": {
+        "BANKING_FINANCE": {
+          "issuer": [
+            "bank"
+          ],
+          "subject": [
+            "checking",
+            "opening balance"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "UTILITIES_SERVICES": {
+          "issuer": [],
+          "subject": [
+            "account summary"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "Chase_Bank_Bill_Example",
+      "split": "holdout",
+      "gold": "BANKING_FINANCE",
+      "pred": "BANKING_FINANCE",
+      "correct": true,
+      "top": "BANKING_FINANCE",
+      "top_score": 5.0,
+      "second": "INSURANCE",
+      "second_score": 0.0,
+      "gap": 5.0,
+      "letterhead": "CHASE",
+      "note": "checking statement",
+      "evidence": {
+        "BANKING_FINANCE": {
+          "issuer": [
+            "chase"
+          ],
+          "subject": [
+            "checking",
+            "beginning balance"
+          ],
+          "layout": [
+            "instances"
+          ],
+          "groups": 3
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "Chase_Bank_Bill_Example2",
+      "split": "holdout",
+      "gold": "BANKING_FINANCE",
+      "pred": "BANKING_FINANCE",
+      "correct": true,
+      "top": "BANKING_FINANCE",
+      "top_score": 5.0,
+      "second": "GOVERNMENT",
+      "second_score": 0.35,
+      "gap": 4.65,
+      "letterhead": "CHASE",
+      "note": "checking statement",
+      "evidence": {
+        "BANKING_FINANCE": {
+          "issuer": [
+            "chase"
+          ],
+          "subject": [
+            "checking",
+            "beginning balance"
+          ],
+          "layout": [
+            "instances"
+          ],
+          "groups": 3
+        },
+        "GOVERNMENT": {
+          "issuer": [],
+          "subject": [],
+          "layout": [
+            "page 1 of"
+          ],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "First_Bank_Bill",
+      "split": "holdout",
+      "gold": "BANKING_FINANCE",
+      "pred": "BANKING_FINANCE",
+      "correct": true,
+      "top": "BANKING_FINANCE",
+      "top_score": 5.0,
+      "second": "UTILITIES_SERVICES",
+      "second_score": 4.0,
+      "gap": 1.0,
+      "letterhead": "USA Small Business, LLC",
+      "note": "checking statement",
+      "evidence": {
+        "BANKING_FINANCE": {
+          "issuer": [
+            "bank"
+          ],
+          "subject": [
+            "checking",
+            "ending balance",
+            "credit card"
+          ],
+          "layout": [],
+          "groups": 2
+        },
+        "UTILITIES_SERVICES": {
+          "issuer": [
+            "electric"
+          ],
+          "subject": [
+            "account summary"
+          ],
+          "layout": [
+            "previous balance"
+          ],
+          "groups": 3
+        }
+      }
+    },
+    {
+      "key": "HOA1",
+      "split": "holdout",
+      "gold": "HOUSING_PROPERTY",
+      "pred": "HOUSING_PROPERTY",
+      "correct": true,
+      "top": "HOUSING_PROPERTY",
+      "top_score": 5.0,
+      "second": "BANKING_FINANCE",
+      "second_score": 3.0,
+      "gap": 2.0,
+      "letterhead": "B+H BLUEBONNETHIGHLANDS HOMEOWNERS ASSOCIATION",
+      "note": "",
+      "evidence": {
+        "HOUSING_PROPERTY": {
+          "issuer": [
+            "homeowners association"
+          ],
+          "subject": [
+            "homeowner's dues",
+            "lot #"
+          ],
+          "layout": [
+            "detach here and return"
+          ],
+          "groups": 3
+        },
+        "BANKING_FINANCE": {
+          "issuer": [
+            "bank"
+          ],
+          "subject": [
+            "credit card"
+          ],
+          "layout": [],
+          "groups": 2
+        }
+      }
+    },
+    {
+      "key": "HOA2",
+      "split": "holdout",
+      "gold": "HOUSING_PROPERTY",
+      "pred": "HOUSING_PROPERTY",
+      "correct": true,
+      "top": "HOUSING_PROPERTY",
+      "top_score": 5.0,
+      "second": "UTILITIES_SERVICES",
+      "second_score": 2.0,
+      "gap": 3.0,
+      "letterhead": "Real Estate HOA Dues Statement",
+      "note": "",
+      "evidence": {
+        "HOUSING_PROPERTY": {
+          "issuer": [
+            "hoa"
+          ],
+          "subject": [
+            "hoa dues",
+            "property address"
+          ],
+          "layout": [
+            "dues statement"
+          ],
+          "groups": 3
+        },
+        "UTILITIES_SERVICES": {
+          "issuer": [],
+          "subject": [
+            "billing period"
+          ],
+          "layout": [
+            "amount due"
+          ],
+          "groups": 2
+        }
+      }
+    },
+    {
+      "key": "HOA3",
+      "split": "holdout",
+      "gold": "HOUSING_PROPERTY",
+      "pred": "HOUSING_PROPERTY",
+      "correct": true,
+      "top": "HOUSING_PROPERTY",
+      "top_score": 5.0,
+      "second": "INSURANCE",
+      "second_score": 0.0,
+      "gap": 5.0,
+      "letterhead": "HOA DUES INVOICE",
+      "note": "",
+      "evidence": {
+        "HOUSING_PROPERTY": {
+          "issuer": [
+            "hoa"
+          ],
+          "subject": [
+            "hoa dues",
+            "clubhouse"
+          ],
+          "layout": [
+            "hoa dues invoice"
+          ],
+          "groups": 3
+        },
+        "INSURANCE": {
+          "issuer": [],
+          "subject": [],
+          "layout": [],
+          "groups": 0
+        }
+      }
+    },
+    {
+      "key": "HOA4",
+      "split": "holdout",
+      "gold": "HOUSING_PROPERTY",
+      "pred": "HOUSING_PROPERTY",
+      "correct": true,
+      "top": "HOUSING_PROPERTY",
+      "top_score": 4.0,
+      "second": "GOVERNMENT",
+      "second_score": 0.7,
+      "gap": 3.3,
+      "letterhead": "Happy Hills Association c/o Jellybird HOA Management",
+      "note": "",
+      "evidence": {
+        "HOUSING_PROPERTY": {
+          "issuer": [
+            "hoa"
+          ],
+          "subject": [
+            "property address"
+          ],
+          "layout": [
+            "assessment"
+          ],
+          "groups": 3
+        },
+        "GOVERNMENT": {
+          "issuer": [
+            "irs"
+          ],
+          "subject": [],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    },
+    {
+      "key": "aws_invoice",
+      "split": "holdout",
+      "gold": "OTHER",
+      "pred": "UTILITIES_SERVICES",
+      "correct": false,
+      "top": "UTILITIES_SERVICES",
+      "top_score": 3.0,
+      "second": "HEALTHCARE",
+      "second_score": 0.35,
+      "gap": 2.65,
+      "letterhead": "amazon web services",
+      "note": "GAP: B2B cloud-services invoice, not a personal life domain",
+      "evidence": {
+        "UTILITIES_SERVICES": {
+          "issuer": [],
+          "subject": [
+            "billing period",
+            "cloudfront"
+          ],
+          "layout": [
+            "amount due"
+          ],
+          "groups": 2
+        },
+        "HEALTHCARE": {
+          "issuer": [],
+          "subject": [
+            "provider"
+          ],
+          "layout": [],
+          "groups": 1
+        }
+      }
+    }
+  ]
+}

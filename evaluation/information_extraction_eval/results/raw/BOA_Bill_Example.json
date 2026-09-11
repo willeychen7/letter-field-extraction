@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Account Summary\",\n    \"sender\": \"BankAmericard\",\n    \"recipient_name\": \"Bank of America\",\n    \"address\": \"www.bankofamerica.com\",\n    \"account_number\": \"1.800.637.7455\",\n    \"amount\": \"$3,956.38\",\n    \"due_date\": \"02/05/2018\",\n    \"action_required\": \"None\",\n    \"important_identifier\": \"Visa Signature\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788569113,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 1593,
+    "total_tokens": 1706,
+    "prompt_tokens_details": {
+      "cached_tokens": 1545
+    }
+  },
+  "id": "chatcmpl-Xs6QHMH0eOcd8jMjFLyuv29F5XTipbVM",
+  "timings": {
+    "cache_n": 1545,
+    "prompt_n": 48,
+    "prompt_ms": 45.9,
+    "prompt_per_token_ms": 0.9562499999999999,
+    "prompt_per_second": 1045.751633986928,
+    "predicted_n": 113,
+    "predicted_ms": 1160.621,
+    "predicted_per_token_ms": 10.362687500000002,
+    "predicted_per_second": 96.50006332816655
+  }
+}

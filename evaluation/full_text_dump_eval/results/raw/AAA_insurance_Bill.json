@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Personal Umbrella Policy Number Bill Example\nAA\nAA\nPayment coupon\nYour Policy Number IS PUP 054321234\nYour Policy Term is Jan 1 2020 to Jan 1 2021\nPAT SMITH\n1234 MAIN ST\nSPRINGFIELD IL 62704-8725\nMinimum Due: $12.20\nDue Apr 8 2020\nTotal Amount Owed: $12.20\nWe must RECEIVE your Total Amount Owed no later than Apr 8 2020.\nAmount Paid: $___\nAAA Insurance\nPO BOX 740860\nCINCINNATI, OH 45274-0860\nAAA Insurance\nMemberSelect Insurance Company\n1 Auto Club Drive\nDearborn, MI 48126\nINSURANCE BILL\nVery Important Personal Umbrella\nExcess Liability Insurance Policy\nInstallment\nPOLICY NUMBER: PUP 054321234"
+      }
+    }
+  ],
+  "created": 1788636810,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 201,
+    "prompt_tokens": 340,
+    "total_tokens": 541,
+    "prompt_tokens_details": {
+      "cached_tokens": 335
+    }
+  },
+  "id": "chatcmpl-vRWpCePRt4FLBffLBaJv21as1cGd40pd",
+  "timings": {
+    "cache_n": 335,
+    "prompt_n": 5,
+    "prompt_ms": 37.84,
+    "prompt_per_token_ms": 7.5680000000000005,
+    "prompt_per_second": 132.1353065539112,
+    "predicted_n": 201,
+    "predicted_ms": 1575.137,
+    "predicted_per_token_ms": 7.875685,
+    "predicted_per_second": 126.97308234140903
+  }
+}

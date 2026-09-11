@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Efficient Customer\n| Dates of Service | Meter Reading | Units Used |\n|---|---|---|\n| 9/10/15 10/09/15 | 1548 | 1559 | 11 CCF |\n| USAGE - LOW VOLUME | 5 | $1.11 | $5.55 |\n| USAGE - BASE RATE | 6 | $1.62 | $9.72 |\n| WATER SERVICE CHARGE |  |  | $10.30 |\n| YOUR ALLOCATION FOR THIS BILL BILL CALCULATION BASED ON TO AVOID LATE CHARGE PAY BEFORE | 11 CCF |  |  |\n|  | .03 ACRES |  |  |\n|  | 11/07/15 |  | $25.57 |\nThe Wasteful Customer\n| Dates of Service | Meter Reading | Units Used |\n|---|---|---|\n| 9/10/15 10/09/15 | 1548 | 1568 | 20 CCF |\n| USAGE - LOW VOLUME | 5 | $1.11 | $5.55 |\n| USAGE - BASE RATE | 6 | $1.62 | $9.72 |\n| USAGE - INEFFICIENT | 4 | $3.92 | $15.68 |\n| USAGE - WASTEFUL | 5 | $14.53 | $72.65 |\n| WATER SERVICE CHARGE |  |  | $10.30 |\n| YOUR ALLOCATION FOR THIS BILL BILL CALCULATION BASED ON TO AVOID LATE CHARGE PAY BEFORE | 10 CCF |  |  |\n|  | .03 ACRES |  |  |\n|  | 11/07/15 |  | $113.90 |"
+      }
+    }
+  ],
+  "created": 1788637060,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 395,
+    "prompt_tokens": 406,
+    "total_tokens": 801,
+    "prompt_tokens_details": {
+      "cached_tokens": 401
+    }
+  },
+  "id": "chatcmpl-YmYJJi9YRHch0yV2ARSq8pZrhFp2Gy22",
+  "timings": {
+    "cache_n": 401,
+    "prompt_n": 5,
+    "prompt_ms": 24.821,
+    "prompt_per_token_ms": 4.9642,
+    "prompt_per_second": 201.44232706176223,
+    "predicted_n": 395,
+    "predicted_ms": 3182.753,
+    "predicted_per_token_ms": 8.078053299492387,
+    "predicted_per_second": 123.79220127983541
+  }
+}

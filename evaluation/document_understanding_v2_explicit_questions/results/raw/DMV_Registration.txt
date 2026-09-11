@@ -1,0 +1,11 @@
+{
+  "document_type": "VEHICLE REGISTRATION RENEWAL NOTICE",
+  "sender": "GONZELES C",
+  "recipient": "DMV RENEWAL",
+  "amount": "$95",
+  "due_date": "10/16/2010",
+  "payment_status": "NO PNO",
+  "action_required": false,
+  "action": "MAKE PAYMENT TO:",
+  "risk": "high"
+}

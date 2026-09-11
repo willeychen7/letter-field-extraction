@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"document_type\": \"Auto Insurance Declaration Page\",\n  \"sender\": \"Farmers Insurance\",\n  \"recipient\": \"Policy Premium and Fees\",\n  \"amount\": \"$798.48\",\n  \"due_date\": \"01/01/2019 12:01 AM\",\n  \"payment_status\": \"null\",\n  \"action_required\": true,\n  \"action\": \"Payment\",\n  \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788641420,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 99,
+    "prompt_tokens": 2786,
+    "total_tokens": 2885,
+    "prompt_tokens_details": {
+      "cached_tokens": 2423
+    }
+  },
+  "id": "chatcmpl-HDgwu8QPujsaXXY4HEz7lQfwPjLMYLKG",
+  "timings": {
+    "cache_n": 2423,
+    "prompt_n": 363,
+    "prompt_ms": 184.552,
+    "prompt_per_token_ms": 0.5084077134986226,
+    "prompt_per_second": 1966.9253110234515,
+    "predicted_n": 99,
+    "predicted_ms": 1067.732,
+    "predicted_per_token_ms": 10.895224489795918,
+    "predicted_per_second": 91.78333139776647
+  }
+}

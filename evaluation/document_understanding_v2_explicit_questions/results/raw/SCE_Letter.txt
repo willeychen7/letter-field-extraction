@@ -1,0 +1,11 @@
+{
+  "document_type": "E-filed with Docket #2023-SCAs",
+  "sender": "Shannon O'Rourke",
+  "recipient": "California Natural Resources Agency",
+  "amount": "715 P Street 20th Floor",
+  "due_date": "April 24, 2024",
+  "payment_status": "null",
+  "action_required": true,
+  "action": "submitting a letter to this effect [to] the 2023 Safety Culture Assessments docket.",
+  "risk": "high"
+}

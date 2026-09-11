@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "INVOICE",
+    "sender": "Zylker Heathcare",
+    "recipient_name": "Aaron Brown",
+    "address": "14B, Northern Street, Greater South Avenue, New York 10001 U.S.A",
+    "account_number": "INV-000006",
+    "amount": "900.00",
+    "due_date": "05 Sep 2024",
+    "action_required": "None",
+    "important_identifier": "None"
+}
+```

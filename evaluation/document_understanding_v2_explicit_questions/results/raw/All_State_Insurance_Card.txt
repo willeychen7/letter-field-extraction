@@ -1,0 +1,13 @@
+```json
+{
+  "document_type": "Insurance Card",
+  "sender": "Allstate Fire and Casualty Insurance Company",
+  "recipient": "Allstate Fire and Casualty Insurance Company",
+  "amount": "None",
+  "due_date": "None",
+  "payment_status": "None",
+  "action_required": false,
+  "action": "None",
+  "risk": "None"
+}
+```

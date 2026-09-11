@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mama Helper · 爸妈帮手</title>
+<style>
+  /* ---- palette lifted from mama-helper V5 (tailwind slate/blue/...) ---- */
+  :root{
+    --slate-50:#f8fafc; --slate-100:#f1f5f9; --slate-200:#e2e8f0; --slate-300:#cbd5e1;
+    --slate-500:#64748b; --slate-600:#475569; --slate-700:#334155; --slate-800:#1e293b; --slate-900:#0f172a;
+    --blue-50:#eff6ff; --blue-100:#dbeafe; --blue-200:#bfdbfe; --blue-400:#60a5fa;
+    --blue-600:#2563eb; --blue-700:#1d4ed8; --blue-800:#1e40af; --blue-900:#1e3a8a; --blue-950:#172554;
+    --green-500:#22c55e; --green-600:#16a34a; --green-700:#15803d;
+    --red-600:#dc2626; --red-700:#b91c1c;
+    --amber-50:#fffbeb; --amber-300:#fcd34d; --amber-500:#f59e0b; --amber-800:#92400e; --amber-900:#78350f;
+    --sky-50:#f0f9ff; --sky-400:#38bdf8; --sky-950:#082f49;
+    --indigo-50:#eef2ff; --indigo-400:#818cf8; --indigo-950:#1e1b4b;
+    --rose-50:#fff1f2; --rose-400:#fb7185; --rose-950:#4c0519;
+    --font-scale:1;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--slate-100); color:var(--slate-900);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+    padding:16px;
+  }
+  @media (min-width:768px){ body{ padding:32px } }
+
+  header.app{max-width:576px; margin:24px auto; text-align:center}
+  header.app .titlerow{display:flex; align-items:center; justify-content:center; gap:8px; margin-bottom:8px}
+  header.app svg{width:36px; height:36px; color:var(--green-600); flex:none}
+  header.app h1{font-size:36px; line-height:1.1; font-weight:800; color:var(--blue-800); letter-spacing:1px; margin:0}
+  header.app p{font-size:20px; color:var(--slate-600); font-weight:500; margin:0}
+
+  main.card{
+    max-width:576px; margin:0 auto; background:#fff; border-radius:24px;
+    box-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);
+    padding:24px; border:4px solid var(--slate-200); position:relative; overflow:hidden;
+  }
+
+  .stack{display:flex; flex-direction:column; gap:24px}
+  .stack-sm{display:flex; flex-direction:column; gap:20px}
+
+  /* ---- buttons ---- */
+  button{font:inherit; cursor:pointer; border:0; transition:transform .05s, background .15s}
+  button:active{transform:scale(.97)}
+  .btn-blue{background:var(--blue-600); color:#fff; font-weight:800; border-radius:16px; padding:16px 24px; font-size:20px}
+  .btn-blue:hover{background:var(--blue-700)}
+  .btn-blue:disabled{background:#93c5fd; cursor:not-allowed}
+  .btn-grey{background:var(--slate-200); color:var(--slate-700); font-weight:700; border-radius:9999px; padding:10px 24px; font-size:18px}
+  .btn-grey:hover{background:var(--slate-300)}
+  .btn-row{display:flex; flex-wrap:wrap; gap:12px; justify-content:center}
+
+  /* end-of-result row: 关闭 / 再照一张 -- mirrors mama-helper V5 exactly */
+  .endrow{display:flex; gap:16px}
+  .btn-end{flex:1; display:flex; align-items:center; justify-content:center; gap:8px;
+    padding:16px; border-radius:16px; font-size:20px; font-weight:800}
+  .btn-end svg{width:24px; height:24px; flex:none}
+  .btn-end.grey{background:var(--slate-200); color:var(--slate-800)}
+  .btn-end.grey:hover{background:var(--slate-300)}
+  .btn-end.blue{background:var(--blue-600); color:#fff; box-shadow:0 4px 6px -1px rgba(0,0,0,.1)}
+  .btn-end.blue:hover{background:var(--blue-700)}
+
+  /* live camera (getUserMedia) */
+  .cam-frame{position:relative; background:#000; border-radius:24px; padding:8px; overflow:hidden}
+  .cam-frame video{width:100%; max-height:65vh; border-radius:16px; display:block; background:#000; object-fit:cover}
+  .cam-x{position:absolute; top:16px; right:16px; z-index:10; width:44px; height:44px; border-radius:9999px;
+    background:rgba(15,23,42,.8); color:#fff; border:1px solid rgba(255,255,255,.25);
+    display:flex; align-items:center; justify-content:center}
+  .cam-x svg{width:22px; height:22px}
+  .cam-hint{margin:0; padding:10px; text-align:center; background:rgba(15,23,42,.9); color:#fcd34d; font-weight:800; font-size:16px}
+
+  /* ---- upload / drop ---- */
+  .home{display:flex; flex-direction:column; gap:16px; margin:32px 0}
+  .btn-camerabig{
+    width:100%; min-height:192px; background:var(--blue-600); color:#fff;
+    border-radius:24px; border:4px solid var(--blue-400);
+    box-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);
+    display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; padding:20px;
+  }
+  .btn-camerabig:hover{background:var(--blue-700)}
+  .btn-camerabig svg{width:72px; height:72px; stroke-width:2}
+  .btn-camerabig .t1{font-size:30px; font-weight:800; letter-spacing:2px}
+  .btn-camerabig .t2{font-size:18px; color:var(--blue-100)}
+  .drop{
+    display:block; text-align:center; padding:16px; border-radius:16px;
+    background:var(--slate-100); border:2px dashed var(--slate-300);
+    cursor:pointer; transition:all .15s;
+  }
+  .drop:hover,.drop.hot{background:var(--slate-200)}
+  .drop .big{display:block; font-size:18px; font-weight:700; color:var(--slate-700)}
+  .drop .sub{display:block; font-size:13px; color:var(--slate-500); margin-top:3px}
+  .mini{margin-top:4px; text-align:center}
+  .mini img{max-height:320px; max-width:100%; border-radius:16px; border:2px solid var(--slate-300)}
+
+  /* ---- scanning (mama-helper V5) ---- */
+  .scan-frame{position:relative; border-radius:16px; overflow:hidden; border:2px solid var(--slate-300); box-shadow:inset 0 2px 4px rgba(0,0,0,.06)}
+  .scan-frame img{display:block; width:100%; height:auto; position:relative; z-index:10}
+  .scanning-overlay{position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.30); z-index:15; pointer-events:none}
+  .scanning-line{
+    position:absolute; left:0; width:100%; height:6px; z-index:20;
+    background:linear-gradient(to right, transparent, #22c55e, #4ade80, #22c55e, transparent);
+    box-shadow:0 0 15px #22c55e, 0 0 25px #4ade80;
+    animation:scan-moving 2s linear infinite;
+  }
+  @keyframes scan-moving{
+    0%{top:0%; opacity:0} 10%{opacity:1} 90%{opacity:1} 100%{top:100%; opacity:0}
+  }
+  .scan-card{background:var(--blue-50); border:4px solid var(--blue-400); border-radius:16px; padding:24px; text-align:center; display:flex; flex-direction:column; gap:14px}
+  .scan-card .head{display:flex; align-items:center; justify-content:center; gap:8px; color:var(--blue-800)}
+  .scan-card .head .sp{width:32px; height:32px; border:5px solid var(--blue-200); border-top-color:var(--blue-600); border-radius:50%; animation:spin 1s linear infinite}
+  .scan-card .head span{font-size:24px; font-weight:800}
+  .scan-card .sub{font-size:16px; color:var(--blue-900); font-weight:700; margin:0}
+  .scan-card .hint{font-size:13px; color:var(--blue-700); margin:0}
+  .bar{width:100%; height:16px; background:var(--blue-100); border-radius:9999px; overflow:hidden}
+  .bar > i{display:block; height:100%; width:35%; background:var(--blue-600); border-radius:9999px; animation:indet 1.4s ease-in-out infinite}
+  @keyframes indet{0%{margin-left:-40%}100%{margin-left:100%}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  /* ---- accessibility bar ---- */
+  .a11y{display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-bottom:12px}
+  .btn-speak{display:flex; align-items:center; gap:8px; padding:16px 24px; border-radius:16px; font-size:22px; font-weight:800; border:4px solid var(--blue-700); background:var(--blue-600); color:#fff}
+  .btn-speak:hover{background:var(--blue-700)}
+  .btn-speak.on{background:var(--red-600); border-color:var(--red-700)}
+  .seg{display:flex; align-items:center; gap:8px}
+  .seg .lbl{font-size:16px; font-weight:700; color:var(--slate-600)}
+  .seg button{padding:8px 14px; border-radius:12px; font-size:16px; font-weight:800; border:2px solid var(--slate-300); background:#fff; color:var(--slate-700)}
+  .seg button.sel{background:var(--slate-800); color:#fff; border-color:var(--slate-800)}
+  .seg.right{margin-left:auto}
+  .voice-note{font-size:15px; background:var(--amber-50); border:2px solid var(--amber-300); color:var(--amber-800); border-radius:12px; padding:8px 14px; margin-bottom:12px}
+
+  /* ---- result card ---- */
+  .resultcard{background:#fff; border:4px solid var(--slate-800); border-radius:16px; padding:24px; display:flex; flex-direction:column; gap:16px; zoom:var(--font-scale)}
+  .fcard{border:4px solid var(--slate-300); border-radius:16px; padding:18px 20px; background:#fff}
+  .fgrid{display:grid; grid-template-columns:1fr; gap:14px}
+  @media (min-width:520px){ .fgrid{grid-template-columns:1fr 1fr} }
+  .fcard .label{font-size:15px; font-weight:900; letter-spacing:.3px; color:var(--slate-600)}
+  .fcard .note{font-size:12px; font-weight:700; color:var(--slate-500); margin-top:2px}
+  .fcard .value{font-size:26px; font-weight:900; margin-top:4px; word-break:break-word; line-height:1.25}
+  .fcard.sky{background:var(--sky-50); border-color:var(--sky-400)}    .fcard.sky .value{color:var(--sky-950)}
+  .fcard.indigo{background:var(--indigo-50); border-color:var(--indigo-400)} .fcard.indigo .value{color:var(--indigo-950)}
+  .fcard.green{background:#f0fdf4; border-color:#4ade80}              .fcard.green .value{color:#052e16}
+  .fcard.amber{background:var(--amber-50); border-color:var(--amber-500)}  .fcard.amber .value{color:var(--amber-900)}
+  .fcard.rose{background:var(--rose-50); border-color:var(--rose-400)}  .fcard.rose .value{color:var(--rose-950)}
+  .fcard.unknown{background:var(--slate-100); border-color:var(--slate-300)}
+  .fcard.unknown .value{color:var(--slate-500); font-size:20px; font-weight:800}
+
+  /* merged 金额+付款状态+截止日期 card */
+  .paycard{grid-column:1 / -1}
+  .pay-row{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-top:4px}
+  .pay-row .value{margin-top:0}
+  .pill{padding:5px 14px; border-radius:9999px; font-size:15px; font-weight:800}
+  .pill.amber{background:#fef3c7; color:#92400e}
+  .pill.green{background:#dcfce7; color:#166534}
+  .pill.grey{background:var(--slate-200); color:var(--slate-700)}
+  .pay-sub{margin-top:10px; font-size:16px; font-weight:800; color:var(--slate-800)}
+  .pay-sub.muted{color:var(--slate-500); font-weight:700}
+
+  /* narrative sections ("这封信说什么" / "你需要做什么") -- mirrors mama-helper V5's layer0 card: plain on white, not a boxed callout */
+  .narrative{display:flex; flex-direction:column; gap:10px}
+  .narrative .head{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap}
+  .narrative .dot{width:16px; height:16px; border-radius:50%; flex:none; align-self:center}
+  .narrative .dot.ok{background:var(--green-500)}
+  .narrative .dot.warn{background:var(--amber-500)}
+  .narrative h2{margin:0; font-size:28px; font-weight:900; color:var(--slate-900)}
+  .narrative .tag{font-size:22px; font-weight:900; color:var(--slate-500)}
+  .narrative .warnline{margin:0; font-size:21px; line-height:1.6; font-weight:800; color:#b45309}
+  .narrative .mainline{margin:0; font-size:21px; line-height:1.6; font-weight:800; color:var(--slate-900)}
+  .narrative .mainline.muted{color:var(--slate-500); font-weight:700}
+  .divider{border:0; border-top:2px solid var(--slate-200); margin:2px 0}
+
+  .banner{border-radius:14px; padding:14px 16px; font-size:16px; font-weight:800; margin-bottom:16px}
+  .banner.err{background:#fef2f2; border:3px solid #fca5a5; color:var(--red-700)}
+  .banner.warn{background:var(--amber-50); border:3px solid var(--amber-300); color:var(--amber-800)}
+
+  details.tech{margin-top:16px; border:2px solid var(--slate-200); border-radius:12px; padding:10px 14px; background:var(--slate-50)}
+  details.tech summary{cursor:pointer; font-weight:800; font-size:14px; color:var(--slate-600)}
+  details.tech pre{white-space:pre-wrap; word-break:break-word; font-size:12px; color:var(--slate-700); margin:10px 0 0}
+  .meta{margin-top:10px; font-size:13px; color:var(--slate-500); text-align:center}
+  .hide{display:none}
+  input[type=file]{display:none}
+</style>
+</head>
+<body>
+  <header class="app">
+    <div class="titlerow">
+      <!-- shield-check, matches V5 header icon -->
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+      <h1>安心小助手</h1>
+    </div>
+    <p>拍照识信，中文解读</p>
+  </header>
+
+  <main class="card">
+
+    <!-- STEP 1: upload -->
+    <section id="view-upload">
+      <div class="home">
+        <button class="btn-camerabig" id="btn-camera">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3Z"/><circle cx="12" cy="13" r="3"/></svg>
+          <span class="t1">点击拍照</span>
+          <span class="t2">对准信件，拍一下就知道</span>
+        </button>
+        <label class="drop" id="drop">
+          <span class="big">从手机选择照片 · 或 PDF</span>
+          <span class="sub">支持 JPG / PNG / PDF，最大 20MB</span>
+        </label>
+      </div>
+      <input id="file-input" type="file" accept="image/png,image/jpeg,application/pdf" />
+      <input id="cam-input" type="file" accept="image/*" capture="environment" />
+    </section>
+
+    <!-- STEP 1b: live camera -->
+    <section id="view-camera" class="stack-sm hide">
+      <div class="cam-frame">
+        <button class="cam-x" id="btn-cam-close" title="关闭相机">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+        <video id="cam-video" autoplay playsinline muted></video>
+        <p class="cam-hint">请把整封信放进画面里</p>
+      </div>
+      <div class="btn-row">
+        <button class="btn-end blue" id="btn-cam-shoot" style="flex:none; padding:16px 36px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3Z"/><circle cx="12" cy="13" r="3"/></svg>
+          <span>拍照</span>
+        </button>
+        <button class="btn-grey" id="btn-cam-flip">翻转</button>
+      </div>
+    </section>
+    <canvas id="cam-canvas" class="hide"></canvas>
+
+    <!-- STEP 2: scanning -->
+    <section id="view-scan" class="stack-sm hide">
+      <div class="scan-frame">
+        <img id="scan-img" alt="scanning" />
+        <div class="scanning-overlay"><div class="scanning-line"></div></div>
+      </div>
+      <div class="scan-card">
+        <div class="head"><span class="sp"></span><span>正在读取信件…</span></div>
+        <p class="sub">HunyuanOCR + Phase 3–8 分析中</p>
+        <div class="bar"><i></i></div>
+        <p class="hint">OCR 在本机 / 局域网的模型上运行（首次可能较慢）。</p>
+      </div>
+      <div class="btn-row"><button class="btn-grey" id="btn-cancel">取消</button></div>
+    </section>
+
+    <!-- STEP 3: result -->
+    <section id="view-result" class="stack-sm hide">
+      <div id="result-banner"></div>
+
+      <div class="scan-frame" style="border-width:2px">
+        <img id="result-img" alt="letter" />
+      </div>
+      <div class="meta" id="result-meta"></div>
+
+      <div class="a11y">
+        <button class="btn-speak" id="btn-speak">🔊 读给我听</button>
+        <div class="seg" id="rate-seg">
+          <span class="lbl">语速</span>
+          <button data-rate="0.7">慢</button>
+          <button data-rate="0.85" class="sel">正常</button>
+          <button data-rate="1.05">快</button>
+        </div>
+        <div class="seg right" id="font-seg">
+          <span class="lbl">字号</span>
+          <button data-scale="1" class="sel">标准</button>
+          <button data-scale="1.25">大</button>
+          <button data-scale="1.55">特大</button>
+        </div>
+      </div>
+      <p id="voice-note" class="voice-note hide"></p>
+
+      <div class="resultcard" id="resultcard">
+        <div class="narrative" id="says"></div>
+        <div class="fgrid" id="cards"></div>
+        <hr class="divider" />
+        <div class="narrative" id="todo"></div>
+      </div>
+
+      <details class="tech">
+        <summary>技术细节 / raw pipeline output</summary>
+        <pre id="tech-pre"></pre>
+      </details>
+
+      <div class="endrow">
+        <button class="btn-end grey" id="btn-close">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          <span>关闭</span>
+        </button>
+        <button class="btn-end blue" id="btn-retake">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3Z"/><circle cx="12" cy="13" r="3"/></svg>
+          <span>再照一张</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+const API = new URLSearchParams(location.search).get("api") || "";
+
+let currentFile = null;
+let currentPreviewURL = "";   // object URL for images, or a PDF placeholder
+let speechRate = 0.85;
+let lastSpeechText = "";
+
+function pdfPlaceholder(name){
+  const safe = String(name || "letter.pdf").replace(/[<&]/g, "").slice(0, 40);
+  const svg =
+    `<svg xmlns='http://www.w3.org/2000/svg' width='420' height='300'>` +
+    `<rect width='100%' height='100%' fill='#f1f5f9'/>` +
+    `<text x='210' y='140' font-size='64' text-anchor='middle'>📄</text>` +
+    `<text x='210' y='190' font-size='20' fill='#334155' text-anchor='middle' font-family='sans-serif'>PDF: ${safe}</text>` +
+    `<text x='210' y='220' font-size='14' fill='#64748b' text-anchor='middle' font-family='sans-serif'>第 1 页将用于分析</text></svg>`;
+  return "data:image/svg+xml;utf8," + encodeURIComponent(svg);
+}
+function previewURLFor(file){
+  return /pdf$/i.test(file.type) ? pdfPlaceholder(file.name) : URL.createObjectURL(file);
+}
+
+// ---------- presentation maps (frontend only, deterministic, no LLM) ----------
+const DOMAIN_ZH_SHORT = {
+  UTILITIES_SERVICES:"水电 / 公共事业", BANKING_FINANCE:"银行 / 金融",
+  HEALTHCARE:"医疗", INSURANCE:"保险", GOVERNMENT:"政府",
+  HOUSING_PROPERTY:"房屋 / 物业", OTHER:"其他",
+};
+const DOMAIN_ZH = {   // full sentence, used in the 这封信说什么 narrative
+  UTILITIES_SERVICES:"这是一封水电 / 公共事业类账单",
+  BANKING_FINANCE:"这是一封银行 / 信用卡类的信",
+  HEALTHCARE:"这是一封医疗 / 医院账单",
+  INSURANCE:"这是一封保险相关的信",
+  GOVERNMENT:"这是一封政府机构的信",
+  HOUSING_PROPERTY:"这是一封房屋 / 物业（例如 HOA）相关的信",
+  OTHER:"这封信的类型暂时无法确定",
+};
+const PAY_ZH = { unpaid:"待付款", paid:"已付款", not_applicable:"无需付款" };
+
+const has = (v) => v !== null && v !== undefined && String(v).trim() !== "" && v !== "None";
+const money = (v) => has(v) ? ("$" + String(v).replace(/^\$/, "")) : null;
+
+// ISO YYYY-MM-DD  ->  MM/DD/YYYY  (display only; pipeline output unchanged)
+function fmtDate(v){
+  if (!has(v)) return null;
+  const m = String(v).match(/^(\d{4})-(\d{2})-(\d{2})/);
+  return m ? (m[2] + "/" + m[3] + "/" + m[1]) : String(v);
+}
+// digits  ->  XXX-XXX-XXXX  (drops a leading US "1"); non-10-digit shown as-is
+function fmtPhone(v){
+  if (!has(v)) return null;
+  let d = String(v).replace(/\D/g, "");
+  if (d.length === 11 && d[0] === "1") d = d.slice(1);
+  return d.length === 10 ? (d.slice(0,3) + "-" + d.slice(3,6) + "-" + d.slice(6)) : String(v);
+}
+
+function whatItSays(domain, amount){
+  if (!has(domain) && !has(amount)) return { text:"暂时无法确定这封信的主要内容。", muted:true };
+  let base = DOMAIN_ZH[domain] || "这封信的类型暂时无法确定";
+  base += has(amount) ? ("，本期显示需要支付 " + money(amount) + "。") : "。";
+  return { text: base, muted:false };
+}
+
+// a plain-language "要留意" flag -- pipeline output only, no guessing:
+// pay-but-no-due-date / pay-but-no-amount / domain unrecognised.
+// payment_status is checked FIRST: "not_applicable" / "paid" means no money is
+// owed regardless of what Phase 8's `action` says, so those never get an
+// "it wants money but..." warning -- that would contradict "你需要做什么" below.
+function assessAttention(domain, action, amount, due, pay){
+  const owesMoney = action === "pay" && pay !== "not_applicable" && pay !== "paid";
+  if (owesMoney && has(amount) && !has(due))
+    return { warn:true, note:"这封信要交钱，但小助手没在信上找到截止日期，建议找家人核对一下要交多少、什么时候交。" };
+  if (owesMoney && !has(amount))
+    return { warn:true, note:"这封信看起来要交钱，但小助手没找到具体金额，建议找家人核对。" };
+  if (!has(domain))
+    return { warn:true, note:"小助手暂时判断不出这是什么类型的信，建议找家人看一下原件。" };
+  return { warn:false, note:null };
+}
+function whatToDo(action, amount, due, pay, phone){
+  if (pay === "paid") return { text:"这封信显示账单已付清，通常不需要再处理。", muted:false };
+  if (pay === "not_applicable" && !has(amount)) return { text:"这封信看起来不需要付款。", muted:false };
+  if (action === "pay"){
+    if (has(amount) && has(due)) return { text:"请在 " + fmtDate(due) + " 前支付 " + money(amount) + "。", muted:false };
+    if (has(amount)) return { text:"请支付 " + money(amount) + "。付款截止日期暂时无法确定。", muted:false };
+    return { text:"这封信要求付款，但金额暂时无法确定，建议找人帮忙核对。", muted:true };
+  }
+  if (action === "renew") return { text:"这封信涉及续期 / 续保，请在截止日期前处理" + (has(due) ? "（" + fmtDate(due) + "）" : "") + "。", muted:false };
+  if (action === "call" || action === "contact") return { text:"这封信建议你打电话联系对方" + (has(phone) ? "：" + fmtPhone(phone) : "") + "。", muted:false };
+  if (action === "review") return { text:"这封信需要你查看内容确认，目前没有看到明确的付款要求。", muted:false };
+  return { text:"暂时无法确定需要做什么，建议找人帮忙看一下这封信。", muted:true };
+}
+
+// ---------- view switching ----------
+function show(view){
+  for (const v of ["upload","camera","scan","result"]) $("view-" + v).classList.toggle("hide", v !== view);
+  window.scrollTo({ top:0, behavior:"smooth" });
+}
+
+// ---------- live camera (getUserMedia) ----------
+let camStream = null;
+let camFacing = "environment";
+
+async function openCamera(){
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
+    $("cam-input").click();   // old browser: fall back to the native picker
+    return;
+  }
+  try{
+    camStream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: camFacing }, audio: false });
+    $("cam-video").srcObject = camStream;
+    show("camera");
+  }catch(e){
+    console.warn("camera unavailable, falling back to file picker:", e);
+    $("cam-input").click();   // no camera / permission denied: fall back
+  }
+}
+function stopCameraStream(){
+  if (camStream){ camStream.getTracks().forEach(t => t.stop()); camStream = null; }
+}
+function closeCamera(){
+  stopCameraStream();
+  show("upload");
+}
+async function flipCamera(){
+  camFacing = camFacing === "environment" ? "user" : "environment";
+  stopCameraStream();
+  try{
+    camStream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: camFacing }, audio: false });
+    $("cam-video").srcObject = camStream;
+  }catch(e){ console.warn("flip camera failed:", e); }
+}
+function capturePhoto(){
+  const video = $("cam-video"), canvas = $("cam-canvas");
+  canvas.width = video.videoWidth || 1280;
+  canvas.height = video.videoHeight || 960;
+  canvas.getContext("2d").drawImage(video, 0, 0, canvas.width, canvas.height);
+  canvas.toBlob((blob) => {
+    stopCameraStream();
+    pickFile(new File([blob], "camera.jpg", { type: "image/jpeg" }));
+  }, "image/jpeg", 0.92);
+}
+
+function pickFile(file){
+  if (!file) return;
+  const okImg = /^image\/(png|jpe?g)$/i.test(file.type);
+  const okPdf = /^application\/(pdf|x-pdf)$/i.test(file.type) || /\.pdf$/i.test(file.name || "");
+  if (!okImg && !okPdf){
+    alert("请使用 JPG / PNG 图片或 PDF。\niPhone 的 HEIC 照片：在相册里『导出为 JPG』，或先截图。");
+    return;
+  }
+  if (file.size > 20 * 1024 * 1024){ alert("文件超过 20MB，请压缩后再试。"); return; }
+  currentFile = file;
+  currentPreviewURL = previewURLFor(file);
+  analyze();               // straight into the scan / analysing view, like V5
+}
+
+function fcard(label, value, tone, sub){
+  const div = document.createElement("div");
+  div.className = "fcard " + (tone || "unknown");
+  const l = document.createElement("div"); l.className = "label"; l.textContent = label;
+  div.appendChild(l);
+  if (sub && tone !== "unknown"){
+    const s = document.createElement("div"); s.className = "note"; s.textContent = sub;
+    div.appendChild(s);
+  }
+  const v = document.createElement("div"); v.className = "value";
+  v.textContent = (tone === "unknown") ? "暂时无法确定" : value;
+  div.appendChild(v);
+  return div;
+}
+
+// one merged card for 金额 + 付款状态 + 截止日期 -- these three only make sense
+// read together (an amount with no status/date reads as "owed", which may be
+// wrong), so they render as a single sentence-like block instead of three
+// separate boxes.
+function paymentCard(amount, pay, due){
+  const div = document.createElement("div");
+  const owesMoney = has(pay) && pay !== "paid" && pay !== "not_applicable";
+  const tone = pay === "paid" ? "green" : (has(amount) || owesMoney) ? "amber" : "unknown";
+  div.className = "fcard paycard " + tone;
+
+  const label = document.createElement("div"); label.className = "label"; label.textContent = "费用与付款";
+  div.appendChild(label);
+
+  const row = document.createElement("div"); row.className = "pay-row";
+  const amtEl = document.createElement("div"); amtEl.className = "value";
+  amtEl.textContent = has(amount) ? money(amount) : "暂时无法确定";
+  row.appendChild(amtEl);
+  if (has(pay)){
+    const pill = document.createElement("span");
+    pill.className = "pill " + (pay === "paid" ? "green" : pay === "not_applicable" ? "grey" : "amber");
+    pill.textContent = PAY_ZH[pay] || pay;
+    row.appendChild(pill);
+  }
+  div.appendChild(row);
+
+  let sub = null;
+  if (pay === "paid") sub = { text: "已完成付款", muted: false };
+  else if (pay === "not_applicable") sub = { text: "此信件不涉及付款", muted: false };
+  else if (has(due)) sub = { text: "请在 " + fmtDate(due) + " 前付款", muted: false };
+  else if (has(amount) || owesMoney) sub = { text: "付款截止日期暂时无法确定", muted: true };
+
+  if (sub){
+    const s = document.createElement("div");
+    s.className = "pay-sub" + (sub.muted ? " muted" : "");
+    s.textContent = sub.text;
+    div.appendChild(s);
+  }
+  return div;
+}
+
+function render(data){
+  stopSpeak();
+  $("result-img").src = currentPreviewURL;
+  const t = data.timing || {}, ocr = data.ocr || {};
+  $("result-meta").textContent =
+    `OCR ${ocr.element_count ?? "?"} 段文字 · ${t.inference_s ?? "?"}s` + (ocr.truncated ? " · ⚠ OCR 被截断" : "");
+
+  const banner = $("result-banner"); banner.innerHTML = "";
+  if (ocr.truncated){
+    const b = document.createElement("div"); b.className = "banner warn";
+    b.textContent = "这张图片文字较多，OCR 可能没有读完，结果仅供参考。";
+    banner.appendChild(b);
+  }
+
+  const F = data.fields || {};
+  const val = (k) => (F[k] && has(F[k].value)) ? F[k].value : null;
+  const sender = val("sender");
+  const recipient = val("recipient");
+  const domain = has(data.domain) ? data.domain : null;
+  const amount = val("total_amount");
+  const pay = val("payment_status");
+  const due = val("due_date");
+  const action = val("action");
+  const phone = (data.contact && has(data.contact.phone_number)) ? data.contact.phone_number : null;
+
+  const cards = $("cards"); cards.innerHTML = "";
+  cards.appendChild(fcard("寄件人", sender, sender ? "sky" : "unknown"));
+  cards.appendChild(fcard("信件类型", domain ? (DOMAIN_ZH_SHORT[domain] || domain) : null, domain ? "indigo" : "unknown"));
+  cards.appendChild(fcard("收件人", recipient, recipient ? "sky" : "unknown"));
+  cards.appendChild(paymentCard(amount, pay, due));
+  if (phone) cards.appendChild(fcard("联系电话", fmtPhone(phone), "sky"));
+
+  const says = whatItSays(domain, amount);
+  const todo = whatToDo(action, amount, due, pay, phone);
+  const att = assessAttention(domain, action, amount, due, pay);
+  const esc = (s) => String(s).replace(/[<&]/g, (c) => c === "<" ? "&lt;" : "&amp;");
+
+  $("says").innerHTML =
+    `<div class="head">` +
+      `<span class="dot ${att.warn ? "warn" : "ok"}"></span>` +
+      `<h2>这封信说什么</h2>` +
+      (att.warn ? `<span class="tag">（要留意）</span>` : "") +
+    `</div>` +
+    (att.warn ? `<p class="warnline">${esc(att.note)}</p>` : "") +
+    `<p class="mainline${says.muted ? " muted" : ""}">${esc(says.text)}</p>`;
+
+  $("todo").innerHTML =
+    `<div class="head"><h2>你需要做什么</h2></div>` +
+    `<p class="mainline${todo.muted ? " muted" : ""}">${esc(todo.text)}</p>`;
+
+  lastSpeechText = [att.note, says.text, todo.text].filter(Boolean).join(" ");
+
+  $("tech-pre").textContent = JSON.stringify(
+    { domain:data.domain, domain_gap:data.domain_gap, fields:data.fields,
+      contact:data.contact, cross_validation:data.cross_validation, ocr:data.ocr, timing:data.timing }, null, 2);
+
+  show("result");
+}
+
+async function analyze(){
+  if (!currentFile) return;
+  $("scan-img").src = currentPreviewURL;
+  show("scan");
+  const fd = new FormData();
+  fd.append("file", currentFile, currentFile.name || "letter.jpg");
+  try{
+    const r = await fetch(API + "/v1/analyze", { method:"POST", body:fd });
+    const text = await r.text();
+    let data = null; try { data = JSON.parse(text); } catch {}
+    if (!r.ok){ showError((data && data.detail) ? data.detail : ("HTTP " + r.status + "\n" + text.slice(0,400))); return; }
+    render(data);
+  }catch(e){
+    showError("无法连接分析服务（8091 端口没启动，或 llama-server 没开？）\n" + e.message);
+  }
+}
+function showError(msg){
+  show("result");
+  $("result-img").src = currentPreviewURL || "";
+  $("result-meta").textContent = ""; $("cards").innerHTML = "";
+  $("says").innerHTML = ""; $("todo").innerHTML = ""; $("tech-pre").textContent = "";
+  lastSpeechText = "";
+  $("result-banner").innerHTML = `<div class="banner err">${String(msg).replace(/</g,"&lt;")}</div>`;
+}
+function reset(){
+  stopSpeak();
+  stopCameraStream();
+  currentFile = null; currentPreviewURL = "";
+  $("file-input").value = ""; $("cam-input").value = "";
+  show("upload");
+}
+
+// ---------- speech (Web Speech API, mirrors mama-helper utils/speech.js) ----------
+function pickZhVoice(){
+  if (!window.speechSynthesis) return null;
+  const vs = speechSynthesis.getVoices() || [];
+  const zh = vs.filter(v => /^zh/i.test(v.lang || ""));
+  if (!zh.length) return null;
+  const local = zh.filter(v => v.localService);
+  const preferCN = (list) => list.find(v => /zh[-_]?CN/i.test(v.lang)) || list[0];
+  return local.length ? { voice: preferCN(local), isLocal: true } : { voice: preferCN(zh), isLocal: false };
+}
+function refreshVoiceNote(){
+  const note = $("voice-note");
+  if (!window.speechSynthesis){ note.textContent = "这台设备不支持朗读。"; note.classList.remove("hide"); $("btn-speak").disabled = true; return; }
+  const vi = pickZhVoice();
+  if (!vi){ note.textContent = "这台设备上没有找到中文语音，朗读可能读不出来。"; note.classList.remove("hide"); }
+  else if (!vi.isLocal){ note.textContent = "这台设备上只找到联网的中文语音。点「读给我听」会把小助手写的中文说明（不含姓名地址）发给语音服务。"; note.classList.remove("hide"); }
+  else note.classList.add("hide");
+}
+function stopSpeak(){
+  if (window.speechSynthesis) speechSynthesis.cancel();
+  $("btn-speak").classList.remove("on");
+  $("btn-speak").textContent = "🔊 读给我听";
+}
+function speak(){
+  if (!window.speechSynthesis || !lastSpeechText) return;
+  if (speechSynthesis.speaking || $("btn-speak").classList.contains("on")){ stopSpeak(); return; }
+  const u = new SpeechSynthesisUtterance(lastSpeechText);
+  const vi = pickZhVoice();
+  if (vi && vi.voice){ u.voice = vi.voice; u.lang = vi.voice.lang; } else { u.lang = "zh-CN"; }
+  u.rate = speechRate;
+  u.onend = u.onerror = stopSpeak;
+  $("btn-speak").classList.add("on");
+  $("btn-speak").textContent = "■ 停止";
+  speechSynthesis.speak(u);
+}
+
+// ---------- wire up ----------
+$("drop").onclick = (e) => { e.preventDefault(); $("file-input").click(); };
+$("btn-camera").onclick = openCamera;
+$("file-input").onchange = (e) => pickFile(e.target.files[0]);
+$("cam-input").onchange = (e) => pickFile(e.target.files[0]);
+$("btn-cam-close").onclick = closeCamera;
+$("btn-cam-shoot").onclick = capturePhoto;
+$("btn-cam-flip").onclick = flipCamera;
+$("btn-cancel").onclick = reset;
+$("btn-close").onclick = reset;
+$("btn-retake").onclick = () => { reset(); openCamera(); };
+$("btn-speak").onclick = speak;
+
+$("rate-seg").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-rate]"); if (!b) return;
+  speechRate = parseFloat(b.dataset.rate);
+  [...$("rate-seg").querySelectorAll("button")].forEach(x => x.classList.toggle("sel", x === b));
+  if ($("btn-speak").classList.contains("on")){ stopSpeak(); setTimeout(speak, 60); }
+});
+$("font-seg").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-scale]"); if (!b) return;
+  document.documentElement.style.setProperty("--font-scale", b.dataset.scale);
+  [...$("font-seg").querySelectorAll("button")].forEach(x => x.classList.toggle("sel", x === b));
+});
+
+const drop = $("drop");
+["dragenter","dragover"].forEach(ev => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add("hot"); }));
+["dragleave","drop"].forEach(ev => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove("hot"); }));
+drop.addEventListener("drop", (e) => { if (e.dataTransfer.files[0]) pickFile(e.dataTransfer.files[0]); });
+
+if (window.speechSynthesis){
+  refreshVoiceNote();
+  speechSynthesis.onvoiceschanged = refreshVoiceNote;
+}
+</script>
+</body>
+</html>

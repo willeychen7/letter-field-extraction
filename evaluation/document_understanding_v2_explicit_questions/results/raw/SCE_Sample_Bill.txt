@@ -1,0 +1,11 @@
+{
+  "document_type": "billing and service inquiry",
+  "sender": "Southern California Edison",
+  "recipient": "Your electricity bill",
+  "amount": "$2,149.55",
+  "due_date": "05/11/20",
+  "payment_status": "null",
+  "action_required": null,
+  "action": "Please return the payment stub below with your payment and make your check payable to Southern California Edison. If you want to pay in person, call 1-800-747-8908 for locations, or you can pay online at www.sce.com.",
+  "risk": "high"
+}

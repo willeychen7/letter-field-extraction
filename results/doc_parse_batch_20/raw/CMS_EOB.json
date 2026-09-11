@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# EXPLANATION OF BENEFITS\n\n$ \\textbf{1} $ Customer Service Number: 1-800-123-4567\n\nStatement Date: XXXXX\n\nMember Name:\n\nDocument Number: XXXXXXXXX\n\nAddress:\n\n图1(733,87),(828,203)\n\nCity, State, Zip:\n\nTHIS IS NOT A BILL\n\nSubscriber Number: XXXXXXXXX\n\nID: XXXXXXX\n\nGroup: ABCDE\n\nGroup Number: XXXXX\n\nPatient Name: XXXXXXX\n\nProvider:\n\nClaim Number: XXXXXXXXX\n\nDate Received: XXXXXXXXX\n\nPayee: $ \\textbf{2} $\n\nDate Paid: XXXXXXXXX\n\n$ \\textbf{3.} $ Service Description\n\nshows the health services you received, like a medical visit, lab test, or screening.\n\n$ \\textbf{4.} $ Provider Charges\n\nis the amount your provider bills for your visit.\n\n$ \\textbf{5.} $ Allowed Charges\n\nis the amount your provider will be paid; this may not be the same as the Provider Charges.\n\n<table><caption></caption><tr><td colspan=\"5\">Claim Detail</td><td colspan=\"2\">What your Provider Can Charge You</td><td colspan=\"2\">Your Responsibility</td><td colspan=\"2\">Total Claim Cost</td></tr><tr><td>Line No.</td><td>Date of Service</td><td>Service Description</td><td>Claim Status</td><td>Provider Charges</td><td>Allowed Charges</td><td>Co Pay</td><td>Deductible</td><td>Coinsurance</td><td>Paid by Insurer</td><td>What You Owe</td><td>Remark Code</td></tr><tr><td>1</td><td>3/20/22-3/20/22</td><td>Medical care</td><td>Paid</td><td>$31.60</td><td>$2.15</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$2.15</td><td>$0.00</td><td>PDC</td></tr><tr><td>2</td><td>3/20/22-3/20/22</td><td>Medical care</td><td>Paid</td><td>$375.00</td><td>$118.12</td><td>$35.00</td><td>$0.00</td><td>$0.00</td><td>$83.12</td><td>$35.00</td><td>PDC</td></tr><tr><td></td><td></td><td></td><td>Total</td><td>$406.60</td><td>$120.27</td><td>$35.00</td><td>$0.00</td><td>$0.00</td><td>$85.27</td><td>$35.00</td><td>PDC</td></tr></table>\n\n$ \\textbf{Remark Code: PDC} $—Billed amount is higher than the maximum payment insurance allows. The payment is for the allowed amount."
+      }
+    }
+  ],
+  "created": 1788566469,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 699,
+    "prompt_tokens": 1000,
+    "total_tokens": 1699,
+    "prompt_tokens_details": {
+      "cached_tokens": 957
+    }
+  },
+  "id": "chatcmpl-phbhrlIKsx3lFnK56wslVU63O21mCjbb",
+  "timings": {
+    "cache_n": 957,
+    "prompt_n": 43,
+    "prompt_ms": 32.15,
+    "prompt_per_token_ms": 0.7476744186046511,
+    "prompt_per_second": 1337.4805598755834,
+    "predicted_n": 699,
+    "predicted_ms": 6380.344,
+    "predicted_per_token_ms": 9.140893982808024,
+    "predicted_per_second": 109.39849011275881
+  }
+}

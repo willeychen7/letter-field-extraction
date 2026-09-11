@@ -1,0 +1,137 @@
+[
+  {
+    "image": "AAA_insurance_Bill.png",
+    "status": "ok",
+    "inference_time_s": 2.619,
+    "prompt_tokens": 378,
+    "completion_tokens": 233,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "All_State_Insurance_Card.jpg",
+    "status": "ok",
+    "inference_time_s": 2.449,
+    "prompt_tokens": 456,
+    "completion_tokens": 201,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Auto_Insurance_Bill1.jpg",
+    "status": "ok",
+    "inference_time_s": 16.415,
+    "prompt_tokens": 2466,
+    "completion_tokens": 610,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "status": "ok",
+    "inference_time_s": 11.929,
+    "prompt_tokens": 1588,
+    "completion_tokens": 679,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Bank_Bill_Due.png",
+    "status": "ok",
+    "inference_time_s": 9.808,
+    "prompt_tokens": 1226,
+    "completion_tokens": 630,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Bank_Bill_Example.jpg",
+    "status": "ok",
+    "inference_time_s": 12.067,
+    "prompt_tokens": 848,
+    "completion_tokens": 986,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "CMS_EOB.png",
+    "status": "ok",
+    "inference_time_s": 6.532,
+    "prompt_tokens": 1000,
+    "completion_tokens": 699,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "Chase_Bank_Bill_Example.webp",
+    "status": "error",
+    "inference_time_s": 0.008,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "finish_reason": null,
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "image": "Chase_Bank_Bill_Example2.webp",
+    "status": "error",
+    "inference_time_s": 0.004,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "finish_reason": null,
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "image": "Coverage_Care_Insurance_Card.png",
+    "status": "ok",
+    "inference_time_s": 3.109,
+    "prompt_tokens": 606,
+    "completion_tokens": 211,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "DMV_Notice.jpeg",
+    "status": "ok",
+    "inference_time_s": 10.819,
+    "prompt_tokens": 1758,
+    "completion_tokens": 448,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "DMV_Registration.png",
+    "status": "ok",
+    "inference_time_s": 14.684,
+    "prompt_tokens": 1434,
+    "completion_tokens": 965,
+    "finish_reason": "stop",
+    "error": null
+  },
+  {
+    "image": "DMV_registration_late_fee.webp",
+    "status": "error",
+    "inference_time_s": 0.011,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "finish_reason": null,
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "image": "EastWest_Bank_Bill.webp",
+    "status": "error",
+    "inference_time_s": 0.011,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "finish_reason": null,
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "image": "EastWest_Bank_Form.png",
+    "status": "ok",
+    "inference_time_s": 47.848,
+    "prompt_tokens": 848,
+    "completion_tokens": 4096,
+    "finish_reason": "length",
+    "error": null
+  }
+]

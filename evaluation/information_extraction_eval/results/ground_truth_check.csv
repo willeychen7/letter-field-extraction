@@ -1,0 +1,29 @@
+image,gt_field,expected,extracted_field,extracted_value,expected_substring_in_any_value
+SCE_Bill_Letter.png,sender,SCE,sender,SOUTHERN CALIFORNIA EDISON ® Company,False
+SCE_Bill_Letter.png,amount_due,99.36,amount,99.36,True
+SCE_Bill_Letter.png,category,electric,document_type,Service account,False
+SCE_Letter.png,sender,SCE,sender,Michael Backstrom,False
+SCE_Letter.png,category,NOT_A_BILL,document_type,E-filed with Docket #2023-SCAs,False
+SCE_Sample_Bill.png,sender,SCE,sender,SOUTHERN CALIFORNIA EDISON,False
+SCE_Sample_Bill.png,due_date,2020-05-11,due_date,05/11/20,False
+SCE_Sample_Bill.png,category,electric,document_type,Your electricity bill,True
+SoCalGas.png,sender,SoCalGas,sender,JOHN B DOE,True
+SoCalGas.png,due_date,2016-01-08,due_date,"Jan 8, 2016",False
+SoCalGas.png,category,gas,document_type,Account Summary,True
+DMV_Registration.png,sender,DMV,sender,GONZELES C,True
+DMV_Registration.png,due_date,2010-10-16,due_date,10/16/2010,False
+DMV_Registration.png,category,dmv,document_type,Attachment A,False
+Hospital_Bill.png,sender,Allina Health,sender,JANE DOE,False
+Hospital_Bill.png,due_date,2013-04-18,due_date,04/18/2013,False
+Hospital_Bill.png,category,medical_provider,document_type,HOSPITAL STATEMENT,False
+Medical_Invoice.png,due_date,2024-09-05,due_date,05 Sep 2024,False
+hoag-invoice-mychart.png,sender,Hoag,sender,Hoag Orthopedic Institute,True
+hoag-invoice-mychart.png,amount_due,333.33,amount,333.33,True
+hoag-invoice-mychart.png,category,medical_provider,document_type,RETURN SERVICE REQUESTED,False
+IRS_CP504_Notice.png,sender,IRS,sender,Department of the Treasury Internal Revenue Service,False
+IRS_CP504_Notice.png,category,tax,document_type,Billing Summary,False
+IRS_cp503.png,sender,IRS,sender,JAMES & KAREN Q. HINDS,False
+IRS_cp503.png,due_date,2018-01-29,due_date,"January 29, 2018",False
+IRS_cp503.png,category,tax,document_type,Billing Summary,False
+Medicare_Notice_PartA.png,sender,Medicare,sender,JENNIFER WASHINGTON,True
+Medicare_Notice_PartA.png,category,medicare,document_type,Medicare Summary Notice,False

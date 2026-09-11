@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Your electricity bill",
+    "sender": "SOUTHERN CALIFORNIA EDISON",
+    "recipient_name": "YOUR CUSTOMER",
+    "address": "ANY CITY, CA 90000-0000",
+    "account_number": "2-00-000-0000",
+    "amount": "$2,149.55",
+    "due_date": "05/11/20",
+    "action_required": "Please return the payment stub below with your payment and make your check payable to Southern California Edison.",
+    "important_identifier": "STMT 04212020 P1"
+}
+```

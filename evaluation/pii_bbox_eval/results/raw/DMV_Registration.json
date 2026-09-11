@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"recipient_name\": \"None\",\n  \"address\": \"3615 S HOPE ST LOS ANGELES CA 90007-4370\",\n  \"account_number\": \"None\",\n  \"policy_member_claim_number\": \"None\",\n  \"phone\": \"None\",\n  \"email\": \"None\",\n  \"ssn\": \"None\",\n  \"medicare_medical_id\": \"None\",\n  \"other_identifier\": \"None\"\n}"
+      }
+    }
+  ],
+  "created": 1788569577,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 1911,
+    "total_tokens": 2015,
+    "prompt_tokens_details": {
+      "cached_tokens": 1391
+    }
+  },
+  "id": "chatcmpl-lBweiACDaa4StiGcVEPsTZBTHYlX0m3u",
+  "timings": {
+    "cache_n": 1391,
+    "prompt_n": 520,
+    "prompt_ms": 236.689,
+    "prompt_per_token_ms": 0.4551711538461538,
+    "prompt_per_second": 2196.9757783420437,
+    "predicted_n": 104,
+    "predicted_ms": 1008.521,
+    "predicted_per_token_ms": 9.791466019417475,
+    "predicted_per_second": 102.12975237997028
+  }
+}

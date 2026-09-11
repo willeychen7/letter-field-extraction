@@ -1,0 +1,797 @@
+{
+  "images": [
+    "SCE_Bill_Letter.png",
+    "Hospital_Bill.png",
+    "Medical_Invoice.png",
+    "BOA_Bill_Example.png",
+    "Medicare_Notice_PartA.png",
+    "IRS_cp503.png"
+  ],
+  "fields": [
+    "sender",
+    "recipient",
+    "total_amount",
+    "payment_status",
+    "due_date",
+    "action"
+  ],
+  "baseline_source": "single_field_test/results/results.json (Image -> Hunyuan -> answer, 1 field / request, temp=0)",
+  "baseline_historical_8field_accuracy": 0.396,
+  "baseline": {
+    "overall_accuracy": 0.3611,
+    "correct": 13,
+    "total": 36,
+    "per_field": {
+      "sender": {
+        "accuracy": 0.3333,
+        "correct": 2,
+        "total": 6
+      },
+      "recipient": {
+        "accuracy": 0.6667,
+        "correct": 4,
+        "total": 6
+      },
+      "total_amount": {
+        "accuracy": 0.3333,
+        "correct": 2,
+        "total": 6
+      },
+      "payment_status": {
+        "accuracy": 0.1667,
+        "correct": 1,
+        "total": 6
+      },
+      "due_date": {
+        "accuracy": 0.3333,
+        "correct": 2,
+        "total": 6
+      },
+      "action": {
+        "accuracy": 0.3333,
+        "correct": 2,
+        "total": 6
+      }
+    },
+    "kind_counts": {
+      "wrong": 12,
+      "null_miss": 8,
+      "both_null": 2,
+      "correct": 11,
+      "null_hallucination": 3
+    },
+    "null_slots": 5,
+    "null_hallucinations": 3,
+    "null_hallucination_rate": 0.6
+  },
+  "pipeline": {
+    "overall_accuracy": 1.0,
+    "correct": 36,
+    "total": 36,
+    "per_field": {
+      "sender": {
+        "accuracy": 1.0,
+        "correct": 6,
+        "total": 6
+      },
+      "recipient": {
+        "accuracy": 1.0,
+        "correct": 6,
+        "total": 6
+      },
+      "total_amount": {
+        "accuracy": 1.0,
+        "correct": 6,
+        "total": 6
+      },
+      "payment_status": {
+        "accuracy": 1.0,
+        "correct": 6,
+        "total": 6
+      },
+      "due_date": {
+        "accuracy": 1.0,
+        "correct": 6,
+        "total": 6
+      },
+      "action": {
+        "accuracy": 1.0,
+        "correct": 6,
+        "total": 6
+      }
+    },
+    "kind_counts": {
+      "correct": 29,
+      "both_null": 7
+    },
+    "null_slots": 5,
+    "null_hallucinations": 0,
+    "null_hallucination_rate": 0.0
+  },
+  "candidate_selection": {
+    "candidate_present_slots": 23,
+    "selected_correct": 23,
+    "candidate_selection_accuracy": 1.0,
+    "misses": []
+  },
+  "baseline_rows": [
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "sender",
+      "pred": "BAKER, NATE",
+      "gold": "SCE",
+      "correct": false,
+      "kind": "wrong"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "recipient",
+      "pred": "Group N001",
+      "gold": "BAKER, NATE",
+      "correct": false,
+      "kind": "wrong"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "total_amount",
+      "pred": null,
+      "gold": "99.36",
+      "correct": false,
+      "kind": "null_miss"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "unpaid",
+      "correct": false,
+      "kind": "null_miss"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "action",
+      "pred": "go paperless at www.sce.com/ebilling. It's fast, easy and secure.",
+      "gold": "pay",
+      "correct": false,
+      "kind": "wrong"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "sender",
+      "pred": "JANE DOE",
+      "gold": "Allina Health",
+      "correct": false,
+      "kind": "wrong"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "recipient",
+      "pred": "JANE DOE",
+      "gold": "JANE DOE",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "total_amount",
+      "pred": "419.07",
+      "gold": "419.07",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "unpaid",
+      "correct": false,
+      "kind": "wrong"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2013-04-18",
+      "correct": false,
+      "kind": "null_miss"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "sender",
+      "pred": "Bill To Aaron Brown",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "recipient",
+      "pred": "Bill To\n\nAaron Brown",
+      "gold": "Aaron Brown",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "total_amount",
+      "pred": "__SENTENCE__根据文件，收件人需要支付的金额（Total Amount Due / Balan",
+      "gold": "14595.00",
+      "correct": false,
+      "kind": "wrong"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "unpaid",
+      "correct": false,
+      "kind": "null_miss"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "due_date",
+      "pred": "这份文件明确要求付款或采取行动的截止日期是05 Sep 2024。",
+      "gold": "2024-09-05",
+      "correct": false,
+      "kind": "wrong"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "action",
+      "pred": "Bill To",
+      "gold": "pay",
+      "correct": false,
+      "kind": "wrong"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "sender",
+      "pred": "Bank of America",
+      "gold": "Bank of America",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "recipient",
+      "pred": "Bank of America",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "total_amount",
+      "pred": null,
+      "gold": "4543.36",
+      "correct": false,
+      "kind": "null_miss"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "payment_status",
+      "pred": null,
+      "gold": "unpaid",
+      "correct": false,
+      "kind": "null_miss"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2018-02-05",
+      "correct": false,
+      "kind": "null_miss"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "sender",
+      "pred": "JENNIFER WASHINGTON",
+      "gold": "Medicare",
+      "correct": false,
+      "kind": "wrong"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "recipient",
+      "pred": "JENNIFER WASHINGTON",
+      "gold": "JENNIFER WASHINGTON",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "total_amount",
+      "pred": "2062.50",
+      "gold": null,
+      "correct": false,
+      "kind": "null_hallucination"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "not_applicable",
+      "correct": false,
+      "kind": "wrong"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "action",
+      "pred": "pay",
+      "gold": "review",
+      "correct": false,
+      "kind": "wrong"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "sender",
+      "pred": "Department of the Treasury, Internal Revenue Service",
+      "gold": "IRS",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "recipient",
+      "pred": "JAMES & KAREN Q. HINDS",
+      "gold": "JAMES & KAREN Q. HINDS",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "total_amount",
+      "pred": "9533.53",
+      "gold": "9533.53",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "due_date",
+      "pred": null,
+      "gold": "2018-01-29",
+      "correct": false,
+      "kind": "null_miss"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "action",
+      "pred": "收件人需要立即与IRS代表就未支付金额达成一致，以避免额外利息和适用的罚款费用。",
+      "gold": "pay",
+      "correct": false,
+      "kind": "wrong"
+    }
+  ],
+  "pipeline_rows": [
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "sender",
+      "pred": "SOUTHERN CALIFORNIA EDISON® An EDISON INTERNATIONAL® Company",
+      "gold": "SCE",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "recipient",
+      "pred": null,
+      "gold": "BAKER, NATE",
+      "correct": true,
+      "kind": "both_null"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "total_amount",
+      "pred": "99.36",
+      "gold": "99.36",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null"
+    },
+    {
+      "image": "SCE_Bill_Letter",
+      "field": "action",
+      "pred": null,
+      "gold": "pay",
+      "correct": true,
+      "kind": "both_null"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "sender",
+      "pred": "Allina Health",
+      "gold": "Allina Health",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "recipient",
+      "pred": "JANE DOE",
+      "gold": "JANE DOE",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "total_amount",
+      "pred": "419.07",
+      "gold": "419.07",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "due_date",
+      "pred": "2013-04-18",
+      "gold": "2013-04-18",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Hospital_Bill",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "sender",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "recipient",
+      "pred": "Aaron Brown",
+      "gold": "Aaron Brown",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "total_amount",
+      "pred": "14595.00",
+      "gold": "14595.00",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "due_date",
+      "pred": "2024-09-05",
+      "gold": "2024-09-05",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medical_Invoice",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "sender",
+      "pred": "BankAmericard",
+      "gold": "Bank of America",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "recipient",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "total_amount",
+      "pred": "112.00",
+      "gold": "4543.36",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "due_date",
+      "pred": "2018-02-05",
+      "gold": "2018-02-05",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "BOA_Bill_Example",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "sender",
+      "pred": "Medicare Summary Notice",
+      "gold": "Medicare",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "recipient",
+      "pred": "JENNIFER WASHINGTON",
+      "gold": "JENNIFER WASHINGTON",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "total_amount",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "payment_status",
+      "pred": "not_applicable",
+      "gold": "not_applicable",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "due_date",
+      "pred": null,
+      "gold": null,
+      "correct": true,
+      "kind": "both_null"
+    },
+    {
+      "image": "Medicare_Notice_PartA",
+      "field": "action",
+      "pred": "review",
+      "gold": "review",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "sender",
+      "pred": "IRS",
+      "gold": "IRS",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "recipient",
+      "pred": "JAMES & KAREN Q. HINDS",
+      "gold": "JAMES & KAREN Q. HINDS",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "total_amount",
+      "pred": "9533.53",
+      "gold": "9533.53",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "payment_status",
+      "pred": "unpaid",
+      "gold": "unpaid",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "due_date",
+      "pred": "2018-01-29",
+      "gold": "2018-01-29",
+      "correct": true,
+      "kind": "correct"
+    },
+    {
+      "image": "IRS_cp503",
+      "field": "action",
+      "pred": "pay",
+      "gold": "pay",
+      "correct": true,
+      "kind": "correct"
+    }
+  ],
+  "pipeline_predictions": {
+    "SCE_Bill_Letter": {
+      "sender": "SOUTHERN CALIFORNIA EDISON® An EDISON INTERNATIONAL® Company",
+      "recipient": null,
+      "total_amount": "99.36",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": null
+    },
+    "Hospital_Bill": {
+      "sender": "Allina Health",
+      "recipient": "JANE DOE",
+      "total_amount": "419.07",
+      "payment_status": "unpaid",
+      "due_date": "2013-04-18",
+      "action": "pay"
+    },
+    "Medical_Invoice": {
+      "sender": null,
+      "recipient": "Aaron Brown",
+      "total_amount": "14595.00",
+      "payment_status": "unpaid",
+      "due_date": "2024-09-05",
+      "action": "pay"
+    },
+    "BOA_Bill_Example": {
+      "sender": "BankAmericard",
+      "recipient": null,
+      "total_amount": "112.00",
+      "payment_status": "unpaid",
+      "due_date": "2018-02-05",
+      "action": "pay"
+    },
+    "Medicare_Notice_PartA": {
+      "sender": "Medicare Summary Notice",
+      "recipient": "JENNIFER WASHINGTON",
+      "total_amount": null,
+      "payment_status": "not_applicable",
+      "due_date": null,
+      "action": "review"
+    },
+    "IRS_cp503": {
+      "sender": "IRS",
+      "recipient": "JAMES & KAREN Q. HINDS",
+      "total_amount": "9533.53",
+      "payment_status": "unpaid",
+      "due_date": "2018-01-29",
+      "action": "pay"
+    }
+  },
+  "baseline_predictions": {
+    "SCE_Bill_Letter": {
+      "sender": "BAKER, NATE",
+      "recipient": "Group N001",
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": "go paperless at www.sce.com/ebilling. It's fast, easy and secure."
+    },
+    "Hospital_Bill": {
+      "sender": "JANE DOE",
+      "recipient": "JANE DOE",
+      "total_amount": "419.07",
+      "payment_status": "not_applicable",
+      "due_date": null,
+      "action": "pay"
+    },
+    "Medical_Invoice": {
+      "sender": "Bill To Aaron Brown",
+      "recipient": "Bill To\n\nAaron Brown",
+      "total_amount": "__SENTENCE__根据文件，收件人需要支付的金额（Total Amount Due / Balan",
+      "payment_status": null,
+      "due_date": "这份文件明确要求付款或采取行动的截止日期是05 Sep 2024。",
+      "action": "Bill To"
+    },
+    "BOA_Bill_Example": {
+      "sender": "Bank of America",
+      "recipient": "Bank of America",
+      "total_amount": null,
+      "payment_status": null,
+      "due_date": null,
+      "action": "pay"
+    },
+    "Medicare_Notice_PartA": {
+      "sender": "JENNIFER WASHINGTON",
+      "recipient": "JENNIFER WASHINGTON",
+      "total_amount": "2062.50",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "pay"
+    },
+    "IRS_cp503": {
+      "sender": "Department of the Treasury, Internal Revenue Service",
+      "recipient": "JAMES & KAREN Q. HINDS",
+      "total_amount": "9533.53",
+      "payment_status": "unpaid",
+      "due_date": null,
+      "action": "收件人需要立即与IRS代表就未支付金额达成一致，以避免额外利息和适用的罚款费用。"
+    }
+  }
+}

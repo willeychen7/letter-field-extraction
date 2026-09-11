@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "BILL",
+    "sender": "Customer Service Number",
+    "recipient": "Member Name",
+    "amount": "406.60",
+    "due_date": "None",
+    "payment_status": "paid",
+    "action_required": true,
+    "action": "None",
+    "risk": "None"
+}
+```

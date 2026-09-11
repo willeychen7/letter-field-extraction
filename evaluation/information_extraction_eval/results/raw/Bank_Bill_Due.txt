@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "Sample credit card statement",
+    "sender": "Name: Susan Doe",
+    "recipient_name": "For Lost or Stolen Card, Call:",
+    "address": "1234 Main Street, Anytown, USA",
+    "account_number": "12345-67-8907",
+    "amount": "1392.71",
+    "due_date": "1/23/XX",
+    "action_required": "None",
+    "important_identifier": "1-800-XXX-XXXX"
+}
+```

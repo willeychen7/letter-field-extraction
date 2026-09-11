@@ -1,0 +1,17 @@
+DEPARTMENT OF HEALTH AND HUMAN SERVICES CENTERS FOR MEDICARE & MEDICAID SERVICES
+Important: This notice explains your right to appeal our decision. Read this notice carefully. If you need help, you can call one of the numbers listed under the section titled “Get help & more information.”
+[Logo]
+NOTICE OF DENIAL OF MEDICARE PART D PRESCRIPTION DRUG COVERAGE
+Date:
+Enrollee's Name:
+Member Number:
+Your request was denied
+We have denied coverage or payment under your Medicare Part D benefit for the following prescription drug(s) that you or your prescriber requested:
+Why did we deny your request?
+We denied this request under Medicare Part D because {Provide specific rationale for the denial, including any applicable Medicare coverage rule or Part D plan policy. See instructions for additional detail.}:
+You should share a copy of this decision with your prescriber so you and your prescriber can discuss next steps. If your prescriber requested coverage on your behalf, we have shared this decision with your prescriber.
+[Language to be inserted, as applicable, for prescription drugs that are or may be covered under Medicare Parts A or B]:
+[Medicare Advantage plans that also provide Part D coverage (MA-PDs):] {This request was denied under your Medicare Part D benefit; however, coverage/payment for the requested drug(s) has been approved under Medicare Part A/B {explain the conditions of approval in a readable and understandable format}. If you think Medicare Part D should cover this drug for you, you may appeal.}
+[Standalone Part D plans (PDPs):] {This request was denied under your Medicare Part D benefit; however, it may be covered under Medicare Part A or Part B. For more information, talk to your prescriber or call 1-800-MEDICARE.}
+Form CMS-10146
+OMB Approval No. 0938-0976 (Expires 12/31/2024)

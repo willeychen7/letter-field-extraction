@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "BUILDING BLOCKS STUDENT HANDOUT\nSample credit card statement\nName: Susan Doe\nAddress: 1234 Main Street, Anytown, USA\nAccount Number: 12345-67-8907\nFor Lost or Stolen Card, Call: 1-800-XXX-XXXX\nPayment Information\nDate: 12/30/XX\nPayment Due Date: 1/23/XX\nNew Balance: $1392.71\nMinimum Payment: $25\nAccount Summary\nPrevious Balance $482.42\nPayment, Credits -$350.42\nPurchases $1,258.56\nCash Advances $0\nBalance Transfers $0\nFees Charged $0\nInterest Charged $2.15\nNew Balance $1,392.71\nPayment Information\nNew Balance $1,392.71\nPayment Due Date 1/23/XX\nMinimum Payment Due $25\nOpening/Closing Date 11/27/XX - 12/26/XX\nCredit Access Line $12,000\nAvailable Credit $10,607.29\nCash Access Line $2,000\nAvailable for Cash $2,000\nPast Due Amount $0\nBalance Over the Credit Access Line $0\nFinance Charge Summary\nPurchases 1.65%\nAdvances 0.54%\nPeriodic Rate\nAnnual Percentage Rate (APR) 19.80%\n6.48%\nBUILDING BLOCKS STUDENT HANDOUT\nSample credit card statement\n1 of 1\nSummer 2022"
+      }
+    }
+  ],
+  "created": 1788636826,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 324,
+    "prompt_tokens": 1188,
+    "total_tokens": 1512,
+    "prompt_tokens_details": {
+      "cached_tokens": 1183
+    }
+  },
+  "id": "chatcmpl-FHAkO7pnr2HrkE32g4I6JYNMUeehM4C6",
+  "timings": {
+    "cache_n": 1183,
+    "prompt_n": 5,
+    "prompt_ms": 23.935,
+    "prompt_per_token_ms": 4.787,
+    "prompt_per_second": 208.89910173386255,
+    "predicted_n": 324,
+    "predicted_ms": 2958.282,
+    "predicted_per_token_ms": 9.158767801857586,
+    "predicted_per_second": 109.18499318185351
+  }
+}

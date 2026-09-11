@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"document_type\": \"Policy Information\",\n    \"sender\": \"Farmers Insurance\",\n    \"recipient\": \"12345-67-89\",\n    \"amount\": \"$798.48\",\n    \"due_date\": \"01/01/2019 12:01 AM\",\n    \"payment_status\": \"unpaid\",\n    \"action_required\": \"false\",\n    \"action\": \"not_applicable\",\n    \"risk\": \"None\"\n}\n```"
+      }
+    }
+  ],
+  "created": 1788639752,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 2678,
+    "total_tokens": 2782,
+    "prompt_tokens_details": {
+      "cached_tokens": 2424
+    }
+  },
+  "id": "chatcmpl-37Y6FMg6m8ThN7tNNHW4kxZMtOjbQc42",
+  "timings": {
+    "cache_n": 2424,
+    "prompt_n": 254,
+    "prompt_ms": 168.445,
+    "prompt_per_token_ms": 0.6631692913385826,
+    "prompt_per_second": 1507.910593962421,
+    "predicted_n": 104,
+    "predicted_ms": 1199.595,
+    "predicted_per_token_ms": 11.646553398058252,
+    "predicted_per_second": 85.8623118635873
+  }
+}

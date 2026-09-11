@@ -1,0 +1,13 @@
+```json
+{
+    "document_type": "RETURN SERVICE REQUESTED",
+    "sender": "JANE DOE",
+    "recipient": "HOAG ORTHOPEDIC INSTITUTE",
+    "amount": "$333.33",
+    "due_date": "None",
+    "payment_status": "AMOUNT PAID",
+    "action_required": "true",
+    "action": "None",
+    "risk": "None"
+}
+```

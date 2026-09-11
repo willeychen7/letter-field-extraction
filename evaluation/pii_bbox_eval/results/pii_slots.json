@@ -1,0 +1,1622 @@
+[
+  {
+    "image": "SCE_Bill_Letter.png",
+    "slot": "recipient_name",
+    "raw_value": "\"Clean Power Alliance\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "Clean Power Alliance",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "slot": "address",
+    "raw_value": "\"8012345678 1234 FIRST AVE SIMI VALLEY, CA\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "8012345678 1234 FIRST AVE SIMI VALLEY, CA",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "slot": "account_number",
+    "raw_value": "\"8012345678\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "8012345678",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "slot": "ssn",
+    "raw_value": "\"8012345678\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "8012345678",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Bill_Letter.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Letter.png",
+    "slot": "recipient_name",
+    "raw_value": "\"Shannon O'Rourke\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "Shannon O'Rourke",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Letter.png",
+    "slot": "address",
+    "raw_value": "\"Office of Energy Infrastructure Safety, California Natural Resources Agency, 715 P Street 20th Floor, Sacramento, CA 95814\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "Office of Energy Infrastructure Safety, California Natural Resources Agency, 715 P Street 20th Floor, Sacramento, CA 95814",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Letter.png",
+    "slot": "account_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Letter.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Letter.png",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Letter.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Letter.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Letter.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Letter.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "slot": "recipient_name",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "slot": "address",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "slot": "account_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SCE_Sample_Bill.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SoCalGas.png",
+    "slot": "recipient_name",
+    "raw_value": "\"JOHN B DOE\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "JOHN B DOE",
+    "bbox": null
+  },
+  {
+    "image": "SoCalGas.png",
+    "slot": "address",
+    "raw_value": "\"24915 APPLE CT\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "24915 APPLE CT",
+    "bbox": null
+  },
+  {
+    "image": "SoCalGas.png",
+    "slot": "account_number",
+    "raw_value": "\"011 022 1000 2\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "011 022 1000 2",
+    "bbox": null
+  },
+  {
+    "image": "SoCalGas.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SoCalGas.png",
+    "slot": "phone",
+    "raw_value": "\"1-800-427-2200\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "1-800-427-2200",
+    "bbox": null
+  },
+  {
+    "image": "SoCalGas.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SoCalGas.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SoCalGas.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "SoCalGas.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Water_Bill2.jpg",
+    "slot": "recipient_name",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Water_Bill2.jpg",
+    "slot": "address",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Water_Bill2.jpg",
+    "slot": "account_number",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Water_Bill2.jpg",
+    "slot": "policy_member_claim_number",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Water_Bill2.jpg",
+    "slot": "phone",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Water_Bill2.jpg",
+    "slot": "email",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Water_Bill2.jpg",
+    "slot": "ssn",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Water_Bill2.jpg",
+    "slot": "medicare_medical_id",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Water_Bill2.jpg",
+    "slot": "other_identifier",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "slot": "recipient_name",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "slot": "address",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "slot": "account_number",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "slot": "phone",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "slot": "email",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "slot": "ssn",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "BOA_Bill_Example.png",
+    "slot": "other_identifier",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Bank_Bill_Due.png",
+    "slot": "recipient_name",
+    "raw_value": "\"Susan Doe\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "Susan Doe",
+    "bbox": null
+  },
+  {
+    "image": "Bank_Bill_Due.png",
+    "slot": "address",
+    "raw_value": "\"1234 Main Street, Anytown, USA\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "1234 Main Street, Anytown, USA",
+    "bbox": null
+  },
+  {
+    "image": "Bank_Bill_Due.png",
+    "slot": "account_number",
+    "raw_value": "\"12345-67-8907\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "12345-67-8907",
+    "bbox": null
+  },
+  {
+    "image": "Bank_Bill_Due.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Bank_Bill_Due.png",
+    "slot": "phone",
+    "raw_value": "\"1-800-XXX-XXXX\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "1-800-XXX-XXXX",
+    "bbox": null
+  },
+  {
+    "image": "Bank_Bill_Due.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Bank_Bill_Due.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Bank_Bill_Due.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Bank_Bill_Due.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "AAA_insurance_Bill.png",
+    "slot": "recipient_name",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "AAA_insurance_Bill.png",
+    "slot": "address",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "AAA_insurance_Bill.png",
+    "slot": "account_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "AAA_insurance_Bill.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "AAA_insurance_Bill.png",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "AAA_insurance_Bill.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "AAA_insurance_Bill.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "AAA_insurance_Bill.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "AAA_insurance_Bill.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "All_State_Insurance_Card.jpg",
+    "slot": "recipient_name",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "All_State_Insurance_Card.jpg",
+    "slot": "address",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "All_State_Insurance_Card.jpg",
+    "slot": "account_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "All_State_Insurance_Card.jpg",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "All_State_Insurance_Card.jpg",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "All_State_Insurance_Card.jpg",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "All_State_Insurance_Card.jpg",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "All_State_Insurance_Card.jpg",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "All_State_Insurance_Card.jpg",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Auto_Insurance_Bill1.jpg",
+    "slot": "recipient_name",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Auto_Insurance_Bill1.jpg",
+    "slot": "address",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Auto_Insurance_Bill1.jpg",
+    "slot": "account_number",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Auto_Insurance_Bill1.jpg",
+    "slot": "policy_member_claim_number",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Auto_Insurance_Bill1.jpg",
+    "slot": "phone",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Auto_Insurance_Bill1.jpg",
+    "slot": "email",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Auto_Insurance_Bill1.jpg",
+    "slot": "ssn",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Auto_Insurance_Bill1.jpg",
+    "slot": "medicare_medical_id",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Auto_Insurance_Bill1.jpg",
+    "slot": "other_identifier",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "slot": "recipient_name",
+    "raw_value": "\"PARKER\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "PARKER",
+    "bbox": null
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "slot": "address",
+    "raw_value": "\"2ND LANE NEWCITY AL 10001\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "2ND LANE NEWCITY AL 10001",
+    "bbox": null
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "slot": "account_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Great_American_Insurance_Invoice.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Registration.png",
+    "slot": "recipient_name",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Registration.png",
+    "slot": "address",
+    "raw_value": "\"3615 S HOPE ST LOS ANGELES CA 90007-4370\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "3615 S HOPE ST LOS ANGELES CA 90007-4370",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Registration.png",
+    "slot": "account_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Registration.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Registration.png",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Registration.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Registration.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Registration.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Registration.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Notice.jpeg",
+    "slot": "recipient_name",
+    "raw_value": "\"JOSH STEIN\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "JOSH STEIN",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Notice.jpeg",
+    "slot": "address",
+    "raw_value": "\"3118 MAIL SERVICE CNTR RALEIGH, N.C. 27699-3118\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "3118 MAIL SERVICE CNTR RALEIGH, N.C. 27699-3118",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Notice.jpeg",
+    "slot": "account_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Notice.jpeg",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Notice.jpeg",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Notice.jpeg",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Notice.jpeg",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Notice.jpeg",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "DMV_Notice.jpeg",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "slot": "recipient_name",
+    "raw_value": "\"JANE DOE\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "JANE DOE",
+    "bbox": null
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "slot": "address",
+    "raw_value": "\"123 ANY STREET ANYWHERE, USA 55555 T\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "123 ANY STREET ANYWHERE, USA 55555 T",
+    "bbox": null
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "slot": "account_number",
+    "raw_value": "\"0000000\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "0000000",
+    "bbox": null
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Hospital_Bill.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "slot": "recipient_name",
+    "raw_value": "\"Aaron Brown\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "Aaron Brown",
+    "bbox": null
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "slot": "address",
+    "raw_value": "\"Greater South Avenue 10001 New York U.S.A\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "Greater South Avenue 10001 New York U.S.A",
+    "bbox": null
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "slot": "account_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medical_Invoice.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "CMS_EOB.png",
+    "slot": "recipient_name",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "CMS_EOB.png",
+    "slot": "address",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "CMS_EOB.png",
+    "slot": "account_number",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "CMS_EOB.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "CMS_EOB.png",
+    "slot": "phone",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "CMS_EOB.png",
+    "slot": "email",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "CMS_EOB.png",
+    "slot": "ssn",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "CMS_EOB.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "CMS_EOB.png",
+    "slot": "other_identifier",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "slot": "recipient_name",
+    "raw_value": "\"Hoag Orthopedic Institute\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "Hoag Orthopedic Institute",
+    "bbox": null
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "slot": "address",
+    "raw_value": "\"500 Superior Ave. Suite 250 Newport Beach, CA 92663-3662 PFS@hoag.org 949-764-8404\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "500 Superior Ave. Suite 250 Newport Beach, CA 92663-3662 PFS@hoag.org 949-764-8404",
+    "bbox": null
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "slot": "account_number",
+    "raw_value": "\"00112233\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "00112233",
+    "bbox": null
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"12345-1ABC\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "12345-1ABC",
+    "bbox": null
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "slot": "phone",
+    "raw_value": "\"333.33\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "333.33",
+    "bbox": null
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "hoag-invoice-mychart.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "slot": "recipient_name",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "slot": "address",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "slot": "account_number",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "slot": "phone",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "slot": "email",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "slot": "ssn",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "IRS_CP504_Notice.png",
+    "slot": "other_identifier",
+    "raw_value": "null",
+    "is_null": true,
+    "well_formed": true,
+    "text": null,
+    "bbox": null
+  },
+  {
+    "image": "IRS_cp503.png",
+    "slot": "recipient_name",
+    "raw_value": "\"JAMES & KAREN Q. HINDS\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "JAMES & KAREN Q. HINDS",
+    "bbox": null
+  },
+  {
+    "image": "IRS_cp503.png",
+    "slot": "address",
+    "raw_value": "\"22 BOULDER STREET HANSON, CT 00000-7253\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "22 BOULDER STREET HANSON, CT 00000-7253",
+    "bbox": null
+  },
+  {
+    "image": "IRS_cp503.png",
+    "slot": "account_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "IRS_cp503.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "IRS_cp503.png",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "IRS_cp503.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "IRS_cp503.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "IRS_cp503.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "IRS_cp503.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "slot": "recipient_name",
+    "raw_value": "\"JENNIFER WASHINGTON\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "JENNIFER WASHINGTON",
+    "bbox": null
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "slot": "address",
+    "raw_value": "\"TEMPORARY ADDRESS NAME STREET ADDRESS CITY, ST 12345-6789\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "TEMPORARY ADDRESS NAME STREET ADDRESS CITY, ST 12345-6789",
+    "bbox": null
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "slot": "account_number",
+    "raw_value": "\"1A23BC4DE56\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "1A23BC4DE56",
+    "bbox": null
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "slot": "policy_member_claim_number",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "slot": "phone",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "slot": "email",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "slot": "ssn",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "slot": "medicare_medical_id",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  },
+  {
+    "image": "Medicare_Notice_PartA.png",
+    "slot": "other_identifier",
+    "raw_value": "\"None\"",
+    "is_null": false,
+    "well_formed": false,
+    "text": "None",
+    "bbox": null
+  }
+]

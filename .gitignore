@@ -1,0 +1,31 @@
+# model weights -- 1.2GB, never commit
+models/*.gguf
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# llama-server runtime artifacts
+server/llama-server.log
+server/llama-server.pid
+*.log
+*.pid
+
+# real / sample letter images and PDFs -- keep the repo to code + reports,
+# not a pile of binary document images. ground_truth_*.py (the labels) stay.
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+!docs/**/*.png
+
+# OCR-derived caches that embed extracted document text (large, regenerable)
+evaluation/spatial_field_extraction/results/*/raw/
+evaluation/spatial_field_extraction/results/native_benchmark/native_raw.json
+evaluation/spatial_field_extraction/results/native_split/split_raw.json
+evaluation/spatial_field_extraction/results/*/_webp_as_png/
+
+# macOS
+.DS_Store

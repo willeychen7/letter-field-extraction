@@ -1,0 +1,27 @@
+amazon web services
+ Greetings from Amazon Web Services, We are willing to service you with an electronic invoice for your use of AWS services. Your account will be charged $ 135.38 . Additional information regarding your bill, individual service charge details, and your account history are available on the Account Summary Page.
+ Account ID  Invoice No. Statement Date  Payment Date
+ 7758303 09/03/2010 09/03/2010
+ Bill To Amazon Web Services LLC
+ Attn: Jeff Barr
+ 98074, Sammamiah, WA, 98109-5210
+ AWS
+ Account Provider
+ Amazon Web Services LLC
+ 410 Terry Avenue North
+ Seattle WA 98109-5210
+ Billing Period: Aug 1 - Aug 31, 2010
+ Service Name  Amount Due
+ Amazon CloudFront $ 1.27
+ AWS Data Transfer $ 1.89
+ Amazon Simple Storage Service $ 9.34
+ Amazon SimpleDB $ 6.75
+ Amazon Simple Notification Service $ 0.00
+ Amazon Elastic Compute Cloud $ 85.13
+ Amazon Simple Queue Service $ 0.00
+ Taxes $ 0.00
+ Total due in US Dollars $ 136.38
+ $ 135.38
+ All web services are sold by Amazon Web Services LLC. The above charges include charges incurred by your account as well as by all accounts you are responsible for through Consolidated Billing. For customers who need to rent consumption tax in Japan, the Account Summary Page provides details of services from Japan.
+ Thank you for using Amazon Web Services. Sincerely, The Amazon Web Services Team
+ This message was produced and distributed by Amazon Web Services LLC, 410 Terry Avenue North, Seattle, Washington 98109-5210

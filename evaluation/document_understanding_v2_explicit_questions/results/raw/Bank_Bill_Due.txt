@@ -1,0 +1,11 @@
+{
+  "document_type": "sample credit card statement",
+  "sender": "Susan Doe",
+  "recipient": "None",
+  "amount": "None",
+  "due_date": "1/23/XX",
+  "payment_status": "null",
+  "action_required": null,
+  "action": "None",
+  "risk": "high"
+}

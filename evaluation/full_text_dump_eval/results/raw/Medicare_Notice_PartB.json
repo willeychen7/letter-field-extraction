@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "① Medicare Summary Notice for Part B (Medical Insurance) Page 1 of 4\nDHEALTH & HUMAN SERVICES, INC\nDEREHITN\nJENNIFER WASHINGTON\nTEMPORARY ADDRESS NAME\nSTREET ADDRESS\nCITY, ST 12345-6789\nTHIS IS NOT A BILL\n② Notice for Jennifer Washington\nMedicare Number: XXXX-XXX-1234\nDate of This Notice: March 1, 2024\nClaims Processed Between: January 1 – March 1, 2024\n③ Your Deductible Status\nYour deductible is what you must pay for most health services before Medicare begins to pay.\nPart B Deductible: You have now met $85.00 of your $147.00 deductible for 2024.\n④ Your Claims & Costs This Period\nDid Medicare Approve All Services? NO\nNumber of Services Medicare Denied 1\nSee claims starting on page 3. Look for NO in the “Service Approved?” column. See the last page for how to handle a denied claim.\nTotal You May Be Billed $90.\n⑤ Providers with Claims This Period\nJanuary 21, 2024\nCraig I. Secosan, M.D.\nBe Informed\nYou can get your Medicare Summary Notices (MSNs) online. Get your electronic MSNs any month you have a processed claim by signing up at Medicare.gov/go-digital.\n⑦\n¿Sabía que puede recibir este aviso y otro tipo de ayuda de Medicare en español? Llame y hable con un agente en español.如果需要国语帮助，请致电联邦医疗保险，请先说“agent”，然后说“Mandarin”. 1-800-MEDICARE (1-800-633-4227)"
+      }
+    }
+  ],
+  "created": 1788636913,
+  "model": "HYVL",
+  "system_fingerprint": "b10621-c1d0e7a00",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 391,
+    "prompt_tokens": 1120,
+    "total_tokens": 1511,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-u2NoiDQ3Mt6dKCCCwVIhliTvxUop1aBz",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1120,
+    "prompt_ms": 3171.161,
+    "prompt_per_token_ms": 2.83139375,
+    "prompt_per_second": 353.182950975999,
+    "predicted_n": 391,
+    "predicted_ms": 3466.917,
+    "predicted_per_token_ms": 8.889530769230769,
+    "predicted_per_second": 112.49187678851267
+  }
+}
